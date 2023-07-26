@@ -1,0 +1,249 @@
+# Translation of Plugins - Plugin Load Filter - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Plugin Load Filter - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-01-17 09:30:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Plugin Load Filter - Development (trunk)\n"
+
+#: plugin-load-filter.php:741
+msgid "We sell Image Optimization plugin. Reduce and speed up data size by converting to WebP / AVIF."
+msgstr "Vendemos un plugin de optimización de imágenes. Reduce y acelera el tamaño de los datos convirtiendo a WebP / AVIF."
+
+#: plugin-load-filter.php:740
+msgid "Introduction of Realtime Image Optimizer"
+msgstr "Presentamos Realtime Image Optimizer"
+
+#: mu-plugins/plf-filter.php:232
+msgid "Close"
+msgstr "Cerrar"
+
+#: plugin-load-filter.php:1035
+msgid "Plugin filter for Single post"
+msgstr "Filtro del plugin para entrada única"
+
+#: plugin-load-filter.php:876
+msgid "Page Type Activation"
+msgstr "Activación del tipo de página"
+
+#: plugin-load-filter.php:723
+msgid "Post Language Locale"
+msgstr "Configuración regional del idioma de la entrada"
+
+#: plugin-load-filter.php:735 plugin-load-filter.php:742
+msgid "See more information "
+msgstr "Ver más información"
+
+#: plugin-load-filter.php:734
+msgid "Thank you for using Plugin Load Filter. We offer URL filtering as Addon. Please consider using Addon!"
+msgstr "Gracias por utilizar Plugin Load Filter. Ofrecemos filtrado de URL como extensión. ¡Plantéate usar la extensión!"
+
+#: plugin-load-filter.php:733
+msgid "Introduction of Addon"
+msgstr "Introducción de la extensión"
+
+#: plugin-load-filter.php:710
+msgid "<strong>Exclude Post Format Type</strong> - Choose Post Format Type you are not using. To exclude from Page Type item subject."
+msgstr "<strong>Excluir tipo de formato de entrada</strong> - Elige un tipo de formato de entrada que no estés u sando. Para excluirlo del elemento de tipo de página."
+
+#: plugin-load-filter.php:707
+msgid "* Plugins with `Page Type Filter` selected are blocked, but you can Activate it for various Page type in the `Page Type Activation` and Single Page setting."
+msgstr "* Los plugin con «Filtro de tipo de página» seleccionado están bloqueados, pero puedes activarlo para varios tipos de página en los ajustes de «Activación de tipo de página» y «Página única»."
+
+#: plugin-load-filter.php:704
+msgid "Add a link to admin bar for displaying the plugins filtered status"
+msgstr "Añade un enlace a la barra de administración para mostrar el estado de filtrado de los plugins"
+
+#: plugin-load-filter.php:700
+msgid "<strong>Page Type</strong> - If you want to activate or deactivate plugins for each Page Type and Single page."
+msgstr "<strong>Tipo de página</strong> - Si quieres activar o desactivar plugins por cada tipo de página y página individual."
+
+#: plugin-load-filter.php:699
+msgid "<strong>Admin Type</strong> - If you only use plugins for Admin pages."
+msgstr "<strong>Tipo de administrador</strong> - Si solo usas plugins para páginas de administración."
+
+#: plugin-load-filter.php:698
+msgid "<strong>Normal</strong> - Exclude plugin from Page Type filter"
+msgstr "<strong>Normal</strong> - Excluir plugins del filtro de tipo de página"
+
+#: plugin-load-filter.php:643
+msgid "Admin Type"
+msgstr "Tipo de administrador"
+
+#: plugin-load-filter.php:642
+msgid "Normal"
+msgstr "Normal"
+
+#: plugin-load-filter.php:586
+msgid "URL Group Filter"
+msgstr "Filtro de grupo de URL"
+
+#: plugin-load-filter.php:275
+msgid "General Settings"
+msgstr "Ajustes generales"
+
+#: plugin-load-filter.php:1237
+msgid "Plugin Load Filter setting has been updated.\\nClick OK to reload the page."
+msgstr "El ajuste de Plugin Load Filter se ha actualizado.\\nHaz clic en «Aceptar» para recargar la página."
+
+#: plugin-load-filter.php:1105
+msgid "Use MO translation file for the selected locale. When Original Post ID is registered, posts with the same Original Post ID are treated as `hreflang` metadata group."
+msgstr "Usa el archivo de traducción MO para la configuración regional seleccionada. Cuando esté registrado el ID de entrada original las entradas con el mismo ID de entrada original se tratarán como un grupo de metadatos `hreflang`."
+
+#: plugin-load-filter.php:1097
+msgid "Edit Post"
+msgstr "Editar entrada"
+
+#: plugin-load-filter.php:1077
+msgid "Original post ID for hreflang"
+msgstr "ID de entrada original por hreflang"
+
+#: plugin-load-filter.php:1065
+msgid "Language of this post"
+msgstr "Idioma de esta entrada"
+
+#: plugin-load-filter.php:1041
+msgid "Plugin Activate/Deactivate filter for this Post only"
+msgstr "Filtro de activar/desactivar plugin solo para esta entrada"
+
+#: plugin-load-filter.php:727
+msgid "Language switching per post"
+msgstr "Cambio de idioma por entrada"
+
+#: plugin-load-filter.php:724
+msgid "A very simple multilingual feature that uses MO translation files for the selected locale per Post/Page editing screen."
+msgstr "Una sencilla característica multilenguaje que usa archivos MO de traducción para la configuración regional seleccionada en la pantalla de edición de entradas/páginas."
+
+#: plugin-load-filter.php:1037
+msgid "Use"
+msgstr "Usar"
+
+#. Author URI of the plugin
+msgid "https://celtislab.net/"
+msgstr "https://celtislab.net/"
+
+#. Author of the plugin
+msgid "enomoto@celtislab"
+msgstr "enomoto@celtislab"
+
+#. Description of the plugin
+msgid "Dynamically activate the selected plugins for each page. Response will be faster by filtering plugins."
+msgstr "Activa dinámicamente los plugins seleccionados en cada página. La respuesta será más rápida filtrando plugins."
+
+#. Plugin URI of the plugin
+msgid "https://celtislab.net/en/wp-plugin-load-filter"
+msgstr "https://celtislab.net/en/wp-plugin-load-filter"
+
+#. Plugin Name of the plugin
+msgid "plugin load filter"
+msgstr "filtrado de carga de plugins"
+
+#: plugin-load-filter.php:1061 plugin-load-filter.php:1106
+msgid "Save"
+msgstr "Guardar"
+
+#: plugin-load-filter.php:1036
+msgid "Not Use"
+msgstr "No utilizado"
+
+#: plugin-load-filter.php:908 plugin-load-filter.php:960
+msgid "Page Filter is not registered"
+msgstr "El filtro de página no está registrado"
+
+#: plugin-load-filter.php:902
+msgid "Activate Plugin Entry &raquo;"
+msgstr "Activar el registro del plugin;"
+
+#: plugin-load-filter.php:898
+msgid "You can also select plugins to activate from Post/Page content editing screen."
+msgstr "También puedes seleccionar plugins para activar desde la pantalla de edición de contenido de entrada/página."
+
+#: plugin-load-filter.php:897
+msgid "Select plugins to be activated for each page type by clicking on <span class=\"dashicons dashicons-admin-plugins\"></span> mark from \"page type filter\" registered plugins."
+msgstr "Selecciona los plugins que se activarán para cada tipo de página haciendo clic en la marca <span class=\"dashicons dashicons-admin-plugins\"></span> de los plugins registrados de «filtro de tipo de página»."
+
+#: plugin-load-filter.php:884
+msgid "Filter Entry &raquo;"
+msgstr "Filtrar registro &raquo;"
+
+#: plugin-load-filter.php:883 plugin-load-filter.php:901
+msgid "Clear"
+msgstr "Vaciar"
+
+#: plugin-load-filter.php:875
+msgid "Filter Registration"
+msgstr "Registro de filtro"
+
+#: plugin-load-filter.php:871
+msgid "Plugin Load Filter Settings"
+msgstr "Ajustes del filtro de carga del plugin"
+
+#: plugin-load-filter.php:869
+msgid "Plugin Load Filter Settings\\nClick OK to clear it."
+msgstr "Ajustes del filtro de carga del plugin\\nHaz clic en aceptar para vaciar."
+
+#: plugin-load-filter.php:811
+msgid "Custom Post : "
+msgstr "Entrada personalizada:"
+
+#: plugin-load-filter.php:805
+msgid "WordPress Embed Content Card (API)"
+msgstr "Tarjeta de contenido incrustado de WordPress (API)"
+
+#: plugin-load-filter.php:786
+msgid "Standard"
+msgstr "Estándar"
+
+#: plugin-load-filter.php:786 plugin-load-filter.php:799
+msgid "Post : "
+msgstr "Entrada:"
+
+#: plugin-load-filter.php:785
+msgid "Page"
+msgstr "Página"
+
+#: plugin-load-filter.php:784
+msgid "Attachment page"
+msgstr "Página de adjuntos"
+
+#: plugin-load-filter.php:783
+msgid "Search page"
+msgstr "Página de búsqueda"
+
+#: plugin-load-filter.php:782
+msgid "Archive page"
+msgstr "Página de archivo"
+
+#: plugin-load-filter.php:781
+msgid "Home/Front-page"
+msgstr "Página de inicio/portada"
+
+#: plugin-load-filter.php:780 plugin-load-filter.php:966
+msgid "Mobile Device"
+msgstr "Dispositivo móvil"
+
+#: plugin-load-filter.php:779 plugin-load-filter.php:965
+msgid "Desktop Device"
+msgstr "Dispositivo de escritorio"
+
+#: plugin-load-filter.php:644
+msgid "Page Type"
+msgstr "Tipo de página"
+
+#: plugin-load-filter.php:588 plugin-load-filter.php:697
+msgid "Page Type Filter"
+msgstr "Filtro de tipo de página"
+
+#: plugin-load-filter.php:584 plugin-load-filter.php:778
+#: plugin-load-filter.php:964
+msgid "Plugins"
+msgstr "Plugins"
+
+#: plugin-load-filter.php:274 plugin-load-filter.php:924
+msgid "Plugin Load Filter"
+msgstr "Filtro de carga de plugins"

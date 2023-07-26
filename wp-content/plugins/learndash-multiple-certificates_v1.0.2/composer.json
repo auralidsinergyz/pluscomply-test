@@ -1,0 +1,24 @@
+{
+    "name": "wooninjas/learndash-multiple-certificates",
+    "description": "This add-on allows admins admin to provide multiple optional certificates to the student that they should select specific one for downloading.",
+    "type": "wp-plugin",
+    "license": "GPL V2 or Later",
+    "authors": [
+        {
+            "name": "wooninjas",
+            "email": "info@wooninjas.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "LDMC\\": "includes/"
+        },
+        "classmap": [ "includes" ]
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

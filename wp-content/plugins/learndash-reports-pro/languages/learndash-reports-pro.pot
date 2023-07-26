@@ -1,0 +1,892 @@
+# Copyright (C) 2023 WisdmLabs
+# This file is distributed under the same license as the WISDM Reports for LearnDash PRO plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WISDM Reports for LearnDash PRO 1.6.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/learndash-reporting-pro\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-03-27T06:59:24+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: learndash-reports-pro\n"
+
+#. Plugin Name of the plugin
+msgid "WISDM Reports for LearnDash PRO"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wisdmlabs.com/reports-for-learndash/"
+msgstr ""
+
+#. Description of the plugin
+msgid "This is the pro version of the plugin Wisdm Reports for LearnDash."
+msgstr ""
+
+#. Author of the plugin
+msgid "WisdmLabs"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wisdmlabs.com'"
+msgstr ""
+
+#: includes/admin/class-bulkexportbuttonhandler.php:88
+#: includes/admin/class-ldrp-link-generator.php:155
+#: includes/admin/class-ldrp-link-generator.php:159
+#: includes/templates/bulk-export-popup-html.php:36
+#: learndash-reports-pro.php:322
+msgid "Export"
+msgstr ""
+
+#: includes/admin/class-bulkexportbuttonhandler.php:89
+#: learndash-reports-pro.php:649
+#: learndash-reports-pro.php:1099
+msgid "Bulk Export"
+msgstr ""
+
+#: includes/admin/class-bulkexportbuttonhandler.php:90
+msgid "Export all the below quiz attempt in a single  csv/xls file."
+msgstr ""
+
+#: includes/admin/class-ldrp-link-generator.php:153
+msgid "Export All "
+msgstr ""
+
+#: includes/admin/class-ldrp-link-generator.php:154
+msgid "Export All in Excel "
+msgstr ""
+
+#: includes/admin/class-ldrp-link-generator.php:156
+msgid "Export Response "
+msgstr ""
+
+#: includes/admin/class-ldrp-link-generator.php:157
+msgid " CSV "
+msgstr ""
+
+#: includes/admin/class-ldrp-link-generator.php:158
+msgid " Excel "
+msgstr ""
+
+#: includes/class-export-file-processing.php:155
+#: includes/class-export-file-processing.php:220
+msgid "Something went wrong OR data not found!!!"
+msgstr ""
+
+#. translators: %s : Quiz Title.
+#: includes/class-export-file-processing.php:331
+#: includes/class-export-file-processing.php:501
+msgid "QUIZ TITLE: %s"
+msgstr ""
+
+#. translators: %s : User Name.
+#: includes/class-export-file-processing.php:333
+#: includes/class-export-file-processing.php:503
+msgid "USER LOGIN: %s"
+msgstr ""
+
+#. translators: %s : User ID.
+#: includes/class-export-file-processing.php:335
+#: includes/class-export-file-processing.php:505
+msgid "USER ID: %s"
+msgstr ""
+
+#: includes/class-export-file-processing.php:337
+#: includes/class-export-file-processing.php:522
+msgid "QUESTION"
+msgstr ""
+
+#: includes/class-export-file-processing.php:338
+#: includes/class-export-file-processing.php:523
+msgid "OPTIONS"
+msgstr ""
+
+#: includes/class-export-file-processing.php:339
+#: includes/class-export-file-processing.php:524
+msgid "CORRECT ANSWERS"
+msgstr ""
+
+#: includes/class-export-file-processing.php:340
+#: includes/class-export-file-processing.php:525
+msgid "USER RESPONSE"
+msgstr ""
+
+#: includes/class-export-file-processing.php:341
+#: includes/class-export-file-processing.php:526
+msgid "POINTS"
+msgstr ""
+
+#: includes/class-export-file-processing.php:342
+#: includes/class-export-file-processing.php:527
+msgid "POINTS SCORED"
+msgstr ""
+
+#: includes/class-export-file-processing.php:343
+#: includes/class-export-file-processing.php:528
+msgid "TIME TAKEN"
+msgstr ""
+
+#: includes/class-export-file-processing.php:344
+#: includes/class-export-file-processing.php:529
+msgid "QUESTION TYPE"
+msgstr ""
+
+#: includes/class-export-file-processing.php:388
+#: includes/class-export-file-processing.php:589
+msgid "CUSTOM FIELDS"
+msgstr ""
+
+#: includes/class-export-file-processing.php:424
+#: includes/class-export-file-processing.php:632
+msgid "TOTAL"
+msgstr ""
+
+#: includes/class-export-file-processing.php:737
+msgid "File Permission Issue!!!"
+msgstr ""
+
+#: includes/class-quiz-export-data.php:493
+msgid "Deleted User"
+msgstr ""
+
+#: includes/class-quiz-export-data.php:595
+#: includes/class-quiz-export-data.php:604
+#: includes/class-quiz-reporting-frontend.php:976
+#: includes/class-quiz-reporting-frontend.php:1428
+msgid "Yes"
+msgstr ""
+
+#: includes/class-quiz-export-data.php:595
+#: includes/class-quiz-export-data.php:604
+#: includes/class-quiz-reporting-frontend.php:985
+#: includes/class-quiz-reporting-frontend.php:990
+#: includes/class-quiz-reporting-frontend.php:1440
+#: includes/class-quiz-reporting-frontend.php:1445
+msgid "No"
+msgstr ""
+
+#: includes/class-quiz-export-data.php:750
+msgid "No category"
+msgstr ""
+
+#: includes/class-quiz-export-data.php:868
+#: includes/class-quiz-export-data.php:872
+#: learndash-reports-pro.php:727
+#: learndash-reports-pro.php:861
+msgid "You do not have sufficient privileges to view this information."
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:239
+msgid "Related user role is excluded from reports"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:244
+msgid "Related user is excluded from reports"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:286
+msgid "Related course is excluded from reports"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:398
+msgid "Illegal Request. Identifying security token is either missing or is incorrect."
+msgstr ""
+
+#. translators: %1$d: Points Earned, %2$d: Total Points
+#: includes/class-quiz-reporting-frontend.php:434
+#: learndash-reports-pro.php:578
+msgid "%1$d of %2$d"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:445
+#: learndash-reports-pro.php:605
+#: learndash-reports-pro.php:615
+msgid "No Data to Display."
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:460
+#: includes/class-quiz-reporting-frontend.php:499
+#: includes/class-quiz-reporting-frontend.php:546
+#: includes/class-quiz-reporting-frontend.php:600
+#: includes/class-quiz-reporting-frontend.php:622
+#: includes/class-quiz-reporting-frontend.php:679
+#: includes/class-quiz-reporting-frontend.php:1590
+msgid "Security check failed. Please try again later."
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:465
+msgid "Empty Search Query."
+msgstr ""
+
+#. translators: %s: Search Query.
+#: includes/class-quiz-reporting-frontend.php:471
+#: includes/class-quiz-reporting-frontend.php:484
+msgid "There is no result for \"%s\"."
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:755
+#: includes/class-quiz-reporting-frontend.php:927
+#: includes/class-quiz-reporting-frontend.php:1369
+#: includes/class-quiz-reporting-frontend.php:1472
+msgid "User ID"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:756
+#: includes/class-quiz-reporting-frontend.php:928
+#: includes/class-quiz-reporting-frontend.php:1370
+#: includes/class-quiz-reporting-frontend.php:1473
+#: learndash-reports-pro.php:1107
+msgid "Username"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:757
+#: includes/class-quiz-reporting-frontend.php:929
+#: includes/class-quiz-reporting-frontend.php:1371
+#: includes/class-quiz-reporting-frontend.php:1474
+msgid "Full Name"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:758
+#: includes/class-quiz-reporting-frontend.php:1475
+#: learndash-reports-pro.php:1131
+msgid "User Email"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:759
+#: includes/class-quiz-reporting-frontend.php:1476
+msgid "Quiz Title"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:760
+#: includes/class-quiz-reporting-frontend.php:1477
+msgid "Quiz Category"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:761
+#: includes/class-quiz-reporting-frontend.php:1478
+#: includes/views/attempt-summary.php:70
+#: includes/views/results-section.php:72
+#: learndash-reports-pro.php:1148
+msgid "Date of Attempt"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:762
+#: includes/class-quiz-reporting-frontend.php:941
+#: includes/class-quiz-reporting-frontend.php:1388
+#: includes/class-quiz-reporting-frontend.php:1479
+msgid "Time Taken(in sec)"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:763
+#: includes/class-quiz-reporting-frontend.php:932
+#: includes/class-quiz-reporting-frontend.php:1374
+#: includes/class-quiz-reporting-frontend.php:1480
+msgid "Pass / Fail"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:764
+#: includes/class-quiz-reporting-frontend.php:933
+#: includes/class-quiz-reporting-frontend.php:1375
+#: includes/class-quiz-reporting-frontend.php:1481
+#: learndash-reports-pro.php:1142
+msgid "Earned Points"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:765
+#: includes/class-quiz-reporting-frontend.php:1482
+msgid "Total Points Available"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:766
+#: includes/class-quiz-reporting-frontend.php:934
+#: includes/class-quiz-reporting-frontend.php:1376
+#: includes/class-quiz-reporting-frontend.php:1483
+msgid "Score(%)"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:767
+#: includes/class-quiz-reporting-frontend.php:1484
+msgid "Course"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:768
+#: includes/class-quiz-reporting-frontend.php:1485
+msgid "Course Category"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:769
+#: includes/class-quiz-reporting-frontend.php:1486
+msgid "Group"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:817
+#: includes/class-quiz-reporting-frontend.php:967
+#: includes/class-quiz-reporting-frontend.php:1418
+#: includes/class-quiz-reporting-frontend.php:1547
+#: includes/functions.php:548
+msgid "Pass"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:817
+#: includes/class-quiz-reporting-frontend.php:967
+#: includes/class-quiz-reporting-frontend.php:1418
+#: includes/class-quiz-reporting-frontend.php:1547
+#: includes/functions.php:548
+msgid "Fail"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:918
+#: includes/class-quiz-reporting-frontend.php:1353
+msgid "Quiz Name: "
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:919
+#: includes/class-quiz-reporting-frontend.php:1354
+msgid "Total Points: "
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:920
+#: includes/class-quiz-reporting-frontend.php:1355
+msgid "Course: "
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:921
+#: includes/class-quiz-reporting-frontend.php:1356
+msgid "Group: "
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:922
+#: includes/class-quiz-reporting-frontend.php:1357
+msgid "Course Category: "
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:923
+#: includes/class-quiz-reporting-frontend.php:1358
+msgid "Quiz Category: "
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:930
+#: includes/class-quiz-reporting-frontend.php:1372
+msgid "Attempted on"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:931
+#: includes/class-quiz-reporting-frontend.php:1373
+msgid "Total Time Taken"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:938
+#: includes/class-quiz-reporting-frontend.php:1385
+msgid "Question "
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:939
+#: includes/class-quiz-reporting-frontend.php:1386
+msgid "Answered Correctly?"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:940
+#: includes/class-quiz-reporting-frontend.php:1387
+msgid "Points Scored"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:981
+#: includes/class-quiz-reporting-frontend.php:1436
+#: includes/class-quiz-reporting-frontend.php:2460
+msgid "Not Graded"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:983
+#: includes/class-quiz-reporting-frontend.php:988
+#: includes/class-quiz-reporting-frontend.php:1438
+#: includes/class-quiz-reporting-frontend.php:1443
+msgid "Partially"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:1646
+msgid "No data fields selected."
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:1656
+#: includes/class-quiz-reporting-frontend.php:1668
+#: includes/class-quiz-reporting-frontend.php:1692
+msgid "Requested resource not accessible."
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:1893
+#: learndash-reports-pro.php:757
+msgid "PASS"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:1893
+#: learndash-reports-pro.php:757
+msgid "FAIL"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:2055
+msgid "Statistics not found"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:2143
+#: learndash-reports-pro.php:1283
+msgid "Correct"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:2154
+#: learndash-reports-pro.php:1284
+msgid "Incorrect"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:2178
+msgid "Sort elements"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:2458
+msgid "Graded"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:2466
+msgid "Status"
+msgstr ""
+
+#: includes/class-quiz-reporting-frontend.php:2469
+msgid "view"
+msgstr ""
+
+#: includes/functions.php:370
+msgid "Invalid Resource Type."
+msgstr ""
+
+#: includes/functions.php:399
+msgid "Invalid Request. Quiz ID doesn't exist."
+msgstr ""
+
+#: includes/functions.php:488
+msgid "Invalid Request. User ID doesn't exist."
+msgstr ""
+
+#. translators: %1$s: Points Earned, %2$d: Total Points
+#: includes/functions.php:570
+msgid "%1$s out of %2$d"
+msgstr ""
+
+#: includes/templates/bulk-export-popup-html.php:15
+msgid "Users"
+msgstr ""
+
+#: includes/templates/bulk-export-popup-html.php:22
+msgid "From date"
+msgstr ""
+
+#: includes/templates/bulk-export-popup-html.php:26
+msgid "To date"
+msgstr ""
+
+#: includes/templates/bulk-export-popup-html.php:33
+msgid "APPLY FILTERS"
+msgstr ""
+
+#: includes/templates/bulk-export-popup-html.php:38
+msgid "Total quiz attempts"
+msgstr ""
+
+#: includes/templates/bulk-export-popup-html.php:39
+msgid "selected"
+msgstr ""
+
+#: includes/templates/bulk-export-popup-html.php:43
+msgid "Export all quiz attempts result"
+msgstr ""
+
+#: includes/templates/bulk-export-popup-html.php:47
+#: includes/templates/bulk-export-popup-html.php:62
+msgid "CSV"
+msgstr ""
+
+#: includes/templates/bulk-export-popup-html.php:48
+#: includes/templates/bulk-export-popup-html.php:63
+msgid "XLSX"
+msgstr ""
+
+#: includes/templates/bulk-export-popup-html.php:52
+#: includes/templates/bulk-export-popup-html.php:67
+msgid "Downloading progress"
+msgstr ""
+
+#: includes/templates/bulk-export-popup-html.php:57
+msgid "Export quiz attempts learner answers"
+msgstr ""
+
+#: includes/templates/bulk-export-popup-html.php:71
+msgid "Note: We recommend to download atmost 10000 number of quiz attempts to avoid server timeout."
+msgstr ""
+
+#: includes/views/attempt-summary.php:20
+msgid "Result"
+msgstr ""
+
+#. translators: %s: Quiz Label
+#: includes/views/attempt-summary.php:34
+msgid "%s Score"
+msgstr ""
+
+#: includes/views/attempt-summary.php:47
+msgid "Answered Correctly"
+msgstr ""
+
+#. translators: %1$s: Correct Answers Count Bold, %2$d: Total Number of Questions
+#: includes/views/attempt-summary.php:50
+msgid "%1$s of %2$d"
+msgstr ""
+
+#: includes/views/attempt-summary.php:59
+#: includes/views/results-section.php:74
+#: learndash-reports-pro.php:1151
+msgid "Time Taken"
+msgstr ""
+
+#. translators: %s: User's Display Name
+#: includes/views/attempt-summary.php:82
+msgid "%s has reached"
+msgstr ""
+
+#. translators: %1$s: Points Earned Bold, %2$d: Total Points, %3$s: Percentage in Bold.
+#: includes/views/attempt-summary.php:85
+msgid "%1$s of %2$d points %3$s"
+msgstr ""
+
+#. translators: %s: User's Display Name
+#: includes/views/attempt-summary.php:97
+msgid "%s's score"
+msgstr ""
+
+#: includes/views/attempt-summary.php:113
+msgid "Average Score"
+msgstr ""
+
+#: includes/views/attempt-summary.php:127
+msgid "Average Score - "
+msgstr ""
+
+#: includes/views/result-box.php:24
+msgid "Results"
+msgstr ""
+
+#. translators: 1: Score 2: Question Count.
+#: includes/views/result-box.php:29
+msgid "%1$s of %2$s questions answered correctly"
+msgstr ""
+
+#: includes/views/result-box.php:34
+msgid "Your time: <span></span>"
+msgstr ""
+
+#. translators: 1: Points 2: Total Points 3: Percentage.
+#: includes/views/result-box.php:42
+msgid "You have reached %1$s of %2$s points, (%3$s)"
+msgstr ""
+
+#: includes/views/result-box.php:50
+msgid "Average score"
+msgstr ""
+
+#: includes/views/result-box.php:63
+msgid "Your score"
+msgstr ""
+
+#. translators: %s: Number of reports.
+#: includes/views/results-section.php:22
+msgid "%s Report"
+msgid_plural "%s Reports"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: From Date
+#: includes/views/results-section.php:35
+#: includes/views/results-section.php:49
+msgid "From %s"
+msgstr ""
+
+#. translators: %s: To Date
+#: includes/views/results-section.php:42
+msgid "To %s"
+msgstr ""
+
+#: includes/views/results-section.php:58
+msgid "Show 5"
+msgstr ""
+
+#: includes/views/results-section.php:59
+msgid "Show 10"
+msgstr ""
+
+#: includes/views/results-section.php:60
+msgid "Show 20"
+msgstr ""
+
+#: includes/views/results-section.php:68
+msgid "No."
+msgstr ""
+
+#. Translators: %s: Quiz Label
+#: includes/views/results-section.php:70
+msgctxt "Quiz Label"
+msgid "%s Title"
+msgstr ""
+
+#: includes/views/results-section.php:71
+#: includes/views/user-introduction.php:17
+msgid "Student Name"
+msgstr ""
+
+#: includes/views/results-section.php:73
+msgid "Score"
+msgstr ""
+
+#: includes/views/results-section.php:75
+msgid "Download"
+msgstr ""
+
+#: includes/views/results-section.php:81
+#: learndash-reports-pro.php:1432
+msgid "Previous"
+msgstr ""
+
+#. translators: %1$s: HTML Input for pagination, %2$d: Total Number of pages.
+#: includes/views/results-section.php:83
+msgid "Page %1$s of %2$d"
+msgstr ""
+
+#: includes/views/results-section.php:84
+#: learndash-reports-pro.php:1459
+msgid "Next"
+msgstr ""
+
+#: learndash-reports-pro.php:199
+#: learndash-reports-pro.php:200
+#: learndash-reports-pro.php:201
+#: learndash-reports-pro.php:209
+#: learndash-reports-pro.php:210
+#: learndash-reports-pro.php:211
+#: learndash-reports-pro.php:219
+#: learndash-reports-pro.php:220
+#: learndash-reports-pro.php:221
+msgid "All"
+msgstr ""
+
+#: learndash-reports-pro.php:274
+msgid "Installing <strong>WISDM Reports for LearnDash Free</strong> plugin. In order to make <strong>WISDM Reports For LearnDash Pro </strong> plugin work,  WISDM Reports for LearnDash Free plugin is required"
+msgstr ""
+
+#: learndash-reports-pro.php:279
+msgid "Automatic installation of <strong>WISDM Reports for LearnDash Free</strong> plugin failed. In order to make <strong>WISDM Reports For LearnDash Pro </strong> plugin work, <strong> WISDM Reports for LearnDash Free </strong> plugin is required, please install the plugin from "
+msgstr ""
+
+#: learndash-reports-pro.php:280
+msgid "WordPress Plugin Directory."
+msgstr ""
+
+#: learndash-reports-pro.php:318
+msgid "Request timed out. Please try again later."
+msgstr ""
+
+#: learndash-reports-pro.php:319
+msgid "APPLY FILTER & PREVIEW REPORT"
+msgstr ""
+
+#: learndash-reports-pro.php:320
+msgid "DOWNLOAD CSV"
+msgstr ""
+
+#: learndash-reports-pro.php:321
+msgid "DOWNLOAD XLSX"
+msgstr ""
+
+#: learndash-reports-pro.php:349
+msgid "Custom Report Dashboard"
+msgstr ""
+
+#. translators: %s: Quiz Label
+#: learndash-reports-pro.php:363
+msgid "%s Reporting Dashboard"
+msgstr ""
+
+#: learndash-reports-pro.php:374
+#: learndash-reports-pro.php:401
+#: learndash-reports-pro.php:423
+msgid "Home"
+msgstr ""
+
+#: learndash-reports-pro.php:489
+#: learndash-reports-pro.php:516
+#: learndash-reports-pro.php:638
+#: learndash-reports-pro.php:681
+#: learndash-reports-pro.php:712
+#: learndash-reports-pro.php:726
+#: learndash-reports-pro.php:808
+#: learndash-reports-pro.php:846
+#: learndash-reports-pro.php:860
+#: learndash-reports-pro.php:890
+msgid "Access Denied."
+msgstr ""
+
+#. translators: %s: Quiz Label
+#: learndash-reports-pro.php:632
+#: learndash-reports-pro.php:1096
+msgid "All Attempts Report"
+msgstr ""
+
+#: learndash-reports-pro.php:639
+#: learndash-reports-pro.php:682
+#: learndash-reports-pro.php:809
+#: learndash-reports-pro.php:891
+msgid "You need to be logged in to access this page."
+msgstr ""
+
+#: learndash-reports-pro.php:703
+#: learndash-reports-pro.php:833
+msgid "BACK"
+msgstr ""
+
+#. translators: %s: Quiz Label
+#: learndash-reports-pro.php:770
+msgid "%s Title"
+msgstr ""
+
+#: learndash-reports-pro.php:779
+msgid "Download Report"
+msgstr ""
+
+#: learndash-reports-pro.php:1078
+msgid "Quizzes (not linked to any course)"
+msgstr ""
+
+#. translators: %s: Course Label
+#: learndash-reports-pro.php:1119
+msgctxt "Course Label"
+msgid "%s Category"
+msgstr ""
+
+#. translators: %s : Quiz Label
+#: learndash-reports-pro.php:1137
+msgid "%s Category"
+msgstr ""
+
+#: learndash-reports-pro.php:1145
+msgid "Score (in %)"
+msgstr ""
+
+#: learndash-reports-pro.php:1158
+#: learndash-reports-pro.php:1188
+msgid "No data available"
+msgstr ""
+
+#. translators: %d: Question Count
+#: learndash-reports-pro.php:1277
+msgid "List of %d Questions"
+msgstr ""
+
+#: learndash-reports-pro.php:1282
+msgid "Answer Status: "
+msgstr ""
+
+#: learndash-reports-pro.php:1293
+msgid "Question Response Report"
+msgstr ""
+
+#: learndash-reports-pro.php:1299
+msgid "User Name:"
+msgstr ""
+
+#: learndash-reports-pro.php:1304
+msgid "Quiz Title:"
+msgstr ""
+
+#: learndash-reports-pro.php:1310
+msgid "First Name:"
+msgstr ""
+
+#: learndash-reports-pro.php:1317
+msgid "Last Name:"
+msgstr ""
+
+#: learndash-reports-pro.php:1324
+msgid "Score(in %):"
+msgstr ""
+
+#: learndash-reports-pro.php:1335
+msgid "Question Type:"
+msgstr ""
+
+#: learndash-reports-pro.php:1341
+msgid "Question Category:"
+msgstr ""
+
+#: learndash-reports-pro.php:1533
+#: learndash-reports-pro.php:1568
+msgid "Welcome to WISDM Reports PRO for LearnDash!"
+msgstr ""
+
+#: learndash-reports-pro.php:1534
+msgid "The Free version of the WISDM Reports for LearnDash will automatically get installed and activated on the site from WordPress.org as part of the installation process if not installed."
+msgstr ""
+
+#: learndash-reports-pro.php:1535
+msgid "Go ahead!"
+msgstr ""
+
+#: learndash-reports-pro.php:1542
+msgid "The plugin has been updated successfully."
+msgstr ""
+
+#: learndash-reports-pro.php:1543
+msgid "Go Ahead!"
+msgstr ""
+
+#: learndash-reports-pro.php:1569
+msgid "To complete the update process, you will first need to update the WISDM Reports FREE for LearnDash to its latest version from the “All Plugins” Page of your WordPress Dashboard."
+msgstr ""
+
+#: learndash-reports-pro.php:1570
+msgid "Got It!"
+msgstr ""
+
+#: learndash-reports-pro.php:1617
+msgid "Introducing the Student Quiz Reports page!"
+msgstr ""
+
+#: learndash-reports-pro.php:1618
+msgid "An easy to use page that allows learners to analyze past quiz results and improve their performance accordingly."
+msgstr ""
+
+#: learndash-reports-pro.php:1619
+msgid "Let's get started!"
+msgstr ""
+
+#: learndash-reports-pro.php:1650
+msgid "Your License Key for the plugin seems to be inactive. Kindly \"Activate\" the License Key from "
+msgstr ""
+
+#: learndash-reports-pro.php:1652
+msgid " and then proceed to update the WISDM Reports FREE plugin."
+msgstr ""
+
+#: learndash-reports-pro.php:1660
+msgid "WisdmLabs recommends you to update the WISDM Reports FREE for LearnDash to its latest version now."
+msgstr ""
+
+#: learndash-reports-pro.php:1672
+msgid "Update Now"
+msgstr ""
+
+#: learndash-reports-pro.php:1673
+msgid "Updating..."
+msgstr ""
+
+#: learndash-reports-pro.php:1673
+msgid "Plugin update failed, we request you to update the plugin manually. if you still face any issues feel free to reach out to us at helpdesk@wisdmlabs.com"
+msgstr ""

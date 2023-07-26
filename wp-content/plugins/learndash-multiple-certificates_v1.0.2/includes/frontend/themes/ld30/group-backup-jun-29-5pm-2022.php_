@@ -1,0 +1,65 @@
+<?php
+namespace LDMC\FrontEnd\Themes\LD30;
+
+if ( ! class_exists( '\LDMC\FrontEnd\Themes\LD30\Group' ) ) {
+    class Group {
+
+        /**
+         * Traits used inside class
+         */
+        use \LDMC\Traits\Singleton;
+        use \LDMC\Traits\Helpers;
+
+        protected $is_certificate_alert = false;
+
+        public function __construct( ) {
+
+            add_filter( 'ld-alert-class', array( $this, 'ld_alert_class_certificate'), 10, 3 );
+
+            add_filter( 'ld-alert-button', array( $this, 'ld_alert_button_certificate'), 10, 1  );
+
+        }
+
+
+        public function ld_alert_class_certificate( $class, $type, $icon ) {
+            global $post;
+            $user_id = get_current_user_id();
+            if ( strpos( $class, 'ld-alert-certificate' ) !== false ) {
+                $this->is_certificate_alert = true;
+                apply_filters( 'ldmc_download_certificate_class', $class );
+                $certificate_id = get_user_meta($user_id,'ld_mc_get_selected_certificate_'.$post->ID,true);
+
+                if (!$certificate_id) {
+                    $class = $class.' ldmc_select_certificate';
+                }
+            }
+            return $class;
+        }
+
+        public function ld_alert_button_certificate( $button ) {
+            $this->write_log('ld_alert_button_certificate');
+            global $post;
+            if ( ! empty( $post ) && learndash_get_post_type_slug('group') == $post->post_type ) {
+                $this->write_log('ld_alert_button_certificate - case 01');
+                $user_id = get_current_user_id();
+                $certificate_id = $this->get_user_selected_certificate_id($post->ID, $user_id);
+                if ($certificate_id) {
+                    $this->write_log('ld_alert_button_certificate - case 03');
+                    $button['label'] = apply_filters('ldmc_download_button_text_ld30', __('Download Certificate', 'learndash-multiple-certificates'), $post->ID, $user_id);
+                    $cert_query_args['cert-nonce'] = wp_create_nonce($post->ID . $user_id . $user_id);
+                    $cert_query_args['course_id'] = $post->ID;
+                    $url = add_query_arg($cert_query_args, get_permalink(intval($certificate_id)));
+                    $button['url'] = $url;
+                } else {
+                    $this->write_log('ld_alert_button_certificate - case 04');
+                    $button['label'] = apply_filters('ldmc_select_button_text_ld30', __('Select Certificate', 'learndash-multiple-certificates'), $post->ID, $user_id);
+                    $button['url'] = '#';
+                }
+            }
+            return $button;
+        }
+
+
+
+    }
+}

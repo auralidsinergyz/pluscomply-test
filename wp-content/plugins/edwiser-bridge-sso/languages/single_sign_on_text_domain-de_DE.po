@@ -1,0 +1,355 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Edwiser Bridge Single Sign On\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-27 14:24+0000\n"
+"PO-Revision-Date: 2018-08-28 03:53+0000\n"
+"Last-Translator: root <krunal.kamble@wisdmlabs.com>\n"
+"Language-Team: German\n"
+"Language: de-DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: sso.php:97
+msgid "Edwiser Bridge Single Sign On Documentation"
+msgstr "Edwiser Bridge Einzelanmeldung Dokumentation"
+
+#: sso.php:98
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: admin/class-sso-admin.php:96
+msgid "Entered URL is invalid, Please check URL again."
+msgstr "Die eingegebene URL ist ungültig. Bitte überprüfen Sie die URL erneut."
+
+#: admin/class-sso-admin.php:97
+msgid "Please enter URL."
+msgstr "Bitte geben Sie die URL ein."
+
+#: admin/class-sso-admin.php:98
+msgid "Please select user role first."
+msgstr "Bitte wählen Sie zuerst die Benutzerrolle."
+
+#: admin/class-sso-settings.php:45
+msgid "Single Sign On"
+msgstr "Single Sign On"
+
+#: admin/class-sso-settings.php:55
+msgid "General"
+msgstr "Allgemeines"
+
+#: admin/class-sso-settings.php:56
+msgid "Redirection"
+msgstr "Umleitung"
+
+#: admin/class-sso-settings.php:57
+msgid "Social login"
+msgstr ""
+"\n"
+"Soziale Anmeldung"
+
+#: includes/class-single-sign-on.php:214
+msgid "Moodle "
+msgstr "Moodle "
+
+#: includes/class-single-sign-on.php:216
+msgid ""
+" plugin is not compatible, please update your moodle plugin to version 1.2.1 "
+"or higher "
+msgstr ""
+"Plugin ist nicht kompatibel, bitte aktualisiere dein Moodle Plugin auf "
+"Version 1.2.1 oder höher\n"
+
+#: includes/class-single-sign-on.php:217
+msgid "Dismiss this notice"
+msgstr "Ignoriere die Nachricht"
+
+#: includes/class-single-sign-on.php:273
+msgid "Edwiser Bridge"
+msgstr "Edwiser Brücke"
+
+#: includes/class-single-sign-on.php:274
+msgid "Mcrypt"
+msgstr ""
+
+#: includes/class-single-sign-on.php:275
+msgid "cURL"
+msgstr "cURL"
+
+#: includes/class-single-sign-on.php:284
+msgid "Following things are required to activate Single Single Sign On plugin:"
+msgstr ""
+"Folgende Dinge sind erforderlich, um das Single Single Sign On Plugin zu "
+"aktivieren:"
+
+#: includes/class-single-sign-on.php:288
+#, php-format
+msgid "Plugin %s version 1.1 or higher"
+msgstr "Plugin% s Version 1.1 oder höher"
+
+#: includes/class-single-sign-on.php:300 includes/class-single-sign-on.php:305
+#, php-format
+msgid "%s PHP Extension"
+msgstr "%s PHP-Erweiterung"
+
+#: includes/class-single-sign-on.php:333
+msgid "Please set the same secret key on WordPress as well as on Moodle"
+msgstr ""
+"Bitte setzen Sie den gleichen geheimen Schlüssel sowohl auf WordPress als "
+"auch auf Moodle"
+
+#: includes/class-single-sign-on.php:377 includes/class-single-sign-on.php:380
+msgid "Please check your Edwiser Bridge Connection Settings first!"
+msgstr "Bitte prüfe zuerst deine Edwiser Bridge Verbindungseinstellungen!"
+
+#: includes/class-single-sign-on.php:401
+msgid "Please check Moodle URL !"
+msgstr "Bitte überprüfen Sie die URL von Moodle!"
+
+#: includes/class-single-sign-on.php:415
+msgid "You don't have moodle account."
+msgstr "Sie haben kein Moodle-Konto."
+
+#: includes/class-single-sign-on.php:417
+msgid "Please login to view this page."
+msgstr "Bitte loggen Sie sich ein, um diese Seite zu sehen."
+
+#: includes/class-single-sign-on.php:475
+msgid "Access Course"
+msgstr "Zugriff auf Kurs"
+
+#: includes/class-wdm-wusp-add-data-in-db.php:99 
+#: includes/class-wdm-wusp-add-data-in-db.php:104
+msgid "Deactivate License"
+msgstr "Lizenz deaktivieren"
+
+#: includes/class-wdm-wusp-add-data-in-db.php:101 
+#: includes/class-wdm-wusp-add-data-in-db.php:107
+msgid "Activate License"
+msgstr "Lizenz aktivieren"
+
+#: includes/class-wdm-wusp-add-data-in-db.php:102 
+#: includes/class-wdm-wusp-add-data-in-db.php:105
+msgid "Renew License"
+msgstr "Lizenz erneuern"
+
+#: includes/class-wdm-wusp-add-data-in-db.php:155
+#, php-format
+msgid "Please enter license key for %s."
+msgstr "Bitte geben Sie den Lizenzschlüssel für% s ein."
+
+#: includes/class-wdm-wusp-add-data-in-db.php:162
+msgid "No response from server. Please try again later."
+msgstr "Keine Antwort vom Server. Bitte versuche es später erneut."
+
+#: includes/class-wdm-wusp-add-data-in-db.php:169
+msgid "License key is not valid. Please check your license key and try again"
+msgstr ""
+"Der Lizenzschlüssel ist nicht gültig. Bitte überprüfen Sie Ihren "
+"Lizenzschlüssel und versuchen Sie es erneut"
+
+#: includes/class-wdm-wusp-add-data-in-db.php:509
+#, php-format
+msgid "Please enter valid license key for %s."
+msgstr "Bitte geben Sie einen gültigen Lizenzschlüssel für %s ein."
+
+#: includes/class-wdm-wusp-add-data-in-db.php:524
+msgid "Site inactive(Press Activate license to activate plugin)"
+msgstr ""
+"Site inaktiv (Drücken Sie Lizenz aktivieren, um das Plugin zu aktivieren)"
+
+#: includes/class-wdm-wusp-add-data-in-db.php:532
+#, php-format
+msgid "License Key for %s is deactivated"
+msgstr "Der Lizenzschlüssel für %s ist deaktiviert"
+
+#: includes/class-wdm-wusp-add-data-in-db.php:541
+msgid "Active"
+msgstr "Aktiv"
+
+#: includes/class-wdm-wusp-add-data-in-db.php:543
+msgid "Not Active"
+msgstr "Nicht aktiv"
+
+#: includes/class-wdm-wusp-add-data-in-db.php:545
+msgid "Expired"
+msgstr "Abgelaufen"
+
+#: includes/class-wdm-wusp-add-data-in-db.php:547
+msgid "Invalid Key"
+msgstr "Ungültiger Schlüssel"
+
+#: includes/class-wdm-wusp-add-data-in-db.php:549
+msgid "Not Active "
+msgstr "Nicht aktiv"
+
+#: includes/ebsso-functions.php:23 includes/ebsso-functions.php:48
+msgid "Something went wrong"
+msgstr "Etwas ist schief gelaufen"
+
+#: admin/settings/class-sso-settings-social-login.php:40
+msgid "Social Login Settings"
+msgstr "Einstellungen für das soziale Login"
+
+#: admin/settings/class-sso-settings-social-login.php:62
+msgid "Google plus login "
+msgstr "Google Plus Login"
+
+#: admin/settings/class-sso-settings-social-login.php:64
+msgid "Select page on which you want to enable Google plus login"
+msgstr ""
+"Wählen Sie die Seite aus, auf der Sie die Google Plus-Anmeldung aktivieren "
+"möchten"
+
+#: admin/settings/class-sso-settings-social-login.php:73 
+#: admin/settings/class-sso-settings-social-login.php:140
+msgid "Disable"
+msgstr "Deaktivieren"
+
+#: admin/settings/class-sso-settings-social-login.php:74 
+#: admin/settings/class-sso-settings-social-login.php:141
+msgid "Edwiser user-account page"
+msgstr "Edwiser Benutzerkontoseite"
+
+#: admin/settings/class-sso-settings-social-login.php:75 
+#: admin/settings/class-sso-settings-social-login.php:142
+msgid "WP login page"
+msgstr "WP Anmeldeseite"
+
+#: admin/settings/class-sso-settings-social-login.php:76
+msgid "Edwiser user-account and WP login page"
+msgstr "Edwiser-Benutzerkonto und WP-Anmeldeseite"
+
+#: admin/settings/class-sso-settings-social-login.php:78
+msgid "This enables Google plus login on the selected page."
+msgstr "Dies ermöglicht Google Plus-Login auf der ausgewählten Seite."
+
+#: admin/settings/class-sso-settings-social-login.php:95
+msgid "Client Id"
+msgstr "Kunden ID"
+
+#: admin/settings/class-sso-settings-social-login.php:96
+msgid "Enter your google plus client id here."
+msgstr "Geben Sie hier Ihre Google Plus-Kunden-ID ein."
+
+#: admin/settings/class-sso-settings-social-login.php:103
+msgid "Client Secret"
+msgstr "Kundengeheimnis"
+
+#: admin/settings/class-sso-settings-social-login.php:104
+msgid "Enter your google plus app secret key here."
+msgstr "Geben Sie hier Ihren geheimen Schlüssel für die Google Plus App ein."
+
+#: admin/settings/class-sso-settings-social-login.php:111
+msgid "Application Name"
+msgstr "Anwendungsname"
+
+#: admin/settings/class-sso-settings-social-login.php:112
+msgid "Enter your google plus app name here."
+msgstr "Geben Sie hier den Namen Ihrer Google Plus-App ein."
+
+#: admin/settings/class-sso-settings-social-login.php:129
+msgid "Facebook login "
+msgstr "Facebook Login"
+
+#: admin/settings/class-sso-settings-social-login.php:131
+msgid "Select page on which you want to enable Facebook login"
+msgstr ""
+"Wählen Sie die Seite aus, auf der Sie die Facebook-Anmeldung aktivieren "
+"möchten"
+
+#: admin/settings/class-sso-settings-social-login.php:143
+msgid "Edwiser user-account & WP login page"
+msgstr "Edwiser Benutzerkonto & WP Login-Seite"
+
+#: admin/settings/class-sso-settings-social-login.php:145
+msgid "This enables Facebook plus login on the selected page."
+msgstr "Dies ermöglicht Facebook plus Login auf der ausgewählten Seite."
+
+#: admin/settings/class-sso-settings-social-login.php:161
+msgid "App Id"
+msgstr "App-ID"
+
+#: admin/settings/class-sso-settings-social-login.php:162
+msgid "Enter your facebook app id here."
+msgstr "Geben Sie hier Ihre Facebook App-ID ein."
+
+#: admin/settings/class-sso-settings-social-login.php:169
+msgid "App Secret"
+msgstr "App-Geheimnis"
+
+#: admin/settings/class-sso-settings-social-login.php:170
+msgid "Enter your facebook app Secret key here."
+msgstr "Geben Sie hier Ihren Facebook-App-Geheimschlüssel ein."
+
+#: admin/settings/class-sso-settings-general.php:36
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: admin/settings/class-sso-settings-general.php:41
+msgid "Secret Key"
+msgstr "Geheimer Schlüssel"
+
+#: admin/settings/class-sso-settings-general.php:42
+msgid "Enter your secret key here."
+msgstr "Gib hier deinen geheimen Schlüssel ein."
+
+#: admin/settings/class-sso-settings-general.php:52
+msgid "Verify token with moodle"
+msgstr "Verifiziere Token mit Moodle"
+
+#: admin/settings/class-sso-settings-redirection.php:78
+msgid "Common Login Redirect URL"
+msgstr "Gemeinsame Login-Weiterleitungs-URL"
+
+#: admin/settings/class-sso-settings-redirection.php:86 
+#: admin/settings/class-sso-settings-redirection.php:91
+msgid "Enable user role based redirect"
+msgstr "Aktivieren Sie die rollenbasierte Umleitung"
+
+#: admin/settings/class-sso-settings-redirection.php:116
+msgid "User Role Based Redirection Settings"
+msgstr "Benutzerrollenbasierte Umleitungseinstellungen"
+
+#: admin/settings/class-sso-settings-redirection.php:180
+msgid "URL"
+msgstr "URL"
+
+#: admin/settings/class-sso-settings-redirection.php:197
+msgid "Select user role"
+msgstr "Wählen Sie die Benutzerrolle aus"
+
+#: admin/settings/class-sso-settings-redirection.php:199
+msgid "Select Role"
+msgstr "Wählen Sie Rolle"
+
+#: admin/settings/class-sso-settings-redirection.php:305
+msgid "Delete"
+msgstr "Löschen"
+
+#. Name of the plugin
+msgid "Edwiser Bridge Single Sign On"
+msgstr "Edwiser Bridge Single Anmelden"
+
+#. Description of the plugin
+msgid ""
+"The plugin is an extension for Edwiser Bridge that allows users to login "
+"once and have access to both WordPress and Moodle."
+msgstr ""
+"Das Plugin ist eine Erweiterung für Edwiser Bridge, mit der Benutzer sich "
+"einmal anmelden und auf WordPress und Moodle zugreifen können."
+
+#. URI of the plugin
+msgid "https://edwiser.org/bridge/"
+msgstr ""
+
+#. Author of the plugin
+msgid "WisdmLabs"
+msgstr "WisdmLabs"
+
+#. Author URI of the plugin
+msgid "https://edwiser.org"
+msgstr ""

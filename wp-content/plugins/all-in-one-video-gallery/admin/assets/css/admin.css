@@ -1,0 +1,689 @@
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Global
+ *
+ *--------------------------------------------------------------------------------------------*/
+.aiovg-no-margin {
+	margin: 0;
+}
+
+.aiovg-no-padding {
+	padding: 0;
+}
+
+.aiovg-pull-left {
+	float: left;
+}
+
+.aiovg-pull-right {
+	float: right;
+}
+
+.aiovg-clearfix {
+	display: block;
+    content: "";
+    clear: both;
+}
+
+.aiovg-text-left {
+	text-align: left;
+}
+
+.aiovg-text-right {
+	text-align: right;
+}
+
+.aiovg-text-center {
+	text-align: center;
+}
+
+.aiovg-text-muted {
+	color:#999;
+}
+
+.aiovg-text-error {
+	color:#b31105;
+}
+
+.aiovg-toggle-fields {
+  	display: none;
+}
+
+.aiovg-indent {
+	padding-left: 25px;
+}
+
+.aiovg-no-border {
+	border: 0 none;
+}
+
+.aiovg-radio,
+.aiovg-checkbox {
+	position: relative;
+	display: block;
+  	background: transparent !important;  
+  	margin: 0;
+  	padding: 1px;
+}
+
+.aiovg-radio input,
+.aiovg-checkbox input {
+  	margin-right: 5px !important;
+}
+
+.aiovg-radio.horizontal li,
+.aiovg-checkbox.horizontal li {
+  	float: left;
+  	margin-right: 20px;
+}
+
+.aiovg-radio.horizontal:after,
+.aiovg-checkbox.horizontal:after {
+	display: block;
+    content: "";
+    clear: both;
+}
+
+.aiovg-checklist {
+	max-height: 100px;
+	padding: 5px 10px;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+	overflow-y: scroll;
+}
+
+.aiovg-checklist li {
+	margin: 0;
+}
+
+.aiovg-checklist .children li {
+	padding: 0 18px;
+}
+
+.aiovg-checklist label {
+	display: block;
+	margin: 5px 0;
+	line-height: 1;
+}
+
+.aiovg-media-uploader .aiovg-upload-media {
+	display: inline;
+}
+
+.aiovg-pipe-separator {
+  	padding: 7px 0;
+  	color: #CCC;
+}
+
+.aiovg-tick-cross {
+	display: inline-block;
+	width: 40px;
+	text-align: center;
+}
+
+.aiovg-upgrade-link,
+.aiovg-upgrade-link:hover,
+.aiovg-text-success {
+	color: green;
+}
+
+.aiovg-notice {
+	padding: 7px; 
+}
+
+.aiovg-notice-error {
+	background-color: #f2dede; 
+	border: 1px solid #ebccd1; 	
+	color: #a94442;
+}
+
+.aiovg-notice-success {
+	background-color: #dff0d8; 
+	border: 1px solid #d6e9c6; 
+	color: #3c763d;
+}
+
+.aiovg-ajax-status span {
+	line-height: 28px;
+	margin: 0 7px;
+}
+
+.aiovg-ajax-status .spinner {
+	float: none;
+	visibility: visible;
+}
+
+.aiovg-modal {
+	position: relative; 
+  	width: auto;
+	max-width: 640px; 
+	margin: 32px auto;
+	padding: 15px;  
+	background: #FFF;
+}
+
+.aiovg-modal .aiovg-notice {
+	margin-top: 28px;
+}
+
+.branch-5-3 .aiovg-upload-media .button {
+	margin: 2px;
+}
+
+@media only screen and (max-width: 767px) {
+  	.aiovg-hidden-xs {
+    	display: none !important;
+	}
+	  
+	.aiovg-checklist {
+		padding: 3px 10px;
+	}
+
+	.aiovg-checklist li {
+		margin: 7px 0;
+	}	
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  	.aiovg-hidden-sm {
+    	display: none !important;
+  	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  	.aiovg-hidden-md {
+    	display: none !important;
+  	}
+}
+
+@media only screen and (min-width: 1200px) {
+  	.aiovg-hidden-lg {
+    	display: none !important;
+  	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.post-type-aiovg_videos .wp-list-table th#image,
+	.post-type-aiovg_videos .wp-list-table td.image {
+		display: none !important;
+	}
+  }
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Dashboard
+ *
+ *--------------------------------------------------------------------------------------------*/
+#aiovg-dashboard h1 {
+	font-size: 2.4em;
+	font-weight: 300;
+}
+
+#aiovg-dashboard .aiovg-badge {
+	height: 35px;
+	padding-top: 125px;
+	background: #0073aa url( '../images/logo.png' ) no-repeat top;
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Gutenberg Block Editor
+ *
+ *--------------------------------------------------------------------------------------------*/
+.components-panel__row .components-base-control {
+	width: 100%;
+}
+
+.components-panel__row .block-editor-panel-color-gradient-settings {
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.aiovg-block-panel .aiovg-block-multiselect select.components-select-control__input {
+	height: 75px;
+	padding-right: 8px;
+	overflow-y: auto;
+}
+
+.aiovg-block-panel .aiovg-block-multiselect .components-input-control__suffix {
+	display: none;
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Shortcode Builder
+ *
+ *--------------------------------------------------------------------------------------------*/
+#aiovg-shortcode-selector {
+	margin: 0;
+	padding: 15px;
+	box-shadow: 1px 1px 5px #ccc;
+}
+
+#aiovg-shortcode-selector p {
+	margin: 0 0 5px 0;
+}
+
+#aiovg-shortcode-builder {
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+#aiovg-shortcode-builder .aiovg-left-col,
+#aiovg-shortcode-builder .aiovg-right-col {
+    width: 100%;
+}
+
+#aiovg-shortcode-builder .aiovg-col-content {
+	padding: 15px;
+}
+
+.aiovg-shortcode-section {
+	box-shadow: 1px 1px 5px #ddd;
+}
+
+.aiovg-shortcode-section-header {	
+	margin: 5px 0 0 0;
+	padding: 10px;
+	background: #e5e5e5;   
+	border: 1px solid #ccc; 
+	font-size: 1.1em;
+	font-weight: normal;
+	line-height: normal;
+	cursor: pointer;
+}
+
+.aiovg-shortcode-section-header:hover {	
+	background: #f9f9f9;
+}
+
+.aiovg-shortcode-section-header .dashicons-before {
+	color: #006799;
+	line-height: 1.1em;
+}
+
+.aiovg-shortcode-section-header .dashicons-plus {
+	display: inline-block;
+}
+
+.aiovg-shortcode-section-header .dashicons-minus {
+	display: none;
+}
+
+.aiovg-active .aiovg-shortcode-section-header .dashicons-plus {
+	display: none;
+}
+
+.aiovg-active .aiovg-shortcode-section-header .dashicons-minus {
+	display: inline-block;
+}
+
+.aiovg-shortcode-controls {
+	margin: -1px 0 0 0;
+	padding: 15px;
+	background: #fff;
+	border: 1px solid #ccc;
+}
+
+.aiovg-shortcode-control {
+	margin-bottom: 15px;
+}
+
+.aiovg-shortcode-controls .aiovg-shortcode-control:last-child {
+	margin-bottom: 0;
+}
+
+.aiovg-shortcode-control .aiovg-shortcode-label {
+	font-weight: 500;
+}
+
+.aiovg-shortcode-control > label {
+	display: block;
+	margin-bottom: 7px;
+}
+
+.aiovg-shortcode-control .wp-picker-input-wrap label {
+	display: inline-block;
+}
+
+.aiovg-shortcode-control input[type="text"],
+.aiovg-shortcode-control textarea,
+.aiovg-shortcode-control select {
+	width: 99.95%;
+	max-width: inherit;
+}
+
+.aiovg-shortcode-control .aiovg-media-uploader input[type="text"] {
+	width: 75%;
+}
+
+.aiovg-shortcode-control-title,
+.aiovg-shortcode-control-id,
+.aiovg-shortcode-control-mp4,
+.aiovg-shortcode-control-hls,
+.aiovg-shortcode-control-dash,
+.aiovg-shortcode-control-youtube,
+.aiovg-shortcode-control-vimeo,
+.aiovg-shortcode-control-dailymotion,
+.aiovg-shortcode-control-rumble,
+.aiovg-shortcode-control-facebook,
+.aiovg-shortcode-control-ratio,
+.aiovg-shortcode-control-include,
+.aiovg-shortcode-control-exclude,
+.aiovg-shortcode-control-title_length,
+.aiovg-shortcode-control-excerpt_length,
+.aiovg-shortcode-control-show_more,
+.aiovg-shortcode-control-more_label,
+.aiovg-shortcode-control-more_link {
+	display: none;
+}
+ 
+#aiovg-shortcode-form-video.aiovg-type-default .aiovg-shortcode-control-mp4 {
+	display: block;
+}
+
+#aiovg-shortcode-form-video.aiovg-type-adaptive .aiovg-shortcode-control-hls,
+#aiovg-shortcode-form-video.aiovg-type-adaptive .aiovg-shortcode-control-dash {
+	display: block;
+}
+
+#aiovg-shortcode-form-video.aiovg-type-youtube .aiovg-shortcode-control-youtube {
+	display: block;
+}
+
+#aiovg-shortcode-form-video.aiovg-type-vimeo .aiovg-shortcode-control-vimeo {
+	display: block;
+}
+
+#aiovg-shortcode-form-video.aiovg-type-dailymotion .aiovg-shortcode-control-dailymotion {
+	display: block;
+}
+
+#aiovg-shortcode-form-video.aiovg-type-rumble .aiovg-shortcode-control-rumble {
+	display: block;
+}
+
+#aiovg-shortcode-form-video.aiovg-type-facebook .aiovg-shortcode-control-facebook {
+	display: block;
+}
+
+#aiovg-shortcode-form-video .aiovg-shortcode-control-ratio {
+	display: block;
+}
+
+#aiovg-shortcode-form-categories .aiovg-shortcode-control-id {
+	display: block;
+}
+
+#aiovg-shortcode-form-categories.aiovg-template-grid .aiovg-shortcode-control-hierarchical {
+	display: none;
+}
+
+#aiovg-shortcode-form-categories.aiovg-template-list .aiovg-shortcode-control-columns,
+#aiovg-shortcode-form-categories.aiovg-template-list .aiovg-shortcode-control-limit,
+#aiovg-shortcode-form-categories.aiovg-template-list .aiovg-shortcode-control-show_description,
+#aiovg-shortcode-form-categories.aiovg-template-list .aiovg-shortcode-control-show_pagination {
+	display: none;
+}
+
+#aiovg-shortcode-form-categories.aiovg-template-dropdown .aiovg-shortcode-control-columns,
+#aiovg-shortcode-form-categories.aiovg-template-dropdown .aiovg-shortcode-control-limit,
+#aiovg-shortcode-form-categories.aiovg-template-dropdown .aiovg-shortcode-control-show_description,
+#aiovg-shortcode-form-categories.aiovg-template-dropdown .aiovg-shortcode-control-show_pagination {
+	display: none;
+}
+
+@media only screen and (max-width: 767px) {
+	.aiovg-shortcode-control .aiovg-media-uploader input[type="text"] {
+		display: block;
+		width: 100%;
+		margin: 7px 0;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	#aiovg-shortcode-builder .aiovg-left-col { 
+        width: 60%; 
+	}
+
+    #aiovg-shortcode-builder .aiovg-right-col { 
+        width: 40%; 
+	}
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Issues Manager
+ *
+ *--------------------------------------------------------------------------------------------*/
+#aiovg-issues {
+	margin-top: 1.4em;
+}
+
+#aiovg-issues .subsubsub {
+	margin: 7px 0;
+}
+
+#aiovg-issues input[type="checkbox"] {
+	margin: 0;
+}
+
+#aiovg-issues tfoot td {
+	text-align: right;
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Videos
+ *
+ *--------------------------------------------------------------------------------------------*/
+.misc-pub-aiovg-shortcode label,
+.misc-pub-aiovg-shortcode strong {
+	display: block;
+	margin-bottom: 7px;
+}
+
+table.aiovg-table {
+  	background: #FFF;
+  	border: 0 none;
+}
+
+table.aiovg-table td {
+  	padding: 10px;
+	border-top: 0 none;
+	border-bottom: 1px solid #F5F5F5;
+	vertical-align: middle;
+}
+
+table.aiovg-table td.label {
+  	width: 18%;
+  	background: #F9F9F9;
+  	border-right: 1px solid #E1E1E1;
+	border-bottom: 1px solid #F0F0F0;
+  	text-align: right;
+  	vertical-align: top;
+}
+
+table.aiovg-table label {
+  	font-size: 14px;
+}
+
+table.aiovg-table input[type="text"],
+table.aiovg-table textarea,
+table.aiovg-table select {
+	width: 99.95%;
+	max-width: inherit;
+}
+
+table.aiovg-table .aiovg-media-uploader input[type="text"] {
+	width: 75%;
+}
+
+table.aiovg-table .aiovg-quality-selector > p {
+	font-weight: 500;
+}
+
+table.aiovg-table .aiovg-source {
+	margin-top: 20px;
+}
+
+#aiovg-add-new-source {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+table.aiovg-table .aiovg-handle {
+  	color: #999;
+  	vertical-align: middle;
+  	cursor: move;
+}
+
+@media only screen and (max-width: 767px) {
+	table.aiovg-table .aiovg-media-uploader input[type="text"] {
+		display: block;
+		width: 100%;
+		margin: 7px 0;
+	}
+
+  	.aiovg-tracks-row td {
+  		display: block !important;
+		border-bottom: none !important;
+  	}
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Categories
+ *
+ *--------------------------------------------------------------------------------------------*/
+#aiovg-categories-image-wrapper img {
+  	max-width: 200px;
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Settings
+ *
+ *--------------------------------------------------------------------------------------------*/
+.aiovg-settings form {
+	margin-top: 2em;
+}
+
+.aiovg-settings .form-table {
+	margin-bottom: 50px;
+}
+
+.aiovg-settings .form-table .button {
+	margin: 0 2px;
+}
+
+.aiovg-settings .search {
+	background-color: transparent;
+}
+
+#aiovg-categories-settings.aiovg-template-grid tr.hierarchical {
+	display: none;
+}
+
+#aiovg-categories-settings.aiovg-template-list tr.columns,
+#aiovg-categories-settings.aiovg-template-list tr.limit,
+#aiovg-categories-settings.aiovg-template-list tr.show_description {
+	display: none;
+}
+
+#aiovg-categories-settings.aiovg-template-dropdown tr.columns,
+#aiovg-categories-settings.aiovg-template-dropdown tr.limit,
+#aiovg-categories-settings.aiovg-template-dropdown tr.show_description {
+	display: none;
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Widgets
+ *
+ *--------------------------------------------------------------------------------------------*/
+.aiovg-widget-form .aiovg-widget-section-header {
+	display: block;
+	margin-bottom: 10px;
+	padding: 7px; 
+	background: #666; 
+	border: #333; 
+	color: #FFF; 
+	pointer-events: none;
+}
+
+.aiovg-widget-form .aiovg-widget-section-general .aiovg-widget-section-header {
+	display: none;
+}
+
+.aiovg-widget-form .aiovg-widget-field {
+	margin: 7px 0;
+}
+
+.aiovg-widget-form .aiovg-checklist {
+	margin: 0;
+	padding: 7px;
+	box-sizing: border-box;
+}
+
+.aiovg-widget-form .aiovg-checklist li {
+	margin: 0;
+}
+
+.aiovg-widget-form .aiovg-checklist li::marker {
+	content: "";
+}
+
+.aiovg-widget-form .aiovg-checklist label {
+	margin: 0;
+}
+
+.aiovg-widget-form .aiovg-widget-label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: 500;
+}
+
+.aiovg-widget-form .aiovg-widget-field-description {
+	margin: 7px 0;
+}
+
+.aiovg-widget-form-categories.aiovg-template-grid .aiovg-widget-field-hierarchical {
+	display: none;
+}
+
+.aiovg-widget-form-categories.aiovg-template-list .aiovg-widget-field-columns,
+.aiovg-widget-form-categories.aiovg-template-list .aiovg-widget-field-limit,
+.aiovg-widget-form-categories.aiovg-template-list .aiovg-widget-field-show_description,
+.aiovg-widget-form-categories.aiovg-template-list .aiovg-widget-field-show_more,
+.aiovg-widget-form-categories.aiovg-template-list .aiovg-widget-field-more_label,
+.aiovg-widget-form-categories.aiovg-template-list .aiovg-widget-field-more_link {
+	display: none;
+}
+
+.aiovg-widget-form-categories.aiovg-template-dropdown .aiovg-widget-field-columns,
+.aiovg-widget-form-categories.aiovg-template-dropdown .aiovg-widget-field-limit,
+.aiovg-widget-form-categories.aiovg-template-dropdown .aiovg-widget-field-show_description,
+.aiovg-widget-form-categories.aiovg-template-dropdown .aiovg-widget-field-show_more,
+.aiovg-widget-form-categories.aiovg-template-dropdown .aiovg-widget-field-more_label,
+.aiovg-widget-form-categories.aiovg-template-dropdown .aiovg-widget-field-more_link {
+	display: none;
+}
+
+.aiovg-widget-form-videos .aiovg-widget-field-include,
+.aiovg-widget-form-videos .aiovg-widget-field-exclude,
+.aiovg-widget-form-videos .aiovg-widget-field-ratio,
+.aiovg-widget-form-videos .aiovg-widget-field-show_count,
+.aiovg-widget-form-videos .aiovg-widget-field-title_length,
+.aiovg-widget-form-videos .aiovg-widget-field-excerpt_length,
+.aiovg-widget-form-videos .aiovg-widget-field-show_pagination {
+	display: none;
+}
+
+.aiovg-widget-form-video input[type="text"].ui-autocomplete-loading {
+	background-position: 99% center;
+}

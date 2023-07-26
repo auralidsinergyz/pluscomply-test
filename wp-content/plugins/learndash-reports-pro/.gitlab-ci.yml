@@ -1,0 +1,22 @@
+# This file is a template, and might need editing before it works on your project.
+# Select image from https://hub.docker.com/_/php/
+image: wisdmhardik/wisdmlabs:latest
+
+# Select what we should cache between builds
+cache:
+  paths:
+    - vendor/
+
+before_script:
+  - apt-get update -y
+  - apt-get install zip -y
+  - rm -f composer.json
+  - rm -f composer.lock
+  - composer require woocommerce/woocommerce-sniffs
+
+# Run our tests
+
+test:CodingStandard:
+  script:
+    - ./vendor/bin/phpcs --warning-severity=0 -s --ignore-annotations --extensions=php,html --report-full --standard=phpcs.xml .
+

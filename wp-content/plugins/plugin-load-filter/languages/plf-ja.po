@@ -1,0 +1,276 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: plf\n"
+"POT-Creation-Date: 2020-08-04 05:11+0000\n"
+"PO-Revision-Date: 2022-02-07 02:57+0000\n"
+"Last-Translator: \n"
+"Language-Team: 日本語\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"Report-Msgid-Bugs-To: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2"
+
+#: plugin-load-filter.php:704
+msgid ""
+"* Plugins with `Page Type Filter` selected are blocked, but you can Activate "
+"it for various Page type in the `Page Type Activation` and Single Page "
+"setting."
+msgstr ""
+"※ Page Type フィルタで選択したプラグインは一旦ブロックされますが、Page Type "
+"有効プラグイン登録やシングルページ毎の設定等で、様々なタイプ毎に有効化するプラグインを選択できます"
+
+#: plugin-load-filter.php:696
+msgid "<strong>Admin Type</strong> - If you only use plugins for Admin pages."
+msgstr "<strong>Admin Type</strong> - 管理用ページのみで使用するプラグインとして設定"
+
+#: plugin-load-filter.php:707
+msgid ""
+"<strong>Exclude Post Format Type</strong> - Choose Post Format Type you are "
+"not using. To exclude from Page Type item subject."
+msgstr ""
+"<strong>未使用の投稿フォーマット</strong> - 使用していない投稿フォーマットを指定すれば、Page Type "
+"有効プラグイン登録画面の項目件名から除外出来ます"
+
+#: plugin-load-filter.php:695
+msgid "<strong>Normal</strong> - Exclude plugin from Page Type filter"
+msgstr "<strong>Normal</strong> - Page Type フィルタの対象ではないプラグイン"
+
+#: plugin-load-filter.php:697
+msgid ""
+"<strong>Page Type</strong> - If you want to activate or deactivate plugins "
+"for each Page Type and Single page."
+msgstr "<strong>Page Type</strong> - ページタイプ毎や単一ページ毎に有効 / 停止するプラグインとして設定"
+
+#: plugin-load-filter.php:721
+msgid ""
+"A very simple multilingual feature that uses MO translation files for the "
+"selected locale per Post/Page editing screen."
+msgstr "とってもシンプルな多言語機能で 投稿/固定ページ毎に指定した言語ロケールに応じた翻訳ファイルを使用します"
+
+#: plugin-load-filter.php:899
+msgid "Activate Plugin Entry &raquo;"
+msgstr "有効化プラグイン登録 &raquo;"
+
+#: plugin-load-filter.php:701
+msgid "Add a link to admin bar for displaying the plugins filtered status"
+msgstr "管理バーにプラグインのフィルタリング状態を表示するためのリンクを表示"
+
+#: plugin-load-filter.php:640
+msgid "Admin Type"
+msgstr ""
+
+#: plugin-load-filter.php:779
+msgid "Archive page"
+msgstr "アーカイブページ"
+
+#: plugin-load-filter.php:781
+msgid "Attachment page"
+msgstr "添付ページ"
+
+#: plugin-load-filter.php:880 plugin-load-filter.php:898
+msgid "Clear"
+msgstr "クリア"
+
+#: plugin-load-filter.php:808
+msgid "Custom Post : "
+msgstr "カスタムポスト : "
+
+#: plugin-load-filter.php:776 plugin-load-filter.php:962
+msgid "Desktop Device"
+msgstr "デスクトップデバイス"
+
+#. Description of the plugin
+msgid ""
+"Dynamically activate the selected plugins for each page. Response will be "
+"faster by filtering plugins."
+msgstr "ページタイプや投稿毎に選択したプラグインを動的に有効化することが出来ます。プラグインをフィルタリングするとレスポンスが高速化します。"
+
+#. Author of the plugin
+msgid "enomoto@celtislab"
+msgstr ""
+
+#: plugin-load-filter.php:881
+msgid "Filter Entry &raquo;"
+msgstr "フィルター登録 &raquo;"
+
+#: plugin-load-filter.php:872
+msgid "Filter Registration"
+msgstr "フィルター登録"
+
+#: plugin-load-filter.php:272
+msgid "General Settings"
+msgstr "一般的な設定"
+
+#: plugin-load-filter.php:778
+msgid "Home/Front-page"
+msgstr "ホーム/フロントページ"
+
+#. Author URI of the plugin
+msgid "https://celtislab.net/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://celtislab.net/en/wp-plugin-load-filter"
+msgstr "https://celtislab.net/wp-plugin-load-filter"
+
+#: plugin-load-filter.php:730
+msgid "Introduction of Addon"
+msgstr "アドオンのご案内"
+
+#: plugin-load-filter.php:737
+msgid "Introduction of Realtime Image Optimizer"
+msgstr "画像最適化プラグインのご案内"
+
+#: plugin-load-filter.php:1062
+msgid "Language of this post"
+msgstr "この投稿の言語"
+
+#: plugin-load-filter.php:724
+msgid "Language switching per post"
+msgstr "投稿毎の言語ロケール切替え"
+
+#: plugin-load-filter.php:777 plugin-load-filter.php:963
+msgid "Mobile Device"
+msgstr "モバイルデバイス"
+
+#: plugin-load-filter.php:639
+msgid "Normal"
+msgstr ""
+
+#: plugin-load-filter.php:1033
+msgid "Not Use"
+msgstr "使用しない"
+
+#: plugin-load-filter.php:1074
+msgid "Original post ID for hreflang"
+msgstr "元記事 Post ID（hreflang 用）"
+
+#: plugin-load-filter.php:782
+msgid "Page"
+msgstr "固定ページ"
+
+#: plugin-load-filter.php:905 plugin-load-filter.php:957
+msgid "Page Filter is not registered"
+msgstr "Page Filter にプラグインが登録されていません"
+
+#: plugin-load-filter.php:641
+msgid "Page Type"
+msgstr ""
+
+#: plugin-load-filter.php:873
+msgid "Page Type Activation"
+msgstr "Page Type 有効プラグイン登録"
+
+#: plugin-load-filter.php:585 plugin-load-filter.php:694
+msgid "Page Type Filter"
+msgstr "Page Type フィルタ"
+
+#: plugin-load-filter.php:1038
+msgid "Plugin Activate/Deactivate filter for this Post only"
+msgstr "この投稿のみに適用するプラグインの有効/停止フィルタ"
+
+#: plugin-load-filter.php:1032
+msgid "Plugin filter for Single post"
+msgstr "シングルページ用プラグインフィルタ"
+
+#: plugin-load-filter.php:271 plugin-load-filter.php:921
+msgid "Plugin Load Filter"
+msgstr ""
+
+#. Name of the plugin
+msgid "plugin load filter"
+msgstr ""
+
+#: plugin-load-filter.php:1234
+msgid ""
+"Plugin Load Filter setting has been updated.\\nClick OK to reload the page."
+msgstr "Plugin Load Filterの設定を更新しました\\n OK をクリックするとページをリロードします"
+
+#: plugin-load-filter.php:868
+msgid "Plugin Load Filter Settings"
+msgstr "プラグインロードフィルター設定"
+
+#: plugin-load-filter.php:866
+msgid "Plugin Load Filter Settings\\nClick OK to clear it."
+msgstr "プラグインロードフィルター\\nOKをクリックすると設定をクリアします"
+
+#: plugin-load-filter.php:783 plugin-load-filter.php:796
+msgid "Post : "
+msgstr "投稿フォーマット : "
+
+#: plugin-load-filter.php:720
+msgid "Post Language Locale"
+msgstr "投稿毎の言語ロケール"
+
+#: plugin-load-filter.php:780
+msgid "Search page"
+msgstr "検索結果ページ"
+
+#: plugin-load-filter.php:732 plugin-load-filter.php:739
+msgid "See more information "
+msgstr "詳細情報の参照"
+
+#: plugin-load-filter.php:894
+msgid ""
+"Select plugins to be activated for each page type by clicking on <span "
+"class=\"dashicons dashicons-admin-plugins\"></span> mark from \"page type "
+"filter\" registered plugins."
+msgstr ""
+"\"Page Type フィルタ\" に設定したプラグインからページタイプ毎に有効化するプラグインを <span class=\"dashicons "
+"dashicons-admin-plugins\"></span> マークをクリックして指定します"
+
+#: plugin-load-filter.php:783
+msgid "Standard"
+msgstr "標準"
+
+#: plugin-load-filter.php:731
+msgid ""
+"Thank you for using Plugin Load Filter. We offer URL filtering as Addon. "
+"Please consider using Addon!"
+msgstr ""
+"Plugin Load "
+"Filterをご利用いただきありがとうございます。アドオンとしてURLフィルタリング機能を提供しております。アドオンのご利用をご検討ください"
+
+#: plugin-load-filter.php:583
+msgid "URL Group Filter"
+msgstr "URL グループフィルタ"
+
+#: plugin-load-filter.php:1034
+msgid "Use"
+msgstr "使用する"
+
+#: plugin-load-filter.php:1102
+msgid ""
+"Use MO translation file for the selected locale. When Original Post ID is "
+"registered, posts with the same Original Post ID are treated as `hreflang` "
+"metadata group."
+msgstr ""
+"選択したロケールの翻訳ファイルを使用します。元記事の Post ID が登録されている場合には、同じ元記事 Post IDを持つ投稿が "
+"`hreflang` メタデータグループとして扱われます"
+
+#: plugin-load-filter.php:738
+#| msgid ""
+#| "We also sell image optimization plug-ins. Reduce and speed up data size "
+#| "by converting to WebP / AVIF."
+msgid ""
+"We sell Image Optimization plugin. Reduce and speed up data size by "
+"converting to WebP / AVIF."
+msgstr "画像最適化プラグインを販売しています。 WebP / AVIFに変換することにより、データサイズを縮小して高速化します"
+
+#: plugin-load-filter.php:802
+msgid "WordPress Embed Content Card (API)"
+msgstr "WordPress 埋め込みコンテンツカード (API)"
+
+#: plugin-load-filter.php:895
+msgid ""
+"You can also select plugins to activate from Post/Page content editing "
+"screen."
+msgstr "投稿や固定ページ毎に記事編集画面の設定からも有効化するプラグインを選択出来ます"

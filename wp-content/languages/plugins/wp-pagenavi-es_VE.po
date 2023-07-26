@@ -1,0 +1,212 @@
+# Translation of Plugins - WP-PageNavi - Stable (latest release) in Spanish (Venezuela)
+# This file is distributed under the same license as the Plugins - WP-PageNavi - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-25 06:05:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es_VE\n"
+"Project-Id-Version: Plugins - WP-PageNavi - Stable (latest release)\n"
+
+#: core.php:190
+msgid "Last Page"
+msgstr "Última página"
+
+#: core.php:182
+msgid "Next Page"
+msgstr "Pagina siguiente"
+
+#: core.php:110
+msgid "Previous Page"
+msgstr "Pagina anterior"
+
+#: core.php:101
+msgid "First Page"
+msgstr "Primera página"
+
+#: core.php:130 core.php:149 core.php:161
+msgid "Page %s"
+msgstr "Página %s"
+
+#. Author URI of the plugin
+msgid "https://lesterchan.net"
+msgstr "https://lesterchan.net"
+
+#. Author of the plugin
+msgid "Lester 'GaMerZ' Chan"
+msgstr "Lester 'GaMerZ' Chan"
+
+#. Description of the plugin
+msgid "Adds a more advanced paging navigation to your WordPress blog"
+msgstr "Añade un sistema de navegación de páginas más avanzado a tu sitio WordPress"
+
+#. Plugin URI of the plugin
+msgid "https://lesterchan.net/portfolio/programming/php/"
+msgstr "https://lesterchan.net/portfolio/programming/php/"
+
+#. Plugin Name of the plugin
+msgid "WP-PageNavi"
+msgstr "WP-PageNavi"
+
+#: wp-pagenavi.php:27 wp-pagenavi.php:28
+msgid "..."
+msgstr "..."
+
+#: wp-pagenavi.php:26
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: wp-pagenavi.php:25
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: wp-pagenavi.php:24
+msgid "Last &raquo;"
+msgstr "Última &raquo;"
+
+#: wp-pagenavi.php:23
+msgid "&laquo; First"
+msgstr "&laquo; Primera"
+
+#: wp-pagenavi.php:20
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr "Página %CURRENT_PAGE% de %TOTAL_PAGES%"
+
+#: scb/AdminPage.php:514
+msgid "Settings"
+msgstr "Ajustes"
+
+#: scb/AdminPage.php:257
+msgid "Settings <strong>saved</strong>."
+msgstr "Ajustes <strong>guardados</strong>."
+
+#: admin.php:158
+msgid "Page Navigation Options"
+msgstr "Opciones de navegación de páginas"
+
+#: admin.php:153
+msgid "For example, if mutiple is 5, it will show: 5, 10, 15, 20, 25"
+msgstr "Por ejemplo, si son múltiplos de 5, se muestran: 5, 10, 15, 20, 25"
+
+#: admin.php:148
+msgid "Show Larger Page Numbers In Multiples Of"
+msgstr "Mostrar números grandes de página en múltiplos de"
+
+#: admin.php:144
+msgid "Enter 0 to disable."
+msgstr "Introduce 0 para desactivar."
+
+#: admin.php:143
+msgid "For example, WP-PageNavi will display: Pages 1, 2, 3, 4, 5, 10, 20, 30, 40, 50."
+msgstr "Por ejemplo, WP-PageNavi mostrará: Páginas 1, 2, 3, 4, 5, 10, 20, 30, 40, 50."
+
+#: admin.php:142
+msgid "Larger page numbers are in addition to the normal page numbers. They are useful when there are many pages of posts."
+msgstr "Los números de página grandes se añaden a los números de página normales. Son útiles cuando hay muchas páginas de entradas."
+
+#: admin.php:137
+msgid "Number Of Larger Page Numbers To Show"
+msgstr "Cantidad de números grandes de página a mostrar"
+
+#: admin.php:130
+msgid "Number Of Pages To Show"
+msgstr "Número de páginas a mostrar"
+
+#: admin.php:126
+msgid "Show navigation even if there's only one page."
+msgstr "Mostrar la navegación, incluso si sólo hay una página."
+
+#: admin.php:122
+msgid "Always Show Page Navigation"
+msgstr "Mostrar siempre la navegación de páginas"
+
+#: admin.php:117
+msgid "Drop-down List"
+msgstr "Lista desplegable"
+
+#: admin.php:117
+msgid "Normal"
+msgstr "Normal"
+
+#: admin.php:114
+msgid "Page Navigation Style"
+msgstr "Estilo de navegación de páginas"
+
+#: admin.php:110 admin.php:125
+msgid "No"
+msgstr "No"
+
+#: admin.php:110 admin.php:125
+msgid "Yes"
+msgstr "Sí"
+
+#: admin.php:107
+msgid "Use pagenavi-css.css"
+msgstr "Usar pagenavi-css.css"
+
+#: admin.php:101
+msgid "Leaving a field blank will hide that part of the navigation."
+msgstr "Dejando un campo en blanco se oculta esta parte en la navegación."
+
+#: admin.php:100
+msgid "Page Navigation Text"
+msgstr "Texto de navegación de página"
+
+#: admin.php:93
+msgid "Text For Next ..."
+msgstr "Texto para la siguiente..."
+
+#: admin.php:87
+msgid "Text For Previous ..."
+msgstr "Texto para la anterior..."
+
+#: admin.php:81
+msgid "Text For Next Page"
+msgstr "Texto para la página siguiente"
+
+#: admin.php:75
+msgid "Text For Previous Page"
+msgstr "Texto para la página anterior"
+
+#: admin.php:67
+msgid "Text For Last Page"
+msgstr "Texto para la última página"
+
+#: admin.php:59
+msgid "Text For First Page"
+msgstr "Texto para la primera página"
+
+#: admin.php:51
+msgid "Text For Page"
+msgstr "Texto para la página"
+
+#: admin.php:47 admin.php:55
+msgid "The page number."
+msgstr "Número de página."
+
+#: admin.php:43
+msgid "Text For Current Page"
+msgstr "Texto para la página actual"
+
+#: admin.php:39 admin.php:63 admin.php:71
+msgid "The total number of pages."
+msgstr "Número total de páginas."
+
+#: admin.php:38
+msgid "The current page number."
+msgstr "Número de la página actual."
+
+#: admin.php:33
+msgid "Text For Number Of Pages"
+msgstr "Texto para el número de páginas"
+
+#: admin.php:10
+msgid "PageNavi"
+msgstr "PageNavi"
+
+#: admin.php:9
+msgid "PageNavi Settings"
+msgstr "Ajustes de PageNavi"

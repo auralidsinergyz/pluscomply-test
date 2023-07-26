@@ -1,0 +1,96 @@
+# Translation of Plugins - Categories to Tags Converter - Stable (latest release) in Spanish (Peru)
+# This file is distributed under the same license as the Plugins - Categories to Tags Converter - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-08-01 21:02:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: es_PE\n"
+"Project-Id-Version: Plugins - Categories to Tags Converter - Stable (latest release)\n"
+
+#: wpcat2tag-importer.php:42
+msgid "Cheatin&#8217; uh?"
+msgstr "Haciendo trampas, &iquest;eh?"
+
+#: wpcat2tag-importer.php:84
+msgid "Hey there. Here you can selectively convert existing categories to tags. To get started, check the categories you wish to be converted, then click the Convert button."
+msgstr "Oiga, aquí puede convertir selectivamente categorías existentes a etiquetas. Para empezar, seleccione las categorías que usted desea convertir, luego haga clic en el botón Convertir."
+
+#: wpcat2tag-importer.php:85
+msgid "Keep in mind that if you convert a category with child categories, the children become top-level orphans."
+msgstr "Tenga presente que si usted convierte una categoría con sub-categorías, esas sub-categorías se convertirán a un nivel superior."
+
+#: wpcat2tag-importer.php:89
+msgid "You have no categories to convert!"
+msgstr "&iexcl;Usted no tiene categorías para converitr!"
+
+#: wpcat2tag-importer.php:143
+msgid "* This category is also a tag. Converting it will add that tag to all posts that are currently in the category."
+msgstr "* Esta categoría es también una etiqueta. Al convertir se agregará esta etiqueta a todas las entradas que actualmente estánn en la categoría."
+
+#: wpcat2tag-importer.php:160
+msgid "Here you can selectively convert existing tags to categories. To get started, check the tags you wish to be converted, then click the Convert button."
+msgstr "Aquí usted puede convertir de forma selectiva etiquetas existentes a categorías. Para empezar, seleccione las etiquetas que usted desea convertir, luego haga clic en el botón Convertir."
+
+#: wpcat2tag-importer.php:161
+msgid "The newly created categories will still be associated with the same posts."
+msgstr "Las categorías recientemente creadas seguirán siendo asociadas a las mismas entradas."
+
+#: wpcat2tag-importer.php:207
+msgid "* This tag is also a category. When converted, all posts associated with the tag will also be in the category."
+msgstr "* Esta etiqueta es también una categoría. Cuando se convierta, todas las entradas relacionadas con la etiqueta lo serán también en la categoría."
+
+#: wpcat2tag-importer.php:165
+msgid "You have no tags to convert!"
+msgstr "&iexcl;Usted no tiene etiquetas para converitr!"
+
+#: wpcat2tag-importer.php:247 wpcat2tag-importer.php:367
+msgid "Uh, oh. Something didn&#8217;t work. Please <a href=\"%s\">try again</a>."
+msgstr "Uh, oh. Algo no funcionó. Por favor <a href=\"%s\">vuelva a intentarlo</a>."
+
+#: wpcat2tag-importer.php:269
+msgid "Converting category <strong>%s</strong> ... "
+msgstr "Convertiendo categoría <strong>%s</strong> ..."
+
+#: wpcat2tag-importer.php:297 wpcat2tag-importer.php:340
+#: wpcat2tag-importer.php:426
+msgid "Converted successfully."
+msgstr "Conversión exitosa."
+
+#: wpcat2tag-importer.php:359 wpcat2tag-importer.php:448
+msgid "We&#8217;re all done here, but you can always <a href=\"%s\">convert more</a>."
+msgstr "Nosotros aquí hacemos todo, pero usted siempre lo puede hacer <a href=\"%s\">convierta más</a>."
+
+#: wpcat2tag-importer.php:384
+msgid "Converting tag <strong>%s</strong> ... "
+msgstr "Convirtiendo etiqueta <strong>%s</strong>..."
+
+#: wpcat2tag-importer.php:490
+msgid "Categories and Tags Converter"
+msgstr "Convertir categorías y etiquetas"
+
+#. #-#-#-#-#  tmp-wpcat2tag-importer.pot (Categories to Tags Converter Importer
+#. 0.5)  #-#-#-#-#
+#. Description of the plugin/theme
+#: wpcat2tag-importer.php:490
+msgid "Convert existing categories to tags or tags to categories, selectively."
+msgstr "Convierta selectivamente las categorías existentes a etiquetas o etiquetas a categorías."
+
+#. Plugin Name of the plugin/theme
+msgid "Categories to Tags Converter Importer"
+msgstr "Importador del Convertidor de Categorías a Etiquetas"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/extend/plugins/wpcat2tag-importer/"
+msgstr "http://wordpress.org/extend/plugins/wpcat2tag-importer/"
+
+#. Author of the plugin/theme
+msgid "wordpressdotorg"
+msgstr "wordpressdotorg"
+
+#. Author URI of the plugin/theme
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"

@@ -1,0 +1,262 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: plf\n"
+"POT-Creation-Date: 2022-02-07 02:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Yasunari Enomoto <enomoto@celtislab.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;"
+
+#: plugin-load-filter.php:704
+msgid ""
+"* Plugins with `Page Type Filter` selected are blocked, but you can Activate "
+"it for various Page type in the `Page Type Activation` and Single Page "
+"setting."
+msgstr ""
+
+#: plugin-load-filter.php:696
+msgid "<strong>Admin Type</strong> - If you only use plugins for Admin pages."
+msgstr ""
+
+#: plugin-load-filter.php:707
+msgid ""
+"<strong>Exclude Post Format Type</strong> - Choose Post Format Type you are "
+"not using. To exclude from Page Type item subject."
+msgstr ""
+
+#: plugin-load-filter.php:695
+msgid "<strong>Normal</strong> - Exclude plugin from Page Type filter"
+msgstr ""
+
+#: plugin-load-filter.php:697
+msgid ""
+"<strong>Page Type</strong> - If you want to activate or deactivate plugins "
+"for each Page Type and Single page."
+msgstr ""
+
+#: plugin-load-filter.php:721
+msgid ""
+"A very simple multilingual feature that uses MO translation files for the "
+"selected locale per Post/Page editing screen."
+msgstr ""
+
+#: plugin-load-filter.php:899
+msgid "Activate Plugin Entry &raquo;"
+msgstr ""
+
+#: plugin-load-filter.php:701
+msgid "Add a link to admin bar for displaying the plugins filtered status"
+msgstr ""
+
+#: plugin-load-filter.php:640
+msgid "Admin Type"
+msgstr ""
+
+#: plugin-load-filter.php:779
+msgid "Archive page"
+msgstr ""
+
+#: plugin-load-filter.php:781
+msgid "Attachment page"
+msgstr ""
+
+#: plugin-load-filter.php:880 plugin-load-filter.php:898
+msgid "Clear"
+msgstr ""
+
+#: plugin-load-filter.php:808
+msgid "Custom Post : "
+msgstr ""
+
+#: plugin-load-filter.php:776 plugin-load-filter.php:962
+msgid "Desktop Device"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Dynamically activate the selected plugins for each page. Response will be "
+"faster by filtering plugins."
+msgstr ""
+
+#. Author of the plugin
+msgid "enomoto@celtislab"
+msgstr ""
+
+#: plugin-load-filter.php:881
+msgid "Filter Entry &raquo;"
+msgstr ""
+
+#: plugin-load-filter.php:872
+msgid "Filter Registration"
+msgstr ""
+
+#: plugin-load-filter.php:272
+msgid "General Settings"
+msgstr ""
+
+#: plugin-load-filter.php:778
+msgid "Home/Front-page"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://celtislab.net/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://celtislab.net/en/wp-plugin-load-filter"
+msgstr ""
+
+#: plugin-load-filter.php:730
+msgid "Introduction of Addon"
+msgstr ""
+
+#: plugin-load-filter.php:737
+msgid "Introduction of Realtime Image Optimizer"
+msgstr ""
+
+#: plugin-load-filter.php:1062
+msgid "Language of this post"
+msgstr ""
+
+#: plugin-load-filter.php:724
+msgid "Language switching per post"
+msgstr ""
+
+#: plugin-load-filter.php:777 plugin-load-filter.php:963
+msgid "Mobile Device"
+msgstr ""
+
+#: plugin-load-filter.php:639
+msgid "Normal"
+msgstr ""
+
+#: plugin-load-filter.php:1033
+msgid "Not Use"
+msgstr ""
+
+#: plugin-load-filter.php:1074
+msgid "Original post ID for hreflang"
+msgstr ""
+
+#: plugin-load-filter.php:782
+msgid "Page"
+msgstr ""
+
+#: plugin-load-filter.php:905 plugin-load-filter.php:957
+msgid "Page Filter is not registered"
+msgstr ""
+
+#: plugin-load-filter.php:641
+msgid "Page Type"
+msgstr ""
+
+#: plugin-load-filter.php:873
+msgid "Page Type Activation"
+msgstr ""
+
+#: plugin-load-filter.php:585 plugin-load-filter.php:694
+msgid "Page Type Filter"
+msgstr ""
+
+#: plugin-load-filter.php:1038
+msgid "Plugin Activate/Deactivate filter for this Post only"
+msgstr ""
+
+#: plugin-load-filter.php:1032
+msgid "Plugin filter for Single post"
+msgstr ""
+
+#: plugin-load-filter.php:271 plugin-load-filter.php:921
+msgid "Plugin Load Filter"
+msgstr ""
+
+#. Name of the plugin
+msgid "plugin load filter"
+msgstr ""
+
+#: plugin-load-filter.php:1234
+msgid ""
+"Plugin Load Filter setting has been updated.\\nClick OK to reload the page."
+msgstr ""
+
+#: plugin-load-filter.php:868
+msgid "Plugin Load Filter Settings"
+msgstr ""
+
+#: plugin-load-filter.php:866
+msgid "Plugin Load Filter Settings\\nClick OK to clear it."
+msgstr ""
+
+#: plugin-load-filter.php:783 plugin-load-filter.php:796
+msgid "Post : "
+msgstr ""
+
+#: plugin-load-filter.php:720
+msgid "Post Language Locale"
+msgstr ""
+
+#: plugin-load-filter.php:780
+msgid "Search page"
+msgstr ""
+
+#: plugin-load-filter.php:732 plugin-load-filter.php:739
+msgid "See more information "
+msgstr ""
+
+#: plugin-load-filter.php:894
+msgid ""
+"Select plugins to be activated for each page type by clicking on <span "
+"class=\"dashicons dashicons-admin-plugins\"></span> mark from \"page type "
+"filter\" registered plugins."
+msgstr ""
+
+#: plugin-load-filter.php:783
+msgid "Standard"
+msgstr ""
+
+#: plugin-load-filter.php:731
+msgid ""
+"Thank you for using Plugin Load Filter. We offer URL filtering as Addon. "
+"Please consider using Addon!"
+msgstr ""
+
+#: plugin-load-filter.php:583
+msgid "URL Group Filter"
+msgstr ""
+
+#: plugin-load-filter.php:1034
+msgid "Use"
+msgstr ""
+
+#: plugin-load-filter.php:1102
+msgid ""
+"Use MO translation file for the selected locale. When Original Post ID is "
+"registered, posts with the same Original Post ID are treated as `hreflang` "
+"metadata group."
+msgstr ""
+
+#: plugin-load-filter.php:738
+msgid ""
+"We sell Image Optimization plugin. Reduce and speed up data size by "
+"converting to WebP / AVIF."
+msgstr ""
+
+#: plugin-load-filter.php:802
+msgid "WordPress Embed Content Card (API)"
+msgstr ""
+
+#: plugin-load-filter.php:895
+msgid ""
+"You can also select plugins to activate from Post/Page content editing "
+"screen."
+msgstr ""

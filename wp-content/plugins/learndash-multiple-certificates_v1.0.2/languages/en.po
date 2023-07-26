@@ -1,0 +1,303 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-02-14 17:00+0500\n"
+"PO-Revision-Date: 2023-05-11 15:36+0000\n"
+"Last-Translator: Sinergyz Admin\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html;esc_html__;esc_att;esc_attr__;"
+"esc_attr_e;esc_html\n"
+"X-Poedit-SearchPath-0: .\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.6.4; wp-6.1.1"
+
+#: buddyboss/templates/members/single/courses/certificates.php:28
+#, php-format
+msgid "<span>Certificate in </span> <a href=\"%s\">%s</a>"
+msgstr ""
+
+#: buddyboss/templates/members/single/courses/certificates.php:34
+#, php-format
+msgid "<span>Earned on</span> %s"
+msgstr ""
+
+#: buddyboss/templates/members/single/courses/certificates.php:36
+msgid "Download PDF"
+msgstr ""
+
+#: buddyboss/templates/members/single/courses/certificates.php:48
+msgid "Sorry, no certificates were found."
+msgstr ""
+
+#: includes/admin/ajax/license.php:32
+msgid "Congratulation data updated Successfully!"
+msgstr ""
+
+#: includes/admin/ajax/license.php:33
+msgid "Sorry! Can not update data"
+msgstr ""
+
+#: includes/admin/ajax/license.php:41
+msgid "Congratulation you have been activated the plugin successfully!"
+msgstr ""
+
+#: includes/admin/ajax/license.php:42
+msgid "Sorry! you can not activate by using provided License Key"
+msgstr ""
+
+#: includes/admin/ajax/license.php:75
+msgid "License update is failed"
+msgstr ""
+
+#: includes/admin/ajax/license.php:79
+#: includes/frontend/ajax/certificate.php:128
+#: includes/frontend/ajax/certificate.php:162
+msgid "Security Token Verification is failed"
+msgstr ""
+
+#: includes/admin/pages/dashboard.php:28 includes/admin/pages/dashboard.php:29
+msgid "Multi Certificates"
+msgstr ""
+
+#: includes/admin/settings/course-email.php:38
+#: includes/admin/settings/group-email.php:38
+#: includes/admin/settings/quiz-email.php:39
+msgid "Email Notification Status"
+msgstr ""
+
+#: includes/admin/settings/course-email.php:45
+#: includes/admin/settings/group-email.php:45
+msgid "You can enable or disable this email notification submission."
+msgstr ""
+
+#: includes/admin/settings/course-email.php:50
+#: includes/admin/settings/group-email.php:50
+#: includes/admin/settings/quiz-email.php:51
+msgid "Email Notification Subject"
+msgstr ""
+
+#: includes/admin/settings/course-email.php:57
+#: includes/admin/settings/group-email.php:57
+#: includes/admin/settings/quiz-email.php:58
+msgid ""
+"The text inside this field will be used as subject of this email "
+"notification."
+msgstr ""
+
+#: includes/admin/settings/course-email.php:63
+#: includes/admin/settings/group-email.php:63
+#: includes/admin/settings/quiz-email.php:64
+msgid "Email Notification Body"
+msgstr ""
+
+#: includes/admin/settings/course-email.php:111
+msgid ""
+"The student will receive an email notification after selecting the "
+"certificate from the frontend popup."
+msgstr ""
+
+#: includes/admin/settings/course-email.php:124
+#: includes/admin/settings/group-email.php:124
+#: includes/admin/settings/quiz-email.php:125
+msgid "Enabled"
+msgstr ""
+
+#: includes/admin/settings/course-email.php:125
+#: includes/admin/settings/group-email.php:125
+#: includes/admin/settings/quiz-email.php:126
+msgid "Disabled"
+msgstr ""
+
+#: includes/admin/settings/course.php:37 includes/admin/settings/group.php:39
+#: includes/admin/settings/quiz.php:39
+msgid "Select Certificates"
+msgstr ""
+
+#: includes/admin/settings/email.php:54
+msgid "The Group Certificate Email Notification Settings"
+msgstr ""
+
+#: includes/admin/settings/email.php:61
+msgid "Email Status"
+msgstr ""
+
+#: includes/admin/settings/email.php:73
+msgid "Email Subject"
+msgstr ""
+
+#: includes/admin/settings/email.php:86
+msgid "Email Content"
+msgstr ""
+
+#: includes/admin/settings/email.php:146 includes/admin/settings/email.php:160
+#: includes/admin/settings/email.php:205
+msgid ""
+"The following settings will be applied on the group certificate email "
+"notification."
+msgstr ""
+
+#: includes/admin/settings/general-settings.php:32
+#: templates/admin/dashboard.php:37
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin/settings/general-settings.php:39
+msgid "Let the user always choose the course certificate"
+msgstr ""
+
+#: includes/admin/settings/general-settings.php:46
+msgid "Let the user always choose the course certificate."
+msgstr ""
+
+#: includes/admin/settings/general-settings.php:53
+msgid "Let the user always choose the quiz certificate"
+msgstr ""
+
+#: includes/admin/settings/general-settings.php:60
+msgid "Let the user always choose the quiz certificate."
+msgstr ""
+
+#: includes/admin/settings/general-settings.php:108
+msgid "Allowed or Disallowed Multiple Certificates"
+msgstr ""
+
+#: includes/admin/settings/group-email.php:111
+#: includes/admin/settings/quiz-email.php:112
+msgid ""
+"The student will receive an email notification after selecting the "
+"certificate from the frontend popup"
+msgstr ""
+
+#: includes/admin/settings/license.php:97
+msgid "License Configuration"
+msgstr ""
+
+#: includes/admin/settings/license.php:115
+msgid "License key"
+msgstr ""
+
+#: includes/admin/settings/license.php:157
+msgid ""
+"Please enter the license key for this product to get automatic updates. You "
+"were emailed the license key when you purchased this item"
+msgstr ""
+
+#: includes/admin/settings/quiz-email.php:46
+msgid "You can enable or disable the email notification."
+msgstr ""
+
+#: includes/bootstrap/app.php:29
+msgid "Settings"
+msgstr ""
+
+#: includes/bootstrap/app.php:36 templates/admin/dashboard.php:17
+msgid "Documentation"
+msgstr ""
+
+#: includes/bootstrap/app.php:37 templates/admin/dashboard.php:14
+msgid "Support"
+msgstr ""
+
+#: includes/frontend/ajax/certificate.php:63
+#: includes/frontend/themes/ld30/course.php:49
+#: includes/frontend/themes/ld30/course.php:136
+#: includes/frontend/themes/ld30/group.php:54
+#: includes/frontend/themes/ld30/quiz.php:89
+#: includes/frontend/themes/ld30/quiz.php:190
+msgid "Select Certificate"
+msgstr ""
+
+#: includes/frontend/ajax/certificate.php:64
+#: includes/frontend/themes/ld30/course.php:44
+#: includes/frontend/themes/ld30/course.php:130
+#: includes/frontend/themes/ld30/group.php:54
+#: includes/frontend/themes/ld30/quiz.php:190
+msgid "Download Certificate"
+msgstr ""
+
+#: includes/frontend/ajax/certificate.php:65
+#: includes/frontend/themes/ld30/quiz.php:89
+msgid "PRINT YOUR CERTIFICATE"
+msgstr ""
+
+#: includes/frontend/ajax/certificate.php:66
+#: includes/frontend/ajax/certificate.php:67
+msgid "Select a Certificate"
+msgstr ""
+
+#: includes/frontend/ajax/certificate.php:69
+#: includes/frontend/ajax/certificate.php:70
+#: includes/frontend/themes/ld30/course.php:55
+#: includes/frontend/themes/ld30/course.php:145
+msgid "Download Certificates"
+msgstr ""
+
+#: includes/frontend/ajax/certificate.php:225
+msgid "Security Token Verification failed"
+msgstr ""
+
+#: includes/frontend/themes/ld30/course.php:70
+#: includes/frontend/themes/ld30/course.php:208
+#: includes/frontend/themes/ld30/group.php:104
+msgid "You've earned a certificate!"
+msgstr ""
+
+#: includes/frontend/themes/ld30/profile.php:245
+msgid "Certificate"
+msgstr ""
+
+#: includes/frontend/themes/ld30/quiz.php:94
+msgid "PRINT YOUR CERTIFICATES"
+msgstr ""
+
+#: includes/license/plugin-updater.php:205
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: includes/license/plugin-updater.php:213
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: includes/license/plugin-updater.php:407
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: includes/license/plugin-updater.php:407
+msgid "Error"
+msgstr ""
+
+#: templates/admin/dashboard.php:27
+msgid "Settings Saved"
+msgstr ""
+
+#: templates/admin/dashboard.php:36
+msgid "License Settings"
+msgstr ""
+
+#: templates/admin/dashboard.php:38
+msgid "Email Settings"
+msgstr ""
+
+#: templates/admin/tabs/general-settings.php:25
+msgid "Save"
+msgstr ""
+
+#: templates/admin/tabs/license-settings.php:17
+msgid "Activate Your License"
+msgstr ""
+
+#: templates/admin/tabs/license-settings.php:20
+msgid "Deactivate Your License"
+msgstr ""

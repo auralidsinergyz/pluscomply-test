@@ -1,0 +1,159 @@
+.gwslau_login_as .gwslau-redirect-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+}
+
+.gwslau_login_as .gwslau-site-url-wrapper {
+    background: #f3f3f3;
+    border: 1px solid #c1c1c1;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+
+.gwslau_login_as input:focus,
+.gwslau_login_as button:focus,
+.gwslau_login_as select:focus,
+.gwslau_login_as a:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.gwslau_login_as .gwslau-custom-url-wrapper {
+    flex: 1;
+}
+
+.gwslau_login_as .gwslau-custom-url-wrapper input {
+    width: 100% !important;
+}
+
+.gwslau_login_as input[type="checkbox"] {
+    width: 20px !important;
+    height: 20px;
+    position: relative;
+    transition: 0.3s;
+}
+
+.gwslau_login_as input[type="checkbox"]::before {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate( 45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate( 45deg);
+    margin: 0;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.gwslau_login_as input[type="checkbox"]:checked {
+    background-color: #2196F3;
+    border-color: #2196F3;
+}
+
+.gwslau_login_as input[type="checkbox"]:checked:before {
+    opacity: 1;
+}
+
+.gwslau_login_as .gwslau-switch {
+    margin: 0 5px;
+}
+
+.gwslau_login_as .gwslau-switch input[type="checkbox"] {
+    width: 60px !important;
+    height: 32px;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    background-color: #cccccc;
+    border-radius: 30px;
+    border: none;
+    transition: 0.3s;
+    position: relative;
+}
+
+.gwslau_login_as .gwslau-switch input[type="checkbox"]:before {
+    content: '';
+    position: absolute;
+    margin: 0;
+    width: 24px;
+    height: 24px;
+    top: 4px;
+    left: 0;
+    background: #fff;
+    border-radius: 50%;
+    -webkit-transform: translateX(5px);
+    -ms-transform: translateX(5px);
+    transform: translateX(5px);
+    border: none;
+    transition: 0.3s;
+    opacity: 1;
+}
+
+.gwslau_login_as .gwslau-switch input[type="checkbox"]:checked {
+    background-color: #2196F3;
+}
+
+.gwslau_login_as .gwslau-switch input[type="checkbox"]:checked:before {
+    -webkit-transform: translateX(30px);
+    -ms-transform: translateX(30px);
+    transform: translateX(30px);
+}
+
+.gwslau_login_as .gwslau-description {
+    margin: 10px 0;
+}
+
+.gwslau_login_as .gwslau-description p {
+    margin-bottom: 5px;
+    margin-top: 0;
+    color: #808080;
+}
+
+.gwslau_login_as .gwslau-description p:last-child {
+    margin-bottom: 0;
+}
+
+.gwslau_login_as select {
+    width: 100%;
+    max-width: 225px;
+}
+
+.gwslau_login_as select,
+.gwslau_login_as .gwslau-switch input[type="text"] {
+    background-color: #fff;
+    border: 1px solid #c1c1c1;
+}
+
+.gwslau_login_as .gwslau-containercheckbox {
+    margin-right: 15px;
+    margin-bottom: 5px !important;
+}
+
+.gwslau_login_as .gwslau-containercheckbox input[type="checkbox"] {
+    margin-right: 5px !important;
+}
+
+.gwslau-login-as-btn {
+    display: inline-flex;
+    top: 0 !important;
+    min-width: 0;
+    white-space: nowrap;
+    max-width: 170px;
+}
+
+.gwslau-login-as-btn span {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 4px;
+    word-wrap: unset;
+}

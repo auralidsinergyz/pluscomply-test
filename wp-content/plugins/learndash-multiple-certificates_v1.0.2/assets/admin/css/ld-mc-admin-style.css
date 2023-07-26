@@ -1,0 +1,100 @@
+
+.ld-mc-admin-dashboard-header {
+    background: #dcdcde;
+    padding: 10px 20px;
+    display: block;
+}
+.nav-tab> span.dashicons {
+    padding: 2px 0px 0px 0px;
+    margin: 0px 10px 0px 0px;
+}
+
+.ld-mc-plugin-info {
+    display: inline-flex;
+    width: 75%;
+}
+.ld-mc-plugin-info > h1 {
+    padding: 0px;
+}
+.ld-mc-links-wraper{
+    display: inline-block;
+}
+.ld-mc-admin-header-link{
+    display: inline-flex;
+    padding: 5px 15px;
+    text-decoration: none;
+    background: #2271b1;
+    color: #fff;
+}
+.ld-mc-admin-header-link:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.ld-mc-admin-header-link > span.dashicons {
+    margin-right: 15px;
+}
+
+ul.ld-mc-admin-sub-tab {
+    color: #333;
+    list-style-type: none;
+    background: #dcdcde;
+    /* padding: 10px 10px; */
+    /* border-radius: 50px; */
+}
+
+ul.ld-mc-admin-sub-tab > li {
+    display: inline-flex;
+    /* padding: 10px 15px; */
+    margin: 0px;
+}
+
+ul.ld-mc-admin-sub-tab > li:not(:nth-child(1n)) {}
+
+ul.ld-mc-admin-sub-tab > li:not(:last-child) {
+    border-right: 2px solid #2271b1;
+}
+ul.ld-mc-admin-sub-tab > li > a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+ul.ld-mc-admin-sub-tab > li.active {
+    background: #c1c1c1;
+}
+#ld-mc-admin-settings input[type="text"] {
+    min-width: 400px;
+}
+
+
+/*
+License Settings
+ */
+
+.ld-mc-license-settings-wrapper {
+    background: #dcdcde;
+    padding: 10px;
+    margin: 10px 0px;
+    /*text-align: center;*/
+    display: block;
+}
+
+.ld-mc-license-key-wrapper {
+    display: inline-flex;
+    width: 60%;
+}
+
+.ld-mc-license-action-wrapper {
+    display: inline-flex;
+    width: 30%;
+}
+
+input.ld-mc-license-key {
+    display: block;
+}
+
+.dashicons-dismiss{
+    color:red;
+}
+.dashicons-yes-alt{
+    color:green;
+}

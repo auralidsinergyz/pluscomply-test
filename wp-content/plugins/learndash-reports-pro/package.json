@@ -1,0 +1,47 @@
+{
+  "name": "quiz-reporting-extension",
+  "version": "3.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check-standards-js": "jshint assets/admin/ && jshint assets/common/ && jshint assets/public/",
+    "check-standards-php": "phpcs -n --standard=WordPress admin && phpcs -n --standard=WordPress includes && phpcs -n --standard=WordPress public && phpcs -n --standard=WordPress templates && phpcs -n --standard=WordPress quiz-reporting-extension.php",
+    "check-standards-php-strict": "phpcs --standard=WordPress admin && phpcs --standard=WordPress includes && phpcs --standard=WordPress public && phpcs --standard=WordPress templates && phpcs --standard=WordPress quiz-reporting-extension.php",
+    "check-standards": "npm run check-standards-js && npm run check-standards-php",
+    "dev": "webpack --watch",
+    "makepot": "wp i18n make-pot . languages/quiz_reporting_learndash.pot --exclude=\"*.js\"",
+    "build": "npm run check-standards && webpack -p",
+    "postbuild": "npm run makepot && rtlcss ./assets/dist/css/admin.css ./assets/dist/css/admin-rtl.css && rtlcss ./assets/dist/css/common.css ./assets/dist/css/common-rtl.css && rtlcss ./assets/dist/css/public.css ./assets/dist/css/public-rtl.css"
+  },
+  "author": "WisdmLabs",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^3.4.0",
+    "cssnano": "^4.1.10",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^0.11.2",
+    "jshint": "^2.11.1",
+    "node-sass": "^4.11.0",
+    "popper.js": "^1.12.5",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^10.0.0",
+    "postcss-loader": "^2.0.6",
+    "rtlcss": "^2.4.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "datatables.net-buttons": "^1.6.5",
+    "datatables.net-responsive-dt": "^2.2.6",
+    "js-datepicker": "^5.16.0",
+    "jszip": "^3.5.0"
+  }
+}

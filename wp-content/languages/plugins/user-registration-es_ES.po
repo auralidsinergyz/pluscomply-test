@@ -1,0 +1,3776 @@
+# Translation of Plugins - User Registration &#8211; Custom Registration Form, Login Form And User Profile For WordPress - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - User Registration &#8211; Custom Registration Form, Login Form And User Profile For WordPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-12-01 12:29:26+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - User Registration &#8211; Custom Registration Form, Login Form And User Profile For WordPress - Stable (latest release)\n"
+
+#: includes/functions-ur-core.php:1053
+msgid "Success message position"
+msgstr "Posición del mensaje de éxito"
+
+#: includes/functions-ur-core.php:1061
+msgid "Bottom"
+msgstr "Inferior"
+
+#: includes/functions-ur-core.php:1065
+msgid "Display success message either at the top or bottom after successful registration."
+msgstr "Mostrar el mensaje de éxito arriba o abajo después de registrarse con éxito."
+
+#: includes/functions-ur-core.php:1060
+msgid "Top"
+msgstr "Superior"
+
+#: includes/admin/class-ur-admin-assets.php:417
+msgctxt "user registration admin"
+msgid "Are you sure want to delete this row?"
+msgstr "¿Seguro que quieres borrar esta fila?"
+
+#: includes/class-ur-frontend-scripts.php:374
+msgid "Please enter a value greater than or equal to %qty%."
+msgstr "Por favor, introduce un valor mayor o igual a %qty%."
+
+#: includes/admin/class-ur-admin-assets.php:320
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: includes/admin/class-ur-admin-assets.php:319
+msgid "Enabled"
+msgstr "Activado"
+
+#: includes/admin/class-ur-admin-assets.php:419
+msgctxt "user registration admin"
+msgid "At least one row is required to create a registration form."
+msgstr "Se necesita al menos una fila para crear un formulario de registro."
+
+#: includes/class-ur-frontend-scripts.php:375
+msgid "Please enter a multiple of %qty%."
+msgstr "Por favor, introduce un valor mayor o igual a %qty%."
+
+#: includes/class-ur-frontend-scripts.php:373
+msgid "Please enter a value less than or equal to %qty%."
+msgstr "Por favor, introduce un valor menor o igual a %qty."
+
+#: includes/admin/class-ur-admin-assets.php:307
+#: includes/admin/views/html-admin-page-import-export-forms.php:50
+msgid "No file selected."
+msgstr "No se ha seleccionado un archivo."
+
+#: includes/admin/class-ur-admin-menus.php:369
+#: includes/admin/class-ur-admin-menus.php:370
+#: includes/admin/class-ur-admin-user-list-manager.php:387
+msgid "All Forms"
+msgstr "Todos los formularios"
+
+#: includes/admin/class-ur-admin-user-list-manager.php:389
+msgid "All UR Forms"
+msgstr "Todos los formularios de UR"
+
+#: includes/admin/settings/class-ur-settings-general.php:574
+msgid "Messages"
+msgstr "Mensajes"
+
+#: includes/admin/settings/class-ur-settings-general.php:579
+msgid "Username Required"
+msgstr "Nombre de usuario obligatorio"
+
+#: includes/class-ur-ajax.php:649 includes/class-ur-ajax.php:652
+#: includes/class-ur-ajax.php:658 includes/class-ur-ajax.php:661
+#: includes/class-ur-ajax.php:668 includes/class-ur-form-handler.php:550
+#: includes/class-ur-form-handler.php:553
+#: includes/class-ur-form-handler.php:559
+#: includes/class-ur-form-handler.php:562
+msgid "ERROR"
+msgstr "ERROR"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:147
+msgid "Copied ! "
+msgstr "¡Copiado!"
+
+#: includes/admin/settings/class-ur-settings-general.php:492
+msgid "Labels"
+msgstr "Etiquetas"
+
+#: includes/admin/settings/class-ur-settings-general.php:632
+msgid "Denied Account"
+msgstr "Cuenta denegada"
+
+#: includes/admin/settings/class-ur-settings-general.php:600
+msgid "Invalid/Unknown Username"
+msgstr "Usuario no válido/desconocido "
+
+#: includes/admin/settings/class-ur-settings-general.php:590
+msgid "Show this message when password is empty."
+msgstr "Muestra este mensaje cuando la contraseña está vacía."
+
+#: includes/functions-ur-core.php:754
+msgid "Enter text for the form field description."
+msgstr "Introduce el texto para la descripción del campo de formulario."
+
+#: includes/functions-ur-core.php:763
+msgid "Unique key for the field."
+msgstr "Clave única para el campo."
+
+#: includes/functions-ur-core.php:963
+msgid "Login method that should be used by the users registered through this form."
+msgstr "El método de acceso que debe ser utilizado por los usuarios registrados a través de este formulario."
+
+#: includes/form/settings/class-ur-setting-text.php:53
+msgid "Allowed maximum number of characters."
+msgstr "Número máximo permitido de caracteres."
+
+#: includes/form/settings/class-ur-setting-number.php:61
+msgid "Amount to increment or decrement at one step."
+msgstr "Cantidad a incrementar o descontar cada vez."
+
+#: includes/functions-ur-core.php:799
+msgid "Check this option to hide the label of this field."
+msgstr "Selecciona esta opción para ocultar la etiqueta de este campo."
+
+#: includes/admin/settings/class-ur-settings-general.php:434
+msgid "Check to hide field labels."
+msgstr "Seleccionar para ocultar las etiquetas de campo."
+
+#: includes/functions-ur-core.php:1098
+#: includes/RestApi/class-ur-rest-api.php:226
+msgid "Choose form template to use."
+msgstr "Elige la plantilla de formulario a usar."
+
+#: includes/form/settings/class-ur-setting-checkbox.php:50
+#: includes/form/settings/class-ur-setting-country.php:42
+#: includes/form/settings/class-ur-setting-date.php:50
+#: includes/form/settings/class-ur-setting-description.php:42
+#: includes/form/settings/class-ur-setting-display_name.php:42
+#: includes/form/settings/class-ur-setting-email.php:39
+#: includes/form/settings/class-ur-setting-first_name.php:42
+#: includes/form/settings/class-ur-setting-last_name.php:42
+#: includes/form/settings/class-ur-setting-nickname.php:42
+#: includes/form/settings/class-ur-setting-number.php:72
+#: includes/form/settings/class-ur-setting-radio.php:37
+#: includes/form/settings/class-ur-setting-select.php:40
+#: includes/form/settings/class-ur-setting-text.php:75
+#: includes/form/settings/class-ur-setting-textarea.php:53
+#: includes/form/settings/class-ur-setting-user_confirm_email.php:43
+#: includes/form/settings/class-ur-setting-user_confirm_password.php:42
+#: includes/form/settings/class-ur-setting-user_email.php:42
+#: includes/form/settings/class-ur-setting-user_login.php:42
+#: includes/form/settings/class-ur-setting-user_pass.php:42
+#: includes/form/settings/class-ur-setting-user_url.php:42
+msgid "Class name to embed in this field."
+msgstr "Nombre de la clase a insertar en este campo."
+
+#: includes/functions-ur-core.php:985
+#: includes/RestApi/class-ur-rest-api.php:260
+msgid "Default role for the users registered through this form."
+msgstr "Rol por defecto para los usuarios registrados a través de este formulario."
+
+#: includes/form/settings/class-ur-setting-country.php:65
+#: includes/form/settings/class-ur-setting-text.php:64
+#: includes/form/settings/class-ur-setting-textarea.php:41
+msgid "Default value for this field."
+msgstr "Valor predefinido para este campo."
+
+#: includes/admin/settings/class-ur-settings-general.php:589
+msgid "Empty Password"
+msgstr "Vaciar contraseña"
+
+#: includes/form/settings/class-ur-setting-date.php:104
+msgid "Enter max date."
+msgstr "Introduce fecha máx."
+
+#: includes/functions-ur-core.php:773
+msgid "Enter placeholder for the field."
+msgstr "Introduce marcador para el campo."
+
+#: includes/admin/settings/class-ur-settings-general.php:430
+msgid "Hide Field Labels"
+msgstr "Ocultar etiquetas de campo"
+
+#: includes/form/settings/class-ur-setting-number.php:50
+msgid "Maximum allowed number."
+msgstr "Número máximo permitido."
+
+#: includes/form/settings/class-ur-setting-number.php:39
+msgid "Minimum allowed number."
+msgstr "Número mínimo permitido."
+
+#: includes/admin/settings/class-ur-settings-general.php:621
+msgid "Pending Approval"
+msgstr "Aprobación pendiente"
+
+#: includes/admin/settings/class-ur-settings-general.php:548
+msgid "Placeholders"
+msgstr "Marcadores"
+
+#: includes/form/settings/class-ur-setting-date.php:119
+msgid "Set current as default."
+msgstr "Fijar el actual como predeterminado"
+
+#: includes/admin/settings/class-ur-settings-general.php:622
+msgid "Show this message when an account is pending approval."
+msgstr "Mostrar este mensaje cuando una cuenta está pendiente de aprobación."
+
+#: includes/admin/settings/class-ur-settings-general.php:612
+msgid "Show this message when email is unknown."
+msgstr "Mostrar este mensaje cuando un correo-e es desconocido."
+
+#: includes/admin/settings/class-ur-settings-general.php:580
+msgid "Show this message when username is empty."
+msgstr "Mostrar este mensaje cuando el nombre de usuario está vacío."
+
+#: includes/admin/settings/class-ur-settings-general.php:601
+msgid "Show this message when username is unknown or invalid."
+msgstr "Mostrar este mensaje cuando el nombre de usuario es desconocido o no válido."
+
+#: includes/admin/settings/class-ur-settings-general.php:497
+#: includes/admin/settings/class-ur-settings-general.php:503
+#: includes/functions-ur-core.php:1148
+msgid "Username or Email"
+msgstr "Nombre de usuario o correo-e"
+
+#: includes/admin/settings/class-ur-settings-general.php:553
+msgid "Username or Email Field"
+msgstr "Nombre de usuario o campo de correo"
+
+#: includes/functions-ur-core.php:786
+msgid "Check this option to mark the field required. A form will not submit unless all required fields are provided."
+msgstr "Marca esta opción para indicar que se trata de un campo obligatorio. El formulario no se enviará a menos que se completen todos los campos obligatorios."
+
+#: includes/admin/settings/class-ur-settings-general.php:144
+msgid "Check to disable logout confirmation."
+msgstr "Marcar para desactivar la confirmación de salir."
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:147
+msgid "Copy Shortcode ! "
+msgstr "¡Copiar shortcode!"
+
+#: includes/admin/settings/class-ur-settings-general.php:528
+msgid "This option lets you edit the \"Login\" button label."
+msgstr "Esta opción te permite editar la etiqueta del botón de «Acceder»."
+
+#: includes/admin/settings/class-ur-settings-general.php:538
+msgid "This option lets you edit the \"Lost your password?\" option label."
+msgstr "Esta opción te permite editar la etiqueta de la opción «¿Has perdido tu contraseña?»."
+
+#: includes/admin/settings/class-ur-settings-general.php:554
+msgid "This option lets you set placeholder for the \"Username or Email\" field."
+msgstr "Esta opción te permite fijar para el marcador de posición «Nombre de usuario o electrónico»."
+
+#: includes/admin/settings/class-ur-settings-general.php:611
+msgid "Unknown Email"
+msgstr "Correo electrónico desconocido"
+
+#: includes/functions-ur-core.php:745
+msgid "Enter text for the form field label. This is recommended and can be hidden in the Advanced Settings."
+msgstr "Introduce el texto para la etiqueta del campo del formulario. Se recomienda hacerlo y puede ser ocultado en los ajustes avanzados."
+
+#: includes/admin/settings/class-ur-settings-general.php:508
+msgid "This option lets you edit the \"Password\" field label."
+msgstr "Esta opción te permite editar la etiqueta del campo «Contraseña»."
+
+#: includes/admin/settings/class-ur-settings-general.php:498
+msgid "This option lets you edit the \"Username or Email\" field label."
+msgstr "Esta opción te permite editar la etiqueta del campo de «Nombre de usuario o correo electrónico»\"."
+
+#: includes/form/settings/class-ur-setting-date.php:67
+msgid "Which format do you want to use to show date."
+msgstr "El formato que quieres usar para mostrar la fecha."
+
+#: includes/functions-ur-core.php:997
+#: includes/RestApi/class-ur-rest-api.php:240
+msgid "Make strong password compulsary."
+msgstr "Obliga a usar una contraseña fuerte."
+
+#: includes/form/settings/class-ur-setting-password.php:39
+msgid "Maximum allowed length of password."
+msgstr "Longitud máxima permitida para la contraseña."
+
+#: includes/functions-ur-core.php:1015
+#: includes/RestApi/class-ur-rest-api.php:247
+msgid "Set minimum required password strength."
+msgstr "Fuerza mínima requerida para la contraseña."
+
+#: includes/form/settings/class-ur-setting-date.php:93
+msgid "Enter min date."
+msgstr "Introduce la fecha mínima."
+
+#: includes/form/settings/class-ur-setting-country.php:54
+msgid "Select countries to give as options."
+msgstr "Selecciona los países que quieres dar como opción."
+
+#: includes/functions-ur-core.php:705
+msgid "User Pass"
+msgstr "Contraseña del usuario"
+
+#: includes/class-ur-frontend-scripts.php:362
+msgid "Uploading..."
+msgstr "Subiendo..."
+
+#: templates/myaccount/form-edit-profile.php:98
+msgid "Upload Picture"
+msgstr "Subir foto"
+
+#: includes/functions-ur-core.php:707
+msgid "User Login"
+msgstr "Acceso del usuario"
+
+#: includes/functions-ur-core.php:714
+msgid "Text"
+msgstr "Texto"
+
+#: includes/functions-ur-core.php:711
+msgid "User URL"
+msgstr "URL del usuario"
+
+#: includes/class-ur-form-handler.php:266
+msgid "Email already exists"
+msgstr "Esta dirección de correo-e ya existe."
+
+#: includes/functions-ur-core.php:704
+msgid "User Confirm Email"
+msgstr "Confirmación del correo del usuario"
+
+#: includes/functions-ur-core.php:706
+msgid "User Confirm Password"
+msgstr "Confirmación de la contraseña del usuario"
+
+#: includes/admin/class-ur-admin-user-list-manager.php:277
+msgid "Registered At"
+msgstr "Registrado el"
+
+#: includes/admin/class-ur-admin-assets.php:426
+msgid "Confirm Deletion"
+msgstr "Confirmar borrado"
+
+#: includes/admin/settings/class-ur-settings-general.php:476
+msgid "Please make sure that you have created a login or my-account page which has a login form before enabling this option. Learn how to create a login form <a href=\"https://docs.wpeverest.com/docs/user-registration/registration-form-and-login-form/how-to-show-login-form/\" target=\"_blank\">here</a>."
+msgstr "Por favor, asegúrate de que has creado una página de login o una página de mi-cuenta que contenga un formulario de login antes de habilitar esta opción. Aprende cómo crear un formulario de login <a href=\"https://docs.wpeverest.com/docs/user-registration/registration-form-and-login-form/how-to-show-login-form/\" target=\"_blank\">aquí</a>."
+
+#: includes/form/settings/class-ur-setting-date.php:56
+msgid "Date Format"
+msgstr "Formato de fecha"
+
+#: includes/admin/views/html-admin-page-forms.php:137
+msgid "Documentation"
+msgstr "Documentación"
+
+#: includes/form/settings/class-ur-setting-date.php:73
+msgid "Enable Min-Max Date"
+msgstr "Activar la fecha mínima y máxima"
+
+#: includes/admin/views/html-admin-page-forms.php:136
+msgid "Create Login Form"
+msgstr "Crear un formulario de acceso"
+
+#: includes/admin/class-ur-admin-assets.php:436
+msgctxt "user registration admin"
+msgid "Please select at least one country."
+msgstr "Por favor, selecciona al menos un país."
+
+#: includes/form/settings/class-ur-setting-date.php:125
+msgid "Enable Date Range"
+msgstr "Habilitar rango de fecha"
+
+#: includes/admin/views/html-admin-page-forms.php:135
+msgid "Get Support"
+msgstr "Obtén soporte"
+
+#: includes/form/settings/class-ur-setting-date.php:97
+msgid "Max Date"
+msgstr "Fecha Máx."
+
+#: includes/form/settings/class-ur-setting-date.php:86
+msgid "Min Date"
+msgstr "Fecha mín."
+
+#: includes/form/settings/class-ur-setting-country.php:45
+msgid "Selected Countries"
+msgstr "Seleccionar países"
+
+#: includes/form/settings/class-ur-setting-date.php:110
+msgid "Set Current Date as Default Date"
+msgstr "Fijar la fecha actual como fecha predeterminada"
+
+#: includes/class-ur-frontend-scripts.php:370
+msgid "Please enter a valid phone number."
+msgstr "Por favor, introduce un número de teléfono válido."
+
+#: includes/admin/class-ur-admin-user-list-manager.php:276
+msgid "Source"
+msgstr "Fuente"
+
+#: includes/RestApi/class-ur-rest-api.php:302
+msgid "Check to enable hide/show password icon."
+msgstr "Marcar para permitir mostrar/ocultar el icono de la contraseña."
+
+#: includes/admin/settings/class-ur-settings-general.php:102
+msgid "Select the page which contains your login form: [%s]"
+msgstr "Seleccionar la página que contiene tu formulario de login: [%s]"
+
+#: includes/frontend/class-ur-frontend-form-handler.php:514
+msgid "Password should not match with Username or Email address."
+msgstr "La contraseña no debe coincidir con el nombre de usuario o la dirección de correo electrónico."
+
+#: includes/class-ur-frontend-scripts.php:383
+msgid "Password strength is not strong enough"
+msgstr "La contraseña no es lo suficientemente fuerte"
+
+#: includes/admin/views/html-admin-page-import-export-forms.php:57
+msgid "Import Forms"
+msgstr "Importar formularios"
+
+#: includes/admin/views/html-admin-page-import-export-forms.php:35
+msgid "Export Forms"
+msgstr "Exportar formularios"
+
+#. translators: 1: Newly registered user count 2: User
+#: includes/admin/class-ur-admin.php:364
+msgid "%1$d new %2$s registered."
+msgstr "%1$d nuevo %2$s registrado."
+
+#: includes/admin/class-ur-admin-import-export-forms.php:179
+msgid "Imported Successfully."
+msgstr "Importado correctamente."
+
+#: includes/admin/class-ur-admin-menus.php:679
+#: includes/admin/views/html-admin-page-forms.php:122
+msgid "Untitled"
+msgstr "Sin título"
+
+#: includes/admin/class-ur-admin-import-export-forms.php:201
+msgid "Invalid file format. Only Json File Allowed."
+msgstr "Formato de archivo no válido. Solo se permiten archivos JSON."
+
+#: includes/admin/views/html-admin-page-import-export-forms.php:22
+msgid "Export your forms along with their settings as <strong>JSON</strong> file."
+msgstr "Exportar tus formularios con sus ajustes como archivo <strong>JSON</strong>."
+
+#: includes/admin/views/html-admin-page-import-export-forms.php:44
+msgid "Import your forms along with their settings from <strong>JSON</strong> file."
+msgstr "Importar tus formularios junto con sus ajustes desde un archivo <strong>JSON</strong>."
+
+#: includes/admin/settings/class-ur-settings-import-export.php:27
+msgid "Import/Export"
+msgstr "Importar/Exportar"
+
+#: includes/admin/class-ur-admin-import-export-forms.php:187
+#: includes/admin/class-ur-admin-import-export-forms.php:194
+msgid "Invalid file content. Please export file from user registration plugin."
+msgstr "Contenido de archivo no válido. Por favor, exporta el archivo desde el plugin User Registration."
+
+#: includes/admin/settings/class-ur-settings-import-export.php:43
+msgid "Import/Export Forms"
+msgstr "Importar/Exportar los formularios"
+
+#: includes/admin/class-ur-admin-import-export-forms.php:208
+msgid "Please select json file to import form data."
+msgstr "Por favor, selecciona el archivo JSON para importar los datos del formulario."
+
+#: includes/admin/views/html-admin-page-forms.php:44
+msgid "Fullscreen"
+msgstr "Pantalla completa"
+
+#: includes/admin/settings/emails/class-ur-settings-profile-details-changed-email.php:26
+msgid "Email sent to the admin when a user changed profile information"
+msgstr "Correo enviado al admin cuando un usuario ha cambiado la información de su perfil"
+
+#: includes/admin/settings/emails/class-ur-settings-profile-details-changed-email.php:49
+msgid "Enable this email sent to the admin when a user changed profile information."
+msgstr "Habilita el correo enviado al admin cuando un usuario cambia su información de perfil."
+
+#: includes/admin/settings/emails/class-ur-settings-profile-details-changed-email.php:25
+#: includes/admin/settings/emails/class-ur-settings-profile-details-changed-email.php:42
+msgid "Profile Details Changed Email"
+msgstr "Cambió el correo-e en los detalles del perfil"
+
+#: includes/admin/settings/emails/class-ur-settings-profile-details-changed-email.php:102
+msgid ""
+"User has changed profile information for the following account:<br/>\n"
+"\n"
+"SiteName: {{blog_info}} <br/>\n"
+"Username: {{username}} <br/>\n"
+"\n"
+"{{all_fields}}\n"
+"<br/>\n"
+"Thank You!"
+msgstr ""
+"El usuario ha cambiado la información de perfil de la siguiente cuenta:<br/>\n"
+"\n"
+"Nombre del sitio: {{blog_info}} <br/>\n"
+"Nombre de usuario: {{username}} <br/>\n"
+"\n"
+"{{all_fields}}\n"
+"<br/>\n"
+"¡Gracias!"
+
+#: includes/class-ur-ajax.php:515 includes/class-ur-form-handler.php:168
+msgid "File size exceed, please check your file size."
+msgstr "El archivo excede el tamaño permitido, por favor, revisa el tamaño de tu archivo."
+
+#: includes/class-ur-ajax.php:522 includes/class-ur-form-handler.php:171
+msgid "Something went wrong while uploading, please contact your site administrator."
+msgstr "Algo fue mal durante la subida. Por favor, contacta con el administrador del sitio."
+
+#: includes/shortcodes/class-ur-shortcode-my-account.php:230
+msgid "No profile details found."
+msgstr "No se han encontrado detalles de perfil."
+
+#: includes/class-ur-ajax.php:91
+msgid "You are already logged in."
+msgstr "Ya has iniciado sesión"
+
+#: includes/admin/settings/class-ur-settings-general.php:317
+#: includes/class-ur-frontend-scripts.php:372
+msgid "Email and confirm email not matched."
+msgstr "El correo electrónico y su confirmación no coinciden."
+
+#: templates/myaccount/form-login.php:102
+msgid "Show password"
+msgstr "Mostrar contraseña"
+
+#: includes/form/settings/class-ur-setting-number.php:53
+msgid "Step"
+msgstr "Paso"
+
+#: includes/form/settings/class-ur-setting-number.php:42
+msgid "Maximum Value"
+msgstr "Valor máximo"
+
+#: includes/form/settings/class-ur-setting-number.php:31
+msgid "Minimum Value"
+msgstr "Valor mínimo"
+
+#: includes/RestApi/class-ur-rest-api.php:301
+msgid "Enable hide/show password"
+msgstr "Activar ocultar/mostrar contraseña."
+
+#: includes/admin/settings/class-ur-settings-general.php:311
+#: includes/form/class-ur-form-field-user-confirm-email.php:52
+msgid "Confirm Email"
+msgstr "Confirmar correo electrónico"
+
+#: includes/form/class-ur-form-field-user-confirm-email.php:47
+msgid "Confirm Email "
+msgstr "Confirmar correo electrónico"
+
+#: includes/frontend/class-ur-frontend-form-handler.php:454
+msgid "Email and confirm email not matched"
+msgstr "La dirección de correo electrónico y la dirección de confirmación no coinciden."
+
+#: includes/frontend/class-ur-frontend-form-handler.php:452
+msgid "Empty confirm email"
+msgstr "Correo electrónico de confirmación vacío"
+
+#: includes/functions-ur-core.php:568
+msgid "Confirm email can not be changed."
+msgstr "La confirmación del correo electrónico no puede ser cambiada."
+
+#: includes/class-ur-plugin-updater.php:446
+#: includes/class-ur-plugin-updater.php:452
+#: includes/class-ur-plugin-updater.php:583
+msgid "%1$s"
+msgstr "%1$s"
+
+#. translators: %s - Form name.
+#: includes/class-ur-preview.php:117 includes/class-ur-preview.php:164
+msgid "%s &ndash; Preview"
+msgstr "%s &ndash; Previsualizar"
+
+#: includes/functions-ur-core.php:565
+msgid "Confirm password can not be changed."
+msgstr "Confirmar que la contraseña no puede ser cambiada."
+
+#: includes/class-ur-preview.php:62
+msgid "Edit Form"
+msgstr "Editar formulario"
+
+#: includes/admin/settings/class-ur-settings-general.php:312
+msgid "Enter the error message in form submission on Confim Email."
+msgstr "Inserta el mensaje de error de envío del formulario a la hora de confirmar el correo-e."
+
+#: includes/class-ur-frontend-scripts.php:381
+msgid "Hide Password"
+msgstr "Ocultar contraseña"
+
+#: includes/form/settings/class-ur-setting-number.php:60
+msgid "Legal Number Intervals"
+msgstr "Intervalos de numero legal"
+
+#: includes/form/settings/class-ur-setting-number.php:49
+msgid "Max Value"
+msgstr "Valor máx."
+
+#: templates/myaccount/form-edit-profile.php:69
+msgid "Max size: "
+msgstr "Tamaño máx."
+
+#: includes/form/settings/class-ur-setting-number.php:38
+#: includes/form/settings/class-ur-setting-user_login.php:52
+msgid "Min Value"
+msgstr "Valor mín."
+
+#: includes/functions-ur-core.php:561
+msgid "Passowrd can not be changed."
+msgstr "La contraseña no se puede cambiar."
+
+#: includes/admin/class-ur-admin-form-templates.php:120
+#: includes/admin/class-ur-admin-registrations-table-list.php:126
+#: includes/admin/views/html-admin-page-form-templates.php:103
+#: includes/admin/views/html-admin-page-forms.php:46
+msgid "Preview"
+msgstr "Previsualizar"
+
+#: includes/admin/class-ur-admin-assets.php:281
+#: includes/admin/views/html-admin-page-forms.php:46
+msgid "Preview Form"
+msgstr "Previsualizar formulario"
+
+#: templates/myaccount/form-edit-profile.php:33
+msgid "Profile Detail"
+msgstr "Detalle del perfil"
+
+#: includes/class-ur-frontend-scripts.php:382
+#: templates/myaccount/form-edit-password.php:44
+#: templates/myaccount/form-edit-password.php:56
+#: templates/myaccount/form-edit-password.php:67
+#: templates/myaccount/form-reset-password.php:37
+#: templates/myaccount/form-reset-password.php:48
+msgid "Show Password"
+msgstr "Mostrar contraseña"
+
+#: templates/myaccount/form-edit-profile.php:72
+msgid "Upload your new profile image."
+msgstr "Subir tu nueva imagen de perfil"
+
+#: includes/functions-ur-core.php:557
+msgid "Username can not be changed."
+msgstr "El nombre de usuario no se puede cambiar."
+
+#. translators: %s - Users display name.
+#: templates/myaccount/dashboard.php:28
+msgid "Welcome, %1$s"
+msgstr "Bienvenido/a %1$s"
+
+#: includes/class-ur-form-handler.php:386
+msgid "Please enter your new password."
+msgstr "Por favor, introduce tu nueva contraseña."
+
+#: includes/admin/class-ur-admin.php:238 includes/admin/class-ur-admin.php:309
+msgid "I already did!"
+msgstr "¡Ya lo hice!"
+
+#: includes/admin/class-ur-admin.php:242 includes/admin/class-ur-admin.php:313
+msgid "Never show again"
+msgstr "No mostrar de nuevo"
+
+#: includes/admin/class-ur-admin.php:237 includes/admin/class-ur-admin.php:308
+msgid "Sure, I'd love to!"
+msgstr "¡Claro, me encantaría!"
+
+#: templates/dashboard-widget.php:58
+msgid "Total"
+msgstr "Total"
+
+#: templates/dashboard-widget.php:52
+msgid "Last Month"
+msgstr "El mes pasado"
+
+#: templates/dashboard-widget.php:46
+msgid "Last Week"
+msgstr "La semana pasada"
+
+#: templates/dashboard-widget.php:40
+msgid "Today"
+msgstr "Hoy"
+
+#: templates/dashboard-widget.php:29
+msgid "Current Version:"
+msgstr "Versión actual:"
+
+#: includes/admin/class-ur-admin-settings.php:649
+msgid "Upload Image"
+msgstr "Subir Imagen"
+
+#: templates/myaccount/form-edit-profile.php:94
+msgid "Remove"
+msgstr "Eliminar"
+
+#: includes/admin/class-ur-admin-assets.php:203
+msgid "Select Image"
+msgstr "Seleccionar imagen"
+
+#: includes/admin/class-ur-admin-assets.php:202
+msgid "Upload Profile Picture"
+msgstr "Actualizar la foto de perfil"
+
+#: includes/admin/functions-ur-admin.php:26
+msgid "User Registration Activity"
+msgstr "Actividad de User Registration"
+
+#: templates/myaccount/form-edit-profile.php:113
+msgid "You can change your profile picture on"
+msgstr "Puedes cambiar tu foto de perfil en"
+
+#: includes/admin/functions-ur-admin.php:42
+msgid "loading..."
+msgstr "cargando..."
+
+#: includes/class-ur-form-handler.php:757
+msgid "Thanks for confirming your erasure request."
+msgstr "Gracias por confirmar tu solicitud de borrado."
+
+#: includes/class-ur-form-handler.php:755
+msgid "Thanks for confirming your export request."
+msgstr "Gracias por confirmar tu solicitud de exportación."
+
+#: includes/class-ur-cache-helper.php:86
+msgid "In order for <strong>database caching</strong> to work with User Registration you must add %1$s to the \"Ignored Query Strings\" option in <a href=\"%2$s\">W3 Total Cache settings</a>."
+msgstr "Para que <strong>la caché de la base datos</strong> funcione con User Registration, debes añadir %1$s a la opción «Cadenas de petición ignoradas» en los <a href=\"%2$s\">ajustes de W3 Total Cache</a>."
+
+#: includes/form/class-ur-form-field-checkbox.php:52
+#: includes/form/class-ur-form-field-radio.php:52
+#: includes/form/class-ur-form-field-select.php:52
+#: includes/functions-ur-core.php:831
+msgid "First Choice"
+msgstr "Primera elección"
+
+#: includes/class-ur-form-handler.php:740
+msgid "Invalid Key"
+msgstr "Clave no válida"
+
+#: includes/form/class-ur-form-field-checkbox.php:53
+#: includes/form/class-ur-form-field-radio.php:53
+#: includes/form/class-ur-form-field-select.php:53
+#: includes/functions-ur-core.php:832
+msgid "Second Choice"
+msgstr "Segunda elección"
+
+#: includes/form/class-ur-form-field-checkbox.php:54
+#: includes/form/class-ur-form-field-radio.php:54
+#: includes/form/class-ur-form-field-select.php:54
+#: includes/functions-ur-core.php:833
+msgid "Third Choice"
+msgstr "Tercera elección"
+
+#: includes/class-ur-ajax.php:826
+msgid "Could not save form, "
+msgstr "No se pudo guardar el formulario,"
+
+#: includes/admin/class-ur-admin-welcome.php:64
+#: includes/class-ur-form-block.php:66
+msgid "Form"
+msgstr "Formulario"
+
+#: includes/admin/class-ur-admin-assets.php:414
+msgctxt "user-registration admin"
+msgid "User Password"
+msgstr "Contraseña de usuario"
+
+#: includes/admin/settings/emails/class-ur-settings-email-confirmation.php:25
+msgid "Email sent to the user with a verification link when email confirmation to register option is choosen"
+msgstr "Correo electrónico enviado al usuario con enlace de verificación cuando se selecciona la opción de confirmación de registro."
+
+#: includes/admin/class-ur-admin-welcome.php:63
+#: includes/admin/views/html-admin-page-forms.php:68
+#: includes/class-ur-form-block.php:65
+msgid "Form Settings"
+msgstr "Ajustes del formulario"
+
+#: includes/admin/class-ur-admin-assets.php:413
+msgctxt "user-registration admin"
+msgid "User Email"
+msgstr "Correo electrónico del usuario"
+
+#: includes/class-ur-ajax.php:145 includes/class-ur-ajax.php:617
+#: includes/class-ur-form-handler.php:492
+#: includes/class-ur-form-handler.php:631
+msgid "Error on google reCaptcha. Contact your site administrator."
+msgstr "Error de Google reCaptcha. Contacta con el administrador del sitio."
+
+#: templates/form-registration.php:158
+msgid "Form not found, form id :"
+msgstr "Formulario no encontrado, ID de formulario :"
+
+#: includes/admin/class-ur-admin-welcome.php:61
+#: includes/class-ur-form-block.php:63
+msgid "Select &#38; display one of your form."
+msgstr "Seleccionar &#38; mostrar uno de tus formularios."
+
+#: includes/admin/class-ur-admin-welcome.php:62
+#: includes/class-ur-form-block.php:64
+msgid "Select a Form"
+msgstr "Seleccionar formulario"
+
+#: includes/admin/class-ur-admin-assets.php:434
+msgctxt "user registration admin"
+msgid "field is required."
+msgstr "el campo es obligatorio."
+
+#: includes/class-ur-privacy.php:91
+msgid "We send beautiful email through MailChimp. When processing emails, some of your data will be passed to MailChimp, including information required to process or support the email marketing services, such as the name, email address and any other information that you intend to pass or collect including all collected information through subscription."
+msgstr "Enviamos bonitos correos electrónicos mediante MailChimp. Al procesar los correos electrónicos, algunos de tus datos serán transferidos a MailChimp, incluyendo la información necesaria para procesar o apoyar los servicios de marketing por correo electrónico, como el nombre, la dirección de correo electrónico y cualquier otra información que intentes enviar o recopilar, incluyendo toda la información recopilada a través de la suscripción."
+
+#: includes/class-ur-privacy.php:89
+msgid "In this subsection you should list which third party modules you’re using to increase functionality on your site since these may handle customer data. We’ve included MailChimp as an example, but you should remove this if you’re not using MailChimp."
+msgstr "En esta subsección deberías incluir una lista de los módulos de terceros que usar para aumentar la funcionalidad de tu sitio, ya que estos gestionan datos del cliente. Hemos incluido MailChimp como ejemplo, pero puedes quitarlo si tú no lo estás usando."
+
+#: includes/functions-ur-core.php:1001
+#: includes/RestApi/class-ur-rest-api.php:246
+msgid "Minimum Password Strength"
+msgstr "Fuerza de contraseña mínima"
+
+#: includes/class-ur-privacy.php:92
+msgid "Please see the <a href=\"https://mailchimp.com/legal/privacy/\">MailChimp Privacy Policy</a> for more details."
+msgstr "Por favor, lee la <a href=\"https://mailchimp.com/legal/privacy/\">Política de privacidad de MailChimp</a> para más detalles."
+
+#: includes/class-ur-privacy.php:87
+msgid "Available Modules"
+msgstr "Módulos disponibels"
+
+#: includes/class-ur-privacy.php:85
+msgid "We accept payments through PayPal. When processing payments, some of your data will be passed to PayPal, including information required to process or support the payment, such as the purchase total and billing information."
+msgstr "Aceptamos pagos a través de PayPal. Cuando se procesan los pagos, algunos de tus datos serán pasados a PayPal, incluyendo la información requerida para el proceso o soporte de pago, como el total de la compra y la información de facturación."
+
+#: includes/class-ur-privacy.php:86
+msgid "Please see the <a href=\"https://www.paypal.com/us/webapps/mpp/ua/privacy-full\">PayPal Privacy Policy</a> for more details."
+msgstr "Por favor, lee la <a href=\"https://www.paypal.com/us/webapps/mpp/ua/privacy-full\">política de privacidad de PayPal</a> para más detalles."
+
+#: includes/class-ur-privacy.php:81
+msgid "Payments"
+msgstr "Pagos"
+
+#: includes/class-ur-privacy.php:73
+msgid "Customer information like your name, email and address information."
+msgstr "Información del cliente como su nombre, correo electrónico e información de dirección."
+
+#: includes/class-ur-privacy.php:69
+msgid "Who on our team has access"
+msgstr "Quién de nuestro equipo tiene acceso"
+
+#: includes/class-ur-privacy.php:72
+msgid "Form submission information and other details related to it"
+msgstr "Información de envío de formulario y otros detalles relacionados"
+
+#: includes/class-ur-privacy.php:78
+msgid "In this section you should list who you’re sharing data with, and for what purpose. This could include, but may not be limited to, analytics, marketing, payment gateways, shipping providers, and third party embeds."
+msgstr "En esta sección deberías incluir una lista de con quién compartes los datos y con qué finalidad. Esto puede incluir, entre otras cosas, analíticas, marketing, pasarelas de pago, proveedores de envío e integraciones de terceros."
+
+#: includes/class-ur-privacy.php:70
+msgid "Members of our team have access to the information you provide us. For example, both Administrators and Editors can access:"
+msgstr "Los miembros de nuestro equipo tienen acceso a la información que nos proporcionas. Por ejemplo, Administradores y Editores pueden acceder a:"
+
+#: includes/class-ur-privacy.php:75
+msgid "Our team members have access to this information to help fulfill entries and support you."
+msgstr "Nuestro equipo tiene acceso a esta información para ayudar a rellenar entradas y darte soporte."
+
+#: includes/class-ur-privacy.php:68
+msgid "We generally store information about you for as long as we need the information for the purposes for which we collect and use it, and we are not legally required to continue to keep it. For example, we will store form submission information for XXX years for geolocating and marketting purposes. This includes your name, address, email, phone number."
+msgstr "Generalmente, almacenamos información sobre ti durante el tiempo en que la necesitamos para la finalidad para la que la recogimos, y no estamos obligados a continuar guardándola. Por ejemplo, almacenamos la información del formulario de envío durante XXX años para geolocalización y marketing. Esto incluye tu nombre, dirección, correo-e y número de teléfono."
+
+#: includes/class-ur-privacy.php:80
+msgid "We share information with third parties who help us provide our orders and store services to you; for example --"
+msgstr "Compartimos información con terceros que nos ayudan a proveer nuestros pedidos y servicios de almacenamiento para ti; por ejemplo --"
+
+#: includes/class-ur-privacy.php:76
+msgid "What we share with others"
+msgstr "Qué compartimos con otros"
+
+#: includes/class-ur-privacy.php:58
+msgid "Send you information about your account and order"
+msgstr "Enviarte información sobre tu cuenta y pedido"
+
+#: includes/class-ur-privacy.php:62
+msgid "Comply with any legal obligations we have, such as calculating taxes"
+msgstr "Cumplir con cualquier obligación legal que tengamos, como calcular las tasas."
+
+#: includes/class-ur-privacy.php:63
+msgid "Improve our form offerings"
+msgstr "Mejorar nuestras ofertas de formulario"
+
+#: includes/class-ur-privacy.php:65
+msgid "Or any other service the built form was created to comply with and it’s necessary information"
+msgstr "O para cumplir con cualquier otro servicio para el que el formulario fue creado y sea necesaria la información"
+
+#: includes/class-ur-privacy.php:60
+msgid "Process payments and prevent fraud"
+msgstr "Procesar pagos y prevenir el fraude"
+
+#: includes/class-ur-privacy.php:59
+msgid "Respond to your requests, including transaction details and complaints"
+msgstr "Responde a tus solicitudes, incluyendo detalles de transacción y quejas"
+
+#: includes/class-ur-privacy.php:64
+msgid "Send you marketing messages, if you choose to receive them"
+msgstr "Enviarte mensajes de marketing, si eliges recibirlos"
+
+#: includes/class-ur-privacy.php:61
+msgid "Set up your account for our site"
+msgstr "Configurar tu cuenta par nuestro sitio"
+
+#: includes/class-ur-privacy.php:52
+msgid "Form Fields Data: Forms Fields data includes the available field types when creating a form. We’ll use this to, for example, collect informations like Name, Email and other available fields."
+msgstr "Datos de los campos del formulario: los datos de los campos de los formularios incluyen los tipos de campo disponibles al crear un formulario. Los utilizaremos para, por ejemplo, recopilar información como el nombre, el correo electrónico y otros campos disponibles."
+
+#: includes/class-ur-privacy.php:53
+msgid "Location, IP address and browser type: we’ll use this for purposes like geolocating users and reducing fraudulent activities."
+msgstr "Ubicación, dirección IP y tipo de navegador: usaremos esto para finalidades como la geolocalización de usuarios y la reducción de actividades fraudulentas."
+
+#: includes/class-ur-privacy.php:54
+msgid "Transaction Details: we’ll ask you to enter this so we can, for instance, provide subscription packs, and keep track of your payment details for subscription packs!"
+msgstr "Detalles de transacción: te pediremos que los introduzcas para que podamos, por ejemplo, proveer paquetes de suscripción y rastrear tus detalles de pago para paquetes de suscripciones."
+
+#: includes/class-ur-privacy.php:45
+msgid "This sample policy includes the basics around what personal data you may be collecting, storing and sharing, as well as who may have access to that data. Depending on what settings are enabled and which additional plugins are used, the specific information shared by your form will vary. We recommend consulting with a lawyer when deciding what information to disclose on your privacy policy."
+msgstr "Este modelo de política incluye lo básico sobre datos personales que puedes recoger, almacenar y compartir, así como quién tiene acceso a los datos. Dependiendo de los ajustes habilitados y de los plugins adicionales que uses, la información específica compartida por tu formulario puede variar. Recomendamos consultar a un abogado para decidir qué información incluir en tu política de privacidad."
+
+#: includes/class-ur-privacy.php:48
+msgid "We collect information about the user during the user registration form submission process on our site."
+msgstr "Recogemos información sobre el usuario durante el proceso de envío del formulario del registro en nuestra web."
+
+#: includes/class-ur-privacy.php:49
+msgid "What we collect and store"
+msgstr "Qué recogemos y almacenamos"
+
+#: includes/class-ur-privacy.php:50
+msgid "While you visit our site, we’ll track:"
+msgstr "Cuando visitas nuestra web, restreamos:"
+
+#: includes/class-ur-frontend-scripts.php:396
+#: includes/functions-ur-core.php:1011
+#: includes/RestApi/class-ur-rest-api.php:255
+msgid "Strong"
+msgstr "Fuerte"
+
+#: includes/admin/settings/class-ur-settings-import-export.php:42
+#: includes/admin/views/html-admin-page-export-users.php:36
+msgid "Export Users"
+msgstr "Exportar usuarios"
+
+#: includes/class-ur-frontend-scripts.php:395
+#: includes/functions-ur-core.php:1010
+#: includes/RestApi/class-ur-rest-api.php:254
+msgid "Medium"
+msgstr "Medio"
+
+#: includes/class-ur-frontend-scripts.php:393
+#: includes/functions-ur-core.php:1008
+#: includes/RestApi/class-ur-rest-api.php:252
+msgid "Very Weak"
+msgstr "Muy débil"
+
+#: includes/admin/class-ur-admin-export-users.php:135
+msgid "User Registered"
+msgstr "Usuario registrado"
+
+#: includes/admin/class-ur-admin-export-users.php:77
+msgid "No users found with this form id."
+msgstr "No se han encontrado usuarios con este ID de formulario."
+
+#: includes/admin/class-ur-admin-export-users.php:136
+msgid "User Registered GMT"
+msgstr "Usuario registrado GMT"
+
+#: includes/admin/class-ur-admin-export-users.php:133
+msgid "User Role"
+msgstr "Perfil de usuario"
+
+#: includes/admin/views/html-admin-page-export-users.php:22
+msgid "Export your users along with their extra information registered with a user registration form as a <strong>CSV</strong> file."
+msgstr "Exportar tus usuarios junto con su información extra de registro con un formulario de registro de usuario como un archivo <strong>CSV</strong>."
+
+#: includes/class-ur-frontend-scripts.php:400
+msgid "Hint: To make password stronger, use upper and lower case letters, numbers, and symbols like ! \" ? $ % ^ & )."
+msgstr "Recomendación: Para hacer que tu contraseña sea más fuerte, combina mayúsculas y minúsculas, números y símbolos como ! \" ? $ % ^ & )."
+
+#: includes/class-ur-frontend-scripts.php:391
+msgid "Please enter a stronger password."
+msgstr "Por favor, introduce una contraseña fuerte."
+
+#: includes/admin/class-ur-admin-export-users.php:142
+msgid "User ID"
+msgstr "ID de Usuario"
+
+#: includes/class-ur-frontend-scripts.php:394
+#: includes/functions-ur-core.php:1009
+#: includes/RestApi/class-ur-rest-api.php:253
+msgid "Weak"
+msgstr "Débil"
+
+#: includes/admin/settings/class-ur-settings-general.php:424
+#: includes/RestApi/class-ur-rest-api.php:287
+msgid "Check to enable/disable lost password."
+msgstr "Marca para activar/desactivar contraseña perdida."
+
+#: includes/RestApi/class-ur-rest-api.php:286
+msgid "Enable lost password"
+msgstr "Activa contraseña perdida."
+
+#: includes/admin/settings/class-ur-settings-general.php:43
+msgid "Login Options"
+msgstr "Opciones de logueo."
+
+#: includes/RestApi/class-ur-rest-api.php:294
+msgid "Check to enable/disable remember me."
+msgstr "Selecciona"
+
+#: includes/admin/settings/class-ur-settings-general.php:366
+#: includes/RestApi/class-ur-rest-api.php:273
+msgid "Choose the login form template."
+msgstr "Elige la plantilla de formulario de acceso."
+
+#: includes/RestApi/class-ur-rest-api.php:293
+msgid "Enable remember me"
+msgstr "Habilitar recuérdame"
+
+#: includes/admin/settings/class-ur-settings-general.php:365
+#: includes/functions-ur-core.php:1083
+#: includes/RestApi/class-ur-rest-api.php:225
+#: includes/RestApi/class-ur-rest-api.php:272
+msgid "Form Template"
+msgstr "Plantilla de formulario"
+
+#: includes/admin/views/html-admin-page-forms.php:35
+msgid "Copy Shortcode!"
+msgstr "¡Copia el shortcode!"
+
+#: includes/admin/views/html-admin-page-forms.php:35
+msgid "Copied!"
+msgstr "¡Copiado!"
+
+#: includes/admin/views/html-notice-deactivation.php:23
+msgid "Before we deactivate User Registration, would you care to <a href=\"%1$s\" target=\"_blank\">let us know why</a> so we can improve it for you? <a href=\"%2$s\">No, deactivate now</a>."
+msgstr "Antes de desactivar User Registration, ¿te importaría <a href=\"%1$s\" target=\"_blank\">decirnos la razón</a> para que podamos mejorar para ti? <a href=\"%2$s\">No, desactivar ahora</a>."
+
+#: templates/myaccount/form-edit-password.php:39
+msgid "Current password"
+msgstr "Contraseña actual"
+
+#: includes/admin/settings/class-ur-settings-general.php:168
+msgid "Endpoint for the \"My account &rarr; Change Password\" page."
+msgstr "Variable para la página \"Mi cuenta & rarr; Cambiar contraseña\"."
+
+#: includes/admin/settings/class-ur-settings-general.php:167
+#: includes/class-ur-query.php:72 includes/functions-ur-account.php:122
+#: templates/myaccount/form-edit-password.php:35
+msgid "Change Password"
+msgstr "Cambiar contraseña"
+
+#: includes/admin/settings/class-ur-settings-general.php:156
+msgid "Endpoints: "
+msgstr "Variables: "
+
+#: includes/admin/settings/class-ur-settings-general.php:121
+#: includes/RestApi/class-ur-rest-api.php:320
+msgid "Vertical"
+msgstr "Vertical"
+
+#: includes/class-ur-form-handler.php:419
+msgid "Password changed successfully."
+msgstr "Contraseña actualizada con éxito."
+
+#: includes/admin/settings/class-ur-settings-general.php:120
+#: includes/RestApi/class-ur-rest-api.php:319
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: includes/admin/settings/class-ur-settings-general.php:96
+msgid "My account Section"
+msgstr "Sección de Mi cuenta"
+
+#: templates/myaccount/form-edit-profile.php:113
+msgid "Gravatar"
+msgstr "Gravatar"
+
+#. translators: 1 profile details url, 2: change password url
+#: templates/myaccount/dashboard.php:75
+msgid "From your account dashboard you can edit your <a href=\"%1$s\"> profile details</a> and <a href=\"%2$s\">edit your password</a>."
+msgstr "Puedes editar los <a href=\"%1$s\">detalles de tu perfil</a> en la página de tu cuenta y <a href=\"%2$s\">cambiar tu contraseña</a>."
+
+#: includes/RestApi/class-ur-rest-api.php:314
+msgid "This option lets you choose layout for user registration my account tab."
+msgstr "Esta opción te permite elegir el diseño para el registro de usuario en la pestaña \"mi cuenta\"."
+
+#: includes/admin/class-ur-admin-assets.php:422
+msgctxt "user registration admin"
+msgid "Could not clone this field."
+msgstr "No se pudo clonar este campo."
+
+#. translators: %s - Link to logout.
+#. translators: 1: Link and username of user 2: Logout url
+#: includes/class-ur-ajax.php:193 includes/class-ur-shortcodes.php:191
+msgid "You are currently logged in as %1$1s. %2$2s"
+msgstr "Actualmente estás conectado como %1$1s. %2$2s"
+
+#. translators: %s - Lost password URL
+#: includes/functions-ur-account.php:58
+msgid "Invalid username. %1s"
+msgstr "Nombre de usuario no válido. %1s"
+
+#: includes/admin/settings/class-ur-settings-general.php:111
+msgid "Layout"
+msgstr "Plantilla"
+
+#: includes/admin/class-ur-admin-assets.php:421
+msgctxt "user registration admin"
+msgid "This field is one time draggable."
+msgstr "Este campo se puede mover una vez."
+
+#. translators: %s - Resend Verification Link.
+#: includes/class-ur-email-confirmation.php:375
+#: includes/class-ur-user-approval.php:232
+#: includes/class-ur-user-approval.php:259
+msgid "Resend Verification Link"
+msgstr "Reenviar enlace de verificación"
+
+#: includes/admin/settings/emails/class-ur-settings-successfully-registered-email.php:90
+msgid ""
+"Hi {{username}}, <br/>\n"
+"\n"
+"You have successfully completed user registration on <a href=\"{{home_url}}\">{{blog_info}}</a>. <br/>\n"
+"\n"
+"Please visit '<b>My Account</b>' page to edit your account details and create your user profile on <a href=\"{{home_url}}\">{{blog_info}}</a>. <br/>\n"
+"\n"
+"Thank You!"
+msgstr ""
+"Hola {{username}},<br/>\n"
+"\n"
+"Has completado correctamente el registro de usuario en <a href=\"{{home_url}}\">{{blog_info}}</a>.<br/>\n"
+"\n"
+"Por favor, visita la página «<b>Mi cuenta</b>» para editar los detalles de tu cuenta y crear tu perfil de usuario en <a href=\"{{home_url}}\">{{blog_info}}</a>.<br/>\n"
+"\n"
+"¡Gracias!"
+
+#. translators: 1 User login, 2: lost password url
+#. translators: %s - Username
+#. translators: %s - Lost password URL
+#: includes/admin/settings/class-ur-settings-general.php:537
+#: includes/class-ur-ajax.php:672 includes/functions-ur-account.php:55
+#: includes/functions-ur-account.php:58
+msgid "Lost Your Password?"
+msgstr "¿Has perdido tu contraseña?"
+
+#. translators: 1 User login, 2: lost password url
+#. translators: %s - Username
+#: includes/class-ur-ajax.php:672 includes/functions-ur-account.php:55
+msgid "The password you entered for username %1$1s is incorrect. %2$2s"
+msgstr "La contraseña que introdujiste para nombre de usuario %1$1s es incorrecta. %2$2s"
+
+#: includes/admin/settings/emails/class-ur-settings-registration-pending-email.php:92
+msgid ""
+"Hi {{username}}, <br/>\n"
+"\n"
+"Your registration on <a href=\"{{home_url}}\">{{blog_info}}</a> has been changed to pending. <br/>\n"
+"\n"
+"Sorry for the inconvenience. <br/>\n"
+"\n"
+"You will be notified after it is approved. <br/>\n"
+"\n"
+"Thank You!"
+msgstr ""
+"Hola {{username}},<br/>\n"
+"\n"
+"Tu registro en <a href=\"{{home_url}}\">{{blog_info}}</a> ha sido cambiado a pendiente.<br/>\n"
+"\n"
+"Perdona las molestias.<br/>\n"
+"\n"
+"Serás avisado después de que sea aprobado.<br/>\n"
+"\n"
+"¡Gracias!"
+
+#: includes/admin/settings/emails/class-ur-settings-registration-denied-email.php:90
+msgid ""
+"Hi {{username}}, <br/>\n"
+"\n"
+"You have registered on <a href=\"{{home_url}}\">{{blog_info}}</a>. <br/>\n"
+"\n"
+"Unfortunately your registration is denied. Sorry for the inconvenience. <br/>\n"
+"\n"
+"Thank You!"
+msgstr ""
+"Hola {{username}}, <br/>\n"
+"\n"
+"Te has registrado en <a href=\"{{home_url}}\">{{blog_info}}</a>. <br/>\n"
+"\n"
+"Desafortunadamente, tu registro ha sido denegado. Disculpa por las molestias. <br/>\n"
+"\n"
+"¡Gracias!"
+
+#: includes/admin/settings/emails/class-ur-settings-registration-approved-email.php:90
+msgid ""
+"Hi {{username}}, <br/>\n"
+"\n"
+"Your registration on <a href=\"{{home_url}}\">{{blog_info}}</a>  has been approved. <br/>\n"
+"\n"
+"Please visit '<b>My Account</b>' page to edit your account details and create your user profile on <a href=\"{{home_url}}\">{{blog_info}}</a>. <br/>\n"
+"\n"
+"Thank You!"
+msgstr ""
+"Hola {{username}}, <br/>\n"
+"\n"
+"Tu registro en <a href=\"{{home_url}}\">{{blog_info}}</a>  ha sido aprobado. <br/>\n"
+"\n"
+"Por favor, visita la página '<b>Mi cuenta</b>' para editar los detalles de tu cuenta y crear tu perfil de usuario en  <a href=\"{{home_url}}\">{{blog_info}}</a>. <br/>\n"
+"\n"
+"¡Gracias!"
+
+#: includes/admin/settings/emails/class-ur-settings-email-confirmation.php:82
+msgid ""
+"Hi {{username}}, <br/>\n"
+"\n"
+"You have registered on <a href=\"{{home_url}}\">{{blog_info}}</a>. <br/>\n"
+"\n"
+"Please click on this verification link <a href=\"{{home_url}}/{{ur_login}}?ur_token={{email_token}}\">Click here</a> to confirm registration. <br/>\n"
+"\n"
+"Thank You!"
+msgstr ""
+"Hola {{username}}, <br/>\n"
+"\n"
+"Te has registrado en <a href=\"{{home_url}}\">{{blog_info}}</a>. <br/>\n"
+"\n"
+"Por favor, haz clic <a href=\"{{home_url}}/{{ur_login}}?ur_token={{email_token}}\">en este enlace de verificación</a> para confirmar el registro. <br/>\n"
+"\n"
+"¡Gracias!"
+
+#: includes/admin/settings/class-ur-settings-general.php:307
+#: includes/class-ur-frontend-scripts.php:368
+msgid "Please enter a valid number."
+msgstr "Por favor, introduce un número válido."
+
+#: includes/admin/settings/class-ur-settings-general.php:297
+#: includes/class-ur-frontend-scripts.php:367
+msgid "Please enter a valid URL."
+msgstr "Por favor, introduce una URL válida."
+
+#: includes/admin/settings/class-ur-settings-general.php:258
+msgid "Error Messages"
+msgstr "Mensajes de error"
+
+#: includes/admin/settings/class-ur-settings-general.php:212
+msgid "Success Messages"
+msgstr "Mensajes de éxito"
+
+#: includes/admin/settings/class-ur-settings-general.php:287
+#: includes/class-ur-frontend-scripts.php:366
+msgid "Please enter a valid email address."
+msgstr "Por favor, introduce una dirección de correo electrónico válida."
+
+#: includes/admin/settings/class-ur-settings-general.php:322
+msgid "Enter the error message in form submission on Confim Password."
+msgstr "Introduce el mensaje de error al enviar el formulario en la confirmación del correo electrónico."
+
+#: includes/admin/settings/class-ur-settings-general.php:282
+msgid "Enter the error message in form submission on Email."
+msgstr "Introduce el mensaje de error al enviar el formulario en la confirmación del correo electrónico."
+
+#: includes/admin/settings/class-ur-settings-general.php:291
+msgid "Website URL"
+msgstr "URL de la web"
+
+#: includes/admin/settings/emails/class-ur-settings-admin-email.php:55
+#: includes/admin/settings/emails/class-ur-settings-profile-details-changed-email.php:56
+msgid "Email Receipents"
+msgstr "Destinatarios del correo"
+
+#: includes/admin/settings/class-ur-settings-general.php:327
+#: includes/class-ur-frontend-scripts.php:369
+msgid "Password and confirm password not matched."
+msgstr "La contraseña y la confirmación de contraseña no coinciden."
+
+#: includes/frontend/class-ur-frontend-form-handler.php:140
+msgid "Something went wrong! please try again"
+msgstr "¡Algo fue mal! Por favor, inténtalo de nuevo."
+
+#: includes/admin/settings/class-ur-settings-general.php:269
+#: includes/class-ur-frontend-scripts.php:365
+msgid "This field is required."
+msgstr "Este campo es obilgatorio."
+
+#: includes/admin/settings/emails/class-ur-settings-admin-email.php:56
+#: includes/admin/settings/emails/class-ur-settings-profile-details-changed-email.php:57
+msgid "Use comma to send emails to multiple receipents."
+msgstr "Usa la coma para enviar correos a múltiples destinatarios."
+
+#: includes/admin/settings/class-ur-settings-general.php:332
+msgid "Enter the error message in form submission on recaptcha."
+msgstr "Introduce el mensaje de error al enviar el formulario en reCAPTCHA."
+
+#: includes/admin/settings/emails/class-ur-settings-reset-password-email.php:89
+msgid ""
+"Someone has requested a password reset for the following account: <br/>\n"
+"\n"
+"SiteName: {{blog_info}} <br/>\n"
+"Username: {{username}} <br/>\n"
+"\n"
+"If this was a mistake, just ignore this email and nothing will happen. <br/>\n"
+"\n"
+"To reset your password, visit the following address: <br/>\n"
+"<a href=\"{{home_url}}/{{ur_login}}?action=rp&key={{key}}&login={{username}} \" rel=\"noreferrer noopener\" target=\"_blank\">Click Here</a><br/>\n"
+"\n"
+"Thank You!"
+msgstr ""
+"Alguien ha requerido un reestablecimiento de contraseña para la siguiente cuenta: <br/>\n"
+"\n"
+"Nombre del sitio: {{blog_info}} <br/>\n"
+"Nombre de usuario: {{username}} <br/>\n"
+"\n"
+"Si esto ha sido un error, ignora este correo y no pasará nada. <br/>\n"
+"\n"
+"Para reestablecer tu contraseña, visita la siguiente dirección: <br/>\n"
+"<a href=\"{{home_url}}/{{ur_login}}?action=rp&key={{key}}&login={{username}} \" rel=\"noreferrer noopener\" target=\"_blank\">Click Aquí</a><br/>\n"
+"\n"
+"¡Gracias!"
+
+#: includes/shortcodes/class-ur-shortcode-my-account.php:389
+msgid "The email could not be sent. Contact your site administrator. "
+msgstr "El correo electrónico no ha podido ser enviado. Contacta con el administrador de tu sitio. "
+
+#: includes/admin/settings/emails/class-ur-settings-reset-password-email.php:48
+msgid "Enable this email sent to the user when a user requests for reset password."
+msgstr "Activa este envío de correo electrónico al usuario cuando un usuario solicita restablecer la contraseña."
+
+#: includes/admin/settings/emails/class-ur-settings-reset-password-email.php:24
+#: includes/admin/settings/emails/class-ur-settings-reset-password-email.php:41
+msgid "Reset Password Email"
+msgstr "Correo electrónico para restablecer la contraseña"
+
+#: includes/admin/settings/emails/class-ur-settings-reset-password-email.php:25
+msgid "Email sent to the user when a user requests for reset password"
+msgstr "Correo enviado al usuario cuando un usuario solicita un reestablecimiento de contraseña"
+
+#: includes/admin/settings/emails/class-ur-settings-reset-password-email.php:59
+#: includes/class-ur-emailer.php:467
+msgid "Password Reset Email: {{blog_info}}"
+msgstr "Correo de reestablecimiento de contraseña: {{blog_info}}"
+
+#: includes/class-ur-email-confirmation.php:166
+msgid "User does not exist!"
+msgstr "¡El usuario no existe!"
+
+#: includes/class-ur-email-confirmation.php:159
+msgid "Verification Email Sent!"
+msgstr "¡El correo electrónico de verificación ha sido enviado!"
+
+#: includes/functions-ur-core.php:791
+msgid "Hide Label"
+msgstr "Ocultar etiqueta"
+
+#: includes/functions-ur-core.php:713 includes/functions-ur-core.php:750
+#: includes/functions-ur-core.php:752
+msgid "Description"
+msgstr "Descripción"
+
+#: includes/admin/settings/class-ur-settings-general.php:44
+msgid "Frontend Messages"
+msgstr "Mensajes de la interfaz"
+
+#: includes/admin/class-ur-admin-user-list-manager.php:214
+msgid "Users"
+msgstr "Usuarios"
+
+#: includes/admin/class-ur-admin-user-list-manager.php:214
+msgid "User Registration:"
+msgstr "Registro de usuario:"
+
+#: includes/class-ur-emailer.php:643 includes/functions-ur-core.php:2165
+msgid "Chosen Password"
+msgstr "Contraseña elegida"
+
+#. translators: 1: Newly registered user count 2: User
+#: includes/admin/class-ur-admin-user-list-manager.php:214
+#: includes/admin/class-ur-admin.php:364
+msgid "User"
+msgid_plural "Users"
+msgstr[0] "Usuario"
+msgstr[1] "Usuarios"
+
+#: includes/admin/class-ur-admin-user-list-manager.php:214
+msgid "pending approval."
+msgstr "aprobación pendiente."
+
+#. translators: %s - Link to logout.
+#: includes/shortcodes/class-ur-shortcode-login.php:67
+msgid "You are already logged in. <a href=\"%s\">Log out?</a>"
+msgstr "Ya estás conectado. <a href=\"%s\">¿Salir?</a>"
+
+#: user-registration.php:355
+msgid "Visit free customer support"
+msgstr "Visitar el soporte al cliente gratuito"
+
+#: includes/admin/settings/class-ur-settings-email.php:189
+#: includes/admin/settings/class-ur-settings-email.php:215
+msgid "Configure"
+msgstr "Configurar"
+
+#: includes/admin/settings/emails/class-ur-settings-awaiting-admin-approval-email.php:25
+msgid "Awaiting Admin Approval"
+msgstr "Esperando la aprobación del administrador"
+
+#: includes/admin/settings/emails/class-ur-settings-admin-email.php:74
+#: includes/admin/settings/emails/class-ur-settings-awaiting-admin-approval-email.php:65
+#: includes/admin/settings/emails/class-ur-settings-email-confirmation.php:57
+#: includes/admin/settings/emails/class-ur-settings-profile-details-changed-email.php:75
+#: includes/admin/settings/emails/class-ur-settings-registration-approved-email.php:65
+#: includes/admin/settings/emails/class-ur-settings-registration-denied-email.php:65
+#: includes/admin/settings/emails/class-ur-settings-registration-pending-email.php:67
+#: includes/admin/settings/emails/class-ur-settings-reset-password-email.php:64
+#: includes/admin/settings/emails/class-ur-settings-successfully-registered-email.php:65
+msgid "Email Content"
+msgstr "Contenido del correo electrónico"
+
+#: includes/admin/settings/emails/class-ur-settings-email-confirmation.php:24
+msgid "Email Confirmation"
+msgstr "Confirmación de correo electrónico"
+
+#: includes/admin/settings/class-ur-settings-email.php:187
+#: includes/admin/settings/class-ur-settings-general.php:281
+#: includes/functions-ur-core.php:1150
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: includes/admin/settings/emails/class-ur-settings-admin-email.php:24
+#: includes/admin/settings/emails/class-ur-settings-admin-email.php:41
+msgid "Admin Email"
+msgstr "Correo electrónico del administrador"
+
+#: includes/admin/settings/emails/class-ur-settings-admin-email.php:65
+#: includes/admin/settings/emails/class-ur-settings-awaiting-admin-approval-email.php:56
+#: includes/admin/settings/emails/class-ur-settings-email-confirmation.php:47
+#: includes/admin/settings/emails/class-ur-settings-profile-details-changed-email.php:66
+#: includes/admin/settings/emails/class-ur-settings-registration-approved-email.php:56
+#: includes/admin/settings/emails/class-ur-settings-registration-denied-email.php:56
+#: includes/admin/settings/emails/class-ur-settings-registration-pending-email.php:57
+#: includes/admin/settings/emails/class-ur-settings-reset-password-email.php:55
+#: includes/admin/settings/emails/class-ur-settings-successfully-registered-email.php:56
+msgid "Email Subject"
+msgstr "Asunto del correo electrónico"
+
+#: includes/admin/settings/class-ur-settings-email.php:92
+msgid "Email Sender Options"
+msgstr "Opciones del remitente del correo electrónico"
+
+#: includes/admin/settings/emails/class-ur-settings-admin-email.php:44
+#: includes/admin/settings/emails/class-ur-settings-awaiting-admin-approval-email.php:45
+#: includes/admin/settings/emails/class-ur-settings-email-confirmation.php:44
+#: includes/admin/settings/emails/class-ur-settings-profile-details-changed-email.php:45
+#: includes/admin/settings/emails/class-ur-settings-registration-approved-email.php:45
+#: includes/admin/settings/emails/class-ur-settings-registration-denied-email.php:45
+#: includes/admin/settings/emails/class-ur-settings-registration-pending-email.php:45
+#: includes/admin/settings/emails/class-ur-settings-reset-password-email.php:44
+#: includes/admin/settings/emails/class-ur-settings-successfully-registered-email.php:45
+msgid "Return to emails"
+msgstr "Volver a los correos electrónicos"
+
+#: includes/admin/settings/class-ur-settings-email.php:34
+#: includes/admin/settings/emails/class-ur-settings-admin-email.php:38
+#: includes/admin/settings/emails/class-ur-settings-awaiting-admin-approval-email.php:39
+#: includes/admin/settings/emails/class-ur-settings-email-confirmation.php:38
+#: includes/admin/settings/emails/class-ur-settings-profile-details-changed-email.php:39
+#: includes/admin/settings/emails/class-ur-settings-registration-approved-email.php:39
+#: includes/admin/settings/emails/class-ur-settings-registration-denied-email.php:39
+#: includes/admin/settings/emails/class-ur-settings-registration-pending-email.php:39
+#: includes/admin/settings/emails/class-ur-settings-reset-password-email.php:38
+#: includes/admin/settings/emails/class-ur-settings-successfully-registered-email.php:39
+msgid "Emails"
+msgstr "Correos electrónicos"
+
+#: includes/admin/settings/class-ur-settings-email.php:109
+msgid "How the sender email appears in outgoing user registration emails."
+msgstr "Cómo aparece el nombre del remitente en los correos electrónicos salientes."
+
+#: includes/admin/settings/emails/class-ur-settings-successfully-registered-email.php:25
+#: includes/admin/settings/emails/class-ur-settings-successfully-registered-email.php:42
+msgid "Successfully Registered Email"
+msgstr "Correo electrónico registrado correctamente"
+
+#: includes/admin/settings/class-ur-settings-email.php:108
+msgid "\"From\" address"
+msgstr "Dirección del remitente"
+
+#: includes/admin/settings/emails/class-ur-settings-successfully-registered-email.php:60
+#: includes/class-ur-emailer.php:313
+msgid "Congratulations! Registration Complete on {{blog_info}}"
+msgstr "¡Enhorabuena! Registro completado en {{blog_info}}"
+
+#: includes/admin/settings/emails/class-ur-settings-email-confirmation.php:51
+#: includes/class-ur-emailer.php:274
+msgid "Please confirm your registration on {{blog_info}}"
+msgstr "Por favor, confirma tu registro en {{blog_info}}"
+
+#: includes/admin/settings/class-ur-settings-email.php:268
+msgid "Smart Tags Used"
+msgstr "Etiquetas inteligentes utilizadas"
+
+#: includes/admin/settings/emails/class-ur-settings-registration-pending-email.php:61
+#: includes/class-ur-emailer.php:409
+msgid "Sorry! Registration changed to pending on {{blog_info}}"
+msgstr "¡Lo sentimos! El registro cambió a pendiente en {{blog_info}}"
+
+#: includes/admin/settings/emails/class-ur-settings-registration-denied-email.php:60
+#: includes/class-ur-emailer.php:300 includes/class-ur-emailer.php:422
+msgid "Sorry! Registration denied on {{blog_info}}"
+msgstr "¡Lo sentimos! El registro a {{blog_info}} ha sido denegado"
+
+#: includes/admin/settings/emails/class-ur-settings-awaiting-admin-approval-email.php:60
+#: includes/class-ur-emailer.php:287
+msgid "Thank you for registration on {{blog_info}}"
+msgstr "Gracias por registrarte a {{blog_info}}"
+
+#: includes/form/class-ur-form-field-radio.php:44
+#: includes/form/class-ur-form-field-radio.php:49
+#: includes/functions-ur-core.php:724
+msgid "Radio"
+msgstr "Radio"
+
+#: includes/form/class-ur-form-field-privacy-policy.php:44
+#: includes/form/class-ur-form-field-privacy-policy.php:49
+#: includes/functions-ur-core.php:723
+msgid "Privacy Policy"
+msgstr "Política de privacidad"
+
+#: includes/admin/settings/class-ur-settings-general.php:253
+#: includes/class-ur-frontend-scripts.php:378
+msgid "User registered. Wait until admin approves your registration."
+msgstr "Usuario registrado. Espera hasta que el administrador apruebe tu registro."
+
+#: includes/admin/class-ur-admin.php:154
+msgid "Thank You!"
+msgstr "¡Gracias!"
+
+#: includes/form/class-ur-form-field-checkbox.php:44
+#: includes/form/class-ur-form-field-checkbox.php:49
+#: includes/functions-ur-core.php:722
+msgid "Checkbox"
+msgstr "Casilla de verificación"
+
+#: includes/admin/settings/class-ur-settings-email.php:78
+#: includes/functions-ur-core.php:1463
+msgid "Disable emails"
+msgstr "Desactivar los correos electrónicos"
+
+#: includes/class-ur-email-confirmation.php:145
+msgid "Token Mismatch!"
+msgstr "¡El token no coincide!"
+
+#: includes/admin/class-ur-admin-assets.php:412
+#: includes/admin/class-ur-admin-form-modal.php:98
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: includes/admin/class-ur-admin-form-modal.php:73
+msgid "Close"
+msgstr "Cerrar"
+
+#: includes/admin/settings/class-ur-settings-general.php:376
+#: includes/functions-ur-core.php:1093
+#: includes/RestApi/class-ur-rest-api.php:234
+#: includes/RestApi/class-ur-rest-api.php:281
+msgid "Rounded"
+msgstr "Redondeado"
+
+#: includes/admin/class-ur-admin-form-modal.php:72
+msgid "Insert Form"
+msgstr "Insertar formulario"
+
+#: includes/admin/class-ur-admin-form-modal.php:56
+msgid "Add Registration Form"
+msgstr "Añadir formulario de registro"
+
+#: includes/admin/class-ur-admin-form-modal.php:102
+msgid "Add Form"
+msgstr "Añadir formulario"
+
+#: includes/admin/class-ur-admin-form-modal.php:54
+msgid "Add User Registration Form"
+msgstr "Añadir formulario de User Registration"
+
+#: includes/admin/settings/class-ur-settings-general.php:465
+#: templates/myaccount/form-login.php:173
+msgid "Not a member yet? Register now."
+msgstr "¿Todavía no eres miembro? Regístrate ahora."
+
+#: includes/admin/settings/class-ur-settings-general.php:450
+msgid "Registration URL"
+msgstr "URL de registro"
+
+#: includes/admin/settings/class-ur-settings-general.php:377
+#: includes/functions-ur-core.php:1094
+#: includes/RestApi/class-ur-rest-api.php:235
+#: includes/RestApi/class-ur-rest-api.php:282
+msgid "Rounded Edge"
+msgstr "Límite redondeado"
+
+#: includes/admin/class-ur-admin-form-modal.php:81
+msgid "Select a form below to insert"
+msgstr "Seleccionar uno de los formularios de abajo para insertar"
+
+#: includes/admin/class-ur-admin.php:166
+msgid "Thank you for using User Registration."
+msgstr "Gracias por usar User Registration"
+
+#: includes/admin/settings/class-ur-settings-general.php:460
+msgid "This option lets you enter the label to registration url in login form."
+msgstr "Esta opción te permite insertar la etiqueta para la URL de registro en el formulario de login."
+
+#: includes/admin/updater/class-ur-addon-updater.php:575
+msgid "Error"
+msgstr "Error"
+
+#: includes/admin/updater/class-ur-addon-updater.php:575
+msgid "You do not have permission to install plugin updates"
+msgstr "No tiene permisos para instalar las actualizaciones del plugin"
+
+#: includes/admin/views/html-license-form.php:20
+msgid "License:"
+msgstr "Licencia:"
+
+#: includes/admin/views/html-admin-page-status-logs.php:38
+msgid "View"
+msgstr "Ver"
+
+#: includes/admin/settings/class-ur-settings-general.php:375
+#: includes/functions-ur-core.php:1092
+#: includes/RestApi/class-ur-rest-api.php:233
+#: includes/RestApi/class-ur-rest-api.php:280
+msgid "Flat"
+msgstr "Plano"
+
+#: includes/admin/settings/class-ur-settings-general.php:301
+#: includes/form/class-ur-form-field-number.php:46
+#: includes/form/class-ur-form-field-number.php:51
+#: includes/functions-ur-core.php:720
+msgid "Number"
+msgstr "Número"
+
+#: includes/admin/views/html-admin-page-status.php:14
+msgid "Logs"
+msgstr "Registros"
+
+#: includes/admin/settings/class-ur-settings-license.php:88
+#: includes/admin/settings/class-ur-settings-license.php:96
+#: includes/class-ur-plugin-updater.php:296
+msgid "Deactivate License"
+msgstr "Desactivar licencia"
+
+#. translators: %1$s: Activation error message
+#: includes/class-ur-plugin-updater.php:366 includes/functions-ur-core.php:2456
+#: includes/functions-ur-core.php:2475 includes/functions-ur-core.php:2498
+#: includes/functions-ur-core.php:2517 includes/functions-ur-core.php:2523
+#: includes/functions-ur-core.php:2528 includes/functions-ur-core.php:2541
+msgid "<strong>Activation error:</strong> %1$s"
+msgstr "<strong>Error de activación:</strong> %1$s"
+
+#: includes/admin/settings/class-ur-settings-general.php:374
+#: includes/functions-ur-core.php:1091
+#: includes/RestApi/class-ur-rest-api.php:232
+#: includes/RestApi/class-ur-rest-api.php:279
+msgid "Bordered"
+msgstr "Bordéres"
+
+#: includes/class-ur-plugin-updater.php:296
+msgid "Deactivate License Key"
+msgstr "Desactivar clave de licencia"
+
+#: includes/admin/settings/class-ur-settings-general.php:373
+#: includes/functions-ur-core.php:1090
+#: includes/RestApi/class-ur-rest-api.php:231
+#: includes/RestApi/class-ur-rest-api.php:278
+#: assets/js/wp-color-picker/wp-color-picker-alpha.js:149
+msgid "Default"
+msgstr "Predefinido"
+
+#: includes/admin/views/html-admin-page-status-logs.php:23
+msgid "Delete log"
+msgstr "Borrar registro"
+
+#: includes/admin/views/html-notice-key-unvalidated.php:14
+msgid "Hide notice"
+msgstr "Ocultar aviso"
+
+#. translators: %s - User Registration Extensions Catalog
+#: includes/admin/views/html-admin-page-addons.php:74
+msgid "Our catalog of User Registration Extensions can be found on WPEverest.com here: <a href=\"%s\">User Registration Extensions Catalog</a>"
+msgstr "Nuestro catálogo de Extensiones de User Registration se puede encontrar en WPEverest.com <a href=\"%s\">Catálogo de extensiones de User Registration</a>"
+
+#: includes/functions-ur-core.php:1019
+msgid "Redirect URL"
+msgstr "Redireccionar URL"
+
+#. translators: %s: Class
+#: includes/functions-ur-core.php:1362
+msgid "The class <code>%s</code> provided by user_registration_logging_class filter must implement <code>UR_Logger_Interface</code>."
+msgstr "La clase <code>%s</code> proporcionada por el filtro user_registration_logging_class debería poner en marcha <code>UR_Logger_Interface</code>."
+
+#: includes/class-ur-plugin-updater.php:358
+msgid "The key you entered belongs to a bundle, please use the product specific license key."
+msgstr "La clave que introdujiste pertenece a un paquete. Por favor, usa la clave de licencia del producto específico."
+
+#: includes/class-ur-logger.php:58
+msgid "The provided handler <code>%s</code> does not implement UR_Log_Handler_Interface."
+msgstr "El encargado proporcionado <code>%s</code> no implementa UR_Log_Handler_Interface."
+
+#: includes/class-ur-plugin-updater.php:340
+msgid "The provided license is invalid. Please <a href=\"%s\" target=\"_blank\">visit your account page</a> and verify it."
+msgstr "La licencia proporcionada no es válida. Por favor, <a href=\"%s\" target=\"_blank\">visita la página de tu cuenta</a> y verifícala."
+
+#: includes/class-ur-plugin-updater.php:345
+msgid "The provided license is not active for this URL. Please <a href=\"%s\" target=\"_blank\">visit your account page</a> to manage your license key URLs."
+msgstr "La licencia proporcionada no está activa para esta URL. Por favor, <a href=\"%s\" target=\"_blank\">visita la página de tu cuenta</a> para gestionar tus URLs de clave de licencia."
+
+#: includes/class-ur-plugin-updater.php:362
+msgid "The provided license key could not be found. Please <a href=\"%s\" target=\"_blank\">contact support</a> for more information."
+msgstr "La licencia proporcionada no pudo ser encontrada. Por favor, <a href=\"%s\" target=\"_blank\">contata con el soporte</a> para más información."
+
+#: includes/class-ur-plugin-updater.php:332
+msgid "The provided license key expired on %1$s. Please <a href=\"%2$s\" target=\"_blank\">renew your license key</a>."
+msgstr "La licencia proporcionada expiró el %1$s. Por favor, <a href=\"%2$s\" target=\"_blank\">renueva tu clave de licencia</a>."
+
+#: includes/class-ur-plugin-updater.php:336
+msgid "The provided license key has been disabled. Please <a href=\"%s\" target=\"_blank\">contact support</a> for more information."
+msgstr "La clave de licencia proporcionada ha sido deshabilitada. Por favor, <a href=\"%s\" target=\"_blank\">contacta con soporte</a> para más información."
+
+#: includes/class-ur-plugin-updater.php:354
+msgid "The provided license key has reached its activation limit. Please <a href=\"%1$s\" target=\"_blank\">View possible upgrades</a> now."
+msgstr "La clave de licencia proporcionada ha alcanzado su límite de activación. Por favor, <a href=\"%1$s\" target=\"_blank\">Ver ampliaciones posibles</a>ahora."
+
+#: includes/admin/views/html-admin-page-status-logs.php:51
+msgid "There are currently no logs to view."
+msgstr "Actualmente no hay registros para ver."
+
+#. translators: 1: Plugin Name, 2: Changelog Link, 3: New Version, 4: Link
+#. Close, 5: Upgrade Plugin Link, 6: Link Close
+#: includes/admin/updater/class-ur-addon-updater.php:313
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s or %5$supdate now%6$s."
+msgstr "Hay una nueva versión de %1$s disponible. %2$sVer detalles%3$s versión %4$s o %5$sactualizar ahora%6$s."
+
+#. translators: 1: Plugin Name, 2: Changelog Link, 3: New Version, 4: Link
+#. Close
+#: includes/admin/updater/class-ur-addon-updater.php:304
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr "Hay una nueva versión de %1$s disponible. %2$sVer detalles%3$s versión %4$s."
+
+#: includes/class-ur-plugin-updater.php:350
+msgid "This appears to be an invalid license key for <strong>%1$s</strong>."
+msgstr "Esto parece ser una clave de licencia no válida para <strong>%1$s</strong>."
+
+#: includes/log-handlers/class-ur-log-handler-file.php:353
+msgid "This method should not be called before plugins_loaded."
+msgstr "Este método no debería ser llamado antes de plugins_loaded."
+
+#: includes/functions-ur-core.php:1025
+msgid "This option lets you enter redirect path after successful user registration."
+msgstr "Esta opción te permite insertar la etiqueta para la URL de registro en el formulario de registro."
+
+#: includes/class-ur-logger.php:137
+msgid "UR_Logger::log was called with an invalid level \"%s\"."
+msgstr "UR_Logger::log se llamó con un nivel no válido \"%s\"."
+
+#: includes/admin/views/html-admin-page-addons.php:16
+msgid "User Registration Extensions"
+msgstr "Extensiones de User Registration"
+
+#: includes/admin/class-ur-admin-menus.php:425
+msgid "User Registration Status"
+msgstr "Estado de User Registration"
+
+#: includes/admin/class-ur-admin-menus.php:459
+msgid "User Registration extensions"
+msgstr "Extensiones de User Registration"
+
+#. translators: %s - Link to logout.
+#: includes/admin/views/html-notice-key-activated.php:17
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr "Tu licencia para <strong>%s</strong> ha sido activada ¡Gracias!"
+
+#. translators: %s - Plugin Name.
+#: includes/admin/views/html-notice-key-deactivated.php:18
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr "Tu licencia para <strong>%s</strong> ha sido desactivada."
+
+#: includes/admin/class-ur-admin-user-manager.php:392
+msgid "pending"
+msgstr "pendiente"
+
+#: includes/admin/class-ur-admin-user-manager.php:388
+msgid "approved"
+msgstr "aprobado"
+
+#: includes/admin/class-ur-admin-user-manager.php:396
+msgid "denied"
+msgstr "denegado"
+
+#. translators: %s - Link to logout.
+#. translators: 1: Link and username of user 2: Logout url
+#: includes/class-ur-ajax.php:193 includes/class-ur-shortcodes.php:191
+msgid "Log out of this account."
+msgstr "Logueado fuera de esta cuenta"
+
+#: includes/admin/class-ur-admin-user-list-manager.php:401
+msgid "Filter"
+msgstr "Filtro"
+
+#. translators: 1 User login, 2: lost password url
+#. translators: %s - Resend Verification Link.
+#. translators: %s - Redirect URL.
+#. translators: %s - Username
+#. translators: %s - Lost password URL
+#: includes/class-ur-ajax.php:672 includes/class-ur-email-confirmation.php:375
+#: includes/class-ur-form-handler.php:486
+#: includes/class-ur-form-handler.php:492
+#: includes/class-ur-form-handler.php:496
+#: includes/class-ur-form-handler.php:501
+#: includes/class-ur-form-handler.php:505
+#: includes/class-ur-user-approval.php:197
+#: includes/class-ur-user-approval.php:202
+#: includes/class-ur-user-approval.php:218
+#: includes/class-ur-user-approval.php:232
+#: includes/class-ur-user-approval.php:237
+#: includes/class-ur-user-approval.php:259
+#: includes/class-ur-user-approval.php:275 includes/functions-ur-account.php:55
+#: includes/functions-ur-account.php:58
+msgid "ERROR:"
+msgstr "ERROR:"
+
+#: includes/admin/class-ur-admin-user-list-manager.php:607
+msgid "Approval Status"
+msgstr "Estado de aprobación"
+
+#: includes/admin/class-ur-admin-user-list-manager.php:93
+msgctxt "The action on users list page"
+msgid "Approve"
+msgstr "Aprobar"
+
+#: includes/admin/class-ur-admin-user-list-manager.php:94
+msgctxt "The action on users list page"
+msgid "Deny"
+msgstr "Denegar"
+
+#: includes/class-ur-user-approval.php:202
+#: includes/class-ur-user-approval.php:237
+msgid "Your account has been denied."
+msgstr "Tu cuenta ha sido denegada."
+
+#: includes/admin/class-ur-admin-user-list-manager.php:377
+msgid "All approval statuses"
+msgstr "Estados de aprobación"
+
+#: includes/admin/class-ur-admin-user-list-manager.php:375
+msgid "All statuses"
+msgstr "Estados"
+
+#: includes/admin/class-ur-admin-user-list-manager.php:527
+#: includes/admin/class-ur-admin-user-list-manager.php:528
+msgid "Approve"
+msgstr "Aprobar"
+
+#: includes/admin/class-ur-admin-user-list-manager.php:530
+#: includes/admin/class-ur-admin-user-list-manager.php:531
+msgid "Deny"
+msgstr "Denegar"
+
+#: includes/admin/class-ur-admin-user-list-manager.php:622
+msgid "If user has access to sign in or not."
+msgstr "Si el usuario ha accedido o no."
+
+#: includes/admin/class-ur-admin-user-manager.php:62
+msgid "Impossible to create an UR_Admin_User_Manager object. Unkwon data type."
+msgstr "Imposible crear un objeto UR_Admin_User_Manager. Tipo de datos desconocido."
+
+#: includes/class-ur-ajax.php:174 includes/class-ur-shortcodes.php:176
+msgid "Only administrators can add new users."
+msgstr "Solo los administradores pueden añadir usuarios."
+
+#: includes/admin/class-ur-admin-menus.php:426
+#: includes/admin/settings/class-ur-settings-email.php:188
+#: includes/class-ur-email-confirmation.php:104
+msgid "Status"
+msgstr "Estado"
+
+#: includes/class-ur-user-approval.php:197
+#: includes/class-ur-user-approval.php:218
+msgid "Your account is still pending approval."
+msgstr "Tu cuenta todavía está pendiente de aprobación."
+
+#: includes/abstracts/abstract-ur-list-table.php:341
+msgid "Copy of "
+msgstr "Copia de"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:130
+msgid "Duplicate"
+msgstr "Duplicar"
+
+#: includes/admin/settings/class-ur-settings-general.php:223
+#: includes/class-ur-frontend-scripts.php:377
+msgid "User successfully registered."
+msgstr "Usuario registrado correctamente ."
+
+#: includes/admin/class-ur-admin-assets.php:247
+msgid "Could not install."
+msgstr "No se pudo instalar."
+
+#: includes/admin/settings/emails/class-ur-settings-admin-email.php:69
+#: includes/class-ur-emailer.php:350
+msgid "A New User Registered"
+msgstr "Nuevo usuario registrado"
+
+#: includes/admin/settings/class-ur-settings-integration.php:27
+msgid "Integration"
+msgstr "Integración"
+
+#: templates/myaccount/form-reset-password.php:63
+msgid "Save"
+msgstr "Guardar"
+
+#: templates/myaccount/form-edit-password.php:51
+#: templates/myaccount/form-reset-password.php:32
+msgid "New password"
+msgstr "Nueva contraseña"
+
+#: includes/admin/settings/class-ur-settings-general.php:507
+#: includes/admin/settings/class-ur-settings-general.php:513
+#: includes/functions-ur-core.php:715 templates/myaccount/form-login.php:40
+msgid "Password"
+msgstr "Contraseña"
+
+#: templates/myaccount/form-edit-password.php:82
+#: templates/myaccount/form-edit-profile.php:418
+#: templates/myaccount/form-edit-profile.php:423
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: includes/shortcodes/class-ur-shortcode-my-account.php:361
+#: includes/shortcodes/class-ur-shortcode-my-account.php:366
+msgid "Invalid username or email."
+msgstr "Usuario o email incorrecto."
+
+#: includes/shortcodes/class-ur-shortcode-login.php:44
+#: includes/shortcodes/class-ur-shortcode-my-account.php:76
+msgid "Your password has been reset successfully."
+msgstr "Tu contraseña ha sido restablecida con éxito."
+
+#: includes/form/class-ur-form-field-user-pass.php:77
+msgid "Empty password."
+msgstr "Contraseña vacía."
+
+#: includes/admin/settings/class-ur-settings-general.php:321
+#: includes/form/class-ur-form-field-user-confirm-password.php:49
+msgid "Confirm Password"
+msgstr "Confirmar contraseña"
+
+#: includes/admin/settings/class-ur-settings-general.php:563
+#: includes/form/class-ur-form-field-password.php:44
+#: includes/form/class-ur-form-field-password.php:49
+msgid "Password Field"
+msgstr "Campo de contraseña"
+
+#: includes/class-ur-form-handler.php:695
+msgid "Passwords do not match."
+msgstr "Las contraseñas no coinciden."
+
+#: includes/class-ur-ajax.php:551 includes/class-ur-form-handler.php:437
+msgid "Username is required."
+msgstr "El nombre de usuario es obligatorio."
+
+#: includes/class-ur-form-handler.php:395
+msgid "Your current password is incorrect."
+msgstr "Tu contraseña actual es incorrecta."
+
+#: includes/class-ur-form-handler.php:392
+msgid "New passwords do not match."
+msgstr "Las nuevas contraseñas no coinciden."
+
+#. translators: %s - Field Label
+#: includes/class-ur-form-handler.php:255
+#: includes/frontend/class-ur-frontend-form-handler.php:480
+msgid "%s is a required field."
+msgstr "%s es un campo obligatorio."
+
+#: includes/functions-ur-core.php:989
+#: includes/RestApi/class-ur-rest-api.php:239
+msgid "Enable Strong Password"
+msgstr "Habilitar contraseña fuerte"
+
+#: includes/admin/class-ur-admin-assets.php:285
+#: includes/admin/class-ur-admin-menus.php:442
+#: includes/admin/class-ur-admin-menus.php:443
+#: includes/admin/class-ur-admin-menus.php:794
+#: includes/admin/class-ur-admin-registrations-table-list.php:162
+msgid "Add New"
+msgstr "Añadir nuevo"
+
+#: includes/admin/class-ur-admin-menus.php:409 user-registration.php:338
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/form/class-ur-form-field-country.php:362
+#: includes/form/class-ur-form-field-country.php:367
+#: includes/functions-ur-core.php:718
+msgid "Country"
+msgstr "País"
+
+#: includes/form/settings/class-ur-setting-text.php:45
+#: includes/form/settings/class-ur-setting-text.php:52
+msgid "Size"
+msgstr "Tamaño"
+
+#: includes/functions-ur-core.php:826
+msgid "Options"
+msgstr "Opciones"
+
+#: includes/form/class-ur-form-field-user-url.php:44
+#: includes/form/class-ur-form-field-user-url.php:49
+msgid "Website"
+msgstr "Web"
+
+#. translators: %s - Link to logout.
+#. translators: 1: Link and username of user 2: Logout url
+#: includes/class-ur-ajax.php:193 includes/class-ur-shortcodes.php:191
+#: includes/functions-ur-account.php:123
+msgid "Logout"
+msgstr "Salir"
+
+#: includes/functions-ur-core.php:741 includes/functions-ur-core.php:743
+msgid "Label"
+msgstr "Etiqueta"
+
+#: includes/libraries/wp-background-process.php:430
+msgid "Every %d minutes"
+msgstr "Cada %d minutos"
+
+#: templates/myaccount/form-lost-password.php:31
+msgid "Username or email"
+msgstr "Nombre de usuario o correo electrónico"
+
+#: includes/form/class-ur-form-field-user-login.php:44
+#: includes/form/class-ur-form-field-user-login.php:49
+#: includes/functions-ur-core.php:1149
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: includes/form/class-ur-form-field-user-pass.php:49
+msgid "User Password"
+msgstr "Contraseña de usuario"
+
+#: includes/class-ur-ajax.php:310
+#: includes/form/class-ur-form-field-user-email.php:87
+msgid "Email already exists."
+msgstr "El correo electrónico ya existe."
+
+#: includes/form/class-ur-form-field-user-email.php:78
+msgid "Invalid email address."
+msgstr " Dirección de correo electrónico no válida ."
+
+#: includes/form/class-ur-form-field-first-name.php:44
+#: includes/form/class-ur-form-field-first-name.php:49
+#: includes/functions-ur-core.php:709
+msgid "First Name"
+msgstr "Nombre"
+
+#: includes/class-ur-post-types.php:54
+msgid "Edit registration"
+msgstr "Editar registro"
+
+#: includes/class-ur-post-types.php:51
+msgid "Add registration"
+msgstr "Añadir registro"
+
+#: includes/class-ur-post-types.php:49
+#: includes/RestApi/class-ur-rest-api.php:222 chunks/main.js:46201
+msgid "Registration"
+msgstr "Registro"
+
+#: user-registration.php:354
+msgid "Docs"
+msgstr "Documentos"
+
+#: user-registration.php:354
+msgid "View User Registration documentation"
+msgstr "Ver documentación de registro de usuario"
+
+#: includes/class-ur-install.php:323 includes/RestApi/class-ur-rest-api.php:150
+msgctxt "Page title"
+msgid "Registration"
+msgstr "Registro"
+
+#: includes/class-ur-install.php:322 includes/RestApi/class-ur-rest-api.php:149
+msgctxt "Page slug"
+msgid "registration"
+msgstr "registro"
+
+#: includes/class-ur-install.php:312 includes/RestApi/class-ur-rest-api.php:157
+msgctxt "Page title"
+msgid "My Account"
+msgstr "Mi cuenta"
+
+#: includes/admin/views/html-admin-settings.php:46
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: includes/admin/views/html-admin-page-forms.php:58
+msgid "Fields"
+msgstr "Campos"
+
+#: includes/abstracts/abstract-ur-list-table.php:131
+#: includes/admin/class-ur-admin-registrations-table-list.php:105
+msgid "Restore"
+msgstr "Restaurar"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:100
+#: includes/class-ur-post-types.php:53
+msgid "Edit"
+msgstr "Editar"
+
+#: includes/admin/class-ur-admin-profile.php:155
+#: includes/admin/class-ur-admin-profile.php:167
+#: includes/form/class-ur-form-field-select.php:44
+#: includes/form/class-ur-form-field-select.php:49
+#: includes/functions-ur-core.php:717
+msgid "Select"
+msgstr "Seleccionar"
+
+#. Author URI of the plugin
+msgid "https://wpeverest.com"
+msgstr "https://wpeverest.com"
+
+#. Author of the plugin
+msgid "WPEverest"
+msgstr "WPEverest"
+
+#. Plugin URI of the plugin
+msgid "https://wpeverest.com/plugins/user-registration"
+msgstr "https://wpeverest.com/plugins/user-registration"
+
+#: includes/admin/class-ur-admin-menus.php:622
+msgid "Select all"
+msgstr "Seleccionar todo"
+
+#: includes/admin/class-ur-admin-menus.php:503
+msgid "Create Form"
+msgstr "Crear formulario"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:54
+#: includes/form/class-ur-form-field-date.php:46
+#: includes/form/class-ur-form-field-date.php:51
+#: includes/functions-ur-core.php:721
+msgid "Date"
+msgstr "Fecha"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:53
+msgid "Author"
+msgstr "Autor"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:51
+msgid "Title"
+msgstr "Título"
+
+#: includes/admin/class-ur-admin-assets.php:389
+#: includes/admin/class-ur-admin-registrations-table-list.php:107
+msgid "Trash"
+msgstr "Papelera"
+
+#: includes/class-ur-post-types.php:58
+msgid "Search registrations"
+msgstr "Buscar registros"
+
+#: includes/class-ur-post-types.php:57
+msgid "View registration"
+msgstr "Ver registro"
+
+#: includes/class-ur-post-types.php:56
+msgid "View registrations"
+msgstr "Ver registros"
+
+#: includes/class-ur-post-types.php:55
+msgid "New registration"
+msgstr "Nuevo registro"
+
+#: includes/class-ur-ajax.php:554 includes/class-ur-ajax.php:665
+#: includes/class-ur-form-handler.php:440
+#: includes/class-ur-form-handler.php:515
+msgid "A user could not be found with this email address."
+msgstr "No se pudo encontrar un usuario con esta dirección de correo electrónico ."
+
+#: includes/admin/settings/class-ur-settings-general.php:42
+msgid "General Options"
+msgstr "Opciones generales"
+
+#: includes/abstracts/abstract-ur-list-table.php:474
+msgid "Empty trash"
+msgstr "Vaciar papelera"
+
+#: includes/abstracts/abstract-ur-list-table.php:136
+msgid "Move to trash"
+msgstr "Mover a la papelera"
+
+#: includes/admin/class-ur-admin-menus.php:626
+msgid "Add to menu"
+msgstr "Añadir al menú"
+
+#: includes/form/settings/class-ur-setting-checkbox.php:72
+#: includes/form/settings/class-ur-setting-user_login.php:64
+#: includes/functions-ur-core.php:784 includes/functions-ur-core.php:797
+msgid "Yes"
+msgstr "Sí"
+
+#: includes/form/settings/class-ur-setting-checkbox.php:42
+#: includes/form/settings/class-ur-setting-checkbox.php:49
+#: includes/form/settings/class-ur-setting-country.php:34
+#: includes/form/settings/class-ur-setting-country.php:41
+#: includes/form/settings/class-ur-setting-date.php:42
+#: includes/form/settings/class-ur-setting-date.php:49
+#: includes/form/settings/class-ur-setting-description.php:34
+#: includes/form/settings/class-ur-setting-description.php:41
+#: includes/form/settings/class-ur-setting-display_name.php:34
+#: includes/form/settings/class-ur-setting-display_name.php:41
+#: includes/form/settings/class-ur-setting-email.php:31
+#: includes/form/settings/class-ur-setting-email.php:38
+#: includes/form/settings/class-ur-setting-first_name.php:34
+#: includes/form/settings/class-ur-setting-first_name.php:41
+#: includes/form/settings/class-ur-setting-last_name.php:34
+#: includes/form/settings/class-ur-setting-last_name.php:41
+#: includes/form/settings/class-ur-setting-nickname.php:34
+#: includes/form/settings/class-ur-setting-nickname.php:41
+#: includes/form/settings/class-ur-setting-number.php:64
+#: includes/form/settings/class-ur-setting-number.php:71
+#: includes/form/settings/class-ur-setting-radio.php:29
+#: includes/form/settings/class-ur-setting-radio.php:36
+#: includes/form/settings/class-ur-setting-select.php:32
+#: includes/form/settings/class-ur-setting-select.php:39
+#: includes/form/settings/class-ur-setting-text.php:67
+#: includes/form/settings/class-ur-setting-text.php:74
+#: includes/form/settings/class-ur-setting-textarea.php:45
+#: includes/form/settings/class-ur-setting-textarea.php:52
+#: includes/form/settings/class-ur-setting-user_confirm_email.php:35
+#: includes/form/settings/class-ur-setting-user_confirm_email.php:42
+#: includes/form/settings/class-ur-setting-user_confirm_password.php:34
+#: includes/form/settings/class-ur-setting-user_confirm_password.php:41
+#: includes/form/settings/class-ur-setting-user_email.php:34
+#: includes/form/settings/class-ur-setting-user_email.php:41
+#: includes/form/settings/class-ur-setting-user_login.php:34
+#: includes/form/settings/class-ur-setting-user_login.php:41
+#: includes/form/settings/class-ur-setting-user_pass.php:34
+#: includes/form/settings/class-ur-setting-user_pass.php:41
+#: includes/form/settings/class-ur-setting-user_url.php:34
+#: includes/form/settings/class-ur-setting-user_url.php:41
+msgid "Custom Class"
+msgstr "Clase personalizada"
+
+#: includes/functions-ur-template.php:214
+msgid "required"
+msgstr "obligatorio"
+
+#: includes/form/class-ur-form-field-nickname.php:44
+#: includes/form/class-ur-form-field-nickname.php:49
+#: includes/functions-ur-core.php:708
+msgid "Nickname"
+msgstr "Alias"
+
+#: includes/form/class-ur-form-field-last-name.php:49
+#: includes/functions-ur-core.php:710
+msgid "Last Name"
+msgstr "Apellidos"
+
+#: includes/form/class-ur-form-field-last-name.php:44
+msgid "Last Name "
+msgstr "Apellidos "
+
+#: includes/admin/class-ur-admin-assets.php:389
+msgid "Clone"
+msgstr "Clonar"
+
+#: includes/class-ur-install.php:311 includes/RestApi/class-ur-rest-api.php:156
+msgctxt "Page slug"
+msgid "my-account"
+msgstr "mi-cuenta"
+
+#: includes/admin/class-ur-admin-assets.php:425
+msgctxt "user registration admin"
+msgid "Error"
+msgstr "Error"
+
+#. translators: %s - Human readable time
+#: includes/abstracts/abstract-ur-list-table.php:564
+msgid "%s ago"
+msgstr "hace %s"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:110
+msgid "Delete this item permanently"
+msgstr "Borrar este elemento permanentemente"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:107
+msgid "Move this item to the Trash"
+msgstr "Mover este elemento a la papelera"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:96
+msgid "ID: %d"
+msgstr "ID: %d"
+
+#: includes/admin/class-ur-admin-assets.php:423
+msgctxt "user registration admin"
+msgid "Form successfully saved."
+msgstr "Formulario guardado correctamente."
+
+#: includes/admin/class-ur-admin-assets.php:229
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr "Por favor, introduce %qty% o más caracteres"
+
+#: includes/admin/class-ur-admin-assets.php:232
+msgctxt "enhanced select"
+msgid "You can only select 1 item"
+msgstr "Solo puede seleccionar 1 elemento"
+
+#: includes/admin/class-ur-admin-assets.php:233
+msgctxt "enhanced select"
+msgid "You can only select %qty% items"
+msgstr "Solo puede seleccionar %qty% elementos"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:52
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/admin/class-ur-admin-notices.php:123 user-registration.php:77
+#: user-registration.php:86
+msgid "Cheatin&#8217; huh?"
+msgstr "Haciendo trampa, ¿eh?"
+
+#: includes/admin/class-ur-admin-assets.php:430
+msgctxt "user registration admin"
+msgid "Duplicate field name."
+msgstr "Campo de nombre duplicado."
+
+#: includes/form/class-ur-form-field-country.php:44
+msgid "Afghanistan"
+msgstr "Afganistán"
+
+#: includes/form/class-ur-form-field-country.php:49
+msgid "Andorra"
+msgstr "Andorra"
+
+#: includes/form/class-ur-form-field-country.php:50
+msgid "Angola"
+msgstr "Angola"
+
+#: includes/form/class-ur-form-field-country.php:46
+msgid "Albania"
+msgstr "Albania"
+
+#: includes/form/class-ur-form-field-country.php:65
+msgid "Belgium"
+msgstr "Bélgica"
+
+#: includes/form/class-ur-form-field-country.php:64
+msgid "Belarus"
+msgstr "Bielorrusia"
+
+#: includes/form/class-ur-form-field-country.php:63
+msgid "Barbados"
+msgstr "Barbados"
+
+#: includes/form/class-ur-form-field-country.php:62
+msgid "Bangladesh"
+msgstr "Bangladés"
+
+#: includes/form/class-ur-form-field-country.php:61
+msgid "Bahrain"
+msgstr "Baréin"
+
+#: includes/functions-ur-account.php:120
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: includes/admin/functions-ur-admin.php:426
+#: includes/admin/settings/class-ur-settings-general.php:27
+#: includes/admin/settings/class-ur-settings-general.php:69
+#: includes/admin/settings/class-ur-settings-general.php:360
+#: includes/RestApi/class-ur-rest-api.php:194 chunks/main.js:46190
+msgid "General"
+msgstr "General"
+
+#: includes/admin/settings/class-ur-settings-general.php:527
+#: includes/admin/settings/class-ur-settings-general.php:533
+#: includes/RestApi/class-ur-rest-api.php:269
+#: templates/form-login-registration.php:31
+#: templates/myaccount/form-login.php:42 chunks/main.js:46212
+msgid "Login"
+msgstr "Acceso"
+
+#: templates/myaccount/lost-password-confirmation.php:24
+msgid "Password reset email has been sent."
+msgstr "Contraseña restablecida, se ha enviado un correo electrónico."
+
+#: includes/shortcodes/class-ur-shortcode-my-account.php:340
+msgid "Enter a username or email address."
+msgstr "Introduce un nombre de usuario o una dirección de correo electrónico."
+
+#: templates/myaccount/form-lost-password.php:28
+msgid "Lost your password? Please enter your username or email address. You will receive a link to create a new password via email."
+msgstr "¿Has perdido tu contraseña? Por favor, escribe tu nombre de usuario o tu dirección de correo electrónico. Recibirás un enlace para crear una nueva contraseña."
+
+#: includes/functions-ur-template.php:523
+msgid "Choose an option"
+msgstr "Elige una opción"
+
+#: includes/frontend/class-ur-frontend-form-handler.php:406
+msgid "Empty confirm password"
+msgstr "El campo de confirmación está vacío"
+
+#: includes/form/class-ur-form-field-country.php:285
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: includes/form/class-ur-form-field-country.php:286
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: includes/form/class-ur-form-field-country.php:287
+msgid "Wallis and Futuna"
+msgstr "Wallis y Futuna"
+
+#: includes/form/class-ur-form-field-country.php:284
+msgid "Vatican"
+msgstr "Vaticano"
+
+#: includes/form/class-ur-form-field-country.php:281
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: includes/form/class-ur-form-field-country.php:282
+msgid "Uzbekistan"
+msgstr "Uzbekistán"
+
+#: includes/form/class-ur-form-field-country.php:283
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: includes/form/class-ur-form-field-country.php:265
+msgid "Togo"
+msgstr "Togo"
+
+#: includes/form/class-ur-form-field-country.php:274
+msgid "Uganda"
+msgstr "Uganda"
+
+#: includes/form/class-ur-form-field-country.php:275
+msgid "Ukraine"
+msgstr "Ucrania"
+
+#: includes/form/class-ur-form-field-country.php:277
+msgid "United Kingdom (UK)"
+msgstr "Reino Unido (UK)"
+
+#: includes/form/class-ur-form-field-country.php:266
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: includes/form/class-ur-form-field-country.php:269
+msgid "Tunisia"
+msgstr "Túnez"
+
+#: includes/form/class-ur-form-field-country.php:276
+msgid "United Arab Emirates"
+msgstr "Emiratos Árabes Unidos"
+
+#: includes/form/class-ur-form-field-country.php:267
+msgid "Tonga"
+msgstr "Tonga"
+
+#: includes/form/class-ur-form-field-country.php:270
+msgid "Turkey"
+msgstr "Turquía"
+
+#: includes/form/class-ur-form-field-country.php:273
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: includes/form/class-ur-form-field-country.php:272
+msgid "Turks and Caicos Islands"
+msgstr "Islas Turcas y Caicos"
+
+#: includes/form/class-ur-form-field-country.php:271
+msgid "Turkmenistan"
+msgstr "Turkmenistán"
+
+#: includes/form/class-ur-form-field-country.php:268
+msgid "Trinidad and Tobago"
+msgstr "Trinidad y Tobago"
+
+#: includes/form/class-ur-form-field-country.php:239
+msgid "Serbia"
+msgstr "Serbia"
+
+#: includes/form/class-ur-form-field-country.php:249
+msgid "South Korea"
+msgstr "Corea del Sur"
+
+#: includes/form/class-ur-form-field-country.php:247
+msgid "South Africa"
+msgstr "Sudáfrica"
+
+#: includes/form/class-ur-form-field-country.php:246
+msgid "Somalia"
+msgstr "Somalia"
+
+#: includes/form/class-ur-form-field-country.php:245
+msgid "Solomon Islands"
+msgstr "Islas Salomón"
+
+#: includes/form/class-ur-form-field-country.php:244
+msgid "Slovenia"
+msgstr "Eslovenia"
+
+#: includes/form/class-ur-form-field-country.php:241
+msgid "Sierra Leone"
+msgstr "Sierra Leona"
+
+#: includes/form/class-ur-form-field-country.php:240
+msgid "Seychelles"
+msgstr "Seychelles"
+
+#: includes/form/class-ur-form-field-country.php:238
+msgid "Senegal"
+msgstr "Senegal"
+
+#: includes/form/class-ur-form-field-country.php:237
+msgid "Saudi Arabia"
+msgstr "Arabia Saudí"
+
+#: includes/form/class-ur-form-field-country.php:235
+msgid "San Marino"
+msgstr "San Marino"
+
+#: includes/form/class-ur-form-field-country.php:234
+msgid "Saint Vincent and the Grenadines"
+msgstr "San Vicente y las Granadinas"
+
+#: includes/admin/views/html-notice-custom.php:17
+#: includes/admin/views/html-notice-registration.php:14
+#: includes/admin/views/html-notice-updated.php:14
+msgid "Dismiss"
+msgstr "Descartar"
+
+#: includes/form/class-ur-form-field-country.php:213
+msgid "Panama"
+msgstr "Panamá"
+
+#: includes/form/class-ur-form-field-country.php:214
+msgid "Papua New Guinea"
+msgstr "Papúa Nueva Guinea"
+
+#: includes/form/class-ur-form-field-country.php:215
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: includes/form/class-ur-form-field-country.php:216
+msgid "Peru"
+msgstr "Perú"
+
+#: includes/form/class-ur-form-field-country.php:217
+msgid "Philippines"
+msgstr "Filipinas"
+
+#: includes/form/class-ur-form-field-country.php:218
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#: includes/form/class-ur-form-field-country.php:219
+msgid "Poland"
+msgstr "Polonia"
+
+#: includes/form/class-ur-form-field-country.php:220
+msgid "Portugal"
+msgstr "Portugal"
+
+#: includes/form/class-ur-form-field-country.php:221
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: includes/form/class-ur-form-field-country.php:222
+msgid "Qatar"
+msgstr "Catar"
+
+#: includes/form/class-ur-form-field-country.php:223
+msgid "Reunion"
+msgstr "Reunión"
+
+#: includes/form/class-ur-form-field-country.php:225
+msgid "Russia"
+msgstr "Rusia"
+
+#: includes/form/class-ur-form-field-country.php:226
+msgid "Rwanda"
+msgstr "Ruanda"
+
+#: includes/form/class-ur-form-field-country.php:227
+msgid "Saint Barth&eacute;lemy"
+msgstr "San Bartolomé"
+
+#: includes/form/class-ur-form-field-country.php:229
+msgid "Saint Kitts and Nevis"
+msgstr "San Cristóbal y Nieves"
+
+#: includes/form/class-ur-form-field-country.php:230
+msgid "Saint Lucia"
+msgstr "Santa Lucía"
+
+#: includes/admin/views/html-admin-page-forms.php:87
+msgid "Extra Fields"
+msgstr "Campos adicionales"
+
+#: includes/form/class-ur-form-field-country.php:233
+msgid "Saint Pierre and Miquelon"
+msgstr "San Pedro y Miquelón"
+
+#: includes/form/class-ur-form-field-country.php:174
+msgid "Macedonia"
+msgstr "Macedonia"
+
+#: includes/form/class-ur-form-field-country.php:175
+msgid "Madagascar"
+msgstr "Madagascar"
+
+#: includes/form/class-ur-form-field-country.php:176
+msgid "Malawi"
+msgstr "Malaui"
+
+#: includes/form/class-ur-form-field-country.php:177
+msgid "Malaysia"
+msgstr "Malasia"
+
+#: includes/form/class-ur-form-field-country.php:178
+msgid "Maldives"
+msgstr "Maldivas"
+
+#: includes/form/class-ur-form-field-country.php:180
+msgid "Malta"
+msgstr "Malta"
+
+#: includes/form/class-ur-form-field-country.php:181
+msgid "Marshall Islands"
+msgstr "Islas Marshall"
+
+#: includes/form/class-ur-form-field-country.php:182
+msgid "Martinique"
+msgstr "Martinica"
+
+#: includes/form/class-ur-form-field-country.php:183
+msgid "Mauritania"
+msgstr "Mauritania"
+
+#: includes/form/class-ur-form-field-country.php:184
+msgid "Mauritius"
+msgstr "Mauricio"
+
+#: includes/form/class-ur-form-field-country.php:185
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: includes/form/class-ur-form-field-country.php:187
+msgid "Micronesia"
+msgstr "Micronesia"
+
+#: includes/admin/class-ur-admin-settings.php:579
+msgid "Select a page&hellip;"
+msgstr "Seleccionar una página..."
+
+#: includes/form/class-ur-form-field-country.php:188
+msgid "Moldova"
+msgstr "Moldavia"
+
+#: includes/form/class-ur-form-field-country.php:189
+msgid "Monaco"
+msgstr "Mónaco"
+
+#: includes/form/class-ur-form-field-country.php:190
+msgid "Mongolia"
+msgstr "Mongolia"
+
+#: includes/form/class-ur-form-field-country.php:191
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: includes/form/class-ur-form-field-country.php:192
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: includes/form/class-ur-form-field-country.php:193
+msgid "Morocco"
+msgstr "Marruecos"
+
+#: includes/form/class-ur-form-field-country.php:194
+msgid "Mozambique"
+msgstr "Mozambique"
+
+#: includes/form/class-ur-form-field-country.php:195
+msgid "Myanmar"
+msgstr "Birmania"
+
+#: includes/abstracts/abstract-ur-list-table.php:132
+#: includes/admin/class-ur-admin-registrations-table-list.php:110
+msgid "Delete permanently"
+msgstr "Borrar permanentemente"
+
+#: includes/form/class-ur-form-field-country.php:196
+msgid "Namibia"
+msgstr "Namibia"
+
+#: includes/form/class-ur-form-field-country.php:197
+msgid "Nauru"
+msgstr "Nauru"
+
+#: includes/form/class-ur-form-field-country.php:198
+msgid "Nepal"
+msgstr "Nepal"
+
+#: includes/form/class-ur-form-field-country.php:199
+msgid "Netherlands"
+msgstr "Países Bajos"
+
+#: includes/form/class-ur-form-field-country.php:200
+msgid "New Caledonia"
+msgstr "Nueva Caledonia"
+
+#: includes/form/class-ur-form-field-country.php:201
+msgid "New Zealand"
+msgstr "Nueva Zelanda"
+
+#: includes/form/class-ur-form-field-country.php:202
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: includes/form/class-ur-form-field-country.php:203
+msgid "Niger"
+msgstr "Níger"
+
+#: includes/form/class-ur-form-field-country.php:204
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: includes/form/class-ur-form-field-country.php:206
+msgid "Norfolk Island"
+msgstr "Isla Norfolk"
+
+#: includes/form/class-ur-form-field-country.php:207
+msgid "Northern Mariana Islands"
+msgstr "Islas Marianas del Norte"
+
+#: includes/functions-ur-core.php:976
+#: includes/RestApi/class-ur-rest-api.php:259
+msgid "Default User Role"
+msgstr "Perfil de usuario por defecto"
+
+#: includes/form/class-ur-form-field-country.php:208
+msgid "North Korea"
+msgstr "Corea del Norte"
+
+#: includes/form/class-ur-form-field-country.php:209
+msgid "Norway"
+msgstr "Noruega"
+
+#: includes/form/class-ur-form-field-country.php:210
+msgid "Oman"
+msgstr "Omán"
+
+#: includes/form/class-ur-form-field-country.php:211
+msgid "Pakistan"
+msgstr "Pakistán"
+
+#: includes/form/class-ur-form-field-country.php:212
+msgid "Palestinian Territory"
+msgstr "Territorio Palestino"
+
+#: includes/form/class-ur-form-field-country.php:138
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bisáu"
+
+#: includes/form/class-ur-form-field-country.php:139
+msgid "Guyana"
+msgstr "Guyana"
+
+#: includes/admin/class-ur-admin-assets.php:231
+msgctxt "enhanced select"
+msgid "Please delete %qty% characters"
+msgstr "Por favor, borra %qty% caracteres"
+
+#: includes/form/class-ur-form-field-country.php:140
+msgid "Haiti"
+msgstr "Haití"
+
+#: includes/form/class-ur-form-field-country.php:141
+msgid "Heard Island and McDonald Islands"
+msgstr "Islas Heard y McDonald"
+
+#: includes/form/class-ur-form-field-country.php:142
+msgid "Honduras"
+msgstr "Honduras"
+
+#: includes/form/class-ur-form-field-country.php:143
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: includes/form/class-ur-form-field-country.php:144
+msgid "Hungary"
+msgstr "Hungría"
+
+#: includes/form/class-ur-form-field-country.php:145
+msgid "Iceland"
+msgstr "Islandia"
+
+#: includes/form/class-ur-form-field-country.php:146
+msgid "India"
+msgstr "India"
+
+#: includes/form/class-ur-form-field-country.php:147
+msgid "Indonesia"
+msgstr "Indonesia"
+
+#: includes/form/class-ur-form-field-country.php:148
+msgid "Iran"
+msgstr "Irán"
+
+#: includes/form/class-ur-form-field-country.php:150
+msgid "Ireland"
+msgstr "Irlanda"
+
+#: includes/form/class-ur-form-field-country.php:151
+msgid "Isle of Man"
+msgstr "Isla de Man"
+
+#: includes/admin/class-ur-admin-assets.php:424
+msgctxt "user registration admin"
+msgid "Success"
+msgstr "Correcto"
+
+#: includes/form/class-ur-form-field-country.php:152
+msgid "Israel"
+msgstr "Israel"
+
+#: includes/form/class-ur-form-field-country.php:153
+msgid "Italy"
+msgstr "Italia"
+
+#: includes/form/class-ur-form-field-country.php:154
+msgid "Ivory Coast"
+msgstr "Costa de Marfil"
+
+#: includes/admin/class-ur-admin-assets.php:428
+msgctxt "user registration admin"
+msgid "Empty form name."
+msgstr "Nombre del formulario vacío."
+
+#: includes/form/class-ur-form-field-country.php:155
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: includes/form/class-ur-form-field-country.php:156
+msgid "Japan"
+msgstr "Japón"
+
+#: includes/form/class-ur-form-field-country.php:157
+msgid "Jersey"
+msgstr "Jersey"
+
+#: includes/form/class-ur-form-field-country.php:159
+msgid "Kazakhstan"
+msgstr "Kazajistán"
+
+#: includes/form/class-ur-form-field-country.php:160
+msgid "Kenya"
+msgstr "Kenia"
+
+#: includes/form/class-ur-form-field-country.php:161
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: includes/form/class-ur-form-field-country.php:162
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: includes/form/class-ur-form-field-country.php:163
+msgid "Kyrgyzstan"
+msgstr "Kirguistán"
+
+#: includes/form/class-ur-form-field-country.php:164
+msgid "Laos"
+msgstr "Laos"
+
+#: includes/form/class-ur-form-field-country.php:165
+msgid "Latvia"
+msgstr "Letonia"
+
+#: includes/form/class-ur-form-field-country.php:166
+msgid "Lebanon"
+msgstr "Líbano"
+
+#: includes/form/class-ur-form-field-country.php:167
+msgid "Lesotho"
+msgstr "Lesoto"
+
+#: includes/form/class-ur-form-field-country.php:168
+msgid "Liberia"
+msgstr "Liberia"
+
+#: includes/form/class-ur-form-field-country.php:170
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: includes/form/class-ur-form-field-country.php:171
+msgid "Lithuania"
+msgstr "Lituania"
+
+#: includes/form/class-ur-form-field-country.php:172
+msgid "Luxembourg"
+msgstr "Luxemburgo"
+
+#: includes/form/class-ur-form-field-country.php:90
+msgid "Chile"
+msgstr "Chile"
+
+#: includes/form/class-ur-form-field-country.php:91
+msgid "China"
+msgstr "China"
+
+#: includes/form/class-ur-form-field-country.php:92
+msgid "Christmas Island"
+msgstr "Isla de Navidad"
+
+#: includes/form/class-ur-form-field-country.php:93
+msgid "Cocos (Keeling) Islands"
+msgstr "Islas Cocos (Keeling)"
+
+#: includes/form/class-ur-form-field-country.php:94
+msgid "Colombia"
+msgstr "Colombia"
+
+#: includes/form/class-ur-form-field-country.php:95
+msgid "Comoros"
+msgstr "Comoras"
+
+#: includes/form/class-ur-form-field-country.php:96
+msgid "Congo (Brazzaville)"
+msgstr "Congo (Brazzaville)"
+
+#: includes/form/class-ur-form-field-country.php:97
+msgid "Congo (Kinshasa)"
+msgstr "Congo (Kinshasa)"
+
+#: includes/form/class-ur-form-field-country.php:98
+msgid "Cook Islands"
+msgstr "Islas Cook"
+
+#: includes/form/class-ur-form-field-country.php:99
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: includes/form/class-ur-form-field-country.php:100
+msgid "Croatia"
+msgstr "Croacia"
+
+#: includes/form/class-ur-form-field-country.php:101
+msgid "Cuba"
+msgstr "Cuba"
+
+#: includes/form/class-ur-form-field-country.php:102
+msgid "Cura&ccedil;ao"
+msgstr "Curazao"
+
+#: includes/form/class-ur-form-field-country.php:103
+msgid "Cyprus"
+msgstr "Chipre"
+
+#: includes/form/class-ur-form-field-country.php:104
+msgid "Czech Republic"
+msgstr "República Checa"
+
+#: includes/form/class-ur-form-field-country.php:105
+msgid "Denmark"
+msgstr "Dinamarca"
+
+#: includes/form/class-ur-form-field-country.php:106
+msgid "Djibouti"
+msgstr "Yibuti"
+
+#: includes/form/class-ur-form-field-country.php:107
+msgid "Dominica"
+msgstr "Dominica"
+
+#: includes/form/class-ur-form-field-country.php:108
+msgid "Dominican Republic"
+msgstr "República Dominicana"
+
+#: includes/form/class-ur-form-field-country.php:109
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: includes/form/class-ur-form-field-country.php:110
+msgid "Egypt"
+msgstr "Egipto"
+
+#: includes/form/class-ur-form-field-country.php:111
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: includes/form/class-ur-form-field-country.php:112
+msgid "Equatorial Guinea"
+msgstr "Guinea Ecuatorial"
+
+#: includes/form/class-ur-form-field-country.php:113
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: includes/form/class-ur-form-field-country.php:114
+msgid "Estonia"
+msgstr "Estonia"
+
+#: includes/form/class-ur-form-field-country.php:115
+msgid "Ethiopia"
+msgstr "Etiopía"
+
+#: includes/form/class-ur-form-field-country.php:117
+msgid "Faroe Islands"
+msgstr "Islas Feroe"
+
+#: includes/form/class-ur-form-field-country.php:118
+msgid "Fiji"
+msgstr "Fiyi"
+
+#: includes/form/class-ur-form-field-country.php:119
+msgid "Finland"
+msgstr "Finlandia"
+
+#: includes/form/class-ur-form-field-country.php:120
+msgid "France"
+msgstr "Francia"
+
+#: includes/form/class-ur-form-field-country.php:121
+msgid "French Guiana"
+msgstr "Guayana Francesa"
+
+#: includes/form/class-ur-form-field-country.php:122
+msgid "French Polynesia"
+msgstr "Polinesia Francesa"
+
+#: includes/form/class-ur-form-field-country.php:124
+msgid "Gabon"
+msgstr "Gabón"
+
+#: includes/form/class-ur-form-field-country.php:125
+msgid "Gambia"
+msgstr "Gambia"
+
+#: includes/form/class-ur-form-field-country.php:126
+msgid "Georgia"
+msgstr "Georgia"
+
+#: includes/form/class-ur-form-field-country.php:127
+msgid "Germany"
+msgstr "Alemania"
+
+#: includes/form/class-ur-form-field-country.php:128
+msgid "Ghana"
+msgstr "Ghana"
+
+#: includes/form/class-ur-form-field-country.php:129
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: includes/form/class-ur-form-field-country.php:130
+msgid "Greece"
+msgstr "Grecia"
+
+#: includes/form/class-ur-form-field-country.php:131
+msgid "Greenland"
+msgstr "Groenlandia"
+
+#: includes/form/class-ur-form-field-country.php:132
+msgid "Grenada"
+msgstr "Granada"
+
+#: includes/form/class-ur-form-field-country.php:133
+msgid "Guadeloupe"
+msgstr "Guadalupe"
+
+#: includes/form/class-ur-form-field-country.php:134
+msgid "Guam"
+msgstr "Guam"
+
+#: includes/form/class-ur-form-field-country.php:135
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: includes/form/class-ur-form-field-country.php:136
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: includes/admin/class-ur-admin-assets.php:228
+msgctxt "enhanced select"
+msgid "Please enter 1 or more characters"
+msgstr "Por favor, introduce 1 o más caracteres"
+
+#: includes/form/class-ur-form-field-user-email.php:49
+#: includes/functions-ur-core.php:703
+msgid "User Email"
+msgstr "Correo electrónico del usuario"
+
+#: includes/form/class-ur-form-field-country.php:137
+msgid "Guinea"
+msgstr "Guinea"
+
+#: includes/form/class-ur-form-field-display-name.php:44
+#: includes/form/class-ur-form-field-display-name.php:49
+#: includes/functions-ur-core.php:712
+msgid "Display Name"
+msgstr "Nombre a mostrar"
+
+#: includes/class-ur-post-types.php:48
+msgid "Registrations"
+msgstr "Registros"
+
+#: includes/class-ur-post-types.php:50
+msgctxt "Admin menu name"
+msgid "Registrations"
+msgstr "Registros"
+
+#: includes/form/class-ur-form-field-description.php:44
+#: includes/form/class-ur-form-field-description.php:49
+msgid "User Bio"
+msgstr "Biografía del usuario"
+
+#: includes/form/class-ur-form-field-country.php:289
+msgid "Samoa"
+msgstr "Samoa"
+
+#: includes/form/class-ur-form-field-country.php:290
+msgid "Yemen"
+msgstr "Yemen"
+
+#: includes/form/class-ur-form-field-country.php:291
+msgid "Zambia"
+msgstr "Zambia"
+
+#: includes/form/class-ur-form-field-text.php:44
+#: includes/form/class-ur-form-field-text.php:49
+msgid "Input Field"
+msgstr "Campo de entrada"
+
+#: includes/form/class-ur-form-field-email.php:44
+msgid "Secondary Email "
+msgstr "Correo electrónico secundario"
+
+#: includes/form/class-ur-form-field-email.php:49
+#: includes/functions-ur-core.php:716
+msgid "Secondary Email"
+msgstr "Correo electrónico secundario"
+
+#: includes/form/class-ur-form-field-user-email.php:44
+msgid "Email "
+msgstr "Correo electrónico "
+
+#: includes/form/class-ur-form-field-country.php:48
+msgid "American Samoa"
+msgstr "Samoa Americana"
+
+#: includes/form/class-ur-form-field-country.php:52
+msgid "Antarctica"
+msgstr "Antártida"
+
+#: includes/form/class-ur-form-field-country.php:53
+msgid "Antigua and Barbuda"
+msgstr "Antigua y Barbuda"
+
+#: includes/form/class-ur-form-field-country.php:54
+msgid "Argentina"
+msgstr "Argentina"
+
+#: includes/form/class-ur-form-field-country.php:55
+msgid "Armenia"
+msgstr "Armenia"
+
+#: includes/form/class-ur-form-field-country.php:56
+msgid "Aruba"
+msgstr "Aruba"
+
+#: includes/form/class-ur-form-field-country.php:57
+msgid "Australia"
+msgstr "Australia"
+
+#: includes/form/class-ur-form-field-country.php:58
+msgid "Austria"
+msgstr "Austria"
+
+#: includes/form/class-ur-form-field-country.php:59
+msgid "Azerbaijan"
+msgstr "Azerbaiyán"
+
+#: includes/form/class-ur-form-field-country.php:60
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: includes/form/class-ur-form-field-country.php:259
+msgid "Syria"
+msgstr "Siria"
+
+#: includes/form/class-ur-form-field-country.php:260
+msgid "Taiwan"
+msgstr "Taiwán"
+
+#: includes/form/class-ur-form-field-country.php:263
+msgid "Thailand"
+msgstr "Tailandia"
+
+#: includes/form/class-ur-form-field-country.php:262
+msgid "Tanzania"
+msgstr "Tanzania"
+
+#: includes/form/class-ur-form-field-country.php:258
+msgid "Switzerland"
+msgstr "Suiza"
+
+#: includes/form/class-ur-form-field-country.php:261
+msgid "Tajikistan"
+msgstr "Tayikistán"
+
+#: includes/form/class-ur-form-field-country.php:257
+msgid "Sweden"
+msgstr "Suecia"
+
+#: includes/form/class-ur-form-field-country.php:67
+msgid "Belize"
+msgstr "Belice"
+
+#: includes/form/class-ur-form-field-country.php:68
+msgid "Benin"
+msgstr "Benín"
+
+#: includes/form/class-ur-form-field-country.php:251
+msgid "Spain"
+msgstr "España"
+
+#: includes/form/class-ur-form-field-country.php:252
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: includes/form/class-ur-form-field-country.php:70
+msgid "Bhutan"
+msgstr "Bután"
+
+#: includes/form/class-ur-form-field-country.php:71
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: includes/form/class-ur-form-field-country.php:72
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "Bonaire, San Eustaquio y Saba"
+
+#: includes/form/class-ur-form-field-country.php:250
+msgid "South Sudan"
+msgstr "Sudán del Sur"
+
+#: includes/form/class-ur-form-field-country.php:73
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia y Herzegovina"
+
+#: includes/form/class-ur-form-field-country.php:74
+msgid "Botswana"
+msgstr "Botsuana"
+
+#: includes/form/class-ur-form-field-country.php:253
+msgid "Sudan"
+msgstr "Sudán"
+
+#: includes/form/class-ur-form-field-country.php:75
+msgid "Bouvet Island"
+msgstr "Isla Bouvet"
+
+#: includes/form/class-ur-form-field-country.php:76
+msgid "Brazil"
+msgstr "Brasil"
+
+#: includes/form/class-ur-form-field-country.php:243
+msgid "Slovakia"
+msgstr "Eslovaquia"
+
+#: includes/form/class-ur-form-field-country.php:242
+msgid "Singapore"
+msgstr "Singapur"
+
+#: includes/form/class-ur-form-field-country.php:77
+msgid "British Indian Ocean Territory"
+msgstr "Territorio Británico del Océano Índico"
+
+#: includes/form/class-ur-form-field-country.php:79
+msgid "Brunei"
+msgstr "Brunéi"
+
+#: includes/form/class-ur-form-field-country.php:80
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+#: includes/form/class-ur-form-field-country.php:81
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: includes/form/class-ur-form-field-country.php:82
+msgid "Burundi"
+msgstr "Burundi"
+
+#: includes/form/class-ur-form-field-country.php:83
+msgid "Cambodia"
+msgstr "Camboya"
+
+#: includes/form/class-ur-form-field-country.php:84
+msgid "Cameroon"
+msgstr "Camerún"
+
+#: includes/form/class-ur-form-field-country.php:85
+msgid "Canada"
+msgstr "Canadá"
+
+#: includes/form/class-ur-form-field-country.php:86
+msgid "Cape Verde"
+msgstr "Cabo Verde"
+
+#: includes/form/class-ur-form-field-country.php:87
+msgid "Cayman Islands"
+msgstr "Islas Caimán"
+
+#: includes/form/class-ur-form-field-country.php:88
+msgid "Central African Republic"
+msgstr "República Centroafricana"
+
+#: includes/form/class-ur-form-field-country.php:89
+msgid "Chad"
+msgstr "Chad"
+
+#: includes/class-ur-form-handler.php:383
+msgid "Please enter your current password."
+msgstr "Por favor, introduce tu contraseña actual."
+
+#: includes/class-ur-form-handler.php:389
+msgid "Please re-enter your password."
+msgstr "Por favor, vuelve a introducir tu contraseña."
+
+#. translators: %s - Field Label
+#: includes/class-ur-form-handler.php:281
+msgid "%s is not a valid email address."
+msgstr "%s no es una dirección de correo electrónico válida."
+
+#: includes/class-ur-ajax.php:363 includes/class-ur-form-handler.php:329
+msgid "User profile updated successfully."
+msgstr "Perfil del usuario actualizado correctamente."
+
+#: includes/admin/views/html-admin-page-forms.php:84
+msgid "Default User Fields"
+msgstr "Campos de usuario por defecto"
+
+#: includes/class-ur-install.php:377
+msgid "Default form"
+msgstr "Formulario por defecto"
+
+#: includes/admin/class-ur-admin-assets.php:418
+msgctxt "user registration admin"
+msgid "Are you sure want to delete this field?"
+msgstr "¿Seguro que quieres borrar este campo?"
+
+#: includes/form/class-ur-form-field-country.php:45
+msgid "&#197;land Islands"
+msgstr "&#197;land Islands"
+
+#: includes/abstracts/abstract-ur-list-table.php:259
+#: includes/abstracts/abstract-ur-list-table.php:299
+#: includes/admin/class-ur-admin-export-users.php:51
+#: includes/admin/class-ur-admin-import-export-forms.php:51
+#: includes/admin/class-ur-admin-notices.php:119
+#: includes/admin/class-ur-admin-settings.php:77
+#: includes/admin/class-ur-admin-status.php:167
+#: includes/class-ur-email-confirmation.php:183
+msgid "Action failed. Please refresh the page and retry."
+msgstr "La acción falló. Por favor, recarga la página y vuelve a intentarlo."
+
+#: includes/class-ur-post-types.php:52
+msgid "Add new registration"
+msgstr "Añadir un nuevo registro"
+
+#: includes/form/class-ur-form-field-country.php:47
+msgid "Algeria"
+msgstr "Algeria"
+
+#: includes/form/class-ur-form-field-country.php:51
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#. translators: %s - Link to logout
+#: includes/shortcodes/class-ur-shortcode-my-account.php:141
+msgid "Are you sure you want to log out?&nbsp;<a href=\"%s\">Confirm and log out</a>"
+msgstr "¿Seguro que quieres salir?&nbsp;<a href=\"%s\">Confirmar y salir</a>"
+
+#: includes/form/class-ur-form-field-country.php:66
+msgid "Belau"
+msgstr "Belau"
+
+#: includes/form/class-ur-form-field-country.php:69
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: includes/form/class-ur-form-field-country.php:78
+msgid "British Virgin Islands"
+msgstr "Inslas Vírgenes Británicas"
+
+#: includes/form/class-ur-form-field-user-confirm-password.php:44
+msgid "Confirm Password "
+msgstr "Confirmar contraseña"
+
+#: templates/myaccount/form-edit-password.php:62
+msgid "Confirm new password"
+msgstr "Confirmar la nueva contraseña"
+
+#: includes/class-ur-ajax.php:815
+msgid "Could not save form. Invalid field name. Please check all field name"
+msgstr "El formulario no se pudo guardar. El nombre del campo no es válido. Por favor, comprueba el nombre de todos los campos"
+
+#: templates/myaccount/form-reset-password.php:29
+msgid "Enter a new password below."
+msgstr "Introduce una nueva contraseña debajo."
+
+#: includes/form/class-ur-form-field-country.php:116
+msgid "Falkland Islands"
+msgstr "Islas Falkland"
+
+#: includes/functions-ur-core.php:759 includes/functions-ur-core.php:761
+msgid "Field Name"
+msgstr "Nombre de campo"
+
+#: includes/admin/views/html-admin-page-forms.php:60
+msgid "Field Options"
+msgstr "Opciones de campo"
+
+#: user-registration.php:355
+msgid "Free support"
+msgstr "Soporte gratuito"
+
+#: includes/form/class-ur-form-field-country.php:123
+msgid "French Southern Territories"
+msgstr "Territorios del Sur de Francia"
+
+#: includes/abstracts/abstract-ur-form-field.php:650 chunks/main.js:46191
+msgid "General Settings"
+msgstr "Ajustes generales"
+
+#: includes/form/class-ur-form-field-country.php:149
+msgid "Iraq"
+msgstr "Iraq"
+
+#: includes/form/class-ur-form-field-country.php:158
+msgid "Jordan"
+msgstr "Jordán"
+
+#: includes/form/class-ur-form-field-country.php:169
+msgid "Libya"
+msgstr "Líbia"
+
+#: includes/admin/class-ur-admin-menus.php:584 includes/class-ur-query.php:78
+msgid "Lost password"
+msgstr "Contraseña perdida"
+
+#: includes/admin/settings/class-ur-settings-general.php:543
+#: templates/myaccount/form-login.php:43
+msgid "Lost your password?"
+msgstr "¿Has perdido tu contraseña?"
+
+#: includes/form/class-ur-form-field-country.php:173
+msgid "Macao S.A.R., China"
+msgstr "Macao S.A.R., China"
+
+#: includes/form/class-ur-form-field-country.php:179
+msgid "Mali"
+msgstr "Mali"
+
+#: includes/form/class-ur-form-field-country.php:186
+msgid "Mexico"
+msgstr "Méjico"
+
+#: includes/form/class-ur-form-field-country.php:205
+msgid "Niue"
+msgstr "Niue"
+
+#: includes/form/settings/class-ur-setting-checkbox.php:71
+#: includes/form/settings/class-ur-setting-user_login.php:63
+#: includes/functions-ur-core.php:783 includes/functions-ur-core.php:796
+msgid "No"
+msgstr "No"
+
+#: includes/class-ur-post-types.php:59
+msgid "No registrations found"
+msgstr "No se han encontrado registros"
+
+#: includes/class-ur-post-types.php:60
+msgid "No registrations found in trash"
+msgstr "No se han encontrado registros en la papelera"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:40
+msgid "No user registration found."
+msgstr "No se han encontrado el registro de usuario."
+
+#: includes/class-ur-ajax.php:99 includes/class-ur-ajax.php:162
+#: includes/class-ur-ajax.php:219 includes/class-ur-ajax.php:392
+#: includes/class-ur-ajax.php:569 includes/class-ur-ajax.php:1145
+msgid "Nonce error, please reload."
+msgstr "Error temporal. Por favor, recarga."
+
+#: includes/class-ur-post-types.php:61
+msgid "Parent registration"
+msgstr "Registro principal"
+
+#: includes/form/class-ur-form-field-user-pass.php:44
+msgid "Password "
+msgstr "Contraseña"
+
+#: includes/form/settings/class-ur-setting-password.php:31
+#: includes/form/settings/class-ur-setting-password.php:38
+msgid "Password Size"
+msgstr "Tamaño de contraseña"
+
+#: includes/frontend/class-ur-frontend-form-handler.php:408
+msgid "Password and confirm password not matched"
+msgstr "La contraseña y la confirmación de contraseña no coinciden"
+
+#: includes/shortcodes/class-ur-shortcode-my-account.php:376
+msgid "Password reset is not allowed for this user"
+msgstr "No se permite el reestablecimiento de contraseña para este usuario"
+
+#: includes/class-ur-frontend-scripts.php:397
+msgid "Password with confirm password not matched."
+msgstr "La contraseña y la confirmación de la contraseña no coinciden."
+
+#: includes/functions-ur-core.php:769 includes/functions-ur-core.php:771
+msgid "Placeholder"
+msgstr "Marcador"
+
+#: includes/class-ur-form-handler.php:691
+msgid "Please enter your password."
+msgstr "Por favor, introduce tu contraseña."
+
+#: includes/class-ur-form-handler.php:380
+msgid "Please fill out all password fields."
+msgstr "Por favor, rellena todos los campos de contraseña."
+
+#: includes/class-ur-query.php:75 includes/functions-ur-account.php:121
+msgid "Profile Details"
+msgstr "Detalles del perfil"
+
+#: templates/myaccount/form-reset-password.php:43
+msgid "Re-enter new password"
+msgstr "Vuelve a introducir la nueva contraseña"
+
+#: includes/admin/settings/class-ur-settings-general.php:263
+#: includes/functions-ur-core.php:778
+msgid "Required"
+msgstr "Requerido"
+
+#: includes/frontend/class-ur-frontend-form-handler.php:192
+msgid "Required form field not found."
+msgstr "Campo requerido de formulario no encontrado."
+
+#: templates/myaccount/form-lost-password.php:47
+msgid "Reset password"
+msgstr "Restaurar contraseña"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:105
+msgid "Restore this item from the Trash"
+msgstr "Restaurar este ítem de la papelera"
+
+#: includes/form/class-ur-form-field-country.php:224
+msgid "Romania"
+msgstr "Rumanía"
+
+#: includes/admin/views/html-notice-update.php:15
+msgid "Run the updater"
+msgstr "Ejecuta el actualizador"
+
+#: includes/form/class-ur-form-field-country.php:236
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr "Santo Tomé y Príncipe"
+
+#: includes/form/class-ur-form-field-country.php:228
+msgid "Saint Helena"
+msgstr "Santa Helena"
+
+#: includes/form/class-ur-form-field-country.php:231
+msgid "Saint Martin (French part)"
+msgstr "San Martin (parte francesa)"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:168
+msgid "Search Registration"
+msgstr "Buscar registro"
+
+#: includes/admin/views/html-notice-install.php:15
+msgid "Skip setup"
+msgstr "Abandonar configuración"
+
+#: includes/form/class-ur-form-field-country.php:248
+msgid "South Georgia/Sandwich Islands"
+msgstr "Georgia del Sur/Islas Sandwich"
+
+#: includes/form/class-ur-form-field-country.php:254
+msgid "Suriname"
+msgstr "Surinam"
+
+#: includes/form/class-ur-form-field-country.php:255
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard and Jan Mayen"
+
+#: includes/form/class-ur-form-field-country.php:256
+msgid "Swaziland"
+msgstr "Suazilandia"
+
+#: includes/admin/views/html-notice-updating.php:14
+msgid "Taking a while? Click here to run it now."
+msgstr "¿Está tardando? Haz clic aquí para ejecutarlo ahora."
+
+#: includes/form/class-ur-form-field-textarea.php:44
+#: includes/form/class-ur-form-field-textarea.php:49
+#: includes/functions-ur-core.php:719
+msgid "Textarea"
+msgstr "Área de texto"
+
+#: includes/admin/class-ur-admin-settings.php:150
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr "Los cambios que hiciste se perderán si sales de esta página."
+
+#: includes/functions-ur-notice.php:29 includes/functions-ur-notice.php:61
+#: includes/functions-ur-notice.php:81 includes/functions-ur-notice.php:107
+#: includes/functions-ur-notice.php:121 includes/functions-ur-notice.php:135
+#: includes/functions-ur-notice.php:190
+msgid "This function should not be called before user_registration_init."
+msgstr "Esta función no debería ser llamada antes de user_registration_init."
+
+#: includes/form/class-ur-form-field-country.php:264
+msgid "Timor-Leste"
+msgstr "Timor-Leste"
+
+#: includes/form/class-ur-form-field-country.php:278
+msgid "United States (US)"
+msgstr "Estados Unidos (EEUU)"
+
+#: includes/form/class-ur-form-field-country.php:279
+msgid "United States (US) Minor Outlying Islands"
+msgstr "Estados Unidos (EEUU) Islas Ultramarinas Menores"
+
+#: includes/form/class-ur-form-field-country.php:280
+msgid "United States (US) Virgin Islands"
+msgstr "Estados Unidos (EEUU) Islas Vírgenes"
+
+#: includes/admin/class-ur-admin-menus.php:505
+msgid "Update form"
+msgstr "Actualizar el formulario"
+
+#. Plugin Name of the plugin
+#: includes/admin/class-ur-admin-registrations-table-list.php:161
+msgid "User Registration"
+msgstr "User Registration"
+
+#: includes/admin/views/html-notice-updated.php:16
+msgid "User Registration data update complete. Thank you for updating to the latest version!"
+msgstr "Actualización de datos de User Registration completada ¡Gracias por actualizar a la última versión!"
+
+#: includes/admin/class-ur-admin-menus.php:408
+msgid "User Registration settings"
+msgstr "Ajustes de User Registration"
+
+#: includes/form/class-ur-form-field-user-login.php:76
+msgid "Username already exists."
+msgstr "Este nombre de usuario ya existe."
+
+#: user-registration.php:338
+msgid "View User Registration settings"
+msgstr "Ver ajustes de User Registration"
+
+#: includes/admin/views/html-notice-update.php:14
+msgid "We need to update your site's database to the latest version."
+msgstr "Necesitamos actualizar la base de datos de tu sitio a la última versión."
+
+#: includes/form/class-ur-form-field-country.php:288
+msgid "Western Sahara"
+msgstr "Sahara del Oeste"
+
+#: includes/abstracts/abstract-ur-list-table.php:568
+msgid "Y/m/d"
+msgstr "A/m/d"
+
+#: includes/abstracts/abstract-ur-list-table.php:551
+msgid "Y/m/d g:i:s A"
+msgstr "A/m/s g:i:s A"
+
+#: includes/admin/class-ur-admin-settings.php:88
+msgid "Your settings have been saved."
+msgstr "Tus ajustes se han guardado."
+
+#: includes/form/class-ur-form-field-country.php:292
+msgid "Zimbabwe"
+msgstr "Zimbabue"
+
+#: includes/admin/class-ur-admin-assets.php:227
+msgctxt "enhanced select"
+msgid "Loading failed"
+msgstr "Falló la carga"
+
+#: includes/admin/class-ur-admin-assets.php:234
+msgctxt "enhanced select"
+msgid "Loading more results&hellip;"
+msgstr "Cargando más resultados..."
+
+#: includes/admin/class-ur-admin-assets.php:226
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr "No se han encontrado coincidencias"
+
+#: includes/admin/class-ur-admin-assets.php:230
+msgctxt "enhanced select"
+msgid "Please delete 1 character"
+msgstr "Por favor, borra 1 caracter"
+
+#: includes/admin/class-ur-admin-assets.php:235
+msgctxt "enhanced select"
+msgid "Searching&hellip;"
+msgstr "Buscando..."
+
+#: includes/admin/class-ur-admin-assets.php:427
+msgctxt "user registration admin"
+msgid "At least one field needs to be selected."
+msgstr "Hay que seleccionar al menos un campo."
+
+#: includes/admin/class-ur-admin-assets.php:432
+msgctxt "user registration admin"
+msgid "Invalid field name. Please do not use space, empty or special character, you can use underscore."
+msgstr "Nombre de campo no válido. Por favor, no uses espacios ni caracteres vacíos o especiales, puedes usar el guión bajo."
+
+#: includes/admin/class-ur-admin-assets.php:433
+msgctxt "user registration admin"
+msgid "Multiple field key "
+msgstr "Clave de campo múltiple"
+
+#: includes/form/class-ur-form-field-country.php:232
+msgid "Saint Martin (Dutch part)"
+msgstr "San Martín (parte alemana)"
+
+#: includes/abstracts/abstract-ur-list-table.php:268
+msgid "You do not have permission to trash posts!"
+msgstr "¡No tienes permisos para enviar entradas a la papelera!"
+
+#: includes/abstracts/abstract-ur-list-table.php:288
+#: includes/abstracts/abstract-ur-list-table.php:297
+msgid "You do not have permission to delete posts!"
+msgstr "¡No tienes permisos para borrar entradas!"
+
+#: includes/form/settings/class-ur-setting-country.php:57
+#: includes/form/settings/class-ur-setting-text.php:56
+#: includes/form/settings/class-ur-setting-text.php:63
+#: includes/form/settings/class-ur-setting-textarea.php:33
+#: includes/form/settings/class-ur-setting-textarea.php:40
+msgid "Default Value"
+msgstr "Valor por defecto"

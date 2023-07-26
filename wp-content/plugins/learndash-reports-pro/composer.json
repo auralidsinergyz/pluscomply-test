@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.19",
+        "woocommerce/woocommerce-sniffs": "^0.1.1"
+    }
+}

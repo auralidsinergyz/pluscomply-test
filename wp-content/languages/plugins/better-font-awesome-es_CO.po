@@ -1,0 +1,86 @@
+# Translation of Plugins - Better Font Awesome - Stable (latest release) in Spanish (Colombia)
+# This file is distributed under the same license as the Plugins - Better Font Awesome - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-16 22:56:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es_CO\n"
+"Project-Id-Version: Plugins - Better Font Awesome - Stable (latest release)\n"
+
+#. translators: placeholder is the numeric current version number.
+#: better-font-awesome.php:524
+msgid "%s (The plugin automatically uses the latest version of Font Awesome, and checks for updates at this frequency)"
+msgstr "%s (El plugin utiliza automáticamente la última versión de Font Awesome, y comprueba las actualizaciones con esta frecuencia)"
+
+#: better-font-awesome.php:419
+msgid "Include the Font Awesome v4 CSS shim to support legacy icons (<a href=\"https://fontawesome.com/how-to-use/on-the-web/setup/upgrading-from-version-4#name-changes\" target=\"_blank\">more details</a>)."
+msgstr "Incluye el «shim» CSS de Font Awesome v4 para ser compatible con los iconos heredados (<a href=\"https://fontawesome.com/how-to-use/on-the-web/setup/upgrading-from-version-4#name-changes\" target=\"_blank\">más detalles</a>)."
+
+#: better-font-awesome.php:413
+msgid "Include v4 CSS shim"
+msgstr "Incluir el «shim» de CSS v4"
+
+#: better-font-awesome.php:405
+msgid "Version check frequency"
+msgstr "Frecuencia de comprobación de la versión"
+
+#: better-font-awesome.php:397
+msgid "Font Awesome version"
+msgstr "Versión de Font Awesome"
+
+#: better-font-awesome.php:500
+msgid "Settings saved."
+msgstr "Ajustes guardados."
+
+#. Author URI of the plugin
+msgid "mickeyskay@gmail.com"
+msgstr "mickeyskay@gmail.com"
+
+#. Author of the plugin
+msgid "Mickey Kay"
+msgstr "Mickey Kay"
+
+#. Description of the plugin
+msgid "The ultimate Font Awesome icon plugin for WordPress."
+msgstr "El plugin de iconos Font Awesome definitivo para WordPress."
+
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/plugins/better-font-awesome"
+msgstr "https://ve.wordpress.org/plugins/better-font-awesome"
+
+#: better-font-awesome.php:443
+msgid "Hide the default admin warnings that are shown when API and CDN errors occur."
+msgstr "Oculta las advertencias por defecto de administración que se muestran cuando ocurren errores de la API o la CDN."
+
+#: better-font-awesome.php:437
+msgid "Hide admin notices"
+msgstr "Ocultar los avisos de administración"
+
+#: better-font-awesome.php:431
+msgid "Attempt to remove Font Awesome CSS and shortcodes added by other plugins and themes."
+msgstr "Intento de eliminar el CSS y shortcodes de Font Awesome por otros plugins y temas."
+
+#: better-font-awesome.php:425
+msgid "Remove existing Font Awesome"
+msgstr "Eliminar Font Awesome existente"
+
+#: better-font-awesome.php:368
+msgid "Save Settings"
+msgstr "Guardar los ajustes"
+
+#: better-font-awesome.php:254
+msgid "Back to the plugins page &rarr;"
+msgstr "Volver a la página de plugins &rarr;"
+
+#: better-font-awesome.php:253
+msgid "It appears that Better Font Awesome is missing it's <a href=\"https://github.com/MickeyKay/better-font-awesome-library\" target=\"_blank\">core library</a>, which typically occurs when cloning the Git repository and failing to run <code>composer install</code>. Please refer to the plugin's <a href=\"https://github.com/MickeyKay/better-font-awesome\" target=\"_blank\">installation instructions</a> for details on how to properly install Better Font Awesome via Git. If you installed from within WordPress, or via the wordpress.org repo, then chances are the install failed and you can try again. If the issue persists, please create a new topic on the plugin's <a href=\"http://wordpress.org/support/plugin/better-font-awesome\" target=\"_blank\">support forum</a> or file an issue on the <a href=\"https://github.com/MickeyKay/better-font-awesome/issues\" target=\"_blank\">Github repo</a>."
+msgstr "Parece que a Better Font Awesome le falta su <a href=\"https://github.com/MickeyKay/better-font-awesome-library\" target=\"_blank\">biblioteca principal</a>, lo que ocurre típicamente cuando se clona el repositorio Git y no se ejecuta <code>composer install</code>. Por favor, consulta las <a href=\"https://github.com/MickeyKay/better-font-awesome\" target=\"_blank\">instrucciones de instalación</a> del plugin para obtener detalles sobre cómo instalar correctamente Better Font Awesome a través de Git. Si lo instalaste desde WordPress, o a través del repositorio de wordpress.org, es probable que la instalación haya fallado y puedas intentarlo de nuevo. Si el problema persiste, por favor crea un nuevo debate en el <a href=\"http://wordpress.org/support/plugin/better-font-awesome\" target=\"_blank\">foro de soporte</a> o envía un aviso de problemas al <a href=\"https://github.com/MickeyKay/better-font-awesome/issues\" target=\"_blank\">repositorio en Github</a>."
+
+#. Plugin Name of the plugin
+#: better-font-awesome.php:195 better-font-awesome.php:252
+msgid "Better Font Awesome"
+msgstr "Better Font Awesome"

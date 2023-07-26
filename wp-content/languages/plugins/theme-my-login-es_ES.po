@@ -1,0 +1,789 @@
+# Translation of Plugins - Theme My Login - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Theme My Login - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-05-19 18:31:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Theme My Login - Development (trunk)\n"
+
+#: includes/class-theme-my-login-widget.php:96 includes/shortcodes.php:85
+msgid "Edit Profile"
+msgstr "Editar el perfil"
+
+#: includes/actions.php:724
+msgid "<strong>Error</strong>: The passwords do not match."
+msgstr "<strong>Error</strong>: Las contraseñas no coinciden."
+
+#: includes/actions.php:676
+msgid "<strong>Error</strong>: Your password reset link has expired. Please request a new link below."
+msgstr "<strong>Error</strong>: Tu enlace de restablecimiento de la contraseña ha caducado. Por favor, solicita a continuación un nuevo enlace."
+
+#: includes/actions.php:674
+msgid "<strong>Error</strong>: Your password reset link appears to be invalid. Please request a new link below."
+msgstr "<strong>Error</strong>: Tu enlace de restablecimiento de la contraseña parece que no es válido. Por favor, solicita a continuación un nuevo enlace."
+
+#: includes/actions.php:509 includes/actions.php:596
+msgid "<strong>Error</strong>: User registration is currently not allowed."
+msgstr "<strong>Error</strong>: En este momento no se permite el registro de usuarios."
+
+#: includes/actions.php:28
+msgid "Check your email"
+msgstr "Comprueba tu correo electrónico"
+
+#: includes/forms.php:297
+msgid "Save Password"
+msgstr "Guardar la contraseña"
+
+#: admin/settings.php:595
+msgid "<strong>Error</strong>: Options page %s not found in the options whitelist."
+msgstr "<strong>Error</strong>: La página de opciones %s no se ha encontrado en la lista de opciones permitidas."
+
+#: includes/functions.php:696
+msgid "<strong>Error</strong>: Passwords don&#8217;t match. Please enter the same password in both password fields."
+msgstr "<strong>Error</strong>: Las contraseñas no coinciden. Por favor, introduce la misma contraseña en los dos campos de contraseña."
+
+#. translators: %s: IP address of password reset requester.
+#: includes/compat.php:106
+msgid "This password reset request originated from the IP address %s."
+msgstr "Esta solicitud de restablecimiento de contraseña se ha originado en la dirección IP %s."
+
+#: includes/actions.php:518
+msgid "Registration complete. Please check your email, then visit the <a href=\"%s\">login page</a>."
+msgstr "Registro completo. Por favor, comprueba tu correo electrónico y, después, visita la <a href=\"%s\">página de acceso</a>."
+
+#: includes/actions.php:512 includes/actions.php:653
+msgid "Check your email for the confirmation link, then visit the <a href=\"%s\">login page</a>."
+msgstr "Comprueba tu correo electrónico para el enlace de confirmación y, después, visita la <a href=\"%s\">página de acceso</a>."
+
+#: admin/settings.php:139
+msgid "Enable AJAX requests"
+msgstr "Activar las peticiones AJAX"
+
+#: admin/settings.php:134
+msgid "AJAX"
+msgstr "AJAX"
+
+#: admin/extensions.php:163 admin/extensions.php:189
+msgid "Invalid extension."
+msgstr "Extensión no válida."
+
+#: includes/shortcodes.php:70
+msgid "Howdy, %s"
+msgstr "Hola, %s"
+
+#: includes/extensions.php:257
+msgid "Unable to deactivate license. Please deactivate it on <a href=\"%1$s\" target=\"_blank\">our site</a>."
+msgstr "No se puede desactivar la licencia. Por favor, desactívala en <a href=\"%1$s\" target=\"_blank\">nuestro sitio</a>."
+
+#: includes/extensions.php:218
+msgid "You are attempting to activate a bundle license. Please use the license that corresponds to the individual extension you are attemtping to activate."
+msgstr "Estás intentando activar una licencia de un lote. Por favor, usa la licencia que corresponde a la extensión individual que estás intentando activar."
+
+#: includes/compat.php:174
+msgid "https://wordpress.org/support/article/resetting-your-password/"
+msgstr "https://es.wordpress.org/support/article/resetting-your-password/"
+
+#: includes/compat.php:173
+msgid "<strong>Error</strong>: The email could not be sent. Your site may not be correctly configured to send emails. <a href=\"%s\">Get support for resetting your password</a>."
+msgstr "<strong>Error</strong>: no se ha podido enviar el correo electrónico. Puede que tu sitio no esté configurado correctamente para enviar correos electrónicos. <a href=\"%s\">Obtén soporte para restablecer tu contraseña</a>."
+
+#: includes/actions.php:439
+msgid "https://wordpress.org/support/forums/"
+msgstr "https://es.wordpress.org/support/forums/"
+
+#: includes/class-theme-my-login-widget.php:88 includes/shortcodes.php:81
+msgid "Site Admin"
+msgstr "Administrador del sitio"
+
+#: includes/compat.php:31 includes/compat.php:52
+msgid "<strong>Error</strong>: There is no account with that username or email address."
+msgstr "<strong>Error</strong>: no hay ninguna cuenta con ese nombre de usuario o dirección de correo electrónico."
+
+#: includes/actions.php:751
+msgid "Missing confirm key."
+msgstr "Falta la clave de confirmación."
+
+#: includes/actions.php:747
+msgid "Missing request ID."
+msgstr "Falta el ID solicitado."
+
+#: includes/actions.php:446
+msgid "https://wordpress.org/support/article/cookies#enable-cookies-your-browser"
+msgstr "https://wordpress.org/support/article/cookies#enable-cookies-your-browser"
+
+#: includes/actions.php:438
+msgid "https://wordpress.org/support/article/cookies/"
+msgstr "https://es.wordpress.org/support/article/cookies/"
+
+#: admin/functions.php:351
+msgid "Settings"
+msgstr "Ajustes"
+
+#: admin/functions.php:179
+msgid "A new <strong>Theme My Login</strong> extension is available!"
+msgstr "¡Está disponible una  extensión de <strong>Theme My Login</strong>!"
+
+#: admin/settings.php:718
+msgid "On this page, you can configure the settings for the Theme My Login %s extension."
+msgstr "En esta página puedes configurar los ajustes de la extensión %s de «Theme My Login»."
+
+#: admin/settings.php:707
+msgid "View your Theme My Login account"
+msgstr "Ver tu cuenta de «Theme My Login»"
+
+#: admin/settings.php:703
+msgid "Go to the Extensions Store"
+msgstr "Ir a la tienda de extensiones"
+
+#: admin/settings.php:661 admin/settings.php:683 admin/settings.php:734
+msgid "Get Support"
+msgstr "Obtener soporte"
+
+#: admin/settings.php:656 admin/settings.php:679 admin/settings.php:699
+#: admin/settings.php:727
+msgid "View Documentation"
+msgstr "Ver documentación"
+
+#: includes/class-theme-my-login-widget.php:57
+msgctxt "Howdy"
+msgid "Welcome"
+msgstr "Bienvenido"
+
+#: admin/settings.php:757
+msgid "For more information:"
+msgstr "Para más información:"
+
+#: admin/settings.php:694
+msgid "Once you purchase an extension, you download it from your email receipt or your account page on our website. Then, you install it just like a normal WordPress plugin."
+msgstr "Una vez que compras una extensión, puedes descargarla desde el correo electrónico del recibo o de la página de tu cuenta en nuestra web. Después, instálala como un plugin normal para WordPress."
+
+#: admin/settings.php:693
+msgid "This page shows you all of the extensions available to purchase for Theme My Login."
+msgstr "Esta página te muestra todas las extensiones disponibles para comprar de «Theme My Login»"
+
+#: admin/settings.php:674
+msgid "If you have already activated your license, this button will say \"Deactivate\". Click this button to deactivate your license."
+msgstr "Si ya has activado tu licencia, este botón dirá «Desactivar». Haz clic en este botón para desactivar tu licencia."
+
+#: admin/settings.php:673
+msgid "If you have not yet activated your license, this button will say \"Activate\". Click this button to activate your license."
+msgstr "Si todavía no has activado tu licencia, este botón dirá «Activar». Haz clic en este botón para activar tu licencia."
+
+#: admin/settings.php:672
+msgid "After you enter your license keys and click the Save Changes button at the bottom of the screen, you will see a new button next to each field with a license in it."
+msgstr "Después de introducir tus claves de licencia y hacer clic en el botón de guardar cambios en la parte inferior de la pantalla, verás un nuevo botón al lado de cada campo con una licencia en cada uno."
+
+#: admin/settings.php:671
+msgid "When you purchase extensions for Theme My Login, you will enter your license keys on this page."
+msgstr "Cuando compres extensiones para «Theme My Login», tendrás que introducir las claves de la licencia en esta página."
+
+#: admin/settings.php:651 admin/settings.php:721
+msgid "You must click the Save Changes button at the bottom of the screen for new settings to take effect."
+msgstr "Debes hacer clic en el botón Guardar cambios en la parte inferior de la pantalla para que la nueva configuración surta efecto."
+
+#: admin/settings.php:650
+msgid "Additionally, you can change the slugs that are used to generate the URLs that represent specific actions."
+msgstr "Además, puede cambiar los slugs que se utilizan para generar las direcciones URL que representan acciones específicas."
+
+#: admin/settings.php:649
+msgid "Below, you can configure how you would like users to register and log in to your site."
+msgstr "A continuación, puedes configurar cómo deseas que los usuarios se registren y accedan a tu sitio."
+
+#: admin/settings.php:648
+msgid "Welcome to Theme My Login!"
+msgstr "¡Bienvenido a «Theme My Login»!"
+
+#: admin/settings.php:646 admin/settings.php:669 admin/settings.php:691
+#: admin/settings.php:715
+msgid "Overview"
+msgstr "Resumen"
+
+#: admin/settings.php:249
+msgid "The slugs defined here will be used to generate the URL to the corresponding action. You can see this URL below the slug field. If you would like to use pages for these actions, simply make sure the slug for the action below matches the slug of the page you would like to use for that action."
+msgstr "Los slugs definidos aquí se usarán para generar la URL a la acción correspondiente. Puedes ver este enlace debajo del campo del slug. Si deseas utilizar páginas para estas acciones, solo tienes que asegurarte de que el slug de la acción de abajo coincide el slug de la página que deseas usar para esa acción."
+
+#. Description of the plugin
+msgid "Creates an alternate login, registration and password recovery experience within your theme."
+msgstr "Crea una experiencia alternativa de recuperación de inicio de sesión, registro y contraseña dentro de tu tema."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://thememylogin.com"
+msgstr "https://thememylogin.com"
+
+#: includes/ms-functions.php:735
+msgid "The site you were looking for, %s, does not exist."
+msgstr "El sitio que estabas buscando, %s, no existe."
+
+#: includes/ms-functions.php:730
+msgid "The site you were looking for, %s, does not exist, but you can create it now!"
+msgstr "El sitio que estabas buscando, %s, no existe, ¡pero puedes crearlo ahora!"
+
+#: includes/ms-functions.php:696
+msgid "%1$s is your new site. <a href=\"%2$s\">Log in</a> as &#8220;%3$s&#8221; using your existing password."
+msgstr "%1$s es tu nuevo sitio. <a href=\"%2$s\">Accede</a> como «%3$s» usando tu contraseña previa."
+
+#: includes/ms-functions.php:634 includes/ms-functions.php:654
+msgid "Check your inbox at %s and click the link given."
+msgstr "Revisa tu bandeja de entrada en %sy haz clic en el enlace proporcionado."
+
+#: includes/ms-functions.php:605
+msgid "To change or disable registration go to your <a href=\"%s\">Options page</a>."
+msgstr "Para cambiar o desactivar el registro, ve a tu <a href=\"%s\">página de opciones</a>."
+
+#: includes/ms-functions.php:601
+msgid "The network currently allows both site and user registrations."
+msgstr "La red actualmente permite tanto registros de usuarios como de sitios."
+
+#: includes/ms-functions.php:597
+msgid "The network currently allows user registrations."
+msgstr "La red actualmente permite registros de usuarios."
+
+#: includes/ms-functions.php:593
+msgid "The network currently allows site registrations."
+msgstr "La red actualmente permite registros de sitios."
+
+#: includes/ms-functions.php:589
+msgid "The network currently disallows registrations."
+msgstr "La red actualmente no permite las inscripciones."
+
+#: includes/ms-functions.php:586
+msgid "Greetings Network Administrator!"
+msgstr "¡Saludos, administrador de red!"
+
+#: includes/functions.php:814
+msgid "<strong>Error</strong>: Invalid email address."
+msgstr "<strong>Error</strong>: dirección de correo electrónico no válida."
+
+#: includes/functions.php:795
+msgid "Username or Email Address"
+msgstr "Nombre de usuario o correo electrónico"
+
+#: includes/functions.php:713
+msgid "If you have already set your own password, you may disregard this email and use the password you have already set."
+msgstr "Si ya configuró tu propia contraseña, podrá hacer caso omiso de este correo electrónico y utilizar la contraseña ya establecida."
+
+#: includes/functions.php:584 includes/functions.php:611
+#: includes/functions.php:626
+msgid "TML Action"
+msgstr "Acción de TML"
+
+#: includes/functions.php:556
+msgid "Theme My Login Action"
+msgstr "Acción de «Theme My Login»"
+
+#: includes/extensions.php:214
+msgid "Your license key has reached its activation limit."
+msgstr "Tu clave de licencia ha alcanzado su límite de activación."
+
+#: includes/extensions.php:210
+msgid "Invalid license."
+msgstr "Licencia no válida."
+
+#: includes/extensions.php:202
+msgid "Your license key has been disabled."
+msgstr "Tu clave de licencia ha sido desactivada."
+
+#: includes/extensions.php:196
+msgid "Your license key expired on %s."
+msgstr "Tu clave de licencia caducó el %s."
+
+#: includes/extensions.php:189 includes/extensions.php:222
+#: includes/extensions.php:252 includes/extensions.php:287
+msgid "An error occurred, please try again."
+msgstr "Ha ocurrido un error, inténtalo de nuevo."
+
+#. translators: %s: site name
+#: includes/compat.php:95
+msgid "Site Name: %s"
+msgstr "Nombre del sitio: %s"
+
+#: includes/class-theme-my-login-widget.php:177
+msgid "Show action links?"
+msgstr "¿Mostrar enlaces de acción?"
+
+#: includes/class-theme-my-login-widget.php:166
+msgid "Action:"
+msgstr "Acción"
+
+#: includes/actions.php:445
+msgid "<strong>Error</strong>: Cookies are blocked or not supported by your browser. You must <a href=\"%s\">enable cookies</a> to use WordPress."
+msgstr "<strong>Error</strong>: las cookies están bloqueadas o no son admitidas por tu navegador. Debes <a href=\"%s\">activar las cookies</a> para usar WordPress."
+
+#: includes/actions.php:437
+msgid "<strong>Error</strong>: Cookies are blocked due to unexpected output. For help, please see <a href=\"%1$s\">this documentation</a> or try the <a href=\"%2$s\">support forums</a>."
+msgstr "<strong>Error</strong>: las cookies están bloqueadas por una salida inesperada. Para obtener ayuda, por favor, consulta <a href=\"%1$s\">esta documentación</a> o prueba en los <a href=\"%2$s\">foros de soporte</a>."
+
+#: includes/actions.php:80
+msgid "Your Data Request"
+msgstr "Tu petición de datos"
+
+#: includes/actions.php:63
+msgid "Lost your password?"
+msgstr "¿Has perdido tu contraseña?"
+
+#: admin/settings.php:617
+msgid "Settings saved."
+msgstr "Configuración guardada."
+
+#: admin/settings.php:503
+msgid "Deactivate"
+msgstr "Desactivar"
+
+#: admin/extensions.php:200 admin/settings.php:491
+msgid "Inactive"
+msgstr "Inactivo"
+
+#: admin/settings.php:488
+msgid "Invalid"
+msgstr "No válido"
+
+#: admin/extensions.php:179 admin/settings.php:485
+msgid "Active"
+msgstr "Activo"
+
+#: admin/settings.php:202
+msgid "Automatically log in users after registration"
+msgstr "Conectar automáticamente a los usuarios después del registro"
+
+#: admin/settings.php:197
+msgid "Auto-Login"
+msgstr "Acceso automático"
+
+#: admin/settings.php:190
+msgid "Allow users to set their own password"
+msgstr "Permitir a los usuarios establecer su propia contraseña"
+
+#: admin/settings.php:185
+msgid "Passwords"
+msgstr "Contraseñas"
+
+#: admin/settings.php:170 admin/settings.php:175
+msgid "Registration Type"
+msgstr "Tipo de registro"
+
+#: admin/settings.php:113
+msgid "Slugs"
+msgstr "Slugs"
+
+#: admin/settings.php:108
+msgid "Registration"
+msgstr "Registro"
+
+#: admin/functions.php:311
+msgid "Add to Menu"
+msgstr "Añadir al menú"
+
+#: admin/functions.php:278 includes/functions.php:555
+msgid "Theme My Login Actions"
+msgstr "Acciones de «Theme My Login»"
+
+#: admin/functions.php:163
+msgid "As a token of our gratitude, we would like to offer your an incentive for upgrading Theme My Login to version 7.0. For a limited time, we are offering a <strong>20% discount</strong> when you use the code <strong>SAVINGFACE</strong> at checkout. Act now - this offer won't last!"
+msgstr "Como muestra de nuestro agradecimiento, nos gustaría ofrecerte un incentivo para actualizar a la versión 7.0 de «Theme My Login». Por un tiempo limitado, estamos ofreciendo un <strong>descuento del 20 %</strong> cuando uses el código <strong>SAVINGFACE</strong> al finalizar la compra. ¡Hazlo ahora! - ¡esta oferta no durará!"
+
+#: admin/functions.php:110 admin/functions.php:355
+msgid "Extensions"
+msgstr "Extensiones"
+
+#: admin/functions.php:109
+msgid "Theme My Login Extensions"
+msgstr "Extensiones de «Theme My Login»"
+
+#: admin/functions.php:100
+msgid "Licenses"
+msgstr "Licencias"
+
+#: admin/functions.php:99
+msgid "Theme My Login Licenses"
+msgstr "Licencias de «Theme My Login»"
+
+#: admin/extensions.php:104
+msgid "View All Extensions"
+msgstr "Ver todas las extensiones"
+
+#: admin/extensions.php:94 admin/functions.php:186
+msgid "Get This Extension"
+msgstr "Obtener esta extensión"
+
+#: admin/extensions.php:72
+msgid "Error: %s"
+msgstr "Error: %s"
+
+#: admin/extensions.php:71
+msgid "Whoops! Looks like there was an error fetching extensions from the server. Please try again."
+msgstr "¡Vaya! Parece que ha habido un error al obtener las extensiones del servidor. Por favor, inténtalo de nuevo."
+
+#: includes/forms.php:268
+msgid "Confirm new password"
+msgstr "Confirmar nueva contraseña"
+
+#: includes/forms.php:158 includes/forms.php:279 includes/ms-functions.php:376
+msgid "Strength indicator"
+msgstr "Indicador de fuerza"
+
+#: includes/forms.php:257
+msgid "New password"
+msgstr "Nueva contraseña"
+
+#: includes/forms.php:177
+msgid "Registration confirmation will be emailed to you."
+msgstr "La confirmación de registro será enviada por correo."
+
+#: includes/ms-functions.php:1089
+msgid "New Password"
+msgstr "Nueva contraseña"
+
+#: includes/ms-functions.php:150
+msgid "Next"
+msgstr "Siguiente"
+
+#: includes/ms-functions.php:140
+msgid "Just a username, please."
+msgstr "Solo el nombre de usuario, por favor."
+
+#: includes/ms-functions.php:139
+msgid "Gimme a site!"
+msgstr "¡Dame un sitio!"
+
+#: includes/ms-functions.php:105
+msgid "We send your registration email to this address. (Double-check your email address before continuing.)"
+msgstr "Enviaremos tu registro a esta dirección de correo electrónico (Confirma tu dirección de correo electrónico antes de continuar)."
+
+#: includes/ms-functions.php:104
+msgid "Email&nbsp;Address:"
+msgstr "Dirección de correo electrónico:"
+
+#: includes/ms-functions.php:82
+msgid "(Must be at least 4 characters, letters and numbers only.)"
+msgstr "(Debe tener al menos 4 caracteres, letras y números.)"
+
+#: includes/ms-functions.php:788
+msgid "Get your own %s account in seconds"
+msgstr "Obtén tu propia cuenta de %s en segundos"
+
+#: includes/ms-functions.php:195
+msgid "Signup"
+msgstr "Registro"
+
+#: includes/ms-functions.php:232
+msgid "Create Site"
+msgstr "Crear sitio"
+
+#: includes/ms-functions.php:311
+msgid "No"
+msgstr "No"
+
+#: includes/ms-functions.php:310
+msgid "Yes"
+msgstr "Sí"
+
+#: includes/ms-functions.php:315
+msgid "Allow search engines to index this site."
+msgstr "Permitir que los motores de búsqueda indexen este sitio."
+
+#: includes/ms-functions.php:307
+msgid "Privacy:"
+msgstr "Privacidad:"
+
+#: includes/ms-functions.php:292
+msgid "Site Title:"
+msgstr "Título del sitio:"
+
+#: includes/ms-functions.php:251 includes/ms-functions.php:272
+msgid "Must be at least 4 characters, letters and numbers only. It cannot be changed, so choose carefully!"
+msgstr "Debe tener al menos 4 caracteres, letras y números solamente. ¡No se puede cambiar, así que elige con cuidado!"
+
+#: includes/ms-functions.php:250 includes/ms-functions.php:271
+msgid "Your address will be %s."
+msgstr "Tu dirección será %s."
+
+#: includes/ms-functions.php:271
+msgid "domain"
+msgstr "dominio"
+
+#: includes/ms-functions.php:250
+msgid "sitename"
+msgstr "sitename"
+
+#: includes/ms-functions.php:277
+msgid "Site Domain:"
+msgstr "Dominio del sitio:"
+
+#: includes/ms-functions.php:256
+msgid "Site Name: "
+msgstr "Nombre del sitio:"
+
+#: includes/ms-functions.php:883
+msgid "If you&#8217;re not going to use a great site domain, leave it for a new user. Now have at it!"
+msgstr "Si no vas a usar un gran dominio para el sitio, por favor, déjalo para otro nuevo usuario. Ahora, ¡a por ello!"
+
+#: includes/ms-functions.php:875
+msgid "Sites you are already a member of:"
+msgstr "Sitios de los que ya eres miembro:"
+
+#: includes/ms-functions.php:871
+msgid "Welcome back, %s. By filling out the form below, you can <strong>add another site to your account</strong>. There is no limit to the number of sites you can have, so create to your heart&#8217;s content, but write responsibly!"
+msgstr "Bienvenido otra vez, %s. Al rellenar el siguiente formulario, podrás <strong>añadir otra página web a tu cuenta</strong>. No hay límite en cuanto al número de páginas que puedes añadir, así que ponte a crear como si no hubiese un mañana, pero eso si, ¡Escribe con responsabilidad!"
+
+#: includes/ms-functions.php:867
+msgid "Get <em>another</em> %s site in seconds"
+msgstr "Obtén <em>otro</em> sitio de %s en segundos"
+
+#: includes/forms.php:227
+msgid "Get New Password"
+msgstr "Obtener nueva contraseña"
+
+#: includes/forms.php:70
+msgid "Remember Me"
+msgstr "Recuérdame"
+
+#: includes/forms.php:109 includes/functions.php:784 includes/functions.php:791
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: admin/settings.php:157 admin/settings.php:177
+msgid "Default"
+msgstr "Por defecto"
+
+#: includes/actions.php:32
+msgid "Log in"
+msgstr "Acceder"
+
+#: includes/actions.php:516
+msgid "Registration complete. You may now log in."
+msgstr "Registro completado. Ahora puedes acceder."
+
+#: includes/functions.php:693
+msgid "<strong>Error</strong>: Passwords may not contain the character \"\\\"."
+msgstr "<strong>Error</strong>: las contraseñas no deben contener el carácter «\\»."
+
+#: includes/forms.php:148 includes/ms-functions.php:366
+msgid "Confirm Password"
+msgstr "Confirmar contraseña"
+
+#: includes/forms.php:57 includes/forms.php:138 includes/ms-functions.php:356
+msgid "Password"
+msgstr "Contraseña"
+
+#: includes/forms.php:129 includes/functions.php:793
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: includes/functions.php:690
+msgid "<strong>Error</strong>: Please enter a password."
+msgstr "<strong>Error</strong>: por favor, introduce una contraseña."
+
+#. translators: Password reset email subject. %s: Site name
+#: includes/compat.php:112
+msgid "[%s] Password Reset"
+msgstr "[%s] Restablecer la contraseña"
+
+#: includes/compat.php:99
+msgid "To reset your password, visit the following address:"
+msgstr "Para reiniciar tu contraseña visita la siguiente dirección:"
+
+#: includes/compat.php:98
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "Si esto es un error, ignora este correo electrónico y no ocurrirá nada."
+
+#. translators: %s: user login
+#: includes/compat.php:97
+msgid "Username: %s"
+msgstr "Nombre de usuario: %s"
+
+#: includes/compat.php:93
+msgid "Someone has requested a password reset for the following account:"
+msgstr "Alguien ha solicitado un restablecimiento de contraseña para la siguiente cuenta:"
+
+#: includes/compat.php:27
+msgid "<strong>Error</strong>: Please enter a username or email address."
+msgstr "<strong>Error</strong>: Por favor, introduce un nombre de usuario o una dirección de correo electrónico."
+
+#: includes/actions.php:525
+msgid "<strong>You have successfully updated WordPress!</strong> Please log back in to see what&#8217;s new."
+msgstr "<strong>¡Has actualizado WordPress correctamente!</strong> Por favor, vuelve a acceder para ver las novedades."
+
+#: includes/actions.php:522
+msgid "Your password has been reset."
+msgstr "Tu contraseña ha sido reiniciada."
+
+#: includes/actions.php:506
+msgid "You are now logged out."
+msgstr "Ahora estás desconectado."
+
+#: includes/actions.php:69
+msgid "Reset Password"
+msgstr "Restablecer contraseña"
+
+#: includes/actions.php:38 includes/class-theme-my-login-widget.php:100
+#: includes/shortcodes.php:89
+msgid "Log Out"
+msgstr "Salir"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: admin/functions.php:67 includes/class-theme-my-login-widget.php:23
+msgid "Theme My Login"
+msgstr "Theme My Login"
+
+#: includes/class-theme-my-login-widget.php:25
+msgid "A login form for your site."
+msgstr "Un formulario de registro para tu sitio."
+
+#: includes/actions.php:19 includes/class-theme-my-login-widget.php:92
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: admin/settings.php:103 includes/actions.php:28 includes/forms.php:78
+msgid "Log In"
+msgstr "Acceder"
+
+#: includes/actions.php:58
+msgid "Lost Password"
+msgstr "Contraseña perdida"
+
+#: includes/actions.php:48 includes/forms.php:184
+msgid "Register"
+msgstr "Registrarse"
+
+#: includes/ms-functions.php:1116
+msgid "Your account is now activated. <a href=\"%1$s\">Log in</a> or go back to the <a href=\"%2$s\">homepage</a>."
+msgstr "Tu cuenta ahora está activada. <a href=\"%1$s\">Accede</a> o vuelve a la <a href=\"%2$s\">página de inicio</a>."
+
+#: includes/ms-functions.php:1112
+msgid "Your account is now activated. <a href=\"%1$s\">View your site</a> or <a href=\"%2$s\">Log in</a>"
+msgstr "Tu cuenta ahora está activada. <a href=\"%1$s\">Visita tu sitio</a> o <a href=\"%2$s\">accede</a>"
+
+#: includes/ms-functions.php:1103
+msgid "Password:"
+msgstr "Contraseña:"
+
+#: includes/ms-functions.php:81 includes/ms-functions.php:1102
+msgid "Username:"
+msgstr "Nombre de usuario:"
+
+#: includes/ms-functions.php:1092
+msgid "An error occurred during the activation"
+msgstr "Ocurrió un error durante la activación"
+
+#: includes/ms-functions.php:1073
+msgid "Your site at %1$s is active. You may now log in to your site using your chosen username of &#8220;%2$s&#8221;. Please check your email inbox at %3$s for your password and login instructions. If you do not receive an email, please check your junk or spam folder. If you still do not receive an email within an hour, you can <a href=\"%4$s\">reset your password</a>."
+msgstr "Tu sitio en %1$s está activo. Ahora puedes acceder a tu sitio usando el nombre de usuario de «%2$s» que has elegido. Por favor, comprueba tu bandeja de entrada de correo electrónico en %3$s para tu contraseña y las instrucciones de acceso. Si no has recibido un correo electrónico, por favor, comprueba carpeta de spam. Si en una hora sigues sin recibir un correo electrónico, puedes <a href=\"%4$s\">restablecer tu contraseña</a>."
+
+#: includes/ms-functions.php:1065
+msgid "Your account has been activated. You may now <a href=\"%1$s\">log in</a> to the site using your chosen username of &#8220;%2$s&#8221;. Please check your email inbox at %3$s for your password and login instructions. If you do not receive an email, please check your junk or spam folder. If you still do not receive an email within an hour, you can <a href=\"%4$s\">reset your password</a>."
+msgstr "Tu cuenta ha sido activada. Ahora puedes <a href=\"%1$s\">acceder</a> al sitio usando el nombre de usuario «%2$s» que has elegido. Por favor, comprueba tu bandeja de entrada de correo electrónico en %3$s para tu contraseña e instrucciones de acceso. Si no recibes un correo electrónico, comprueba tu carpeta de spam. Si en una hora sigues sin recibir un correo electrónico, puedes <a href=\"%4$s\">restablecer tu contraseña</a>."
+
+#: includes/ms-functions.php:1061 includes/ms-functions.php:1099
+msgid "Your account is now active!"
+msgstr "¡Tu cuenta está ahora activa!"
+
+#: admin/settings.php:515 includes/ms-functions.php:389
+msgid "Activate"
+msgstr "Activar"
+
+#: includes/ms-functions.php:347
+msgid "Activation Key:"
+msgstr "Clave de activación:"
+
+#: includes/ms-functions.php:1053
+msgid "Activation Key Required"
+msgstr "Clave de activación requerido"
+
+#: includes/ms-functions.php:722
+msgid "You are logged in already. No need to register again!"
+msgstr "Ya estás identificado. ¡No necesitas registrarte de nuevo!"
+
+#: includes/ms-functions.php:720
+msgid "Sorry, new registrations are not allowed at this time."
+msgstr "Disculpa, los nuevos registros no están permitidos en este momento."
+
+#: includes/ms-functions.php:694
+msgid "The site %s is yours."
+msgstr "El sitio %s es tuyo."
+
+#: includes/ms-functions.php:667
+msgid "Site registration has been disabled."
+msgstr "El registro en el sitio ha sido desactivado."
+
+#: includes/ms-functions.php:662
+msgid "Have you entered your email correctly? You have entered %s, if it&#8217;s incorrect, you will not receive your email."
+msgstr "¿Has introducido tu correo electrónico correctamente? Has introducido %s, si es incorrecto no lo recibirás."
+
+#: includes/ms-functions.php:661
+msgid "Check the junk or spam folder of your email client. Sometime emails wind up there by mistake."
+msgstr "Comprueba la papelera o la carpeta de spam de tu cliente de correo. A veces los correos electrónicos acaban allí por error."
+
+#: includes/ms-functions.php:660
+msgid "Wait a little longer. Sometimes delivery of email can be delayed by processes outside of our control."
+msgstr "Espera un poco más. A veces el envío de correo electrónico puede retrasarse por procesos fuera de nuestro control."
+
+#: includes/ms-functions.php:658
+msgid "If you haven&#8217;t received your email yet, there are a number of things you can do:"
+msgstr "Si no has recibido todavía tu correo electrónico, hay una serie de cosas que puedes hacer:"
+
+#: includes/ms-functions.php:656
+msgid "Still waiting for your email?"
+msgstr "¿Todavía esperando por tu correo electrónico?"
+
+#: includes/ms-functions.php:655
+msgid "If you do not activate your site within two days, you will have to sign up again."
+msgstr "Si no activas tu sitio en los próximos dos días, tendrás que registrarte otra vez."
+
+#: includes/ms-functions.php:653
+msgid "But, before you can start using your site, <strong>you must activate it</strong>."
+msgstr "Pero, antes de empezar a utilizar tu sitio, <strong>debes activarlo</strong>."
+
+#: includes/ms-functions.php:652
+msgid "Congratulations! Your new site, %s, is almost ready."
+msgstr "¡Enhorabuena! Tu nuevo sitio %s, ya casi está listo."
+
+#: includes/ms-functions.php:638
+msgid "User registration has been disabled."
+msgstr "El registro de usuarios se ha desactivado."
+
+#: includes/ms-functions.php:635
+msgid "If you do not activate your username within two days, you will have to sign up again."
+msgstr "Si no activas tu usuario en los próximos dos días, tendrás que registrarte otra vez."
+
+#: includes/ms-functions.php:633
+msgid "But, before you can start using your new username, <strong>you must activate it</strong>."
+msgstr "Pero, antes de empezar a utilizar tu nuevo nombre de usuario, <strong>debes activarlo</strong>."
+
+#: includes/ms-functions.php:632
+msgid "%s is your new username"
+msgstr "%s es tu nuevo nombre de usuario"
+
+#: includes/ms-functions.php:617
+msgid "You must first <a href=\"%s\">log in</a>, and then you can create a new site."
+msgstr "Primero debes <a href=\"%s\">acceder</a> y, después, puedes crear un nuevo sitio."
+
+#: includes/ms-functions.php:614
+msgid "Registration has been disabled."
+msgstr "El registro se ha desactivado."
+
+#: admin/settings.php:159 admin/settings.php:178
+msgid "Email only"
+msgstr "Solo el correo electrónico"
+
+#: admin/settings.php:158
+msgid "Username only"
+msgstr "Solo el nombre de usuario"
+
+#: admin/settings.php:150 admin/settings.php:155
+msgid "Login Type"
+msgstr "Tipo de acceso"
+
+#: admin/functions.php:78 admin/settings.php:98
+msgid "General"
+msgstr "General"
+
+#: admin/functions.php:66 admin/functions.php:77
+msgid "Theme My Login Settings"
+msgstr "Ajustes de «Theme My Login»"

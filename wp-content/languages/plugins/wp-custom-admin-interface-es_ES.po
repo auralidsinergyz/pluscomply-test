@@ -1,0 +1,516 @@
+# Translation of Plugins - WP Custom Admin Interface - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WP Custom Admin Interface - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-08-09 07:03:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - WP Custom Admin Interface - Stable (latest release)\n"
+
+#: inc/options/options-output.php:2175
+msgid "Note: menu items which have html tags in the title are used by WordPress to display dynamic content like a users name or the amount of comments etc. Therefore these items aren't editable. Unlike the 'Customize Admin Menu' feature of this plugin this 'Customize Toolbar' feature is more rigid and a little more difficult to make sense of. I recommend keeping the existing menu structure intact as much as possible and rather just hide items or add new items in around the existing menu structure."
+msgstr "Nota: Los elementos del menú que tienen etiquetas HTML en el título son usados por WordPress para mostrar contenido dinámico como un nombre de usuario o la cantidad de comentarios, etc. Por tanto, estos elementos no son editables. A diferencia de la característica «Personalizar el menú de administración» de este plugin, esta característica de «Personalizar la barra de herramientas» es más rígida y un poco más difícil de comprender. Recomiendo mantener intacta la estructura existente del menú todo lo posible y, más bien, ocultar los elementos o añadir nuevos elementos alrededor de la estructura existente del menú."
+
+#: inc/options/options-output.php:679 inc/options/options-output.php:706
+#: inc/options/options-output.php:1856 inc/options/options-output.php:1952
+#: inc/options/options-output.php:2060 inc/options/options-output.php:2401
+msgid "Deselect all"
+msgstr "Desmarcar todo"
+
+#: inc/options/options-output.php:679 inc/options/options-output.php:706
+#: inc/options/options-output.php:1856 inc/options/options-output.php:1952
+#: inc/options/options-output.php:2060 inc/options/options-output.php:2401
+msgid "Select all"
+msgstr "Seleccionar todo"
+
+#: inc/options/options-output.php:2144
+msgid "We can't guarantee this toolbar editor will work with every possible plugin and theme combination as different developers sometimes don't do things the WordPress way! Therefore support is limited for the toolbar to <strong>general functionality only</strong>. For comprehensive support for your specific environment we recommend checking out the <a href=\"https://northernbeacheswebsites.com.au/custom-admin-interface-pro/\" target=\"_blank\">pro version</a> where we can get things working for your environment and provide a money-back guarantee."
+msgstr "No podemos garantizar que este editor de la barra de herramientas funcione con todas las combinaciones posibles de plugins y temas, ya que, a veces, los diferentes desarrolladores no hacen las cosas a la manera de WordPress. Por tanto, el soporte para la barra de herramientas está limitado <strong>solo a la funcionalidad general</strong>. Para un soporte completo para tu entorno específico, te recomendamos echar un vistazo a la <a href=\"https://northernbeacheswebsites.com.au/custom-admin-interface-pro/\" target=\"_blank\">versión pro</a>, donde podemos hacer que las cosas funcionen para tu entorno y proporcionar una garantía de devolución del dinero."
+
+#: inc/options/options-output.php:1563
+msgid "We can't guarantee this menu editor will work with every possible plugin and theme combination as different developers sometimes don't do things the WordPress way! Therefore support is limited for the admin menu to <strong>general functionality only</strong>. For comprehensive support for your specific environment we recommend checking out the <a href=\"https://northernbeacheswebsites.com.au/custom-admin-interface-pro/\" target=\"_blank\">pro version</a> where we can get things working for your environment and provide a money-back guarantee."
+msgstr "No podemos garantizar que este editor de menú funcione con todas las combinaciones posibles de plugins y temas, ya que, a veces, los diferentes desarrolladores no hacen las cosas a la manera de WordPress. Por tanto, el soporte para el menú de administración está limitado <strong>solo a la funcionalidad general</strong>. Para un soporte completo para tu entorno específico, te recomendamos que eches un vistazo a la <a href=\"https://northernbeacheswebsites.com.au/custom-admin-interface-pro/\" target=\"_blank\">versión pro</a>, donde podemos hacer que las cosas funcionen para tu entorno y proporcionar una garantía de devolución del dinero."
+
+#: inc/options/options-output.php:751
+msgid ""
+"Before creating support requests, it is important you read the following rules: \n"
+"                \n"
+"                <ol>\n"
+"                    <li>The custom admin menu and custom toolbar have limited support and we can only help you with general issues only. We don't guarantee these features for every possible theme and plugin combination especially when developers set things up in non-compliant ways. So don't ask us: \"how come this doesn't work with this or that\" as I won't be able to help you unfortunately, and not to mention the WordPress.org forum rules don't allow the exchange of login details so we can't diagnose issues on your specific site!</li>\n"
+"                    <li><strong>As part of support I do not provide customisation services or code samples.</strong> If you need help with the implementation of the plugin or need to achieve something specific please <a href=\"mailto:info@northernbeacheswebsites.com.au\">email me</a> and I can provide an estimate for the work.</li> \n"
+"                    <li>Please include the diagnostic information mentioned below, otherwise I will not bother answering your request.</li>     \n"
+"                    <li>Please ensure you are using the latest version of WordPress and the latest version of the plugin, and clear your browser cache.</li>                    \n"
+"                </ol>\n"
+"\n"
+"                Ok now that you have read ALL the rules you can create a support request <a target=\"_blank\" href=\"https://wordpress.org/support/plugin/wp-custom-admin-interface\">here</a>. You can also check out the below video which shows a general walkthrough of the plugin (although it is getting a little dated now).\n"
+"\n"
+"\n"
+"                "
+msgstr ""
+"Antes de crear solicitudes de soporte, es importante que leas las siguientes reglas: \n"
+"                \n"
+"                <ol>\n"
+"                    <li>El menú de administración personalizado y la barra de herramientas personalizada tienen un soporte limitado y solo podemos ayudarte con problemas generales. No garantizamos estas características para todas las combinaciones posibles de temas y plugins, especialmente cuando los desarrolladores configuran las cosas de forma no compatible. Así que no nos preguntes: «¿cómo es que esto no funciona con esto o aquello?», ya que, lamentablemente, no podré ayudarte y por no mencionar que las reglas del foro de WordPress.org no permiten el intercambio de los datos de acceso, por lo que ¡no podemos diagnosticar problemas en tu sitio concreto!</li>\n"
+"                    <li><strong>Como parte del soporte, no proporciono servicios de personalización o ejemplos de código.</strong> Si necesitas ayuda con la implementación del plugin o necesitas conseguir algo específico, por favor, <a href=\"mailto:info@northernbeacheswebsites.com.au\">mándame un correo electrónico</a> y podré proporcionarte un presupuesto del trabajo.</li> \n"
+"                    <li>Por favor, incluye la información de diagnóstico mencionada a continuación, de lo contrario no contestaré tu solicitud.</li>     \n"
+"                    <li>Por favor, asegúrate de que estás usando la última versión de WordPress y la última versión del plugin y vacía la caché de tu navegador.</li>                    \n"
+"                </ol>\n"
+"\n"
+"                De acuerdo, ahora que has leído TODAS las reglas, puedes crear una solicitud de soporte <a target=\"_blank\" href=\"https://wordpress.org/support/plugin/wp-custom-admin-interface\">aquí</a>. También puedes ver el siguiente vídeo que muestra un recorrido general del plugin (aunque ya está un poco obsoleto)."
+
+#: inc/options/options-output.php:2500
+msgid "Want to create multiple admin notices? Check out <a target=\"_blank\" href=\"https://northernbeacheswebsites.com.au/custom-admin-interface-pro/\">Custom Admin Interface Pro</a>!"
+msgstr "¿Quieres crear múltiples avisos de administrador? Revisa ¡<a target=\"_blank\" href=\"https://northernbeacheswebsites.com.au/custom-admin-interface-pro/\">Custom Admin Interface Pro</a>!"
+
+#: inc/options/options-output.php:2351
+msgid "Want to hide multiple metaboxes to different roles and users? Check out <a target=\"_blank\" href=\"https://northernbeacheswebsites.com.au/custom-admin-interface-pro/\">Custom Admin Interface Pro</a>!"
+msgstr "¿Quieres ocultar múltiples cajas meta a diferentes perfiles y usuarios? Revisa ¡<a target=\"_blank\" href=\"https://northernbeacheswebsites.com.au/custom-admin-interface-pro/\">Custom Admin Interface Pro</a>!"
+
+#: inc/options/options-output.php:2284
+msgid "Want to create multiple custom codes? Check out <a target=\"_blank\" href=\"https://northernbeacheswebsites.com.au/custom-admin-interface-pro/\">Custom Admin Interface Pro</a>!"
+msgstr "¿Quieres crear múltiples códigos personalizados? Revisa ¡<a target=\"_blank\" href=\"https://northernbeacheswebsites.com.au/custom-admin-interface-pro/\">Custom Admin Interface Pro</a>!"
+
+#: inc/options/options-output.php:2137
+msgid "Want to create multiple admin toolbars? Check out <a target=\"_blank\" href=\"https://northernbeacheswebsites.com.au/custom-admin-interface-pro/\">Custom Admin Interface Pro</a>!"
+msgstr "¿Quieres crear múltiples barras de herramientas de administración? Revisa ¡<a target=\"_blank\" href=\"https://northernbeacheswebsites.com.au/custom-admin-interface-pro/\">Custom Admin Interface Pro</a>!"
+
+#: inc/options/options-output.php:2040
+msgid "Want to hide multiple sidebars to different roles and users? Check out <a target=\"_blank\" href=\"https://northernbeacheswebsites.com.au/custom-admin-interface-pro/\">Custom Admin Interface Pro</a>!"
+msgstr "¿Quieres ocultar múltiples barras laterales a diferentes perfiles y usuarios? Revisa ¡<a target=\"_blank\" href=\"https://northernbeacheswebsites.com.au/custom-admin-interface-pro/\">Custom Admin Interface Pro</a>!"
+
+#: inc/options/options-output.php:1926
+msgid "Want to hide multiple users to different roles and users? Check out <a target=\"_blank\" href=\"https://northernbeacheswebsites.com.au/custom-admin-interface-pro/\">Custom Admin Interface Pro</a>!"
+msgstr "¿Quieres ocultar múltiples usuarios a diferentes perfiles y usuarios? Revisa ¡<a target=\"_blank\" href=\"https://northernbeacheswebsites.com.au/custom-admin-interface-pro/\">Custom Admin Interface Pro</a>!"
+
+#: inc/options/options-output.php:1838
+msgid "Want to hide multiple plugins to different roles and users? Check out <a target=\"_blank\" href=\"https://northernbeacheswebsites.com.au/custom-admin-interface-pro/\">Custom Admin Interface Pro</a>!"
+msgstr "¿Quieres ocultar múltiples plugins a diferentes perfiles y usuarios? Revisa ¡<a target=\"_blank\" href=\"https://northernbeacheswebsites.com.au/custom-admin-interface-pro/\">Custom Admin Interface Pro</a>!"
+
+#: inc/options/options-output.php:1043 inc/options/options-output.php:1556
+msgid "Want to create multiple admin menus? Check out <a target=\"_blank\" href=\"https://northernbeacheswebsites.com.au/custom-admin-interface-pro/\">Custom Admin Interface Pro</a>!"
+msgstr "¿Quieres crear múltiples menús de administración? Revisa ¡<a target=\"_blank\" href=\"https://northernbeacheswebsites.com.au/custom-admin-interface-pro/\">Custom Admin Interface Pro</a>!"
+
+#: inc/options/options-output.php:1280
+msgid "Want to create multiple dashboard widgets? Check out <a target=\"_blank\" href=\"https://northernbeacheswebsites.com.au/custom-admin-interface-pro/\">Custom Admin Interface Pro</a>!"
+msgstr "¿Quieres crear múltiples widgets para el escritorio? Revisa ¡<a target=\"_blank\" href=\"https://northernbeacheswebsites.com.au/custom-admin-interface-pro/\">Custom Admin Interface Pro</a>!"
+
+#: inc/options/options-output.php:659
+msgid "Want to export the settings as a file? Check out <a target=\"_blank\" href=\"https://northernbeacheswebsites.com.au/custom-admin-interface-pro/\">Custom Admin Interface Pro</a>!"
+msgstr "¿Quieres exportar los ajustes como un archivo? Revisa ¡<a target=\"_blank\" href=\"https://northernbeacheswebsites.com.au/custom-admin-interface-pro/\">Custom Admin Interface Pro</a>!"
+
+#: wp-custom-admin-interface.php:114
+msgid "Learn more"
+msgstr "Aprende más"
+
+#: wp-custom-admin-interface.php:113
+msgid "Customise the Wordpress admin interface more with Custom Admin Interface Pro. The plugin offers the ability to create multiple designs for various modules and comes with a revision system so you can easily restore changes. The plugin has been redesigned from the ground up and comes with priority email support."
+msgstr "Personaliza más la interfaz de administración de WordPress con Custom Admin Interface Pro. El plugin ofrece la capacidad de crear múltiples diseños para varios módulos y viene con una revisión del sistema, por lo que puedes restaurar fácilmente los cambios. El plugin ha sido rediseñado desde cero y viene con soporte prioritario por correo electrónico."
+
+#: inc/options/options-output.php:1499
+msgid "Disable Plugin Updates"
+msgstr "Desactivar las actualizaciones de plugins"
+
+#: inc/options/options-output.php:1514
+msgid "Disable Gutenberg Editor"
+msgstr "Desactivar el editor Gutenberg"
+
+#: inc/options/options-output.php:1074
+msgid "This setting will apply to all users and the conditional logic at the bottom of this page will not affect the result because on the login page everyone is technically logged out."
+msgstr "Este ajuste se aplicará a todos los usuarios y la lógica condicional de la parte inferior de esta página no afectará el resultado porque en la página de acceso todos están técnicamente desconectados."
+
+#: inc/options/options-output.php:1117
+msgid "There's no need to put in the starting or closing PHP tags. Please be super careful before putting in code here. In fact I really recommend not using this setting and instead putting custom code into your themes functions.php file so you can easily revert any errors caused by the code."
+msgstr "No necesitas escribir las etiquetas de apertura o cierre de PHP. Por favor, ten mucho cuidado antes de escribir código aquí. De hecho, en realidad recomiendo no usar este ajuste y, en su lugar, colocar el código personalizado en el archivo «functions.php» de tu tema para que puedas revertir fácilmente cualquier error causado por el código."
+
+#: inc/options/options-output.php:845
+msgid "Login Screen Text Color"
+msgstr "Color del texto de la pantalla de acceso"
+
+#: inc/options/options-output.php:2214
+msgid "Disable the custom toolbar on the frontend"
+msgstr "Desactivar en la portada la barra de herramientas personalizada"
+
+#: inc/options/options-output.php:1653
+msgid "Add newly added menu items"
+msgstr "Añadir los elementos de menú recientemente añadidos"
+
+#: inc/options/options-output.php:1560
+msgid "Modify the main menu of WordPress. <em>Please note if you are moving a sub-level menu item to the top level menu you may get the following error message when trying to access the page: \"Sorry, you are not allowed to access this page.\" To get around this for the moment I recommend firstly restoring your menu back to the WordPress default and instead of moving the menu item, keep it where it is and hide it, and then create a new menu item on the top level that goes to the same link as the hidden child menu item.</em>"
+msgstr "Modifica el menú principal de WordPress. <em>Por favor, ten en cuenta que si estás moviendo un elemento de nivel secundario del menú al nivel superior del menú, cuando intentes acceder a la página puedes recibir el siguiente mensaje de error: «Lo siento, no tienes permiso para acceder a esta página». Por el momento, para evitar esto, recomiendo primeramente restaurar tu menú a la configuración por defecto de WordPress y, en lugar de mover el elemento del menú, mantenerlo donde está y ocultarlo y, entonces, crear un nuevo elemento de menú en el nivel superior que vaya al mismo enlace que el elemento secundario oculto del menú.</em>"
+
+#: inc/options/options-output.php:2551
+msgid "By checking this box a close icon will appear in the top right hand corner of the admin message. When a user clicks on this icon the message will no longer appear. Please note, whenever settings on this page are updated this dismiss history for each user will be erased and the message will reappear again for the user."
+msgstr "Marcando esta casilla, aparecerá un icono de cierre en la esquina superior derecha del mensaje de administrador. Cuando un usuario haga clic en este icono, el mensaje no volverá a aparecer. Por favor, ten en cuenta que cada vez que se actualicen los ajustes en esta página, el historial de descarte del aviso para cada usuario se borrará y el mensaje reaparecerá de nuevo para el usuario."
+
+#: inc/options/options-output.php:2550
+msgid "Make Notice Dismissable"
+msgstr "Hacer descartable el aviso"
+
+#: inc/options/options-output.php:2512
+msgid "Notice Content"
+msgstr "Contenido del aviso"
+
+#: inc/options/options-output.php:2504
+msgid "The admin notice creates a custom message that displays at the top of all admin pages."
+msgstr "El aviso de administrador crea un mensaje personalizado que se muestra en la parte superior de todas las páginas de administración."
+
+#: inc/options/options-output.php:2483
+msgid "Red"
+msgstr "Rojo"
+
+#: inc/options/options-output.php:2482
+msgid "Yellow"
+msgstr "Amarillo"
+
+#: inc/options/options-output.php:2481
+msgid "Blue"
+msgstr "Azul"
+
+#: inc/options/options-output.php:2480
+msgid "Green"
+msgstr "Verde"
+
+#: inc/options/options-output.php:2475
+msgid "Admin Notice Color"
+msgstr "Color del aviso de administrador"
+
+#: inc/options/options-output.php:2456
+msgid "Admin Notice End Date"
+msgstr "Fecha de finalización del aviso de admimistrador"
+
+#: inc/options/options-output.php:2355
+msgid "This will hide meta boxes which are shown on different parts of WordPress."
+msgstr "Esto ocultará las cajas meta que se muestran en las diferentes partes de WordPress."
+
+#: inc/options/options-output.php:2280
+msgid "The custom code section enables you to implement custom code on the frontend of Wordpress."
+msgstr "La sección de código personalizado te permite implementar código personalizado en la portada de WordPress."
+
+#: inc/options/options-output.php:2141
+msgid "Modify the main toolbar of WordPress. This is the bar that displays at the top of the admin screen."
+msgstr "Modifica la barra de herramientas principal de WordPress. Esta es la barra que se muestra en la parte superior de la pantalla del administrador."
+
+#: inc/options/options-output.php:2044
+msgid "Hide these sidebars from showing on the <a target=\"_blank\" href=\"widgets.php\">widgets page</a>."
+msgstr "Oculta estas barras laterales para que no muestren en la <a target=\"_blank\" href=\"widgets.php\">página de widgets</a>."
+
+#: inc/options/options-output.php:1929
+msgid "Hide these users from showing on the <a target=\"_blank\" href=\"users.php\">users page</a>. Please note if you hide yourself you will still see yourself in the user listing, however other people won't be able to see you."
+msgstr "Oculta a estos usuarios para que no se muestren en la <a target=\"_blank\" href=\"users.php\">página de usuarios</a>. Por favor, ten en cuenta que si te ocultas a ti mismo, todavía te podrás ver en el listado de usuarios, sin embargo, otras personas no podrán verte."
+
+#: inc/options/options-output.php:1842
+msgid "Hide these plugins from showing on the <a target=\"_blank\" target=\"_blank\" href=\"plugins.php\">plugins page</a>."
+msgstr "Oculta estos plugins para que no se muestren en la <a target=\"_blank\" href=\"plugins.php\">página de plugins</a>."
+
+#: inc/options/options-output.php:1370
+msgid "Create a custom color scheme for your admin area. These 5 below colors will make up a new color scheme called \"Custom\" that will be available to select on your <a target=\"_blank\" href=\"profile.php\">User Profile</a> page."
+msgstr "Crea un esquema de color personalizado para tu área de administración. Los siguientes 5 colores crearán un nuevo esquema de color llamado «Personalizado» que estará disponible para ser seleccionado en la página de tu <a target=\"_blank\" href=\"profile.php\">perfil de usuario</a>."
+
+#: inc/options/options-output.php:1276
+msgid "This section enables you to create a custom widget which will display on your dashboard."
+msgstr "Esta sección te permite crear un widget personalizado que se mostrará en tu escritorio."
+
+#: inc/options/options-output.php:1190
+msgid "This section enables you to create a custom under construction/maintenance page which is shown to all non-logged in users. Please note the login logo image, login page background color and custom favicon (set in the <a target=\"_blank\" href=\"admin.php?page=wpcai_general_settings\">General Settings</a> menu page) will be used on the maintenance/coming soon page."
+msgstr "Esta sección te permite crear una página personalizada de mantenimiento / en construcción que se mostrará a todos los usuarios no conectados. Por favor, ten en cuenta que la imagen del logotipo del acceso, el color de fondo de la página de acceso y el icono personalizado del sitio (establecido en la página de <a target=\"_blank\" href=\"admin.php?page=wpcai_general_settings\">Ajustes generales</a> del menú) se usarán en la página de mantenimiento/próximamente."
+
+#: inc/options/options-output.php:1039
+msgid "The custom code section enables you to implement custom code on the backend of Wordpress."
+msgstr "La sección de código personalizado te permite implementar código personalizado en el escritorio de WordPress."
+
+#: inc/options/options-output.php:655
+msgid "Please click on an option below to show further options for the export, import or delete procedure."
+msgstr "Por favor, haz clic en una de las siguientes opciones para mostrar más opciones del procedimiento de exportación, importación o borrado."
+
+#: inc/options/options-output.php:2413
+msgid "Hide this meta"
+msgstr "Ocultar este meta"
+
+#: inc/options/options-output.php:2311
+msgid "Add custom Javascript/jQuery to the frontend of WordPress"
+msgstr "Añadir JavaScript/jQuery personalizado a la portada de WordPress"
+
+#: inc/options/options-output.php:2292
+msgid "Add custom CSS to the frontend of WordPress"
+msgstr "Añadir CSS personalizado a la portada de WordPress"
+
+#: inc/options/options-output.php:693
+msgid "Generate Export"
+msgstr "Generar exportación"
+
+#: inc/options/options-output.php:748
+msgid "Support"
+msgstr "Soporte"
+
+#: inc/options/options-output.php:721
+msgid "Delete Settings"
+msgstr "Borrar los ajustes"
+
+#: inc/options/options-output.php:703
+msgid "Delete Plugin Settings"
+msgstr "Borrar los ajustes del plugin"
+
+#: inc/options/options-output.php:2255
+msgid "This is the link of the login logo. Please input the full URL including <code>http://</code>. To have no link simply input <code>#</code>."
+msgstr "Este es el enlace del logotipo de acceso. Por favor, introduce la URL completa, incluyendo <code>http://</code>. Para no tener un enlace, simplemente introduce <code>#</code>."
+
+#: inc/options/options-output.php:2254
+msgid "Login Logo URL"
+msgstr "URL del logotipo de acceso"
+
+#: wp-custom-admin-interface.php:2121
+msgid "What's new"
+msgstr "Novedades"
+
+#: inc/options/options-output.php:2161
+msgid "Restore to default WordPress Toolbar"
+msgstr "Restaurar la barra de herramientas por defecto de WordPress"
+
+#: inc/options/options-output.php:776
+msgid "To assist me with your support request I may ask you to provide the following information:"
+msgstr "Para ayudarme con tu solicitud de soporte, puedo pedirte que proporciones la siguiente información:"
+
+#: inc/options/options-output.php:774
+msgid "Diagnostic Information"
+msgstr "Información de diagnóstico"
+
+#: wp-custom-admin-interface.php:1722
+msgid "Implement this for"
+msgstr "Implementar esto para"
+
+#: inc/options/options-output.php:1815
+msgid "Show notification icons on custom menu"
+msgstr "Mostrar iconos de aviso en el menú personalizado"
+
+#. Author of the plugin
+msgid "Martin Gibson"
+msgstr "Martin Gibson"
+
+#. Description of the plugin
+msgid "Customise the WordPress admin and login interfaces and customize the WordPress dashboard menu."
+msgstr "Personaliza la interfaz de administración y acceso de WordPress y personaliza el menú del escritorio de WordPress."
+
+#. Plugin URI of the plugin
+msgid "https://www.northernbeacheswebsites.com.au"
+msgstr "https://www.northernbeacheswebsites.com.au"
+
+#. Plugin Name of the plugin
+msgid "WP Custom Admin Interface"
+msgstr "WP Custom Admin Interface"
+
+#: inc/options/options-output.php:699
+msgid "Import"
+msgstr "Importar"
+
+#: inc/options/options-output.php:697
+msgid "Import Settings"
+msgstr "Ajustes de importación"
+
+#: inc/options/options-output.php:673
+msgid "Export Settings"
+msgstr "Ajustes de exportación"
+
+#: inc/options/options-output.php:768
+msgid "keep me interested in this plugin and encourage me to provide ongoing support. Thank you!"
+msgstr "me mantiene interesado en este plugin y me anima a continuar proporcionando soporte. ¡Gracias!"
+
+#: inc/options/options-output.php:768
+msgid "donations"
+msgstr "donaciones"
+
+#: inc/options/options-output.php:768
+msgid "Your"
+msgstr "Tus"
+
+#: wp-custom-admin-interface.php:230
+msgid "Settings"
+msgstr "Ajustes"
+
+#: wp-custom-admin-interface.php:215
+msgid "Donate"
+msgstr "Donar"
+
+#: wp-custom-admin-interface.php:128
+msgid "Hi there! Thanks for using my plugin. I wrote this plugin because at the moment I use a few different little plugins to customise the admin interface and I thought it would be great to put it all into one and make things easy to use. I appreciate that customising the WordPress admin is a bit of a pandora's box as everyone has their own way they like to do things! If you like the plugin please consider rating it"
+msgstr "¡Hola! Gracias por usar mi plugin. Escribí este plugin porque, en su momento, usaba varios pequeños plugins para personalizar la interfaz de administración y pensé que sería genial ponerlo todo en uno y hacer que las cosas fueran más fáciles de usar. Considero que personalizar la administración de WordPress es como una caja de Pandora, ya que ¡cada uno tiene su propia manera de hacer las cosas! Si te gusta el plugin, por favor, plantéate valorarlo"
+
+#: wp-custom-admin-interface.php:128
+msgid "A Message from the Developer"
+msgstr "Un mensaje del desarrollador"
+
+#: wp-custom-admin-interface.php:156
+msgid "Save All Settings"
+msgstr "Guardar todos los ajustes"
+
+#: wp-custom-admin-interface.php:1752
+msgid "except"
+msgstr "excepto"
+
+#: wp-custom-admin-interface.php:1750
+msgid "Everyone"
+msgstr "Todos"
+
+#: wp-custom-admin-interface.php:1742
+msgid "No-one"
+msgstr "Ninguno"
+
+#: inc/options/options-output.php:1595 inc/options/options-output.php:2164
+msgid "Restore to last save"
+msgstr "Restaurar al último guardado"
+
+#: inc/options/options-output.php:1593
+msgid "Restore to default WordPress menu"
+msgstr "Resturar el menú de WordPress por defecto"
+
+#: inc/options/options-output.php:1590
+msgid "Advanced functionality"
+msgstr "Funcionalidad avanzada"
+
+#: inc/options/options-output.php:1578 inc/options/options-output.php:2159
+msgid "Add menu item"
+msgstr "Añadir un elemento al menú"
+
+#: inc/options/options-output.php:1576
+msgid "Add separator"
+msgstr "Añadir un separador"
+
+#: inc/options/options-output.php:1483
+msgid "Disable Automatic WordPress Updates"
+msgstr "Desactivar las actualizaciones automáticas de WordPress"
+
+#: inc/options/options-output.php:1466
+msgid "This will force the \"Custom\" color scheme on all users regardless of what color scheme they have chosen in their user profile."
+msgstr "Esto forzará el esquema de color «Personalizado» para todos los usuarios, independientemente del esquema de color que hayan elegido en su perfil de usuario."
+
+#: inc/options/options-output.php:1465
+msgid "Force the custom color scheme on all users"
+msgstr "Forzar el esquema de color personalizado para todos los usuarios"
+
+#: inc/options/options-output.php:1447
+msgid "SVG Icon Color"
+msgstr "Color del icono SVG"
+
+#: inc/options/options-output.php:1427
+msgid "Color Scheme Color 4"
+msgstr "Esquema de color | Color 4"
+
+#: inc/options/options-output.php:1411
+msgid "Color Scheme Color 3"
+msgstr "Esquema de color | Color 3"
+
+#: inc/options/options-output.php:1395
+msgid "Color Scheme Color 2"
+msgstr "Esquema de color | Color 2"
+
+#: inc/options/options-output.php:1379
+msgid "Color Scheme Color 1"
+msgstr "Esquema de color | Color 1"
+
+#: inc/options/options-output.php:1325
+msgid "Widget Content"
+msgstr "Contenido del widget"
+
+#: inc/options/options-output.php:1306
+msgid "Widget Title"
+msgstr "Título del widget"
+
+#: inc/options/options-output.php:1288
+msgid "Enable Custom Dashboard Widget"
+msgstr "Activar el widget personalizado en el escritorio"
+
+#: inc/options/options-output.php:1258 inc/options/options-output.php:2457
+msgid "Please leave blank to have no expiry."
+msgstr "Déjalo en blanco para que no caduque."
+
+#: inc/options/options-output.php:1257
+msgid "Maintenance Mode End Date"
+msgstr "Fecha final del modo de mantenimiento"
+
+#: inc/options/options-output.php:1221
+msgid "Custom Maintenance Page/Coming Soon Text"
+msgstr "Texto personalizado de la página de mantenimiento/próximamente"
+
+#: inc/options/options-output.php:1201
+msgid "Enable Maintenance Mode"
+msgstr "Activar el modo de mantenimiento"
+
+#: inc/options/options-output.php:1169 inc/options/options-output.php:2329
+msgid "Deactivate Custom Code on this Settings Tab"
+msgstr "Desactivar el código personalizado en esta pestaña de ajustes"
+
+#: inc/options/options-output.php:1151
+msgid "Remove WordPress Version Number from Footer"
+msgstr "Eliminar el número de versión de WordPress del pie de página"
+
+#: inc/options/options-output.php:1116
+msgid "Add custom PHP to WordPress"
+msgstr "Añadir PHP personalizado a WordPress"
+
+#: inc/options/options-output.php:1097 inc/options/options-output.php:2312
+msgid "There's no need to put in the script tags and jQuery can be used like: "
+msgstr "No hay necesidad de poner las etiquetas de script y jQuery puede usarse como: "
+
+#: inc/options/options-output.php:1096
+msgid "Add custom Javascript/jQuery to the WordPress admin"
+msgstr "Añadir JavaScript/jQuery personalizado a la administración de WordPress"
+
+#: inc/options/options-output.php:1073
+msgid "Add custom CSS to the WordPress login area"
+msgstr "Añadir CSS personalizado al área de acceso de WordPress"
+
+#: inc/options/options-output.php:1051
+msgid "Add custom CSS to the WordPress admin"
+msgstr "Añadir CSS personalizado a la administración de WordPress"
+
+#: inc/options/options-output.php:1019
+msgid "Remove admin toolbar from the front end for all users"
+msgstr "Eliminar de la portada la barra de herramientas de administración para todos los usuarios"
+
+#: inc/options/options-output.php:979 inc/options/options-output.php:1326
+#: inc/options/options-output.php:2513
+msgid "Please feel free to use shortcodes to add dynamic content."
+msgstr "Por favor, no dudes en usar shortcodes para añadir contenido dinámico."
+
+#: inc/options/options-output.php:978
+msgid "Custom Footer Text"
+msgstr "Texto personalizado del pie de página"
+
+#: inc/options/options-output.php:949
+msgid "Admin Link and Button Hover Color"
+msgstr "Enlace de administración y color del botón al pasar el cursor"
+
+#: inc/options/options-output.php:932 inc/options/options-output.php:950
+msgid "Please click the \"Default\" button when changing the colour to load the default WordPress styling"
+msgstr "Haz clic en el botón «Por defecto» al cambiar el color para cargar el estilo por defecto de WordPress"
+
+#: inc/options/options-output.php:931
+msgid "Admin Link and Button Color"
+msgstr "Enlace de administración y color del botón"
+
+#: inc/options/options-output.php:905
+msgid "Also add the above favicon to the frontend"
+msgstr "Añade también a la portada el icono del sitio de arriba"
+
+#: inc/options/options-output.php:885
+msgid "For best results please upload an image with a square aspect ratio"
+msgstr "Para unos mejores resultados, por favor, sube una imagen con una relación de aspecto cuadrada"
+
+#: inc/options/options-output.php:884
+msgid "Custom Favicon"
+msgstr "Icono del sitio personalizado"
+
+#: inc/options/options-output.php:871 inc/options/options-output.php:892
+msgid "Upload Image"
+msgstr "Subir una imagen"
+
+#: inc/options/options-output.php:864
+msgid "Custom Login Logo"
+msgstr "Logotipo personalizado de acceso"
+
+#: inc/options/options-output.php:829
+msgid "Login Screen Background Color"
+msgstr "Color de fondo de la pantalla de acceso"

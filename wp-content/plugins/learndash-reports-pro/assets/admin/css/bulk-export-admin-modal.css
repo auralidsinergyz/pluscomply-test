@@ -1,0 +1,344 @@
+
+.bulk_export_label{
+    margin-left: -12px !important;
+    font-size: 14px;
+    font-weight: bold !important;
+    line-height: 1.4;}
+
+#TB_ajaxContent{
+    padding: 0px !important;
+}
+
+#TB_title{
+    border-bottom: none !important;
+    height: 0px !important;
+}
+
+ .filter-section .quiz-reporting-custom-filters {
+    display: flex;
+    flex-flow: row wrap;
+   
+  }
+  
+   .filter-section .quiz-reporting-custom-filters .selector {
+    vertical-align: sub;
+    margin: 5px 10px 5px 0;
+  }
+
+  .quiz-reporting-custom-filters .selector .selector-label {
+    min-height: auto;
+    padding-bottom: 10px;
+  }
+
+  
+
+
+  .selector-label {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #444444;
+  }
+
+  .selector #user , .selector input{
+    width: 224px;
+    height: 41px;
+    border: 1px solid #C4C4C4;
+    box-shadow: 0px 2px 2px rgb(0 0 0 / 30%);
+    border-radius: 4px;
+    color: #72777c;
+}
+  .selector-label span {
+    margin-left: 5px;
+  }
+
+   .apply_filters {
+    display: inline-block;
+    margin: 10px;
+    float: right;
+  }
+  
+   .apply_filters button {
+    box-shadow: 0px 2px 2px rgb(0 0 0 / 30%);
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    border-radius: 4px;
+    color: white;
+    line-height: 1;
+    background-color: #0170b9;
+    border: none;
+  }
+
+  .apply_filters button:hover {
+    color: white;
+    background-color: #3a3a3a;
+  }
+  
+  .filter-section {
+    padding: 30px 20px 20px;
+    min-height: 150px;
+    background-color: #f3f3f3;
+  }
+  
+  .bulk-export-header {
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  
+  .export-attempt-results, .export-attempt-learner-answers {
+    padding: 10px 30px;
+  }
+  
+  .export-attempt-learner-answers {
+    margin-bottom: 0;
+    padding-bottom: 30px;
+  }
+  
+  .export-note {
+    padding: 10px 30px;
+    color: red;
+  }
+  
+  .export-attempt-results .report-label, .export-attempt-learner-answers .report-label {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  
+  .export-attempt-results .report-label .dashicons, .export-attempt-learner-answers .report-label .dashicons {
+    margin-left: 5px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .report-export-buttons {
+    display: inline-block;
+  }
+  
+  .report-export-buttons > div {
+    display: inline-block;
+    margin-right: 10px;
+    color: #2d9bf0;
+  }
+  
+  .report-export-buttons button {
+    margin: auto 10px;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    vertical-align: middle;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    color: #008AD8;
+    cursor: pointer;
+  }
+  
+  .bulk-export-download a.button .dashicons-download {
+    font-size: 14px;
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+  }
+  
+  .export-link-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    vertical-align: middle;
+    height: 45px;
+    max-height: 45px;
+  }
+  
+  .bulk-export-download {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: middle;
+    font-size: 14px;
+  }
+  
+  .bulk-export-download a {
+    padding: 5px 10px;
+    margin-right: 20px;
+    vertical-align: middle;
+    text-decoration: none !important;
+  }
+  
+  .bulk-export-progress {
+    display: inline-block;
+    padding: 6px 10px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 3px;
+    margin-top: 20px;
+  }
+  
+  .bulk-export-progress label {
+    display: block;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #403F41;
+  }
+  
+  .bulk-export-progress progress[value] {
+    background-color: #1AB900;
+    border-radius: 5px;
+    height: 5px;
+    vertical-align: middle;
+    webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+            appearance: none;
+    border: none;
+  }
+  
+  .bulk-export-progress span {
+    display: block;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #1AB900;
+  }
+  
+  .filter-section button:disabled,
+  .export-attempt-results button:disabled,
+  .export-attempt-learner-answers button:disabled,
+  .filter-section button[disabled],
+  .export-attempt-results button[disabled],
+  .export-attempt-learner-answers button[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .bulk-export-heading h3 {
+    font-weight: 700;
+    color: #444;
+    font-size: 1.5rem;
+  }
+  
+  .bulk-export-heading div {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #999999;
+    display: inline;
+  }
+  
+  .bulk-export-heading div > * {
+    font-weight: 600;
+  }
+  
+  .bulk-export-heading {
+    margin: 30px auto 23px;
+    padding: 10px 30px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #E5E5E5;
+  }
+
+  
+  .bulk_export_modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .bulk_export_modal > div {
+    background-color: #fff;
+    position: relative;
+  }
+
+/* download button css */
+.bulk-export-download-button{
+  background-color: #0170b9;
+  color:white;
+}
+
+.bulk-export-download-button:hover{
+  transition: none;
+  color: white;
+}
+
+.bulk-export-download-button:focus{
+  transition: none;
+  color: white;
+}
+/* tooltip css */
+.wdm-tooltip{
+  width: 325px;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: calc(100% + 10px);
+    left: -152px;
+    transition: opacity 0.3s;
+    font-size: 14px;
+    font-family: roboto;
+    line-height: 18px;
+    font-weight: 600;
+  }
+  .wdm-tooltip{
+      left: -156px;
+  }
+  .wdm-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -11px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+  .tooltip-icon{
+    margin-top:4px;
+  }
+
+  .ui-datepicker {
+    background: rgb(255, 255, 255) none;
+    z-index: 12;
+    padding: 10px;
+}
+
+.wrp_user_dropdown .select2{
+  width: 224px;
+  height: 41px;
+  border: 1px solid #C4C4C4;
+  background-color: white;
+  box-shadow: 0px 2px 2px rgb(0 0 0 / 30%);
+  border-radius: 4px;
+  color: black;
+}
+.wrp_user_dropdown .select2 .selection .select2-selection{
+  width: 224px;
+  background-color: transparent;
+  padding-top: 7px;
+  font-size: 14px;
+  border: none;
+}
+.wrp_user_dropdown .select2-selection__arrow{
+  padding-top: 13px;
+}
+
+
+#TB_closeWindowButton:focus .tb-close-icon {
+	-webkit-box-shadow: none !important;
+	box-shadow:none !important;
+}

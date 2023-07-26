@@ -1,0 +1,710 @@
+# Translation of Plugins - Website Builder by SeedProd — Theme Builder, Landing Page Builder, Coming Soon Page, Maintenance Mode - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Website Builder by SeedProd — Theme Builder, Landing Page Builder, Coming Soon Page, Maintenance Mode - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-01-01 22:59:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Website Builder by SeedProd — Theme Builder, Landing Page Builder, Coming Soon Page, Maintenance Mode - Stable (latest release)\n"
+
+#: app/functions-utils.php:1041
+msgid "Hotspot"
+msgstr "Zona activa"
+
+#: app/functions-utils.php:579
+msgid "Price List"
+msgstr "Lista de precios"
+
+#: app/functions-utils.php:1060
+msgid "Counter"
+msgstr "Contador"
+
+#: app/functions-utils.php:340
+msgid "Before After Toggle"
+msgstr "Conmutador antes después"
+
+#: app/functions-utils.php:204
+msgid " Payment Button"
+msgstr " Botón de pago"
+
+#: languages/seedprod-lite.php:29
+msgid "Widgets"
+msgstr "Widgets"
+
+#: languages/seedprod-lite.php:23
+msgid "Search blocks..."
+msgstr "Bloques de búsqueda"
+
+#: languages/seedprod-lite.php:17
+msgid "Saved Blocks"
+msgstr "Bloques guardados"
+
+#: languages/seedprod-lite.php:11
+msgid "Standard"
+msgstr "Estándar"
+
+#: languages/seedprod-lite.php:8
+msgid "Sections"
+msgstr "Secciones"
+
+#: languages/seedprod-lite.php:5
+msgid "Blocks"
+msgstr "Bloques"
+
+#: languages/seedprod-lite.php:20
+msgid "Editing:"
+msgstr "Editando:"
+
+#: languages/seedprod-lite.php:26
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: app/routes.php:88 app/routes.php:89
+msgid "Pop-ups"
+msgstr "Ventanas emergentes"
+
+#: app/functions-utils.php:570
+msgid "Business Hours"
+msgstr "Horario de apertura"
+
+#: app/functions-utils.php:559
+msgid "Gallery"
+msgstr "Galería"
+
+#: app/functions-utils.php:548
+msgid "Advanced Gallery"
+msgstr "Galería avanzada"
+
+#: app/functions-utils.php:243
+msgid "Tabs"
+msgstr "Pestañas"
+
+#: app/routes.php:58 app/routes.php:59
+msgid "Setup"
+msgstr "Configuración"
+
+#: app/theme-templates.php:936
+msgid "This page was auto-generated and is a placeholder page for the SeedProd theme. To manage the contents of this page please visit SeedProd > Theme Builder in the left menu in WordPress. "
+msgstr "Esta página ha sido generada automáticamente y es un marcador de posición para el tema SeedProd. Para gestionar los contenidos de esta página, por favor, visita «SeedProd > Maquetador del tema» en el menú de la izquierda en WordPress. "
+
+#: app/routes.php:146 app/routes.php:147
+msgid "Upgrade to Pro"
+msgstr "Actualizar a la versión Pro"
+
+#: app/routes.php:135 app/routes.php:136
+msgid "Import / Export"
+msgstr "Importar / exportar"
+
+#: app/functions-addons.php:157
+msgid "Could not activate addon. Please refresh page and try again."
+msgstr "No se ha podido activar la extensión. Por favor, recarga la página e inténtalo de nuevo."
+
+#: app/functions-addons.php:133
+msgid "Could not activate addon. Please check user permissions."
+msgstr "No se ha podido activar la extensión. Por favor, comprueba los permisos del usuario."
+
+#: app/edit_with_seedprod.php:234
+msgid "Switch Back to WordPress Editor"
+msgstr "Volver al editor de WordPress"
+
+#. Author URI of the plugin
+msgid "https://www.seedprod.com/lite-upgrade/?utm_source=WordPress&utm_campaign=liteplugin&utm_medium=author-uri-link"
+msgstr "https://www.seedprod.com/lite-upgrade/?utm_source=WordPress&utm_campaign=liteplugin&utm_medium=author-uri-link"
+
+#. Plugin URI of the plugin
+msgid "https://www.seedprod.com/lite-upgrade/?utm_source=WordPress&utm_campaign=liteplugin&utm_medium=plugin-uri-link"
+msgstr "https://www.seedprod.com/lite-upgrade/?utm_source=WordPress&utm_campaign=liteplugin&utm_medium=plugin-uri-link"
+
+#: app/functions-utils.php:1028
+msgid "Product Data Tabs"
+msgstr "Pestañas de datos del producto"
+
+#: app/functions-utils.php:1017
+msgid "Archive Products"
+msgstr "Archivo de productos"
+
+#: app/functions-utils.php:1005
+msgid "Product Stock"
+msgstr "Inventario del producto"
+
+#: app/functions-utils.php:992
+msgid "Product Rating"
+msgstr "Valoración del producto"
+
+#: app/functions-utils.php:980
+msgid "Upsells"
+msgstr "Ventas dirigidas"
+
+#: app/functions-utils.php:968
+msgid "Products Related"
+msgstr "Productos relacionados"
+
+#: app/functions-utils.php:957
+msgid "Additional Information"
+msgstr "Información adicional"
+
+#: app/functions-utils.php:944
+msgid "Short Description"
+msgstr "Descripción corta"
+
+#: app/functions-utils.php:933
+msgid "Product Content"
+msgstr "Contenido del producto"
+
+#: app/functions-utils.php:922
+msgid "Product Meta"
+msgstr "Meta del producto"
+
+#: app/functions-utils.php:899
+msgid "Product Price"
+msgstr "Precio del producto"
+
+#: app/functions-utils.php:887
+msgid "Product Featured Image"
+msgstr "Imagen destacada del producto"
+
+#: app/functions-utils.php:875
+msgid "Product Title"
+msgstr "Título del producto"
+
+#: app/functions-utils.php:863
+msgid "Menu Cart"
+msgstr "Menú del carrito"
+
+#. Description of the plugin
+msgid "The Easiest WordPress Drag & Drop Page Builder that allows you to build your webiste, create Landing Pages, Coming Soon Pages, Maintenance Mode Pages and more."
+msgstr "El maquetador de páginas de arrastrar y soltar para WordPress más sencillo, que te permite crear tu web, crear páginas de destino, páginas de lanzamiento, páginas de modo de mantenimiento y más."
+
+#. Plugin Name of the plugin
+msgid "Coming Soon Page, Maintenance Mode, Landing Pages & WordPress Website Builder by SeedProd"
+msgstr "Coming Soon Page, Maintenance Mode, Landing Pages & WordPress Website Builder by SeedProd"
+
+#: app/theme-templates.php:665
+msgid "You're using the <a href=\"%s\">SeedProd</a> Theme to build your web site, which disables the WordPress theme system."
+msgstr "Estás usando el tema <a href=\"%s\">SeedProd</a> para crear tu web, lo que desactiva el sistema de temas de WordPress."
+
+#: app/theme-templates.php:587
+msgid "Global CSS"
+msgstr "CSS global"
+
+#: app/routes.php:49 app/routes.php:50 app/routes.php:197 app/routes.php:198
+msgid "Theme Builder"
+msgstr "Maquetador del tema"
+
+#: app/routes.php:41
+msgid "Landing Pages"
+msgstr "Páginas de destino"
+
+#: app/functions-utils.php:851 app/functions-utils.php:1103
+msgid "Template Parts"
+msgstr "Partes de plantilla"
+
+#: app/functions-utils.php:838
+msgid "Site Logo"
+msgstr "Logotipo del sitio"
+
+#: app/functions-utils.php:816
+msgid "Archive Title"
+msgstr "Título del archivo"
+
+#: app/functions-utils.php:804
+msgid "Post Info"
+msgstr "Información de la entrada"
+
+#: app/functions-utils.php:791
+msgid "Post Navigation"
+msgstr "Navegación de entradas"
+
+#: app/functions-utils.php:779
+msgid "Post Comments"
+msgstr "Comentarios de la entrada"
+
+#: app/functions-utils.php:767
+msgid "Author Box"
+msgstr "Caja de autor"
+
+#: app/functions-utils.php:755
+msgid "Featured Image"
+msgstr "Imagen destacada"
+
+#: app/functions-utils.php:743
+msgid "Post Excerpt"
+msgstr "Extracto de la entrada"
+
+#: app/functions-utils.php:731
+msgid "Post Content"
+msgstr "Contenido de la entrada"
+
+#: app/functions-utils.php:719
+msgid "Post Title"
+msgstr "Título de la entrada"
+
+#: app/functions-utils.php:685 app/functions-utils.php:696
+msgid "Posts"
+msgstr "Entradas"
+
+#: app/functions-utils.php:439
+msgid "Search Form"
+msgstr "Formulario de búsqueda"
+
+#: app/admin-bar-menu.php:53
+msgid "Theme Preview Mode Active"
+msgstr "Activo el modo de vista previa del tema"
+
+#: app/functions-utils.php:536
+msgid "Twitter Follow Button"
+msgstr "Botón para seguir de Twitter"
+
+#: app/functions-utils.php:524
+msgid "Twitter Tweet Button"
+msgstr "Botón para tuitear de Twitter"
+
+#: app/functions-utils.php:512
+msgid "Twitter Embed Timeline"
+msgstr "Cronología incrustada de Twitter"
+
+#: app/functions-utils.php:500
+msgid "Twitter Embed Tweet"
+msgstr "Tuit incrustado de Twitter"
+
+#: app/functions-utils.php:487
+msgid "Facebook Embed"
+msgstr "Incrustado de Facebook"
+
+#: app/functions-utils.php:475
+msgid "Facebook Page"
+msgstr "Página de Facebook"
+
+#: app/functions-utils.php:463
+msgid "Facebook Comments"
+msgstr "Comentarios de Facebook"
+
+#: app/functions-utils.php:449
+msgid "Facebook Like"
+msgstr "Me gusta de Facebook"
+
+#: app/functions-utils.php:429
+msgid "Google Maps"
+msgstr "Mapas de Google"
+
+#: app/functions-utils.php:371
+msgid "Pricing Table"
+msgstr "Tabla de precios"
+
+#: app/functions-utils.php:317
+msgid "Image Carousel"
+msgstr "Carrusel de imágenes"
+
+#: app/functions-utils.php:279
+msgid "Animated Headline"
+msgstr "Titular animado"
+
+#: app/functions-utils.php:675
+msgid "Top Rated Products"
+msgstr "Productos mejor valorados"
+
+#: app/functions-utils.php:666
+msgid "Featured Products"
+msgstr "Productos destacados"
+
+#: app/functions-utils.php:657
+msgid "Best Selling Products"
+msgstr "Productos más vendidos"
+
+#: app/functions-utils.php:646
+msgid "Sale Products"
+msgstr "Productos en oferta"
+
+#: app/functions-utils.php:635
+msgid "Recent Products"
+msgstr "Productos recientes"
+
+#: app/functions-utils.php:623
+msgid "Products Grid"
+msgstr "Cuadrícula de productos"
+
+#: app/functions-utils.php:610
+msgid "Cart"
+msgstr "Carrito"
+
+#: app/functions-utils.php:598
+msgid "Checkout"
+msgstr "Finalizar compra"
+
+#: app/functions-utils.php:588 app/functions-utils.php:911
+msgid "Add To Cart"
+msgstr "Añadir al carrito"
+
+#: app/functions-utils.php:401
+msgid "Accordion"
+msgstr "Acordeón"
+
+#: app/functions-utils.php:307
+msgid "Testimonials"
+msgstr "Recomendaciones"
+
+#: app/settings.php:127
+msgid "Error Updating App Settings"
+msgstr "Error al actualizar los ajustes"
+
+#: app/settings.php:121
+msgid "App Settings Updated"
+msgstr "Ajustes actualizados"
+
+#: app/routes.php:125 app/routes.php:126
+msgid "Request a Feature"
+msgstr "Solicitar una característica nueva"
+
+#: app/functions-utils.php:419
+msgid "Login Form"
+msgstr "Formulario de acceso"
+
+#: resources/views/debug.php:27
+msgid "Debug Tools"
+msgstr "Herramientas de depuración"
+
+#: app/routes.php:188 app/routes.php:189
+msgid "Debug"
+msgstr "Depurar"
+
+#: app/routes.php:179 app/routes.php:180
+msgid "Import/Export"
+msgstr "Importar/Exportar"
+
+#: app/routes.php:170 app/routes.php:171
+msgid "Builder"
+msgstr "Maquetador"
+
+#: app/routes.php:116 app/routes.php:117
+msgid "About Us"
+msgstr "Sobre nosotros"
+
+#: app/routes.php:107 app/routes.php:108
+msgid "Growth Tools"
+msgstr "Herramientas de crecimiento"
+
+#: app/settings.php:72
+msgid "Error Updating Settings"
+msgstr "Error al actualizar los ajustes"
+
+#: app/settings.php:67
+msgid "Settings Updated"
+msgstr "Ajustes actualizados"
+
+#: app/functions-addons.php:216 app/functions-addons.php:285
+msgid "Inactive"
+msgstr "Inactivo"
+
+#: app/functions-addons.php:154
+msgid "Could not activate addon. Please activate from the Plugins page."
+msgstr "No se ha podido activar la extensión. Por favor, actívala desde la página de plugins."
+
+#: app/functions-addons.php:149
+msgid "Addon activated."
+msgstr "Extensión activada."
+
+#: app/functions-addons.php:147
+msgid "Plugin activated."
+msgstr "Plugin activado."
+
+#: app/functions-addons.php:119
+msgid "Could not deactivate the addon. Please deactivate from the Plugins page."
+msgstr "No se ha podido desactivar la extensión. Por favor, desactívala desde la página de plugins."
+
+#: app/functions-addons.php:115
+msgid "Addon deactivated."
+msgstr "Extensión desactivada."
+
+#: app/functions-addons.php:113
+msgid "Plugin deactivated."
+msgstr "Plugin desactivado."
+
+#: app/lpage.php:975 app/theme-templates.php:809
+msgid "<br><br>Please enter a valid license key to access the themes. You can still proceed to create a page with the default theme.<br> <a class='seedprod_no_themes' href='?theme=0'>Click to continue &#8594;</a>"
+msgstr "<br><br>Por favor, introduce una clave de licencia válida para acceder a los temas. Todavía puedes proceder a crear una página con el tema por defecto.<br><a class='seedprod_no_themes' href='?theme=0'>Haz clic para continuar →</a>"
+
+#: app/lpage.php:814
+msgid "Ended"
+msgstr "Finalizado"
+
+#: app/lpage.php:812
+msgid "Starts in"
+msgstr "Empieza en"
+
+#: app/lpage.php:193 app/lpage.php:195 app/setup-wizard.php:197
+#: app/setup-wizard.php:199
+msgid "New Page"
+msgstr "Nueva página"
+
+#: app/license.php:157
+msgid "Invalid License Key."
+msgstr "Clave de licencia no válida."
+
+#. translators: 1. License name.
+#: app/license.php:152
+msgid "You currently have the <strong>%s</strong> license."
+msgstr "Actualmente tienes la licencia <strong>%s</strong>."
+
+#: app/license.php:89
+msgid "License Key is Required."
+msgstr "Se necesita una clave de licencia."
+
+#: app/license.php:17
+msgid "Upgrade PHP"
+msgstr "Actualizar PHP"
+
+#: app/license.php:17
+msgid "The minimum required version of PHP to run this plugin is PHP Version 5.3.3. Please contact your hosting company and ask them to upgrade this site's php verison."
+msgstr "La versión mínima necesaria de PHP para ejecutar este plugin es la versión 5.3.3 de PHP. Por favor, contacta con tu empresa de alojamiento y pídeles que actualicen la versión PHP de este sitio."
+
+#: app/edit_with_seedprod.php:233 app/edit_with_seedprod.php:375
+msgid "Edit with SeedProd"
+msgstr "Editar con SeedProd"
+
+#: app/functions-utils.php:1144
+msgid "Select Time"
+msgstr "Seleccionar la hora"
+
+#: app/functions-utils.php:410
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: app/functions-utils.php:392
+msgid "Star Rating"
+msgstr "Valoración de estrellas"
+
+#: app/functions-utils.php:383
+msgid "Anchor"
+msgstr "Ancla"
+
+#: app/functions-utils.php:363
+msgid "Nav Menu"
+msgstr "Menú de navegación"
+
+#: app/functions-utils.php:353
+msgid "Icon Box"
+msgstr "Caja de ícono"
+
+#: app/functions-utils.php:330
+msgid "Image Box"
+msgstr "Caja de imagen"
+
+#: app/functions-utils.php:298
+msgid "Icon"
+msgstr "Ícono"
+
+#: app/functions-utils.php:289
+msgid "Progress Bar"
+msgstr "Barra de progreso"
+
+#: app/functions-utils.php:270
+msgid "Social Sharing"
+msgstr "Compartir en redes sociales"
+
+#: app/functions-utils.php:261
+msgid "Social Profiles"
+msgstr "Perfiles sociales"
+
+#: app/functions-utils.php:252
+msgid "Countdown"
+msgstr "Cuenta atrás "
+
+#: app/functions-utils.php:234
+msgid "Optin Form"
+msgstr "Formulario de consentimiento"
+
+#: app/functions-utils.php:225
+msgid "Contact Form"
+msgstr "Formulario de contacto"
+
+#: app/functions-utils.php:195
+msgid "Spacer"
+msgstr "Espaciador"
+
+#: app/functions-utils.php:186
+msgid "Divider"
+msgstr "Divisor"
+
+#: app/functions-utils.php:178
+msgid "Video"
+msgstr "Video"
+
+#: app/functions-utils.php:170
+msgid "Image"
+msgstr "Imagen"
+
+#: app/functions-utils.php:162
+msgid "Button"
+msgstr "Botón"
+
+#: app/functions-utils.php:153
+msgid "List"
+msgstr "Lista"
+
+#: app/functions-utils.php:115
+msgid "Column"
+msgstr "Columna"
+
+#: app/functions-utils.php:54
+msgid "Anyone Logged In"
+msgstr "Cualquiera conectado"
+
+#: app/functions-utils.php:52
+msgid "SuperAdmin"
+msgstr "Superadministrador"
+
+#: app/class-seedprod-review.php:115
+msgid "~ John Turner<br>Co-Founder of SeedProd"
+msgstr "~ John Turner<br>Cofundador de SeedProd"
+
+#: app/class-seedprod-review.php:114
+msgid "That’s awesome! Could you please do me a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation?"
+msgstr "¡Eso es fantástico! Por favor, ¿podrías hacerme un GRAN favor y darle una valoración de 5 estrellas en WordPress para ayudarnos a hacer correr la voz e impulsar nuestra motivación?"
+
+#: app/class-seedprod-review.php:110
+msgid "No thanks"
+msgstr "No, gracias"
+
+#: app/class-seedprod-review.php:109
+msgid "Give Feedback"
+msgstr "Envía tus comentarios"
+
+#: app/class-seedprod-review.php:107
+msgid "We're sorry to hear you aren't enjoying SeedProd. We would love a chance to improve. Could you take a minute and let us know what we can do better?"
+msgstr "Lamentamos que no estés disfrutando de SeedProd. Nos encantaría tener la oportunidad de mejorar. ¿Podrías tomarte un minuto y hacernos saber qué podemos hacer mejor?"
+
+#: app/class-seedprod-review.php:103
+msgid "Not Really"
+msgstr "En realidad, no"
+
+#: app/class-seedprod-review.php:100
+msgid "Are you enjoying SeedProd?"
+msgstr "¿Estás disfrutando de SeedProd?"
+
+#: app/render-csp-mm.php:283
+msgid "Please create your Coming Soon Page in the plugin settings."
+msgstr "Por favor, crea tu página de «Próximamente» en los ajustes del plugin."
+
+#: app/render-csp-mm.php:278
+msgid "Please create enter your redirect url in the plugin settings."
+msgstr "Por favor, introduce tu URL de redirección en los ajustes del plugin."
+
+#: app/render-csp-mm.php:266
+msgid "Please create your Maintenance Page in the plugin settings."
+msgstr "Por favor, crea tu página de mantenimiento en los ajustes del plugin."
+
+#: app/includes/upgrade.php:181
+msgid "Pro version installed but needs to be activated from the Plugins page inside your WordPress admin."
+msgstr "La versión Pro está instalada, pero tiene que ser activada desde la página de plugins en tu administración de WordPress."
+
+#: app/includes/upgrade.php:120 app/includes/upgrade.php:126
+#: app/includes/upgrade.php:177
+msgid "Plugin installed & activated."
+msgstr "Plugin instalado y activado."
+
+#: app/includes/upgrade.php:88
+msgid "Could not install upgrade. Please download from seedprod.com and install manually."
+msgstr "No se ha podido instalar la actualización. Por favor, descárgala de seedprod.com e instálala manualmente."
+
+#: app/includes/upgrade.php:43
+msgid "Pro version is already installed."
+msgstr "La versión Pro ya está instalada."
+
+#: app/includes/upgrade.php:24 app/includes/upgrade.php:157
+msgid "You are not licensed."
+msgstr "No tienes licencia."
+
+#: app/includes/upgrade.php:11
+msgid "You are not allowed to install plugins."
+msgstr "No tienes permisos para instalar plugins."
+
+#: resources/views/debug.php:1
+msgid "System Information"
+msgstr "Información del sistema"
+
+#: app/functions-utils.php:214
+msgid "Giveaway"
+msgstr "Regalos"
+
+#: app/includes/skin.php:82 app/includes/skin53.php:82
+msgid "There was an error installing the addon. Please try again."
+msgstr "Ha habido un error al instalar la extensión. Por favor, inténtalo de nuevo."
+
+#: app/functions-addons.php:211 app/functions-addons.php:280
+msgid "Active"
+msgstr "Activo"
+
+#: app/functions-addons.php:222 app/functions-addons.php:291
+msgid "Not Installed"
+msgstr "No instalado"
+
+#: app/routes.php:78 app/routes.php:79
+msgid "Subscribers"
+msgstr "Suscriptores"
+
+#: app/routes.php:98 app/routes.php:99
+msgid "Settings"
+msgstr "Ajustes"
+
+#: app/class-seedprod-review.php:119
+msgid "I already did"
+msgstr "Ya lo he hecho"
+
+#: app/class-seedprod-review.php:118
+msgid "Nope, maybe later"
+msgstr "No, quizá más tarde"
+
+#: app/class-seedprod-review.php:117
+msgid "Ok, you deserve it"
+msgstr "Está bien, te lo mereces"
+
+#. translators: 1: wordpress.org coming-soon plugin review, 2: wordpress.org
+#. coming-soon plugin review
+#: app/bootstrap.php:445
+msgid "Please rate <strong>SeedProd</strong> <a href=\"%1$s\" target=\"_blank\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> on <a href=\"%2$s\" target=\"_blank\">WordPress.org</a> to help us spread the word. Thank you from the SeedProd team!"
+msgstr "Por favor, valora a <strong>SeedProd</strong> con <a href=\"%1$s\" target=\"_blank\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> en <a href=\"%2$s\" target=\"_blank\">WordPress.org</a> para ayudarnos a dar a conocer el plugin. ¡Gracias de parte del equipo de SeedProd!"
+
+#: app/functions-utils.php:707
+msgid "Custom HTML"
+msgstr "HTML personalizado"
+
+#. Author of the plugin
+#: app/routes.php:40
+msgid "SeedProd"
+msgstr "SeedProd"
+
+#: languages/seedprod-lite.php:14
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: app/routes.php:161 app/routes.php:162
+msgid "Templates"
+msgstr "Plantillas"
+
+#: app/functions-utils.php:145
+msgid "Text"
+msgstr "Texto"
+
+#: app/functions-utils.php:133
+msgid "Headline"
+msgstr "Titular"
+
+#: app/class-seedprod-review.php:102
+msgid "Yes"
+msgstr "Sí"
+
+#: app/backwards/csp4-functions.php:10
+msgid "Please enter your settings."
+msgstr "Por favor, introduce tus ajustes."
+
+#: app/admin-bar-menu.php:51
+msgid "Maintenance Mode Active"
+msgstr "Modo Mantenimiento activo "
+
+#: app/admin-bar-menu.php:49
+msgid "Coming Soon Mode Active"
+msgstr "Modo Próximamente activo"

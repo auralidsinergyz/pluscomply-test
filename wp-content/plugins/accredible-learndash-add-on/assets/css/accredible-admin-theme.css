@@ -1,0 +1,117 @@
+body {
+    /* Color white */
+    --accredible-color-white: #FFFFFF;
+  
+    /* Color natural */
+    --accredible-color-natural-180: #141418;
+    --accredible-color-natural-160: #282831;
+    --accredible-color-natural-140: #3B3C49;
+    --accredible-color-natural-120: #4F5062;
+    --accredible-color-natural-100: #63647A;
+    --accredible-color-natural-80: #828395;
+    --accredible-color-natural-60: #A1A2AF;
+    --accredible-color-natural-40: #C1C1CA;
+    --accredible-color-natural-20: #E0E0E4;
+    --accredible-color-natural-10: #EFF0F2;
+    --accredible-color-natural-5: #F7F7F8;
+  
+    /* Color primary */
+    --accredible-color-primary-180: #0E0E1E;
+    --accredible-color-primary-160: #1C1C3D;
+    --accredible-color-primary-140: #292B5B;
+    --accredible-color-primary-120: #37397A;
+    --accredible-color-primary-100: #454798;
+    --accredible-color-primary-80: #6A6CAD;
+    --accredible-color-primary-60: #8F91C1;
+    --accredible-color-primary-40: #B5B5D6;
+    --accredible-color-primary-20: #DADAEA;
+    --accredible-color-primary-10: #ECEDF5;
+    --accredible-color-primary-5: #F6F6FA;
+  
+    /* Color secondary */
+    --accredible-color-secondary-180: #082426;
+    --accredible-color-secondary-160: #0F484C;
+    --accredible-color-secondary-140: #176D72;
+    --accredible-color-secondary-120: #1E9198;
+    --accredible-color-secondary-100: #26B5BE;
+    --accredible-color-secondary-80: #51C4CB;
+    --accredible-color-secondary-60: #7DD3D8;
+    --accredible-color-secondary-40: #A8E1E5;
+    --accredible-color-secondary-20: #D4F0F2;
+    --accredible-color-secondary-10: #E9F8F9;
+    --accredible-color-secondary-5: #F4FBFC;
+  
+    /* Color success */
+    --accredible-color-success-160: #0C341E;
+    --accredible-color-success-140: #124E2E;
+    --accredible-color-success-120: #18683D;
+    --accredible-color-success-100: #1E824C;
+    --accredible-color-success-80: #4B9B70;
+    --accredible-color-success-60: #78B494;
+    --accredible-color-success-40: #A5CDB7;
+    --accredible-color-success-20: #D2E6DB;
+    --accredible-color-success-10: #E9F3ED;
+    --accredible-color-success-5: #F4F9F6;
+  
+    /* Color warning */
+    --accredible-color-warning-160: #5D4A21;
+    --accredible-color-warning-140: #8B7031;
+    --accredible-color-warning-120: #BA9542;
+    --accredible-color-warning-100: #E8BA52;
+    --accredible-color-warning-80: #EDC875;
+    --accredible-color-warning-60: #F1D697;
+    --accredible-color-warning-40: #F6E3BA;
+    --accredible-color-warning-20: #FAF1DC;
+    --accredible-color-warning-10: #FDF8EE;
+    --accredible-color-warning-5: #FEFCF6;
+  
+    /* Color danger */
+    --accredible-color-danger-160: #5B1206;
+    --accredible-color-danger-140: #881A0A;
+    --accredible-color-danger-120: #B6230D;
+    --accredible-color-danger-100: #E22C10;
+    --accredible-color-danger-80: #E95640;
+    --accredible-color-danger-60: #EE8070;
+    --accredible-color-danger-40: #F4AB9F;
+    --accredible-color-danger-20: #F9D5CF;
+    --accredible-color-danger-10: #FCEAE7;
+    --accredible-color-danger-5: #FEF4F3;
+  
+    /* Font sizes */
+    --accredible-font-size-xxs: 12px;
+    --accredible-font-size-xs: 13px;
+    --accredible-font-size-s: 14px;
+    --accredible-font-size-normal: 16px;
+    --accredible-font-size-l: 18px;
+    --accredible-font-size-xl: 20px;
+    --accredible-font-size-xxl: 24px;
+    --accredible-font-size-h: 30px;
+    --accredible-font-size-xh: 40px;
+  
+    /* Font line heights */
+    --accredible-font-line-height-s: 24px;
+    --accredible-font-line-height-normal: 26px;
+  
+    /* Font weights */
+    --accredible-font-weight-light: 300;
+    --accredible-font-weight-regular: 400;
+    --accredible-font-weight-semibold: 600;
+    --accredible-font-weight-bold: 700;
+    --accredible-font-weight-extrabold: 900;
+  
+    /* Spacing base */
+    --accredible-spacing-base: 5px;
+    --accredible-spacing-2x: 10px;
+    --accredible-spacing-3x: 15px;
+    --accredible-spacing-4x: 20px;
+    --accredible-spacing-5x: 25px;
+    --accredible-spacing-6x: 30px;
+    --accredible-spacing-7x: 35px;
+    --accredible-spacing-8x: 40px;
+    --accredible-spacing-9x: 45px;
+    --accredible-spacing-10x: 50px;
+    --accredible-spacing-12x: 60px;
+    --accredible-spacing-16x: 80px;
+    --accredible-spacing-20x: 100px;
+}
+  

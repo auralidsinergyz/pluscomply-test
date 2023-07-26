@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4 Oct, 2017, 11:13:34 AM
+    Author     : sudam
+*/
+
+.eb-sso-social-login-icon{
+    width: 30px;
+    height: auto;
+}
+.eb-sso-cont-login-btns li{
+    display:inline;
+}
+
+.eb-sso-cont-login-btns{
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.eb-sso-cont-login-btns a,
+.eb-sso-cont-login-btns a:active,
+.eb-sso-cont-login-btns a:focus,
+.eb-sso-cont-login-btns a:hover,
+.eb-sso-cont-login-btns a:visited{    
+    float: left;
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+    border-right: 1px solid white;
+    box-shadow: none;
+}
+
+.eb-sso-cont-login-btns a > img{
+    height: 2.3em;
+    width: auto;
+}

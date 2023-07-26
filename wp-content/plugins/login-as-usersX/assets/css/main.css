@@ -1,0 +1,121 @@
+.gwslau_sidepanel {
+    position: fixed;
+    top: 50%;
+    height: auto;
+    background: #ffcb1f;
+    box-shadow: 0px 0px 6px rgb(0 0 0 / 10%);
+    z-index: 999999;
+}
+
+.gwslau_sidepanel.gwslau-sidepane-left {
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.gwslau_sidepanel.gwslau-sidepane-right {
+    top: 50%;
+    transform: translate(0, -50%);
+    left: auto;
+    right: 0;
+}
+
+.gwslau_sidepanel.gwslau-sidepane-top {
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.gwslau_sidepanel.gwslau-sidepane-bottom {
+    bottom: 0;
+    top: auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.gwslau_sidepanel  .gwslau-logout-box-inner {
+    padding: 35px 15px 25px 15px;
+    width: 300px;
+}
+
+.gwslau_sidepanel .gwslau-logged-user-name {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.gwslau_sidepanel .gwslau-logged-user-name span {
+    font-weight: bold;
+}
+
+.gwslau_sidepanel .gwslau-closebtn {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 36px;
+    color: #000;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.gwslau_sidepanel .gwslau_btn_logout_box {
+    padding: 10px 17px !important;
+    background: #FFF !important;
+    margin: 0px;
+    border: none;
+    color: #000 !important;
+    margin-top: 9px;
+    outline: none !important;
+    opacity: 1;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: bold;
+    border-radius: 0;
+    transition: 0.3s;
+    visibility: visible;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.gwslau_sidepanel .gwslau-logged-user-container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gwslau_sidepanel .gwslau-logout-user-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffcb1f;
+    box-shadow: 0px 0px 6px rgb(0 0 0 / 10%);
+    cursor: pointer;
+    display: none;
+}
+
+.gwslau_sidepanel .gwslau-logout-user-icon img {
+    width: 40px;
+    pointer-events: none;
+}
+
+@media (max-width: 767px) {
+    .gwslau_sidepanel .gwslau-logout-user-icon {
+        display: flex;
+    }
+    .gwslau_sidepanel .gwslau-logout-box-inner {
+        display: none;
+    }
+}

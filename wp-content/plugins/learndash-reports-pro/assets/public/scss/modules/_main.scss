@@ -1,0 +1,40 @@
+.qre-reports-wrapper-class {
+	background: #EFEEEE;
+	.qre-reports {
+		display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex;
+	    @media screen and (max-width: 768px){
+	    	.qre-reports-sidebar + .qre-reports-main, .qre-reports-sidebar + .qre-reports-main {
+		    	margin-left: 100px;
+			    width: -webkit-calc(100% - 100px);
+			    width: calc(100% - 100px);
+		    }
+	    	.qre-reports-sidebar:hover + .qre-reports-main, .qre-reports-sidebar:focus + .qre-reports-main {
+		    	margin-left: 350px;
+			    width: -webkit-calc(100% - 350px);
+			    width: calc(100% - 350px);
+	    	}
+	    }
+	    .qre-reports-main {
+	    	-webkit-box-flex: 1;
+		    -ms-flex: 1 auto;
+		    flex: 1 auto;
+		    margin-left: 350px;
+		    width: -webkit-calc(100% - 350px);
+		    width: calc(100% - 350px);
+		    -webkit-transition: margin-left .3s ease;
+		    transition: margin-left .3s ease;
+	    }
+	}
+}
+
+body.no-sidebar .qre-reports-wrapper-class .qre-reports .qre-reports-main {
+	margin-left: 0;
+	.qre-reports-content {
+		padding: 7em 12em;
+		@media screen and (max-width: 768px){
+			padding: 7em 10px;
+		}
+	}
+}

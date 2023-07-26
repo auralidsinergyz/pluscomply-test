@@ -1,0 +1,209 @@
+# Translation of Plugins - Manage Notification E-mails - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Manage Notification E-mails - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-03-15 12:02:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Manage Notification E-mails - Stable (latest release)\n"
+
+#: modules/settings-page/views/settings.php:56
+msgid "Automatic WordPress plugin update e-mail"
+msgstr "Correo electrónico automático de WordPress de actualización de plugin"
+
+#: modules/settings-page/views/settings.php:57
+msgid "Automatic WordPress theme update e-mail"
+msgstr "Correo electrónico automático de WordPress de actualización de tema"
+
+#: modules/settings-page/views/settings.php:56
+msgid "Sends an e-mail after a successful automatic plugin update to administrators. E-mails about failed plugin updates will always be sent to the administrators"
+msgstr "Envía un correo electrónico a los administradores después de una actualización automática correcta de un plugin. Los correos electrónicos sobre actualizaciones fallidas de plugins siempre serán enviados a los administradores"
+
+#: modules/settings-page/views/settings.php:57
+msgid "Sends an e-mail after a successful automatic theme update to administrators. E-mails about failed theme updates will always be sent to the administrators"
+msgstr "Envía un correo electrónico a los administradores después de una actualización automática correcta de un tema. Los correos electrónicos sobre actualizaciones fallidas de temas siempre serán enviados a los administradores"
+
+#. translators: Login details notification email subject. %s: Site title
+#: modules/pluggable/pluggable-functions-1.5.php:295
+msgid "[%s] Login Details"
+msgstr "[%s] Datos de acceso"
+
+#: modules/settings-page/class.FAMNESettingsPage.php:388
+msgid "Settings"
+msgstr "Ajustes"
+
+#: modules/settings-page/views/settings.php:55
+msgid "Sends an e-mail after a successful automatic WordPress core update to administrators. E-mails about failed updates will always be sent to the administrators and cannot be disabled."
+msgstr "Envía un correo electrónico a los administradores después de una actualización automática correcta del núcleo de WordPress. Los correos electrónicos sobre actualizaciones fallidas siempre se enviarán a los administradores y pueden ser desactivados."
+
+#: modules/settings-page/views/settings.php:55
+msgid "Automatic WordPress core update e-mail"
+msgstr "Correo electrónico automático de WordPress de actualización del núcleo"
+
+#. Author URI of the plugin
+msgid "https://www.freeamigos.nl"
+msgstr "https://www.freeamigos.nl"
+
+#. Author of the plugin
+msgid "Virgial Berveling"
+msgstr "Virgial Berveling"
+
+#. translators: %s: user email address
+#: modules/pluggable/pluggable-functions-1.3.php:187
+#: modules/pluggable/pluggable-functions-1.5.php:204
+msgid "Email: %s"
+msgstr "Correo electrónico: %s"
+
+#. translators: New user registration notification email subject. %s: Site
+#. title
+#: modules/pluggable/pluggable-functions-1.2.php:167
+#: modules/pluggable/pluggable-functions-1.3.php:189
+#: modules/pluggable/pluggable-functions-1.5.php:209
+msgid "[%s] New User Registration"
+msgstr "[%s] Registro de nuevo usuario"
+
+#: modules/pluggable/pluggable-functions-1.2.php:164
+msgid "E-mail: %s"
+msgstr "Correo electrónico: %s"
+
+#. translators: %s: user login
+#: modules/pluggable/pluggable-functions-1.2.php:163
+#: modules/pluggable/pluggable-functions-1.2.php:195
+#: modules/pluggable/pluggable-functions-1.3.php:186
+#: modules/pluggable/pluggable-functions-1.3.php:232
+#: modules/pluggable/pluggable-functions-1.5.php:202
+#: modules/pluggable/pluggable-functions-1.5.php:286
+msgid "Username: %s"
+msgstr "Nombre de usuario: %s"
+
+#: modules/settings-page/views/settings.php:27
+msgid "Notify post author"
+msgstr "Avisar al autor de la entrada"
+
+#: modules/pluggable/pluggable-functions-1.2.php:34
+#: modules/pluggable/pluggable-functions-1.3.php:38
+#: modules/pluggable/pluggable-functions-1.5.php:48
+msgid "[%s] Password Lost/Changed"
+msgstr "[%s] Contraseña perdida/cambiada"
+
+#: modules/pluggable/pluggable-functions-1.2.php:30
+#: modules/pluggable/pluggable-functions-1.3.php:34
+#: modules/pluggable/pluggable-functions-1.5.php:44
+msgid "Password Lost and Changed for user: %s"
+msgstr "Contraseña perdida y cambiada para el usuario: %s"
+
+#. Plugin Name of the plugin
+msgid "Manage Notification E-mails"
+msgstr "Manage Notification E-mails"
+
+#: modules/pluggable/pluggable-functions-1.2.php:201
+#: modules/pluggable/pluggable-functions-1.3.php:238
+msgid "[%s] Your username and password info"
+msgstr "[%s] Información de tu nombre de usuario y contraseña"
+
+#: modules/pluggable/pluggable-functions-1.2.php:196
+#: modules/pluggable/pluggable-functions-1.3.php:233
+#: modules/pluggable/pluggable-functions-1.5.php:287
+msgid "To set your password, visit the following address:"
+msgstr "Para establecer tu contraseña, visita la siguiente dirección:"
+
+#. translators: %s: site title
+#: modules/pluggable/pluggable-functions-1.2.php:162
+#: modules/pluggable/pluggable-functions-1.3.php:185
+#: modules/pluggable/pluggable-functions-1.5.php:200
+msgid "New user registration on your site %s:"
+msgstr "Nuevo usuario registrado en tu sitio %s:"
+
+#: modules/settings-page/views/settings.php:27
+msgid "Send e-mail to an author (and/or others) of a comment/trackback/pingback on a post."
+msgstr "Envía un correo electrónico a un autor (y/u otros) cuando hay un comentario/trackback/pingback en una entrada."
+
+#: modules/settings-page/views/container-network.php:26
+#: modules/settings-page/views/container.php:37
+msgid "Manage your notification e-mail preferences below."
+msgstr "Gestiona a continuación tus preferencias de correos electrónicos de avisos."
+
+#: modules/settings-page/views/settings.php:28
+msgid "Notify moderator"
+msgstr "Avisar al moderador"
+
+#: modules/settings-page/views/donatebox.php:18
+msgid "If you find this plugin useful, you can show your appreciation here :-)"
+msgstr "Si encuentras útil este plugin, puedes mostrar tu agradecimiento aquí :-)"
+
+#: modules/settings-page/views/settings.php:31
+msgid "Send the forgotten password e-mail to registered user.<br/>(To prevent locking yourself out, sending of the forgotten password e-mail for administrators will still work)"
+msgstr "Envía el correo electrónico de recuperación de contraseña a un usuario registrado.<br/>(Para evitar bloquearte a ti mismo, seguirá funcionando el envío del correo electrónico de recuperación de contraseña para los administradores)"
+
+#: modules/settings-page/views/settings.php:30
+msgid "Send e-mail to registered user about changing his or her E-mail address."
+msgstr "Envía un correo electrónico a un usuario registrado para cambiar su dirección de correo electrónico."
+
+#: modules/settings-page/views/settings.php:29
+msgid "Send e-mail to registered user about changing his or her password. Be careful with this option, because when unchecked, the forgotten password request e-mails will be blocked too."
+msgstr "Envía un correo electrónico a un usuario registrado para cambiar su contraseña. Ten cuidado con esta opción, porque cuando no está marcada, también se bloquearán los correos electrónicos de solicitud de recuperación de contraseña."
+
+#: modules/settings-page/views/settings.php:53
+msgid "Send e-mail to the blog admin of a user changing his or her password."
+msgstr "Envía un correo electrónico al administrador del blog cuando un usuario cambie su contraseña."
+
+#: modules/settings-page/views/settings.php:28
+msgid "Send e-mail to the moderator of the blog about a new comment that is awaiting approval."
+msgstr "Envía un correo electrónico al administrador del blog cuando un nuevo comentario está pendiente de aprobación."
+
+#: modules/settings-page/views/settings.php:26
+msgid "Send e-mail with login credentials to a newly-registered user."
+msgstr "Envía un correo electrónico con las credenciales de acceso a un usuario recién registrado."
+
+#: modules/settings-page/views/settings.php:40
+msgid "Sends an e-mail to the site admin after a new user is registered."
+msgstr "Envía un correo electrónico al administrador del sitio después de que se registra un nuevo usuario."
+
+#: modules/settings-page/views/settings.php:64
+msgid "Password forgotten e-mail to administrator"
+msgstr "Correo electrónico de recuperación de contraseña al administrador"
+
+#: modules/settings-page/views/settings.php:31
+msgid "Password forgotten e-mail to user"
+msgstr "Correo electrónico de recuperación de contraseña al usuario"
+
+#: modules/settings-page/views/settings.php:30
+msgid "E-mail address change notification to user"
+msgstr "Aviso de cambio de correo electrónico al usuario"
+
+#: modules/settings-page/views/settings.php:29
+msgid "Password change notification to user"
+msgstr "Aviso de cambio de contraseña al usuario"
+
+#: modules/settings-page/views/settings.php:53
+msgid "Password change notification to admin"
+msgstr "Aviso de cambio de contraseña al administrador"
+
+#: modules/settings-page/views/settings.php:26
+msgid "New user notification to user"
+msgstr "Aviso de nueva cuenta al usuario"
+
+#: modules/settings-page/views/settings.php:39
+msgid "New user notification to site admin"
+msgstr "Aviso de nuevo usuario para el administrador del sitio"
+
+#: modules/settings-page/views/container-network.php:21
+#: modules/settings-page/views/container.php:23
+msgid "Manage the notification e-mails"
+msgstr "Gestionar los correos electrónicos de aviso"
+
+#: modules/settings-page/views/settings.php:64
+msgid "Okay, this is a <strong style=\"color:#900\">DANGEROUS OPTION !</strong><br/> So be warned, because unchecking this option prevents sending out the forgotten password e-mail to all administrators. So hold on to your own password and uncheck this one at your own risk ;-)"
+msgstr "Vale, esta es una <strong style=\"color:#900\">¡OPCIÓN PELIGROSA!</strong><br/>Así que estás advertido, porque, desmarcar esta opción, evita enviar el correo electrónico de contraseña olvidada a todos los administradores. Así que, guarda tu contraseña y desmarca esto bajo tu propio riesgo ;-)"
+
+#. Description of the plugin
+msgid "This plugin gives you the option to disable some of the notification e-mails send by WordPress. It's a simple plugin but effective."
+msgstr "Este plugin te ofrece la opción para desactivar algunos de los correos electrónicos de aviso enviados por WordPress. Es un plugin sencillo, pero efectivo."
+
+#. Plugin URI of the plugin
+msgid "https://www.freeamigos.nl/wp-plugins/manage-notification-emails/1.8.4"
+msgstr "https://www.freeamigos.nl/wp-plugins/manage-notification-emails/1.8.4"

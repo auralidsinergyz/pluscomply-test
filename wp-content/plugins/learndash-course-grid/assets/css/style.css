@@ -1,0 +1,14 @@
+.learndash-course-grid .arrow {
+    all: unset;
+}
+
+.learndash-course-grid .arrow::after {
+    all: unset;
+}
+
+.learndash-course-grid iframe,
+.learndash-course-grid embed,
+.learndash-course-grid object,
+.learndash-course-grid video {
+    max-width: 100%;
+}

@@ -1,0 +1,358 @@
+<?php
+namespace LDMC\FrontEnd\Themes\LD30;
+die();
+if ( ! class_exists( '\LDMC\FrontEnd\Themes\LD30\Course' ) ) {
+	class Course {
+
+		/**
+         * Traits used inside class
+         */
+        use \LDMC\Traits\Singleton;
+		use \LDMC\Traits\Helpers;
+
+        protected $is_certificate_alert = false;
+
+        public $quiz_id = 0;
+        public $quiz_certificate_id = 0;
+        public $quiz_certificate_post_id = 0;
+
+        public $course_id = 0;
+        public $certificate_user_id = 0;
+
+        public function __construct( ) {
+
+            add_filter( 'ld-alert-class', array( $this, 'ld_alert_class_certificate'), 10, 3 );
+
+            add_filter('learndash_certificate_html', array($this, 'update_learndash_certificate_button_html'), 10, 3);
+            add_filter('ld_mc_download_certificate_button_atts', array($this, 'update_group_certificate_button_atts'), 10, 3);
+            add_filter('ld_mc_download_certificate_button_atts', array($this, 'update_course_certificate_button_atts'), 10, 3);
+//            add_filter('ld_mc_download_certificate_button_atts', array($this, 'update_quiz_certificate_button_atts'), 10, 3);
+
+
+            /**
+             * The LeranDash profile Course Certificate Icon and Link
+             */
+            add_filter('learndash_profile_stats', array($this, 'ld_profile_custom_hooks'), 10, 2 );
+
+            /**
+             * Quiz Certificates BUtton
+             */
+
+//            add_filter( 'learndash_quiz_completed_result_settings', array( $this, 'certificate_quiz_completion_json' ), 11, 2 );
+            add_filter('learndash_certificate_details_link', array($this, 'update_quiz_certificate_url'), 10, 4 );
+            add_filter( 'ld_certificate_link_label', array( $this, 'update_quiz_certificate_button_label' ), 11, 3 );
+
+//            $this->testing_debugging_script();
+        }
+
+        public function testing_debugging_script(){
+            $this->write_log('testing_debugging_script');
+            $user_quizzes       = (array) get_user_meta( 2, '_sfwd-quizzes', true );
+            $this->write_log('$user_quizzes');
+            $this->write_log($user_quizzes);
+        }
+
+        public function update_group_certificate_button_atts( $atts, $cert_button_html, $content ){
+            if( isset($atts['group_id']) && ! empty($atts['group_id']) && 0 != $atts['group_id'] ) {
+                $this->write_log('update_group_certificate_button_atts');
+                $group_status = learndash_get_user_group_status($atts['group_id'], $atts['user_id'], true);
+                if ($group_status == 'completed') {
+                    $this->write_log('update_group_certificate_button_atts - case 01');
+                    $certificate_id = $this->get_user_selected_certificate_id($atts['group_id'], $atts['user_id']);
+                    $atts['label'] = ($certificate_id) ? 'Download Certificate' : 'Select Certificate';
+                    $cert_query_args['cert-nonce'] = wp_create_nonce($atts['group_id'] . $atts['user_id'] . $atts['user_id']);
+                    $cert_query_args['group_id'] = $atts['group_id'];
+                    $url = add_query_arg($cert_query_args, get_permalink(intval($certificate_id)));
+                    $atts['cert_url'] = $url;
+                } else {
+                    $this->write_log('update_group_certificate_button_atts - case 02');
+                    $atts = [];
+                }
+                $this->write_log('$atts');
+                $this->write_log($atts);
+            }
+            return $atts;
+        }
+
+        public function update_properties( $course_row_class, $course, $user_id ){
+            $this->write_log('update_learndash_course_certificate_link');
+            $course_status = learndash_course_status($course->ID, $user_id, true);
+            if ($course_status == 'completed') {
+                $this->write_log('update_learndash_course_certificate_link - cae 01');
+                $this->course_id = $course->ID;
+                $this->certificate_user_id = $user_id;
+//                $user_selected_certificate_id = $this->get_user_selected_certificate_id($course_id, $cert_user_id);
+//                if( 0 != $user_selected_certificate_id ){
+//                    $this->write_log('update_learndash_course_certificate_link - cae 02');
+//                    $cert_query_args['cert-nonce'] = wp_create_nonce($course_id . $cert_user_id . $cert_user_id);
+//                    $cert_query_args['course_id'] = $course_id;
+//                    $url = add_query_arg($cert_query_args, get_permalink(intval($user_selected_certificate_id)));
+//                }else{
+//                    $this->write_log('update_learndash_course_certificate_link - cae 03');
+//                    $url = 'javascript:;';
+//                }
+            }else{
+                $this->write_log('update_learndash_course_certificate_link - cae 04');
+            }
+            return $course_row_class;
+        }
+
+        public function ld_profile_custom_hooks( $learndash_profile_stats, $user_id ){
+//            add_filter('learndash_course_certificate_link', array($this, 'update_learndash_course_certificate_link'), 10, 4 );
+            add_filter('learndash-course-row-class', array($this, 'update_properties'), 10, 3 );
+            add_filter('learndash_status_bubble', array($this, 'ld_profile_course_certificate'), 10, 2 );
+            return $learndash_profile_stats;
+        }
+
+        public function ld_profile_course_certificate( $bubble, $status ){
+            $this->write_log('ld_profile_course_certificate');
+            if( ( $status == 'complete' ) || ( $status == 'completed' ) || ( $status == 'Completed' ) ){
+                $this->write_log('ld_profile_course_certificate - case 01');
+                $user_selected_certificate_id = $this->get_user_selected_certificate_id($this->course_id, $this->certificate_user_id);
+                if( 0 != $user_selected_certificate_id ) {
+                    $this->write_log('ld_profile_course_certificate - case 02');
+                    $cert_query_args['cert-nonce'] = wp_create_nonce($this->course_id . $this->certificate_user_id . $this->certificate_user_id);
+                    $cert_query_args['course_id'] = $this->course_id;
+                    $url = add_query_arg($cert_query_args, get_permalink(intval($user_selected_certificate_id)));
+                    $certificate_link_html = '<a class="ld-certificate-link" target="_blank" href="' . esc_url($url) . '" ><span class="ld-icon ld-icon-certificate"></span></span></a>';
+                    $bubble = $certificate_link_html . $bubble;
+                }else{
+                    $this->write_log('ld_profile_course_certificate - case 03');
+                }
+            }else{
+                $this->write_log('ld_profile_course_certificate - case 04');
+            }
+            return $bubble;
+        }
+
+        public function update_course_certificate_button_atts( $atts, $cert_button_html, $content ){
+            if( isset($atts['course_id']) && ! empty($atts['course_id']) && 0 != $atts['course_id'] ) {
+                $this->write_log('update_course_certificate_button_atts');
+                $course_status = learndash_course_status($atts['course_id'], $atts['user_id'], true);
+                if ($course_status == 'completed') {
+                    $this->write_log('update_course_certificate_button_atts - case 01');
+                    $user_selected_certificate_id = $this->get_user_selected_certificate_id($atts['course_id'], $atts['user_id']);
+                    if( 0 != $user_selected_certificate_id ){
+                        $atts['label'] =  'Download Certificate'; 
+                        $cert_query_args['cert-nonce'] = wp_create_nonce($atts['course_id'] . $atts['user_id'] . $atts['user_id']);
+                        $cert_query_args['course_id'] = $atts['course_id'];
+                        $url = add_query_arg($cert_query_args, get_permalink(intval($user_selected_certificate_id)));
+                        $atts['cert_url'] = $url;
+                    }else{
+                        $atts['label'] =  'Select Certificate';
+                        $atts['cert_url'] = 'javascript:;';
+                    }
+                    // $atts['label'] = ($user_selected_certificate_id) ? 'Download Certificate' : 'Select Certificate';
+//                    $cert_query_args['cert-nonce'] = wp_create_nonce($atts['course_id'] . $atts['user_id'] . $atts['user_id']);
+//                    $cert_query_args['course_id'] = $atts['course_id'];
+//                    $url = add_query_arg($cert_query_args, get_permalink(intval($user_selected_certificate_id)));
+//                    $atts['cert_url'] = $url;
+                } else {
+                    $this->write_log('update_course_certificate_button_atts - case 02');
+                    $atts = [];
+                }
+                $this->write_log('$atts');
+                $this->write_log($atts);
+            }
+            return $atts;
+        }
+
+        public function update_quiz_certificate_button_atts( $atts, $cert_button_html, $content ){
+            if( isset($atts['quiz_id']) && ! empty($atts['quiz_id']) && 0 != $atts['quiz_id'] ) {
+                $this->write_log('update_quiz_certificate_button_atts');
+                $user_quizzes       = (array) get_user_meta( 2, '_sfwd-quizzes', true );
+                $quiz_user_meta_key = array_search($atts['quiz_id'], array_column($user_quizzes, 'quiz'));
+                $quiz_user_data = $user_quizzes[$quiz_user_meta_key];
+                $quiz_pass = $quiz_user_data['pass'];
+                if ( $quiz_pass ) {
+                    $this->write_log('update_quiz_certificate_button_atts - case 01');
+                    $certificate_id = $this->get_user_selected_certificate_id($atts['quiz_id'], $atts['user_id']);
+                    $atts['label'] = ($certificate_id) ? 'Download Certificate' : 'Select Certificate';
+//                    $cert_user_id = ! empty( $atts['user_id'] ) ? intval( $atts['user_id'] ) : get_current_user_id();
+//                    if ( ( learndash_is_admin_user() ) || ( learndash_is_group_leader_user() ) ) {
+//                        $view_user_id = get_current_user_id();
+//                    } else {
+//                        $view_user_id = $cert_user_id;
+//                    }
+                    $cert_query_args['cert-nonce'] = wp_create_nonce($atts['quiz_id'] . $atts['user_id'] . $atts['user_id']);
+                    $cert_query_args['quiz'] = $atts['quiz_id'];
+                    $url = add_query_arg($cert_query_args, get_permalink(intval($certificate_id)));
+                    $atts['cert_url'] = $url;
+                } else {
+                    $this->write_log('update_quiz_certificate_button_atts - case 02');
+                    $atts = [];
+                }
+                $this->write_log('$atts - updated - update_quiz_certificate_button_atts');
+                $this->write_log($atts);
+            }
+            return $atts;
+        }
+
+        public function update_learndash_certificate_button_html( $cert_button_html, $atts, $content ){
+            $this->write_log('update_learndash_certificate_button_html');
+            $this->write_log('$cert_button_html');
+            $this->write_log($cert_button_html);
+            $this->write_log('$atts - before');
+            $this->write_log($atts);
+            $this->write_log('$content');
+            $this->write_log($content);
+
+
+            $atts = apply_filters('ld_mc_download_certificate_button_atts', $atts, $cert_button_html, $content );
+
+
+            $this->write_log('$atts - after');
+            $this->write_log($atts);
+
+            if( ! empty($atts['cert_url']) && '#' != $atts['cert_url'] && 'javascript:;' != $atts['cert_url'] && ! empty($cert_button_html) ){
+                $this->write_log('update_learndash_certificate_button_html - case 03');
+                return $cert_button_html;
+            }else{
+                $this->write_log('update_learndash_certificate_button_html - case 04');
+            }
+
+            if ( 'banner' === $atts['display_as'] ) {
+                $cert_button_html = learndash_get_template_part(
+                    'modules/alert.php',
+                    array(
+                        'type'    => 'success ld-alert-certificate',
+                        'icon'    => 'certificate',
+                        'message' => __( 'You\'ve earned a certificate!', 'learndash' ),
+                        'button'  => array(
+                            'url'    => $atts['cert_url'],
+                            'icon'   => 'download',
+                            'label'  => __( $atts['label'] , 'learndash' ),
+                            'target' => '_blank', //'_new',
+                        ),
+                    ),
+                    false
+                );
+            } else {
+                $cert_button_html = '<a href="' . esc_url( $atts['cert_url'] ) . '"' .
+                    ( ! empty( $atts['class'] ) ? ' class="' . esc_attr( $atts['class'] ) : '' ) . '"' .
+                    ( ! empty( $atts['id'] ) ? ' id="' . esc_attr( $atts['id'] ) . '"' : '' ) .
+                    '>';
+
+                if ( ! empty( $atts['label'] ) ) {
+                    $cert_button_html .= do_shortcode( $atts['label'] );
+                }
+
+                $cert_button_html .= '</a>';
+            }
+
+            return $cert_button_html;
+        }
+
+        public function ld_alert_class_certificate( $class, $type, $icon ) {
+            $this->write_log('ld_alert_class_certificate');
+            global $post;
+            $user_id = get_current_user_id(); 
+            if ( strpos( $class, 'ld-alert-certificate' ) !== false ) {
+//                $this->is_certificate_alert = true;
+//                apply_filters( 'ldmc_download_certificate_class', $class );
+
+//                $ld_mc_multi_certificates = learndash_get_setting( $post->ID, 'certificate');
+//                $this->write_log('$ld_mc_multi_certificates');
+//                $this->write_log($ld_mc_multi_certificates);
+
+//                $certificate_id = get_user_meta($user_id,'ld_mc_get_selected_certificate_'.$post->ID,true);
+
+                $user_selected_certificate_id = $this->get_user_selected_certificate_id($post->ID, $user_id);
+                $this->write_log('$user_selected_certificate_id');
+                $this->write_log($user_selected_certificate_id);
+                if ( 0 == $user_selected_certificate_id ) {
+                    $class = $class.' ldmc_select_certificate';	
+                }
+            }
+            return $class;
+        }
+
+        public function certificate_quiz_completion_json( $quiz_result_settings, $quiz_data ){
+            $this->write_log('certificate_quiz_completion_json');
+
+            $this->write_log('$quiz_result_settings');
+            $this->write_log($quiz_result_settings);
+
+            $this->write_log('$quiz_data');
+            $this->write_log($quiz_data);
+
+            if( $quiz_data['pass'] ){
+                $this->quiz_id = $quiz_data['quiz'];
+            }
+            return $quiz_result_settings;
+        }
+
+        public function update_quiz_certificate_button_label( $label, $user_id, $quiz_id ){
+            $certificate_id = $this->get_user_selected_certificate_id($quiz_id, $user_id);
+            $label = ($certificate_id) ? esc_html__( 'PRINT YOUR CERTIFICATE', 'learndash' ) : 'Select Certificate';
+            return $label;
+        }
+
+        public function update_quiz_certificate_url( $certificate_link, $certificate_post, $quiz_id, $user_id ){
+            $this->write_log('update_quiz_certificate_url');
+
+            $this->write_log('$certificate_link');
+            $this->write_log($certificate_link);
+
+            $this->write_log('$certificate_post');
+            $this->write_log($certificate_post);
+
+            $this->write_log('$quiz_id');
+            $this->write_log($quiz_id);
+
+            $this->write_log('$user_id');
+            $this->write_log($user_id);
+
+            $user_selected_certificate_id = $this->get_user_selected_certificate_id($quiz_id, $user_id);
+            if( ! $user_selected_certificate_id ){
+                $this->write_log('$certificate_id - case 01');
+                $certificate_link = 'javascript:;';
+            }else{
+                $this->write_log('$certificate_id - case 02');
+
+                if( ! empty($certificate_link) ){
+                    $certificate_link_parsed =  wp_parse_url($certificate_link);
+                    $this->write_log('$certificate_link_parsed');
+                    $this->write_log($certificate_link_parsed);
+
+                    wp_parse_str( $certificate_link_parsed['query'], $certificate_link_args );
+                    $this->write_log('$certificate_link_args');
+                    $this->write_log($certificate_link_args);
+
+                    if( intval($certificate_post) == 1 ){
+                        $certificate_link = get_permalink( $user_selected_certificate_id );
+                        if ( ! empty( $certificate_link ) ) {
+                            $cert_query_args = array(
+                                'quiz' => $quiz_id,
+                            );
+                            // We add the user query string key/value if the viewing user is an admin. This
+                            // allows the admin to view other user's certificated.
+//                        if ( ( $cert_user_id != $view_user_id ) && ( ( learndash_is_admin_user() ) || ( learndash_is_group_leader_user() ) ) ) {
+                            $cert_query_args['user'] = $user_id;
+//                        }
+                            $cert_query_args['cert-nonce'] = wp_create_nonce( $quiz_id . $user_id . $user_id );
+
+                            if( isset($certificate_link_args['time']) && ! empty($certificate_link_args['time']) ){
+                                $cert_query_args['time'] = $certificate_link_args['time'];
+                            }
+                            $certificate_link = add_query_arg( $cert_query_args, $certificate_link );
+                        }
+                    }
+
+                }
+
+
+//                $certificate_link = '#';
+//                $quiz_attempts_count = learndash_get_user_quiz_attempts_count( $user_id, $quiz_id );
+//                if( $quiz_attempts_count > 0 ){
+//                    $quiz_attempts = learndash_get_user_quiz_attempts( $user_id, $quiz_id );
+//                }
+            }
+
+
+
+            return $certificate_link;
+        }
+
+    }
+}
