@@ -1,0 +1,225 @@
+/*
+* Mootools Simple Modal
+* Version 1.0
+* Copyright (c) 2011 Marco Dell'Anna - http://www.plasm.it
+*
+* Markup Modal
+* <div class="simple-modal" id="simple-modal">
+*   <div class="simple-modal-header">
+*     <a class="close" href="#">×</a>
+*     <h1>SimpleModal Title</h1>
+*   </div>
+*   <div class="simple-modal-body">
+*     <div class="contents">
+*       <p>
+*         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+*       </p>
+*     </div>
+*   </div>
+*   <div class="simple-modal-footer">
+*     <a class="btn primary" href="#">Primary</a>
+*     <a class="btn secondary" href="#">Secondary</a>
+*   </div>
+* </div>
+*/
+/* Vars */
+/* Overlay style */
+#simple-modal-overlay {
+	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#fff), to(#291a49));
+	background: -webkit-radial-gradient(circle, #fff, #291a49);
+	background: -moz-radial-gradient(circle, #fff, #291a49);
+	background: -ms-radial-gradient(circle, #fff, #291a49);
+	background-color: #000;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: block;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 99998;
+}
+
+.simple-modal {
+	/* Style rewrite */
+
+	background-color: #fff;
+	border: 1px solid #eaeefa;
+	border: 1px solid rgba(234, 238, 250, 0.6);
+	/* */
+
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+	color: #808080;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	left: 20px;
+	line-height: 18px;
+	margin: 0;
+	position: absolute;
+	position: fixed;
+	top: 30% !important;
+	width: 600px;
+	z-index: 99999;
+}
+
+.simple-modal .simple-modal-header {
+	border-bottom: 1px solid #eee;
+	margin: 0;
+	padding: 5px 15px;
+}
+
+.simple-modal .simple-modal-header h1 {
+	color: #404040;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 36px;
+	margin: 0;
+}
+
+.simple-modal a.close, .simple-modal a.previous-image, .simple-modal a.next-image {
+	color: #999;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 17px;
+	font-weight: normal;
+	line-height: 10px;
+	position: absolute;
+	text-decoration: none;
+	top: 16px;
+}
+
+.simple-modal a.close {
+	right: 15px;
+}
+
+.simple-modal a.previous-image {
+	right: 80px;
+}
+
+.simple-modal a.next-image {
+	right: 60px;
+}
+
+.simple-modal a.close:hover, .simple-modal a.previous-image:hover, .simple-modal a.next-image:hover {
+	color: #444;
+}
+
+.simple-modal .simple-modal-body {
+	padding: 25px;
+	/* Extra style */
+
+}
+
+.simple-modal .simple-modal-body div.contents {
+	overflow: hidden;
+}
+
+.simple-modal .simple-modal-body p {
+	color: #606060;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 18px;
+}
+
+.simple-modal .simple-modal-body p img {
+	display: block;
+	margin: 0 auto 10px auto;
+}
+
+.simple-modal .simple-modal-footer {
+	background-color: #f5f5f5;
+	border-radius: 0 0 6px 6px;
+	-moz-border-radius: 0 0 6px 6px;
+	-webkit-border-radius: 0 0 6px 6px;
+	border-top: 1px solid #eee;
+	box-shadow: inset 0 1px 0 #fff;
+	-moz-box-shadow: inset 0 1px 0 #fff;
+	-webkit-box-shadow: inset 0 1px 0 #fff;
+	display: block;
+	margin-bottom: 0;
+	padding: 14px 15px 15px;
+	text-align: center;
+	zoom: 1;
+}
+
+.simple-modal .simple-modal-footer a.btn {
+	background-repeat: no-repeat;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	color: #333;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 13px;
+	line-height: normal;
+	padding: 5px 14px 6px;
+	text-decoration: none;
+	transition: 0.2s linear all;
+	-moz-transition: 0.2s linear all;
+	-webkit-transition: 0.2s linear all;
+}
+
+.simple-modal .simple-modal-footer a.btn.primary {
+	background-color: #999;
+	background-repeat: repeat-x;
+	color: #fff;
+	margin-right: 15px;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.simple-modal .simple-modal-footer a.btn.primary:hover {
+	background-color: #444;
+	border: 1px solid #444;
+}
+
+.simple-modal .simple-modal-footer a.btn.secondary {
+	padding: 5px 2px 6px;
+}
+
+.simple-modal .simple-modal-footer a.btn.secondary:hover {
+	color: #999;
+}
+
+/* Draggable style */
+.simple-modal.draggable .simple-modal-header:hover {
+	background-color: #f8f8f8;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	border-top-left-radius: 6px;
+	-webkit-border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	cursor: move;
+}
+
+/* Loading style */
+.simple-modal.loading .simple-modal-body {
+	background: transparent url("../img/loader.svg") no-repeat center center;
+	min-height: 60px;
+}
+
+.simple-modal.loading .simple-modal-body div.contents {
+	display: none;
+}
+
+.simple-modal.loading .close, .simple-modal.loading .simple-modal-header, .simple-modal.loading .simple-modal-footer {
+	display: none;
+}
+
+/* Hide header */
+.simple-modal.hide-header .simple-modal-header {
+	display: none;
+}
+
+/* Hide header */
+.simple-modal.hide-footer .simple-modal-footer {
+	display: none;
+}

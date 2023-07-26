@@ -1,0 +1,265 @@
+.uncanny-learndash-codes input.btn {
+	/*height: 40px !important;
+	margin: 0;
+	padding: 0.7em;
+	border: 1px solid #ddd;
+	color: #666;
+	font-size: 14px;
+	line-height: normal !important;*/
+}
+
+.uncanny-learndash-codes input[type=text],
+.uncanny-learndash-codes input[type=password],
+.uncanny-learndash-codes input[type=email] {
+	padding: 5px 10px;
+	border: 1px solid #e2e2e2;
+	color: #4e4e4e;
+	font-size: 14px;
+}
+
+/*
+ * New style
+ */
+
+/* General */
+
+.uncanny-learndash-codes-registration {}
+
+	.uncanny-learndash-codes-registration fieldset {
+		padding: 0;
+		margin: 0;
+		border: 0;
+	}
+
+	.uncanny-learndash-codes-registration fieldset,
+	.uncanny-learndash-codes-registration table,
+	.uncanny-learndash-codes-registration tbody,
+	.uncanny-learndash-codes-registration thead,
+	.uncanny-learndash-codes-registration th,
+	.uncanny-learndash-codes-registration tr,
+	.uncanny-learndash-codes-registration td {
+		width: 100%;
+		display: block;
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+
+		.uncanny-learndash-codes-registration fieldset table {
+			border: 0;
+			margin: 0;
+		}
+
+		/* Inputs and tables */
+
+		.uncanny-learndash-codes-registration input[type="date"],
+		.uncanny-learndash-codes-registration input[type="time"],
+		.uncanny-learndash-codes-registration input[type="datetime-local"],
+		.uncanny-learndash-codes-registration input[type="week"],
+		.uncanny-learndash-codes-registration input[type="month"],
+		.uncanny-learndash-codes-registration input[type="text"],
+		.uncanny-learndash-codes-registration input[type="email"],
+		.uncanny-learndash-codes-registration input[type="url"],
+		.uncanny-learndash-codes-registration input[type="password"],
+		.uncanny-learndash-codes-registration input[type="search"],
+		.uncanny-learndash-codes-registration input[type="tel"],
+		.uncanny-learndash-codes-registration input[type="number"],
+		.uncanny-learndash-codes-registration textarea {
+			padding: 10px 15px;
+
+			font-size: 15px;
+
+			font-family: inherit;
+
+			border-color: #b7b7b7;
+			border-width: 1px;
+			border-style: solid;
+
+			font-family: inherit;
+
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			-ms-border-radius: 3px;
+			-o-border-radius: 3px;
+			border-radius: 3px;
+
+			background: #fff;
+
+			width: 100%;
+
+			transition-duration: 100ms;
+			transition-timing-function: linear;
+			transition-property: color, border-color;
+		}
+
+		.uncanny-learndash-codes-registration td.label label {
+			display: block;
+			margin-bottom: 7px;
+			font-weight: bold;
+		}
+
+		.uncanny-learndash-codes-registration tbody tr:not(:first-child) {
+			margin-top: 15px;
+		}
+
+		/* Buttons */
+
+		.uncanny-learndash-codes-registration button,
+		.uncanny-learndash-codes-registration button[disabled]:hover,
+		.uncanny-learndash-codes-registration button[disabled]:focus,
+		.uncanny-learndash-codes-registration input[type="button"],
+		.uncanny-learndash-codes-registration input[type="button"][disabled]:hover,
+		.uncanny-learndash-codes-registration input[type="button"][disabled]:focus,
+		.uncanny-learndash-codes-registration input[type="reset"],
+		.uncanny-learndash-codes-registration input[type="reset"][disabled]:hover,
+		.uncanny-learndash-codes-registration input[type="reset"][disabled]:focus,
+		.uncanny-learndash-codes-registration input[type="submit"],
+		.uncanny-learndash-codes-registration input[type="submit"][disabled]:hover,
+		.uncanny-learndash-codes-registration input[type="submit"][disabled]:focus {
+			font-size: 15px;
+
+			border-color: #b7b7b7;
+			border-width: 1px;
+			border-style: solid;
+
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			-ms-border-radius: 3px;
+			-o-border-radius: 3px;
+			border-radius: 3px;
+
+			-webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.3);
+			box-shadow: 0 1px 2px 0 rgba(0,0,0,.3);
+
+			padding: 10px 15px;
+
+			background: #f9fafb;
+			background: -moz-linear-gradient(top, #f9fafb 0%, #fefefe 100%);
+			background: -webkit-linear-gradient(top, #f9fafb 0%,#fefefe 100%);
+			background: linear-gradient(to bottom, #f9fafb 0%,#fefefe 100%);
+			background: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9fafb', endColorstr='#fefefe', GradientType=0);
+
+			transition-duration: 100ms;
+			transition-timing-function: linear;
+			transition-property: color, border-color;
+
+			text-transform: none;
+			font-weight: normal;
+			font-family: inherit;
+			letter-spacing: 0;
+
+			color: #000;
+			cursor: pointer;
+			text-decoration: none;
+			display: block;
+
+			margin-top: 20px;
+		}
+
+			.uncanny-learndash-codes-registration button:hover,
+			.uncanny-learndash-codes-registration button:focus,
+			.uncanny-learndash-codes-registration input[type="button"]:hover,
+			.uncanny-learndash-codes-registration input[type="button"]:focus,
+			.uncanny-learndash-codes-registration input[type="reset"]:hover,
+			.uncanny-learndash-codes-registration input[type="reset"]:focus,
+			.uncanny-learndash-codes-registration input[type="submit"]:hover,
+			.uncanny-learndash-codes-registration input[type="submit"]:focus {
+				background: #f9fafb;
+				background: -moz-linear-gradient(top, #f9fafb 0%, #fefefe 100%);
+				background: -webkit-linear-gradient(top, #f9fafb 0%,#fefefe 100%);
+				background: linear-gradient(to bottom, #f9fafb 0%,#fefefe 100%);
+				background: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9fafb', endColorstr='#fefefe', GradientType=0);
+			}
+
+/* Errors */
+
+.uncanny_learndash_codes_errors {
+	margin-bottom: 20px;
+}
+
+	.uncanny_learndash_codes_errors .uo_groups_error {
+		display: block;
+
+		background: #ffd2d2;
+		color: #d8000c;
+
+		margin-bottom: 10px;
+		padding: 10px 15px;
+	}
+
+	.uncanny_learndash_codes_errors .uo_groups_error:not(:last-child){
+		margin-bottom: 15px;
+	}
+
+/* Sucess */
+
+.registered {
+	display: block;
+
+	background: #ffd2d2;
+	color: #d8000c;
+
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 10px 15px;
+
+	background: #DFF2BF;
+	color: #4F8A10;
+}
+
+	.registered h2 {
+		font-size: 15px !important;
+		font-weight: normal !important;
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+
+/* Hovers */
+
+	.uncanny-learndash-codes-registration button:hover,
+	.uncanny-learndash-codes-registration button:focus,
+	.uncanny-learndash-codes-registration input[type="button"]:hover,
+	.uncanny-learndash-codes-registration input[type="button"]:focus,
+	.uncanny-learndash-codes-registration input[type="reset"]:hover,
+	.uncanny-learndash-codes-registration input[type="reset"]:focus,
+	.uncanny-learndash-codes-registration input[type="submit"]:hover,
+	.uncanny-learndash-codes-registration input[type="submit"]:focus,
+	.uncanny-learndash-codes-registration input[type="date"]:hover,
+	.uncanny-learndash-codes-registration input[type="time"]:hover,
+	.uncanny-learndash-codes-registration input[type="datetime-local"]:hover,
+	.uncanny-learndash-codes-registration input[type="week"]:hover,
+	.uncanny-learndash-codes-registration input[type="month"]:hover,
+	.uncanny-learndash-codes-registration input[type="text"]:hover,
+	.uncanny-learndash-codes-registration input[type="email"]:hover,
+	.uncanny-learndash-codes-registration input[type="url"]:hover,
+	.uncanny-learndash-codes-registration input[type="password"]:hover,
+	.uncanny-learndash-codes-registration input[type="search"]:hover,
+	.uncanny-learndash-codes-registration input[type="tel"]:hover,
+	.uncanny-learndash-codes-registration input[type="number"]:hover,
+	.uncanny-learndash-codes-registration textarea:hover,
+	.uncanny-learndash-codes-registration input[type="date"]:focus,
+	.uncanny-learndash-codes-registration input[type="time"]:focus,
+	.uncanny-learndash-codes-registration input[type="datetime-local"]:focus,
+	.uncanny-learndash-codes-registration input[type="week"]:focus,
+	.uncanny-learndash-codes-registration input[type="month"]:focus,
+	.uncanny-learndash-codes-registration input[type="text"]:focus,
+	.uncanny-learndash-codes-registration input[type="email"]:focus,
+	.uncanny-learndash-codes-registration input[type="url"]:focus,
+	.uncanny-learndash-codes-registration input[type="password"]:focus,
+	.uncanny-learndash-codes-registration input[type="search"]:focus,
+	.uncanny-learndash-codes-registration input[type="tel"]:focus,
+	.uncanny-learndash-codes-registration input[type="number"]:focus,
+	.uncanny-learndash-codes-registration textarea:focus {
+		border-color: #ff9655; 
+	}
+
+	.uncanny-learndash-codes-registration button:hover,
+	.uncanny-learndash-codes-registration button:focus,
+	.uncanny-learndash-codes-registration input[type="button"]:hover,
+	.uncanny-learndash-codes-registration input[type="button"]:focus,
+	.uncanny-learndash-codes-registration input[type="reset"]:hover,
+	.uncanny-learndash-codes-registration input[type="reset"]:focus,
+	.uncanny-learndash-codes-registration input[type="submit"]:hover,
+	.uncanny-learndash-codes-registration input[type="submit"]:focus {
+		color: #ff9655;
+	}

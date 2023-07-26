@@ -1,0 +1,82 @@
+/* Group Sign Up CSS */
+body.single-groups #main-content {
+    width: 100%;
+    margin: auto;
+    z-index: 999;
+    position: relative;
+    float: left;
+    background: #fff;
+    margin-bottom: 50px;
+}
+
+#group-main {
+    max-width: 1080px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+#left-area {
+    width: 70%;
+    float: left;
+    padding: 15px;
+}
+
+#left-area .table.form-table {
+    width: 100%;
+    max-width: 480px;
+}
+
+#left-area .table.form-table td {
+    margin: 10px;
+    display: inline-block;
+}
+
+#left-area .table.form-table td.label {
+    font-weight: bold;
+    width: 40%;
+    max-width: 120px;
+}
+
+#left-area .table.form-table td.input {
+    width: 60%;
+    max-width: 360px;
+}
+
+#right-area {
+    width: 30%;
+    float: right;
+    padding: 15px;
+}
+
+#right-area #uo-widgets {
+    margin-bottom: 20px;
+}
+
+#right-area #uo-widgets .widget {
+    padding: 5px;
+}
+
+#right-area #uo-widgets .widget-title {
+    font-weight: bold;
+    color: #000;
+    font-size: 125%;
+    padding: 5px 0;
+}
+
+@media (max-width: 768px) {
+    #left-area, #right-area {
+        width: 100%;
+        float: none;
+    }
+}
+
+#group-main #left-area,
+#group-main #right-area {
+    box-sizing:border-box;
+}
+
+.uncanny_group_signup_form-container:after {
+    content: '';
+    display: table;
+    clear: both;
+}

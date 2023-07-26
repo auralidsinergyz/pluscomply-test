@@ -1,0 +1,284 @@
+p {
+    font-size: 14px;
+}
+
+.import-user-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-weight: normal;
+    padding-right: 24px;
+}
+
+.import-learndash-users .uo-admin-header img {
+    display: inline-block;
+    height: 40px;
+}
+
+.import-learndash-users .uo-admin-header h2 {
+    display: inline-block;
+    vertical-align: super;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 13px;
+}
+
+.uo-user-import-notice {
+    padding: 10px 5px 15px;
+    font-weight: bold;
+    display: none;
+}
+
+form #options-table td {
+    line-height: 2em;
+}
+
+form #options-table td label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+form #email-table #email-title {
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+form #email-table #wp-email_body-wrap {
+    margin-bottom: 20px;
+}
+
+form #email-table a.button {
+    margin-right: 5px;
+}
+
+#import-users-step-1 #file-upload input {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.form-table td.listed-label-input {
+    vertical-align: top;
+}
+
+.listed-label-input label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+#uo_import_email_updated_users_subject, #uo_import_email_new_users_subject, #uo_import_email_new_users_test_email, #uo_import_email_updated_users_test_email {
+    width: 300px;
+}
+
+#import-users-step-1 #file-upload input[type="submit"],
+#import-users-step-1 .options {
+    background: #a9a9a9;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 43px;
+    padding: 9px 32px;
+    text-decoration: none;
+}
+
+#import-users-validation, #perform-import-users-text, #perform-import-users-review, #perform-import-users-ready {
+    display: none;
+}
+
+#import-users-step-1 #file-upload input[type="submit"]:hover,
+#import-users-step-1 .options:hover {
+    background: #f9860f;
+}
+
+#import-users-step-1 table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#import-users-step-1 tbody tr:nth-child(odd) {
+    background-color: #d2d2d2;
+}
+
+#import-users-step-1 thead {
+    font-weight: bold;
+    background-color: #afafaf;
+}
+
+@media (min-width: 451px) {
+    #import-users-step-1 td {
+        border: 1px solid #000000;
+    }
+}
+
+@media (max-width: 450px) {
+    #import-users-step-1 thead {
+        display: none;
+    }
+
+    #import-users-step-1 td {
+        display: block;
+        border-bottom: 1px dotted #000;
+    }
+
+    #import-users-step-1 td:last-child {
+        border-bottom: 1px solid #000000;
+    }
+
+    #import-users-step-1 td:nth-child(1):before {
+        content: "Column Heading: ";
+        font-weight: bold;
+    }
+
+    #import-users-step-1 td:nth-child(2):before {
+        content: "Description: ";
+        font-weight: bold;
+    }
+
+    #import-users-step-1 td:nth-child(3):before {
+        content: "Required/Optional: ";
+        font-weight: bold;
+    }
+}
+
+.options-header-container {
+    border: 1px solid gainsboro;
+    background: white;
+    text-indent: 10px;
+    padding: 20px;
+    margin-left: -5px;
+    position: relative;
+
+}
+
+.options-header-container h2 {
+    text-decoration: none;
+}
+
+.form-table th {
+    padding: 0 10px 0 20px;
+}
+
+.custom-underline {
+    margin-bottom: 10px
+}
+
+.options-spacer, hr.spacer {
+    height: 50px
+}
+
+hr.spacer {
+    height: 40px;
+    border: none;
+}
+
+a.options {
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+#import-users-progress {
+    display: none;
+}
+
+.import-progress-bar {
+    width: 416px;
+    height: 26px;
+    position: relative;
+    border-radius: 3px;
+}
+
+.import-progress-bar-overlay {
+    position: absolute;
+    width: 1%;
+    height: 100%;
+    background: rgba(0, 133, 186, 0.72);
+    top: 0;
+    border-radius: 5px;
+}
+
+/** STEPS **/
+.steps {
+    overflow: hidden;
+    display: inline;
+    position: absolute;
+    top: -8px;
+}
+
+.steps li {
+    float: left;
+    margin-left: 0;
+    list-style-type: none;
+    padding: 5px 5px 5px 30px; /* padding around text, last should include arrow width */
+    border-right: 3px solid white; /* width: gap between arrows, color: background of document */
+    position: relative;
+    width: 80px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+
+
+.steps li:first-child {
+    padding-left: 0;
+}
+
+/* colored arrow to the right */
+.steps li:first-child::after {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: -22px;
+    display: block;
+    border-left: 23px solid rgba(124, 132, 55, 0);
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    width: 0;
+    height: 0px;
+    content: " ";
+}
+
+.steps li:last-child {
+    border-right: none;
+    width: 0;
+}
+
+.steps li:last-child:after {
+    border: none;
+    width: 0;
+}
+.steps li.current {
+    background-color: #f9690e;
+}
+
+.steps li.current::after {
+    border-left-color: #f9690e;
+}
+.steps a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 4px;
+    padding-left: 0;
+}
+
+.steps a:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.steps a span.step-title {
+    font-size: 20px;
+
+}
+
+.steps-description {
+    margin-left: 115px;
+}
+
+
+
+
+
+

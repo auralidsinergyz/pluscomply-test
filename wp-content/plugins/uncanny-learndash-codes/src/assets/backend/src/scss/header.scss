@@ -1,0 +1,39 @@
+.ulc-header-top {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+	.ulc-header-top__title {
+		font-size: 25px;
+		color: #4c4c4c;
+		font-weight: 600;
+		line-height: 1.2;
+	}
+
+	.ulc-header-top__author {
+		width: 100%;
+	}
+
+		.ulc-header-top__author span {
+			display: inline-block;
+			vertical-align: bottom;
+			margin-right: 5px;
+		}
+
+		.ulc-header-top__logo {
+			display: inline-block;
+			vertical-align: bottom;
+		}
+
+			.ulc-header-top__logo svg {
+				width: 100px;
+			}
+
+/**
+ * Tabs
+ */
+
+.ulc nav.nav-tab-wrapper {
+	margin: 0 0 1em;
+}

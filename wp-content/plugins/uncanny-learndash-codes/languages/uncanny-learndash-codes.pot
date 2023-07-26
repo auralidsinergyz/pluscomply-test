@@ -1,0 +1,913 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Uncanny LearnDash Codes\n"
+"POT-Creation-Date: 2019-04-03 14:24-0700\n"
+"PO-Revision-Date: 2019-04-03 14:24-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: uncanny-learndash-codes.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: src/admin-menu.php:32 src/blocks/blocks.php:103
+#: src/templates/admin-header.php:52
+msgid "Uncanny LearnDash Codes"
+msgstr ""
+
+#: src/admin-menu.php:33
+msgid "Uncanny Codes"
+msgstr ""
+
+#: src/admin-menu.php:119
+msgid "View Generated Codes"
+msgstr ""
+
+#: src/admin-menu.php:128 src/templates/admin-view-codes.php:31
+msgid "Search Codes"
+msgstr ""
+
+#: src/admin-menu.php:172
+msgid "Settings Saved!"
+msgstr ""
+
+#: src/admin-menu.php:177
+msgid "Failed to create Theme My Login form! Download"
+msgstr ""
+
+#: src/admin-menu.php:188
+msgid ""
+"and upload to your theme's directory ( /wp-content/themes/YOUR-THEME/theme-"
+"my-login/ ) via (S)FTP."
+msgstr ""
+
+#: src/admin-menu.php:239
+msgid "Gravity Forms Registration Settings"
+msgstr ""
+
+#: src/admin-menu.php:245 src/admin-menu.php:248
+msgid "Select form"
+msgstr ""
+
+#: src/admin-menu.php:260
+msgid "Mandatory Code Field"
+msgstr ""
+
+#: src/admin-menu.php:268
+msgid "Make Code field mandatory on User Registration form."
+msgstr ""
+
+#: src/admin-menu.php:274
+msgid "User registration field label"
+msgstr ""
+
+#: src/admin-menu.php:278 src/classes/woocommerce.php:30
+#: src/classes/woocommerce.php:34
+msgid "Enter Registration Code"
+msgstr ""
+
+#: src/admin-menu.php:282
+msgid "User registration field error message"
+msgstr ""
+
+#: src/admin-menu.php:286
+msgid "This Field is Mandatory"
+msgstr ""
+
+#: src/admin-menu.php:290
+msgid "User registration field placeholder"
+msgstr ""
+
+#: src/admin-menu.php:294 src/classes/woocommerce.php:32
+#: src/classes/woocommerce.php:36
+msgid "Enter Code"
+msgstr ""
+
+#: src/admin-menu.php:298 src/admin-menu.php:329 src/admin-menu.php:383
+msgid "Save Changes"
+msgstr ""
+
+#: src/admin-menu.php:310
+msgid "LearnDash Group Settings"
+msgstr ""
+
+#: src/admin-menu.php:321
+msgid "Allow Users to register in multiple LearnDash Groups"
+msgstr ""
+
+#: src/admin-menu.php:338
+msgid "Custom Messages"
+msgstr ""
+
+#: src/admin-menu.php:344
+msgid "Invalid code"
+msgstr ""
+
+#: src/admin-menu.php:348 src/admin-menu.php:363 src/config.php:146
+#: src/config.php:175
+msgid "Sorry, the code you entered is not valid."
+msgstr ""
+
+#: src/admin-menu.php:351
+msgid "Expired code"
+msgstr ""
+
+#: src/admin-menu.php:355 src/config.php:151 src/config.php:176
+msgid "Sorry, the code you entered has expired."
+msgstr ""
+
+#: src/admin-menu.php:359
+msgid "Code already redeemed"
+msgstr ""
+
+#: src/admin-menu.php:367
+msgid "Code redeemed maximum times"
+msgstr ""
+
+#: src/admin-menu.php:371 src/config.php:161 src/config.php:178
+msgid "Sorry, the code you entered has already been redeemed maximum times."
+msgstr ""
+
+#: src/admin-menu.php:375
+msgid "Successfully redeemed"
+msgstr ""
+
+#: src/admin-menu.php:379 src/config.php:166 src/config.php:179
+msgid "Congratulations, the code you entered has successfully been redeemed."
+msgstr ""
+
+#: src/admin-menu.php:403 src/admin-menu.php:421
+msgid ""
+"Please Select a Valid Registration Form that has User Registration Feed "
+"enabled."
+msgstr ""
+
+#: src/admin-menu.php:452
+msgid "Theme My Login Registration Settings"
+msgstr ""
+
+#: src/admin-menu.php:467
+msgid ""
+"Use Custom Theme My Login registration form that includes Registration Code "
+"field"
+msgstr ""
+
+#: src/admin-menu.php:479
+msgid "Make <strong>Registration Code</strong> field required"
+msgstr ""
+
+#: src/admin-menu.php:485
+msgid "Save Theme My Login Changes"
+msgstr ""
+
+#: src/admin-menu.php:513
+msgid "Reset or Delete Database"
+msgstr ""
+
+#: src/admin-menu.php:518
+msgid "Reset data in database"
+msgstr ""
+
+#: src/admin-menu.php:520
+msgid "Are you sure you want to delete all data?"
+msgstr ""
+
+#: src/admin-menu.php:520
+msgid "Reset database"
+msgstr ""
+
+#: src/admin-menu.php:522
+msgid ""
+"This action will <span class=\"uo-danger\">delete</span> all data including "
+"tracking of codes and users. Please download CSV before attempting this."
+msgstr ""
+
+#: src/admin-menu.php:526
+msgid "Delete database tables"
+msgstr ""
+
+#: src/admin-menu.php:528
+msgid "Delete database"
+msgstr ""
+
+#: src/admin-menu.php:530
+msgid ""
+"This action will <span class=\"uo-danger\">delete</span> all data including "
+"tracking of codes and users. Please download CSV before attempting this. "
+"This will deactivate Uncanny LearnDash Codes."
+msgstr ""
+
+#: src/boot.php:103
+msgid "Uncanny LearnDash Codes Support"
+msgstr ""
+
+#: src/boot.php:104 src/templates/admin-header.php:33
+msgid "Help"
+msgstr ""
+
+#: src/boot.php:117
+msgid "Uncanny LearnDash Plugins"
+msgstr ""
+
+#: src/boot.php:118 src/templates/admin-header.php:38
+msgid "LearnDash Plugins"
+msgstr ""
+
+#: src/boot.php:348
+msgid "Please Input Maximum Usage Amount"
+msgstr ""
+
+#: src/boot.php:349
+msgid "Please Select LearnDash Groups"
+msgstr ""
+
+#: src/boot.php:350
+msgid "Please Select LearnDash Courses"
+msgstr ""
+
+#: src/boot.php:351
+msgid "Please Input Letter Length"
+msgstr ""
+
+#: src/boot.php:352
+msgid "The Length of Prefix and Suffix is Longer than Letter Length"
+msgstr ""
+
+#: src/boot.php:353
+msgid "The Length of Prefix and Suffix is same as Letter Length"
+msgstr ""
+
+#: src/boot.php:354
+msgid "Do you really want to delete this?"
+msgstr ""
+
+#: src/boot.php:355
+msgid ""
+"Are you sure you want to delete these codes?  This action is irreversible."
+msgstr ""
+
+#: src/boot.php:384
+msgid "Uncanny Codes License Activation"
+msgstr ""
+
+#: src/boot.php:384 src/templates/admin-header.php:43
+msgid "License Activation"
+msgstr ""
+
+#: src/classes/EDD_SL_Plugin_Updater.php:101
+msgid ""
+"Automatic updates currently unavailable. Please authenticate your license."
+msgstr ""
+
+#: src/classes/EDD_SL_Plugin_Updater.php:233
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+
+#: src/classes/EDD_SL_Plugin_Updater.php:240
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+
+#: src/classes/EDD_SL_Plugin_Updater.php:381
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: src/classes/EDD_SL_Plugin_Updater.php:381
+msgid "Error"
+msgstr ""
+
+#: src/classes/generate-codes.php:144
+#, php-format
+msgid "<h4>%s Codes Created! <a href=\"%s\">Manage Codes</a></h4>"
+msgstr ""
+
+#: src/classes/generate-codes.php:146
+#, php-format
+msgid ""
+"<h4>Only %s unique codes were generated.  Try increasing the number of "
+"characters to generate more codes. <a href=\"%s\">Manage Codes</a></h4>"
+msgstr ""
+
+#: src/classes/gravity-forms-code-field.php:163
+#: src/classes/gravity-forms-code-field.php:191
+#: src/classes/gravity-forms.php:240 src/classes/gravity-forms.php:256
+msgid "Gravity Forms"
+msgstr ""
+
+#: src/classes/gravity-forms.php:54 src/classes/view-groups.php:58
+#: src/templates/admin-create-login-codes.php:141
+msgid "Prefix"
+msgstr ""
+
+#: src/classes/shortcodes.php:173
+msgid "Username already taken"
+msgstr ""
+
+#: src/classes/shortcodes.php:177
+msgid "Invalid username"
+msgstr ""
+
+#: src/classes/shortcodes.php:181
+msgid "Please enter a username"
+msgstr ""
+
+#: src/classes/shortcodes.php:185
+msgid "Invalid email"
+msgstr ""
+
+#: src/classes/shortcodes.php:189
+msgid "Email already registered"
+msgstr ""
+
+#: src/classes/shortcodes.php:193
+msgid "Please enter a password"
+msgstr ""
+
+#: src/classes/shortcodes.php:197
+msgid "Passwords do not match"
+msgstr ""
+
+#: src/classes/shortcodes.php:201
+msgid "Registration Code is empty"
+msgstr ""
+
+#: src/classes/shortcodes.php:326
+msgid "Please input the coupon code before clicking redeem"
+msgstr ""
+
+#: src/classes/shortcodes.php:348
+msgid "Coupon Code"
+msgstr ""
+
+#: src/classes/shortcodes.php:377
+msgid "Sorry! You are not logged in!"
+msgstr ""
+
+#: src/classes/shortcodes.php:381
+msgid ""
+"Sorry your request was not verified. Please try again later. Log out and try "
+"again if problem persist."
+msgstr ""
+
+#: src/classes/shortcodes.php:386
+msgid "Access Removed Successfully!"
+msgstr ""
+
+#: src/classes/shortcodes.php:419
+msgid "Confirm Removal"
+msgstr ""
+
+#: src/classes/shortcodes.php:420
+msgid ""
+"This action will remove you from all groups, which may remove your course "
+"access. Your group access cannot be restored. Are you sure you wish to "
+"continue?"
+msgstr ""
+
+#: src/classes/theme-my-login.php:47
+#: src/templates/frontend-user-registration-form.php:29
+#: src/templates/register-form.php:47 src/templates/register-form.php:51
+msgid "First Name"
+msgstr ""
+
+#: src/classes/theme-my-login.php:56
+#: src/templates/frontend-user-registration-form.php:42
+#: src/templates/register-form.php:57 src/templates/register-form.php:61
+msgid "Last Name"
+msgstr ""
+
+#: src/classes/theme-my-login.php:72
+#: src/templates/frontend-user-registration-form.php:90
+#: src/templates/register-form.php:97 src/templates/register-form.php:101
+msgid "Registration Code"
+msgstr ""
+
+#: src/classes/theme-my-login.php:119 src/classes/theme-my-login.php:121
+#: src/classes/theme-my-login.php:123 src/classes/theme-my-login.php:130
+msgid "<strong>ERROR</strong>: "
+msgstr ""
+
+#: src/classes/theme-my-login.php:153
+msgid "Theme My Login"
+msgstr ""
+
+#: src/classes/view-codes.php:53
+msgid "No coupon found."
+msgstr ""
+
+#: src/classes/view-codes.php:61
+msgid "Code"
+msgstr ""
+
+#: src/classes/view-codes.php:62
+msgid "Redeemed Date"
+msgstr ""
+
+#: src/classes/view-codes.php:63 src/classes/view-groups.php:63
+#: src/templates/admin-create-login-codes.php:131
+msgid "Expiry Date"
+msgstr ""
+
+#: src/classes/view-codes.php:64
+msgid "Redeemed User"
+msgstr ""
+
+#: src/classes/view-codes.php:92 src/classes/view-groups.php:184
+msgid "Download"
+msgstr ""
+
+#: src/classes/view-codes.php:103
+msgid "Back to Code Group View"
+msgstr ""
+
+#: src/classes/view-groups.php:47
+msgid "No group found."
+msgstr ""
+
+#: src/classes/view-groups.php:55
+msgid "Created"
+msgstr ""
+
+#: src/classes/view-groups.php:56 src/templates/admin-create-login-codes.php:59
+msgid "Code Type"
+msgstr ""
+
+#: src/classes/view-groups.php:57
+msgid "Linked To"
+msgstr ""
+
+#: src/classes/view-groups.php:59
+#: src/templates/admin-create-login-codes.php:147
+msgid "Suffix"
+msgstr ""
+
+#: src/classes/view-groups.php:60
+msgid "Paid / Unpaid"
+msgstr ""
+
+#: src/classes/view-groups.php:61
+msgid "Max Per Code"
+msgstr ""
+
+#: src/classes/view-groups.php:62
+msgid "Codes Generated"
+msgstr ""
+
+#: src/classes/view-groups.php:64
+msgid "Redeemed"
+msgstr ""
+
+#: src/classes/view-groups.php:65
+msgid "Actions"
+msgstr ""
+
+#: src/classes/view-groups.php:180
+msgid "View"
+msgstr ""
+
+#: src/classes/view-groups.php:188
+msgid "Delete"
+msgstr ""
+
+#: src/classes/woocommerce.php:31 src/classes/woocommerce.php:35
+msgid "This field is mandatory"
+msgstr ""
+
+#: src/classes/woocommerce.php:85
+msgid "Require LearnDash Code"
+msgstr ""
+
+#: src/classes/woocommerce.php:86
+msgid "Check to enable registration code field for this product at checkout"
+msgstr ""
+
+#: src/classes/woocommerce.php:163
+#, php-format
+msgid "<strong>%s</strong> is a required field."
+msgstr ""
+
+#: src/classes/woocommerce.php:280
+msgid "Paid Code Applied: "
+msgstr ""
+
+#: src/classes/woocommerce.php:315
+msgid "Woocommerce"
+msgstr ""
+
+#: src/config.php:156 src/config.php:177
+msgid "Sorry, the code you entered has already been redeemed."
+msgstr ""
+
+#: src/config.php:171 src/config.php:180
+msgid ""
+"To use this code, please complete your purchase in the store and add your "
+"code on the checkout page."
+msgstr ""
+
+#: src/includes/class-gf-code-field-add-on.php:65
+#: src/includes/class-gf-code-field-add-on.php:83
+msgid "Input CSS Classes"
+msgstr ""
+
+#: src/includes/class-gf-code-field-add-on.php:65
+msgid "The CSS Class names to be added to the field input."
+msgstr ""
+
+#: src/includes/class-uncanny-code-field.php:23
+msgid "Enrollment Code"
+msgstr ""
+
+#: src/templates/admin-create-login-codes.php:26
+#: src/templates/admin-create-login-codes.php:164
+#: src/templates/admin-header.php:18
+msgid "Generate Codes"
+msgstr ""
+
+#: src/templates/admin-create-login-codes.php:28
+#, php-format
+msgid ""
+"Generate your codes from this page to allow users to register directly into "
+"LearnDash Groups and courses. For more information on how to use the plugin, "
+"please refer to the <a href=\"%s\" target=\"_blank\" >Knowledge Base "
+"articles</a>."
+msgstr ""
+
+#: src/templates/admin-create-login-codes.php:39
+msgid "Generate Code for"
+msgstr ""
+
+#: src/templates/admin-create-login-codes.php:45
+msgid "LearnDash Course(s)"
+msgstr ""
+
+#: src/templates/admin-create-login-codes.php:53
+msgid "LearnDash Group(s)"
+msgstr ""
+
+#: src/templates/admin-create-login-codes.php:65
+msgid "Default"
+msgstr ""
+
+#: src/templates/admin-create-login-codes.php:73
+msgid "Paid"
+msgstr ""
+
+#: src/templates/admin-create-login-codes.php:81
+msgid "Unpaid"
+msgstr ""
+
+#: src/templates/admin-create-login-codes.php:87
+msgid "Number of Unique Codes"
+msgstr ""
+
+#: src/templates/admin-create-login-codes.php:93
+msgid "Number of Uses Per Code"
+msgstr ""
+
+#: src/templates/admin-create-login-codes.php:99
+msgid "Number of Characters"
+msgstr ""
+
+#: src/templates/admin-create-login-codes.php:105
+msgid "Dash Separation"
+msgstr ""
+
+#: src/templates/admin-create-login-codes.php:111
+msgid "Groups"
+msgstr ""
+
+#: src/templates/admin-create-login-codes.php:121
+msgid "Courses"
+msgstr ""
+
+#: src/templates/admin-create-login-codes.php:136
+msgid "Expiry Time"
+msgstr ""
+
+#: src/templates/admin-create-login-codes.php:155
+msgid "Sample code"
+msgstr ""
+
+#: src/templates/admin-header.php:23
+msgid "View Codes"
+msgstr ""
+
+#: src/templates/admin-header.php:28
+msgid "Settings"
+msgstr ""
+
+#: src/templates/admin-header.php:55
+msgid "by"
+msgstr ""
+
+#: src/templates/admin-kb-articles.php:41
+msgid "I can't find the answer to my question."
+msgstr ""
+
+#: src/templates/admin-license.php:63
+msgid "Your License is Active!"
+msgstr ""
+
+#: src/templates/admin-license.php:65
+msgid "Your License is Not Active!"
+msgstr ""
+
+#: src/templates/admin-license.php:80
+msgid "Please enter a valid license code and click \"Activate now\"."
+msgstr ""
+
+#: src/templates/admin-license.php:86
+#, php-format
+msgctxt ""
+"Your license has expired. Please renew your license to get instant access to "
+"updates and support."
+msgid ""
+"Your license has expired. Please %s to get instant access to updates and "
+"support."
+msgstr ""
+
+#: src/templates/admin-license.php:94 src/templates/admin-license.php:109
+msgctxt ""
+"Your license has expired. Please renew your license to get instant access to "
+"updates and support."
+msgid "renew your license"
+msgstr ""
+
+#: src/templates/admin-license.php:103
+#, php-format
+msgctxt ""
+"Your license has disabled. Please renew your license to get instant access "
+"to updates and support."
+msgid ""
+"Your license is disabled. Please %s to get instant access to updates and "
+"support."
+msgstr ""
+
+#: src/templates/admin-license.php:117
+msgid "The license code you entered is invalid."
+msgstr ""
+
+#: src/templates/admin-license.php:120
+msgid "The license code you entered is deactivated."
+msgstr ""
+
+#: src/templates/admin-license.php:134 src/templates/admin-license.php:141
+msgid "Enter your license key"
+msgstr ""
+
+#: src/templates/admin-license.php:154 src/templates/admin-license.php:206
+msgid "Deactivate License"
+msgstr ""
+
+#: src/templates/admin-license.php:161 src/templates/admin-license.php:213
+msgid "Activate now"
+msgstr ""
+
+#: src/templates/admin-license.php:166 src/templates/admin-license.php:218
+msgid "Buy license"
+msgstr ""
+
+#: src/templates/admin-license.php:176
+msgid "Need help?"
+msgstr ""
+
+#: src/templates/admin-license.php:183
+msgid "Where to get my license key"
+msgstr ""
+
+#: src/templates/admin-license.php:188
+msgid "Buy a new license"
+msgstr ""
+
+#: src/templates/admin-license.php:193
+msgid "Knowledge Base"
+msgstr ""
+
+#: src/templates/admin-send-ticket.php:50
+msgid ""
+"Your ticket has been created. Someone at Uncanny Owl will contact you "
+"regarding your issue."
+msgstr ""
+
+#: src/templates/admin-send-ticket.php:54
+msgid "Dismiss this notice."
+msgstr ""
+
+#: src/templates/admin-send-ticket.php:65
+msgid "Submit a Ticket"
+msgstr ""
+
+#: src/templates/admin-send-ticket.php:78
+msgid "Full Name"
+msgstr ""
+
+#: src/templates/admin-send-ticket.php:86
+msgid "Email"
+msgstr ""
+
+#: src/templates/admin-send-ticket.php:94
+msgid "Site URL"
+msgstr ""
+
+#: src/templates/admin-send-ticket.php:102
+msgid "Subject"
+msgstr ""
+
+#: src/templates/admin-send-ticket.php:110
+msgid "Message"
+msgstr ""
+
+#: src/templates/admin-send-ticket.php:118
+msgid "Send site data"
+msgstr ""
+
+#: src/templates/admin-send-ticket.php:123
+msgid ""
+"Emails must be enabled on your site to create a ticket using this form. If "
+"you don’t receive a confirmation email shortly after submitting this form, "
+"please log the ticket through your <a href=\"https://www.uncannyowl.com/my-"
+"account/submit-a-request/\" target=\"_blank\" rel=\"noreferrer\">My Account</"
+"a> page."
+msgstr ""
+
+#: src/templates/admin-send-ticket.php:126
+msgid "Create ticket"
+msgstr ""
+
+#: src/templates/admin-send-ticket.php:133
+msgid "Site Data"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:21
+msgid "WordPress Minimum Requirements"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:28
+msgid "Environment"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:30 src/templates/admin-siteinfo.php:91
+#: src/templates/admin-siteinfo.php:166 src/templates/admin-siteinfo.php:192
+msgid "Setting"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:31 src/templates/admin-siteinfo.php:92
+#: src/templates/admin-siteinfo.php:167 src/templates/admin-siteinfo.php:193
+msgid "Value"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:45
+msgid " PHP_OS: "
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:49
+msgid " PHP_OS_FAMILY: "
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:57
+msgid "PHP Version"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:76
+msgid "MySQL version"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:89
+msgid "WordPress Settings"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:99
+msgid "WordPress Version"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:105
+msgid "Multisite"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:106 src/templates/admin-siteinfo.php:128
+msgid "Yes"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:106 src/templates/admin-siteinfo.php:128
+msgid "No"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:111
+msgid "Site Language"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:121
+msgid "Not defined"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:127
+msgid "Object Cache"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:139
+msgid "WordPress Plugins"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:141
+msgid "Plugin"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:142 src/templates/admin-siteinfo.php:171
+msgid "Version"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:164
+msgid "Learndash Settings"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:175
+msgid "DB Version"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:179
+msgid "Script Debug"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:180
+msgid "not defined"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:190
+msgid "PHP Settings"
+msgstr ""
+
+#: src/templates/frontend-user-registration-form.php:7
+msgid "Congratulations! You have successfully registered your account."
+msgstr ""
+
+#: src/templates/frontend-user-registration-form.php:55
+msgid "Email / Username"
+msgstr ""
+
+#: src/templates/frontend-user-registration-form.php:68
+msgid "Password"
+msgstr ""
+
+#: src/templates/frontend-user-registration-form.php:79
+msgid "Confirm Password"
+msgstr ""
+
+#: src/templates/frontend-user-registration-form.php:110
+msgid "Register Your Account"
+msgstr ""
+
+#: src/templates/register-form.php:6
+msgid ""
+"There was a problem with your submission. Errors have been highlighted below."
+msgstr ""
+
+#: src/templates/register-form.php:69 src/templates/register-form.php:72
+msgid "Username"
+msgstr ""
+
+#: src/templates/register-form.php:80 src/templates/register-form.php:83
+msgid "E-mail"
+msgstr ""
+
+#: src/templates/register-form.php:106
+msgid "Registration confirmation will be e-mailed to you."
+msgstr ""
+
+#: src/templates/register-form.php:111
+msgid "Register"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "www.uncannyowl.com/downloads/uncanny-learndash-codes/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Generate Codes that can be used to enroll a user in to a course or group"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Uncanny Owl"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "www.uncannyowl.com"
+msgstr ""

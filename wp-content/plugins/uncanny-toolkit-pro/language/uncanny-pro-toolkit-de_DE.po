@@ -1,0 +1,836 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Uncanny LearnDash Toolkit Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-20 20:33+0000\n"
+"PO-Revision-Date: 2017-09-20 20:34+0000\n"
+"Last-Translator: Michael Schröttle <michael.schroettle@tpm-systems.eu>\n"
+"Language-Team: German\n"
+"Language: de-DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: src/classes/learn-dash-group-sign-up.php:502
+msgid "You're already signed in! We hope you're enjoying our courses. "
+msgstr "Du bist bereits angemeldet. Wir hoffen, Dir gefällt unser Kurs."
+
+#: src/boot.php:23
+msgid ""
+"Please contact your hosting company to update to php version 5.3+ and enable "
+"spl extensions."
+msgstr ""
+"Bitte kontaktiere Deine Hosting-Firma und lasse php auf Version 5.3+ "
+"aktualisieren und die spl Extensions freischalten."
+
+#: src/classes/lesson-topic-auto-complete-on-quiz-end.php:47
+msgid "Autocomplete Lessons & Topics on Quiz Results Page"
+msgstr ""
+"Lektionen und Themen auf der Fragebogen-Ergebnis-Seite automatisch "
+"vervollständigen"
+
+#: src/classes/lesson-topic-auto-complete-on-quiz-end.php:52
+msgid ""
+"Automatically mark LearnDash lessons and topics as completed when the user "
+"reaches the quiz results page with a passing mark."
+msgstr ""
+"LearnDash Lektionen automatisch als erledigt markieren wenn der Anwender die "
+"Fragebogen-Ergebnis-Seite mit einem ausreichenden Testergebnis erreicht."
+
+#: src/classes/lesson-topic-auto-complete-on-quiz-end.php:141
+#: src/classes/lesson-topic-auto-complete.php:152
+msgid ""
+"<div>** This global setting can be overridden for individual lessons and "
+"topics in the Edit page of the associated lesson or topic.</div>"
+msgstr ""
+"<div>** Diese globale Einstellung kann für einzelne Lektionen und Themen in "
+"der Bearbeitungs-Seite der betreffenden Lektion oder Thema überschrieben "
+"werden.</div>"
+
+#: src/classes/course-access-expiry.php:40
+msgid "Days Until Course Expiry"
+msgstr "Tage bis der Kurs abläuft"
+
+#: src/classes/course-access-expiry.php:45
+msgid ""
+"Use this shortcode to display the number of days until the learner's access "
+"expires for the current course. This is a useful shortcode to include on "
+"course pages."
+msgstr ""
+"Mit diesem Shortcode werden dem Teilnehmer für den aktuellen Kurs die "
+"verbleibenden Tage angezeigt bis sein Zugriff abläuft. Das ist ein "
+"nützlicher Shortcode zum einbauen auf Kurs-Seiten."
+
+#: src/classes/course-access-expiry.php:92
+msgid "Course Access Expires in"
+msgstr "Der Zugriff auf den Kurs läuft ab in"
+
+#: src/classes/learn-dash-table-color.php:56
+msgid "LearnDash Table Colors"
+msgstr "LearnDash Tabelle Farben"
+
+#: src/classes/learn-dash-table-color.php:61
+msgid ""
+"Change the background and header text color of LearnDash tables. This module "
+"modifies the course, lesson, topic, quiz, and Pro Dashboard tables."
+msgstr ""
+"Ändere die Hintergrund und Header-Text Farben der LearnDash Tabellen. Dieses "
+"Modul modifiziert die Tabellen für Kurs, Lektion, Thema, Fragebogen und Pro "
+"Dashboard."
+
+#: src/classes/course-completion-certificate.php:46
+msgid "Send Course Certificates by Email"
+msgstr "Sende Kurszertifikate per Email"
+
+#: src/classes/course-completion-certificate.php:52
+msgid ""
+"Sends a copy of certificate earned from course completion and saves "
+"certificates on the server."
+msgstr ""
+"Sendet eine Kopie des Zertifikats für den Kursabschluss und speichert die "
+"Zertifikate auf dem Server."
+
+#: src/classes/course-completion-certificate.php:112
+#: src/classes/generate-pdf-email.php:88
+msgid "Do not store certificates on server"
+msgstr "Keine Zertifikate auf dem Server speichern"
+
+#: src/classes/course-completion-certificate.php:121
+#: src/classes/generate-pdf-email.php:97
+msgid "Send Certificate to Site Admin?"
+msgstr "Zertifikat an den Seiten-Admin senden?"
+
+#: src/classes/course-completion-certificate.php:126
+#: src/classes/generate-pdf-email.php:102
+msgid "Send Certificate to Group Leader(s)?"
+msgstr "Zertifikat an den/die Gruppen-Leiter senden?"
+
+#: src/classes/course-completion-certificate.php:132
+#: src/classes/generate-pdf-email.php:108
+msgid "CC Certificate To (comma separated)"
+msgstr "CC Zertifikat an (Komma-getrennt)"
+
+#: src/classes/course-completion-certificate.php:138
+msgid "User Email Subject"
+msgstr "Benutzer Email Betreff"
+
+#: src/classes/course-completion-certificate.php:144
+msgid "Admin/Group Leader Email Subject"
+msgstr "Admin/Gruppen Leiter Email Betreff"
+
+#: src/classes/course-completion-certificate.php:150
+#: src/classes/generate-pdf-email.php:120
+msgid "Email Body"
+msgstr "Email Nachricht"
+
+#: src/classes/lesson-topic-grid.php:66
+msgid "Enhanced Lessons/Topics Grid"
+msgstr "Erweitertes Lektions/Themen Raster"
+
+#: src/classes/lesson-topic-grid.php:71
+msgid ""
+"Add a highly customizable grid of LearnDash lessons/topics to the front end, "
+"learner dashboard or anywhere you want. This is a great tool for sites with "
+"a large number of lessons/topics."
+msgstr ""
+"Addiere ein anpassbares Raster von LearnDash Lektionen/Themen zum Front-End, "
+"dem Lerner-Dashboard oder wo Du willst. Das ist ein super Tool für Seiten "
+"mit einer grossen Anzahl Lektionen/Themen."
+
+#: src/classes/lesson-topic-grid.php:107
+msgid "Replace Course's Lessons table with grid"
+msgstr "Ersetze Kurs Lektions-Tabelle mit Raster"
+
+#: src/classes/lesson-topic-grid.php:113
+msgid "Replace Lesson's Topics list with grid"
+msgstr "Ersetze Lektions-Themenliste mit Raster"
+
+#: src/classes/lesson-topic-grid.php:119
+msgid "Number of columns per row"
+msgstr "Anzahl Spalten per Reihe"
+
+#: src/classes/lesson-topic-grid.php:124
+msgid "Show Featured Image?"
+msgstr "Aufmacher-Bild anzeigen?"
+
+#: src/classes/lesson-topic-grid.php:593 src/classes/show-all-courses.php:875
+#: src/classes/show-all-courses.php:1011
+msgid "Complete"
+msgstr "Erledigt"
+
+#: src/classes/lesson-topic-grid.php:595 src/classes/lesson-topic-grid.php:636
+msgid "Not Completed"
+msgstr "Nicht erledigt"
+
+#: src/classes/lesson-topic-grid.php:636
+msgid "Course not enrolled"
+msgstr "Kurs nicht belegt"
+
+#: src/classes/learn-dash-transcript.php:47
+msgid "Learner Transcript"
+msgstr "Teilnehmer-Abschrift"
+
+#: src/classes/learn-dash-transcript.php:52
+msgid ""
+"Add printable transcripts to the front end for your learners. This is a "
+"great way for learners to have a record of all course progress and overall "
+"standing."
+msgstr ""
+"Addiere druckbare Abschriften zum Front-End für Deine Teilnehmer. Das ist "
+"eine super Methode, den Teilnehmern eine Aufzeichnung des Kursfortschritts "
+"und Leistungsstands zu geben."
+
+#: src/classes/learn-dash-transcript.php:260
+msgid "Print"
+msgstr "Drucken"
+
+#: src/classes/learn-dash-transcript.php:261
+msgid "Transcript for "
+msgstr "Abschrift für"
+
+#: src/classes/learn-dash-transcript.php:266
+msgid "Published: "
+msgstr "Veröffentlicht:"
+
+#: src/classes/learn-dash-transcript.php:271
+msgid "Total Completed: "
+msgstr "Total erledigt:"
+
+#: src/classes/learn-dash-transcript.php:292
+msgid "% Complete"
+msgstr "% erledigt"
+
+#: src/classes/learn-dash-transcript.php:293
+msgid "Completion Date"
+msgstr "Erledigungs Datum"
+
+#: src/classes/learn-dash-transcript.php:749
+msgid "Show"
+msgstr "Zeige"
+
+#: src/classes/learn-dash-transcript.php:750
+msgid "ALL"
+msgstr "ALLES"
+
+#: src/classes/learn-dash-transcript.php:751
+msgid "entries"
+msgstr "Einträge"
+
+#: src/classes/learn-dash-transcript.php:752
+msgid "No data available."
+msgstr "Keine Daten verfügbar."
+
+#: src/classes/learn-dash-transcript.php:753
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr "Zeige _START_ bis _END_ von _TOTAL_ Einträgen"
+
+#: src/classes/learn-dash-transcript.php:754
+msgid "Showing 0 to 0 of 0 entries"
+msgstr "Zeige 0 von 0 Einträgen"
+
+#: src/classes/learn-dash-transcript.php:755
+msgid "Previous"
+msgstr "Vorheriger"
+
+#: src/classes/learn-dash-transcript.php:756
+msgid "Next"
+msgstr "Nächster"
+
+#: src/classes/learn-dash-group-expiration.php:66
+msgid "LearnDash Group Expiration"
+msgstr "LearnDash Gruppen Ablauf"
+
+#: src/classes/learn-dash-group-expiration.php:71
+msgid ""
+"Set expiration dates for LearnDash groups so that course enrolment for the "
+"group is removed on the specified day. Reminder emails can be sent to users "
+"advising them of group expiration."
+msgstr ""
+"Definiere Ablaufdaten für LearnDash Gruppen, so dass die Kurseinschreibung "
+"für die Gruppe an einem bestimmten Tag entfernt wird. Erinnerungs Emails "
+"können an die Teilnehmer gesendet werden, die sie auf das Ablaufdatum "
+"aufmerksam machen."
+
+#: src/classes/learn-dash-group-expiration.php:106
+msgid "Send Expiry Email"
+msgstr "Ablauf Email senden"
+
+#: src/classes/learn-dash-group-expiration.php:181
+msgid "Test message successfully sent to "
+msgstr "Test Nachricht erfolgreich gesendet an"
+
+#: src/classes/learn-dash-group-expiration.php:183
+msgid "Failed!!"
+msgstr "Fehlgeschlagen!!"
+
+#: src/classes/learn-dash-group-expiration.php:194
+msgid "Expiration Date"
+msgstr "Ablauf Datum"
+
+#: src/classes/learn-dash-group-expiration.php:331
+#, php-format
+msgid "%s Course Access Expiring"
+msgstr "%s Kurs Zugriff läuft ab"
+
+#: src/classes/learn-dash-group-expiration.php:332
+msgid ""
+"Hi %display name%,\n"
+"\n"
+"This is a courtesy email to let you know that your access to %s as part of "
+"the %LearnDash Group Name% group is expiring on %expiration date%. Your "
+"access to %s courses will be removed on that date."
+msgstr ""
+"Hallo %display name%,\n"
+"\n"
+"Diese Email ist eine freundliche Erinnerung, dass Dein Zugriff auf %s als "
+"Teil der %LearnDash Group Name% Gruppe am %expiration date% abläuft. Dein "
+"Zugriff auf %s Kurse wird an diesem Tag entfernt."
+
+#: src/classes/learn-dash-my-courses.php:50
+msgid "LearnDash Course Dashboard"
+msgstr "LearnDash Kurs Dashboard"
+
+#: src/classes/learn-dash-my-courses.php:55
+msgid ""
+"Use the [uo_dashboard] shortcode to display the list of enrolled courses for "
+"the current user. This is essentially a modified version of the [ld_profile] "
+"shortcode without profile data."
+msgstr ""
+"Verwende den [uo_dashboard] Shortcode zum Anzeigen der Liste der belegten "
+"Kurse für den aktuellen Benutzer. Dies ist im wesentlichen eine modifizerte "
+"Version des [ld_profile] Shortcodes ohne die Profil-Daten."
+
+#: src/classes/learn-dash-group-sign-up.php:72
+msgid "LearnDash Group Registration"
+msgstr "LearnDash Gruppen Registrierung"
+
+#: src/classes/learn-dash-group-sign-up.php:77
+msgid ""
+"Allow users to add themselves directly to LearnDash Groups on registration "
+"by assigning each group a unique registration URL. Users can also change or "
+"add groups themselves by visiting group URLs."
+msgstr ""
+"Ermögliche Benutzern, sich bei der Registrierung selbst direkt zu LearnDash "
+"Gruppen hinzuzufügen indem Du jeder Gruppe eine eindeutige Registrierungs "
+"URL zuweist. Die Benutzer können durch besuchen der Gruppen-URLs auch selbst "
+"die Gruppenzugehörigkeit wechseln oder Gruppen hinzufügen."
+
+#: src/classes/learn-dash-group-sign-up.php:325
+#: src/classes/learn-dash-group-sign-up.php:329
+msgid "First Name"
+msgstr "Vorname"
+
+#: src/classes/learn-dash-group-sign-up.php:337
+#: src/classes/learn-dash-group-sign-up.php:341
+msgid "Last Name"
+msgstr "Nachname"
+
+#: src/classes/learn-dash-group-sign-up.php:349
+#: src/classes/learn-dash-group-sign-up.php:353
+msgid "Username"
+msgstr "Benutzername"
+
+#: src/classes/learn-dash-group-sign-up.php:361
+#: src/classes/learn-dash-group-sign-up.php:365
+#: src/classes/learn-dash-group-sign-up.php:613
+msgid "Email"
+msgstr "Email"
+
+#: src/classes/learn-dash-group-sign-up.php:372
+#: src/classes/learn-dash-group-sign-up.php:375
+msgid "Password"
+msgstr "Passwort"
+
+#: src/classes/learn-dash-group-sign-up.php:380
+#: src/classes/learn-dash-group-sign-up.php:383
+msgid "Confirm Password"
+msgstr "Passwort bestätigen"
+
+#: src/classes/learn-dash-group-sign-up.php:397
+msgid "Register Your Account"
+msgstr "Registriere Dein Konto"
+
+#: src/classes/learn-dash-group-sign-up.php:405
+msgid "User registration is not enabled. Contact Site Administrator."
+msgstr ""
+"Benutzer-Registrierung ist nicht aktiviert. Kontaktiere den Seiten-"
+"Administrator."
+
+#: src/classes/learn-dash-group-sign-up.php:434
+msgid "Username already taken"
+msgstr "Benutzername ist schon vergeben"
+
+#: src/classes/learn-dash-group-sign-up.php:438
+msgid "Invalid username"
+msgstr "Ungültiger Benutzername"
+
+#: src/classes/learn-dash-group-sign-up.php:442
+msgid "Please enter a username"
+msgstr "Bitte wähle einen Benutzernamen"
+
+#: src/classes/learn-dash-group-sign-up.php:446
+msgid "Invalid email"
+msgstr "Ungültige Email"
+
+#: src/classes/learn-dash-group-sign-up.php:450
+msgid "Email already registered"
+msgstr "Email bereits registriert"
+
+#: src/classes/learn-dash-group-sign-up.php:454
+msgid "Please enter a password"
+msgstr "Bitte gib ein Passwort ein"
+
+#: src/classes/learn-dash-group-sign-up.php:458
+msgid "Passwords do not match"
+msgstr "Passwörter sind nicht gleich"
+
+#: src/classes/learn-dash-group-sign-up.php:576
+msgid ""
+"You are not currently a member of any group. If you believe this is an error,"
+" please request the registration URL from your organization contact."
+msgstr ""
+"Sie sind aktuell kein Mitglied einer Gruppe. Wenn Sie das für einen Fehler "
+"halten, fordern Sie bitte von Ihrem Organisations-Kontakt die Registrierungs-"
+"URL an."
+
+#: src/classes/learn-dash-group-sign-up.php:610
+#: src/classes/learn-dash-group-sign-up.php:680
+msgid "Organization Details"
+msgstr "Organisations-Details"
+
+#: src/classes/learn-dash-group-sign-up.php:611
+msgid "Name"
+msgstr "Name"
+
+#: src/classes/learn-dash-group-sign-up.php:612
+msgid "Contact"
+msgstr "Kontakt"
+
+#: src/classes/learn-dash-group-sign-up.php:614
+msgid "Phone"
+msgstr "Tel."
+
+#: src/classes/learn-dash-group-sign-up.php:847
+msgid "You are not a member of this Group"
+msgstr "Sie sind kein Mitglied dieser Gruppe"
+
+#: src/classes/learn-dash-group-sign-up.php:851
+msgid "Join this Group"
+msgstr "Dieser Gruppe beitreten"
+
+#: src/classes/clone-posts-pages-learn-dash-contents.php:48
+msgid "Duplicate Pages & Posts"
+msgstr "Dupliziere Seiten & Beiträge"
+
+#: src/classes/clone-posts-pages-learn-dash-contents.php:53
+msgid ""
+"Easily clone pages, posts, LearnDash courses, lessons, topics, quizzes and "
+"more. This plugin handles quiz duplication properly."
+msgstr ""
+"Einfaches Klonen von Seiten, Beiträgen, LearnDash Kursen, Lektionen, Themen, "
+"Fragebogen und mehr. Dieses Plugin dupliziert auch Fragebögen korrekt."
+
+#: src/classes/clone-posts-pages-learn-dash-contents.php:169
+#: src/classes/clone-posts-pages-learn-dash-contents.php:195
+msgid "No quiz to duplicate has been supplied!"
+msgstr "Kein Fragebogen Duplikat wurde bereitgestellt!"
+
+#: src/classes/clone-posts-pages-learn-dash-contents.php:184
+#: src/classes/clone-posts-pages-learn-dash-contents.php:213
+msgid "Copy creation failed, could not find original:"
+msgstr "Kopiervorgang fehlgeschlagen, konnte kein Original finden:"
+
+#: src/classes/uncanny-drip-lessons-by-group.php:89
+msgid "Drip Lessons by LearnDash Group"
+msgstr "Drip Lektionen nach LearnDash Gruppe"
+
+#: src/classes/uncanny-drip-lessons-by-group.php:93
+msgid ""
+"Unlock access to LearnDash lessons by setting dates for LearnDash Groups "
+"rather than for all enrolled users."
+msgstr ""
+"Zugang zu LearnDash Lektionen freischalten per Datumseintrag für LearnDash "
+"Gruppen anstatt für alle eingetragenen Benutzer."
+
+#: src/classes/uncanny-drip-lessons-by-group.php:378
+#, php-format
+msgid "Available on: %s"
+msgstr "Verfügbar am: %s"
+
+#: src/classes/uncanny-drip-lessons-by-group.php:381
+msgid "Return to Course Overview"
+msgstr "Zurück zum Kurs Überblick"
+
+#: src/classes/group-leader-access.php:42
+msgid "Improved Group Leader Interface"
+msgstr "Verbessertes Gruppen Leiter Interface"
+
+#: src/classes/group-leader-access.php:47
+msgid ""
+"Enhances the experience of LearnDash Group Leaders by providing direct "
+"access to reports and removing unnecessary distractions from the admin panel."
+msgstr ""
+"Verbessert die Erfahrung von LearnDash Gruppenleitern mit direktem Zugang zu "
+"Berichten und Entfernen von unnötigen Ablenkungen aus dem Admin-Panel."
+
+#: src/classes/group-leader-access.php:216
+#: src/classes/group-leader-access.php:217
+msgid "View "
+msgstr "Anschauen"
+
+#: src/classes/group-logo-list.php:47
+msgid "LearnDash Group Logo/List "
+msgstr "LearnDash Gruppen Logo/Liste"
+
+#: src/classes/group-logo-list.php:52
+msgid ""
+"Add group-specific logos to any page, including registration pages. A "
+"shortcode to list a user’s LearnDash Groups is also available."
+msgstr ""
+"Addiere Gruppen-spezifische Logos zu jeder Seite, inklusive Registrierungs-"
+"Seiten. Ein Shortcode zum auflisten der LearnDash Gruppen eines Benutzers "
+"ist auch verfügbar."
+
+#: src/classes/show-all-courses.php:71
+msgid "Enhanced Course Grid"
+msgstr "Erweitertes Kurs Raster"
+
+#: src/classes/show-all-courses.php:76
+msgid ""
+"Add a highly customizable grid of LearnDash courses to the front end, "
+"learner dashboard or anywhere you want. This is a great tool for sites with "
+"a large number of courses."
+msgstr ""
+"Addiere ein anpassbares Raster von LearnDash Kursen zum Front-End, "
+"Teilnehmer-Dashboard oder wo Du willst. Das ist ein super Tool für Seiten "
+"mit einer großen Zahl an Kursen."
+
+#: src/classes/show-all-courses.php:680
+msgid "Sorry! You don't have any enrolled courses."
+msgstr "Tut mir leid! Du hast keine belegten Kurse."
+
+#: src/classes/show-all-courses.php:877 src/classes/show-all-courses.php:1013
+#: src/classes/show-all-courses.php:1219
+msgid "Coming Soon"
+msgstr "In Kürze"
+
+#: src/classes/show-all-courses.php:879 src/classes/show-all-courses.php:1015
+msgid "Course Status"
+msgstr "Kurs Status"
+
+#: src/classes/show-all-courses.php:881 src/classes/show-all-courses.php:1017
+#: src/classes/show-all-courses.php:1228
+msgid "View Course Outline"
+msgstr "Kurs Abriss anschauen"
+
+#: src/classes/show-all-courses.php:1125 src/classes/show-all-courses.php:1155
+msgid "Free"
+msgstr "Gratis"
+
+#: src/classes/show-all-courses.php:1140
+#, php-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: src/classes/show-all-courses.php:1299
+msgid "Short Description"
+msgstr "Kurz-Beschreibung"
+
+#: src/classes/show-all-courses.php:1301
+msgid "A short description of the course to show on grid."
+msgstr "Eine kurze Beschreibung des Kurses für die Anzeige im Raster."
+
+#: src/classes/course-timer.php:95
+msgid "Simple Course Timer"
+msgstr "Einfacher Kurs Timer"
+
+#: src/classes/course-timer.php:100
+msgid ""
+"Tracks time spent in all LearnDash courses and detects when a user is idle. "
+"Course completion time and total course time are both added to LearnDash "
+"reports. Enables blocking access to quizzes until minimum time spent in "
+"course."
+msgstr ""
+"Misst die Bearbeitungszeit für alle LearnDash Kurse und erkennt, wenn ein "
+"Benutzer untätig ist. Die Zeit für die Absolvierung des Kurses und die "
+"gesamte Kurs-Zeit werden beide zu LearnDash Berichten hinzugefügt. "
+"Ermöglicht den Zugang zu Fragebögen zu blockieren bis die minimale Zeit mit "
+"dem Kurs zugebracht wurde."
+
+#: src/classes/course-timer.php:207
+msgid ""
+"<div style=\"margin-top: -16px;font-style: italic;\">Enable minimum course "
+"time before learners can attempt quizzes. Minimum course time value is set "
+"in quizzes.</div>"
+msgstr ""
+"<div style=\"margin-top: -16px;font-style: italic;\">Aktiviere minimale Kurs-"
+"Zeit bevor Teilnehmer Abfragen absolvieren können. Die minimale Kurs-Zeit "
+"wird festgelegt in den Fragebogen-Einstellungen.</div>"
+
+#: src/classes/course-timer.php:217
+msgid ""
+"<div style=\"margin-top: -26px;font-style: italic;\">Minimum polling "
+"interval is 10 seconds. </div>"
+msgstr ""
+"<div style=\"margin-top: -26px;font-style: italic;\">Das minimale Abfrage-"
+"Intervall ist 10 Sekunden. </div>"
+
+#: src/classes/course-timer.php:250
+msgid "Idle Time(seconds)"
+msgstr "Wartezeit (Sekunden)"
+
+#: src/classes/course-timer.php:252
+msgid ""
+"Set the time in seconds until a user is flagged as inactive for time "
+"tracking purposes"
+msgstr ""
+"Definiere die Zeit in Sekunden, bis ein Benutzer als inaktiv markiert wird "
+"für den Zweck der Bearbeitungszeit"
+
+#: src/classes/course-timer.php:293
+msgid "Minimum Course Time (in minutes)"
+msgstr "Minimale Kurs Zeit (in Minuten)"
+
+#: src/classes/course-timer.php:295
+msgid ""
+"Only allow access to the quiz when the user's time spent in the course "
+"EQUALS OR EXCEEDS this value in minutes."
+msgstr ""
+"Zugang zum Fragebogen nur freigeben, wenn die Kursbearbeitungszeit des "
+"Benutzers diesen Wert in Minuten erreicht oder überschreitet."
+
+#: src/classes/gf-lesson-topic-auto-complete.php:56
+msgid "Autocomplete Lessons & Topics on Gravity Form Submission"
+msgstr ""
+"Lektionen & Themen automatisch erledigen bei Einreichen von Gravity "
+"Formularen"
+
+#: src/classes/gf-lesson-topic-auto-complete.php:61
+msgid ""
+"Automatically mark LearnDash lessons and topics as completed when the user "
+"submits Gravity Forms."
+msgstr ""
+"LearnDash Lektionen und Themen automatisch als erledigt markieren, wenn der "
+"Benutzer Gravity Formulare einreicht."
+
+#: src/classes/gf-lesson-topic-auto-complete.php:152
+msgid "Mark Lesson / Topic complete"
+msgstr "Lektion / Thema als erledigt markieren"
+
+#: src/classes/gf-lesson-topic-auto-complete.php:152
+msgid ""
+"When enabled, Autocomplete Pro Module will attempt to mark lesson or topic "
+"complete if this form is the last thing in it. It will also attempt to "
+"remove Mark Complete button."
+msgstr ""
+"Wenn aktiviert, versucht das Auto-Vervollständigungs Pro Modul eine Lektion "
+"oder ein Thema als erledigt zu markieren, wenn dieses Formular der letzte "
+"Schritt darin ist. Es wird auch versuchen, den \"Als erledigt markieren\" "
+"Button zu entfernen."
+
+#: src/classes/sample.php:44
+msgid "Sample Title"
+msgstr "Beispiel Titel"
+
+#: src/classes/sample.php:49
+msgid "Sample Description B"
+msgstr "Beispiel Beschreibung B"
+
+#: src/classes/sample.php:140
+msgid "<div>Some Extra Information for the user</div>"
+msgstr "<div>Etwas zusätzliche Information für den Benutzer</div>"
+
+#: src/classes/sample-tag.php:43
+msgid "Sample Lesson Label"
+msgstr "Beispiel Lektion Label"
+
+#: src/classes/sample-tag.php:51
+msgid "Add visual label to sample lessons."
+msgstr "Addiere ein sichtbares Label zu Beispiel-Lektionen"
+
+#: src/classes/generate-pdf-email.php:44
+msgid "Send Quiz Certificates by Email"
+msgstr "Fragebogen Zertifikate per Email senden"
+
+#: src/classes/generate-pdf-email.php:49
+msgid ""
+"Sends a copy of certificates earned from quiz completion and saves "
+"certificates on the server."
+msgstr ""
+"Sendet eine Kopie der Zertifikate aus bestandenen Fragebögen und speichert "
+"die Zertifikate auf dem Server."
+
+#: src/classes/generate-pdf-email.php:114
+msgid "Email Subject"
+msgstr "Email Betreff"
+
+#: src/classes/import-learndash-users-from-csv.php:63
+msgid "Import LearnDash Users"
+msgstr "LearnDash Benutzer importieren"
+
+#: src/classes/import-learndash-users-from-csv.php:149
+msgid "Something went wrong!"
+msgstr "Etwas ist schiefgegangen!"
+
+#: src/classes/import-learndash-users-from-csv.php:150
+msgid "Select the file!"
+msgstr "Datei auswählen!"
+
+#: src/classes/import-learndash-users-from-csv.php:151
+msgid "The file size is too big!"
+msgstr "Die Datei ist zu groß!"
+
+#: src/classes/import-learndash-users-from-csv.php:152
+msgid "File type must be a csv!"
+msgstr "Dateityp muss CSV sein!"
+
+#: src/classes/import-learndash-users-from-csv.php:153
+msgid "Username and Email are required!"
+msgstr "Benutzername und Email sind erforderlich!"
+
+#: src/classes/import-learndash-users-from-csv.php:155
+msgid "Test user ID is required!"
+msgstr "Die Test Benutzer ID ist erforderlich!"
+
+#: src/classes/import-learndash-users-from-csv.php:412
+msgid "Options are successfully saved."
+msgstr "Optionen erfolgreich gespeichert."
+
+#: src/classes/import-learndash-users-from-csv.php:997
+msgid "Email was successfully sent."
+msgstr "Email erfolgreich versendet."
+
+#: src/classes/import-learndash-users-from-csv.php:1003
+msgid "Otherwise, check your WordPress and server settings."
+msgstr "Andernfalls prüfe Deine WordPress und Server Einstellungen."
+
+#: src/classes/import-learndash-users-from-csv.php:1037
+msgid "Email template is successfully saved."
+msgstr "Email Vorlage erfolgreich gespeichert."
+
+#: src/classes/import-learndash-users-from-csv.php:1054
+msgid ""
+"Create or update users and assign them to courses and LearnDash Groups from "
+"a CSV file."
+msgstr ""
+"Erstelle oder aktualisiere Benutzer und schreibe sie in Kurse und LearnDash "
+"Gruppen ein mit einer CSV Datei."
+
+#: src/classes/lesson-topic-auto-complete.php:59
+msgid "Autocomplete Lessons & Topics"
+msgstr "Lektionen & Themen automatisch vervollständigen"
+
+#: src/classes/lesson-topic-auto-complete.php:64
+msgid ""
+"Automatically mark all lessons and topics as completed on user visit and "
+"remove Mark Complete buttons. Global settings can be overridden for "
+"individual lessons and topics."
+msgstr ""
+"Markiere automatisch alle Lektionen und Themen als erledigt, wenn der "
+"Benutzer darauf zugreift und entferne \"Als erledigt markieren\" Buttons. "
+"Globale Einstellungen können für individuelle Lektionen und Themen "
+"überschrieben werden."
+
+#: src/classes/lesson-topic-auto-complete.php:447
+msgid "Auto Complete"
+msgstr "Auto vervollständigen"
+
+#: src/classes/lesson-topic-auto-complete.php:449
+msgid "Automatically complete lesson or topic on page visit"
+msgstr "Lektion oder Thema beim Zugriff automatisch als erledigt markieren"
+
+#: src/templates/single-group.php:25
+msgid ""
+"This page can only be used by organizations with a valid group ID. The URL "
+"used to reach this page is not valid. Please contact your organization to "
+"obtain the correct registration URL."
+msgstr ""
+"Diese Seite kann nur von Organisationen mit einer gültigen Gruppen-ID "
+"genutzt werden. Die URL mit der diese Seite aufgerufen wurde ist nicht "
+"gültig. Bitte kontaktiere Deine Organisation für die korrekte Registrierungs-"
+"URL."
+
+#: src/templates/single-group.php:28
+msgid "Shown to admins only."
+msgstr "Wird nur für Admins angezeigt."
+
+#: src/templates/single-group.php:28
+msgid "The sign up link for this group is:"
+msgstr "Der Anmelde-Link für diese Gruppe ist:"
+
+#: src/templates/single-group.php:47
+msgid ""
+"Thank you for registering. Your account needs to be approved by site "
+"administrator."
+msgstr ""
+"Danke für Deine Registrierung. Dein Konto muss noch von einem Webseiten-"
+"Administrator genehmigt werden."
+
+#: src/templates/single-group.php:49 src/templates/single-group.php:54
+msgid ""
+"Congratulations! You are now registered on this site. You will receive an "
+"email shortly with login details."
+msgstr ""
+"Gratulation! Du bist jetzt auf dieser Seite registriert. Du erhältst gleich "
+"eine Email mit Deinen Anmeldedaten."
+
+#: src/templates/dashboard-template.php:64
+msgid "Expand All"
+msgstr "Alles ausklappen"
+
+#: src/templates/dashboard-template.php:66
+msgid "Collapse All"
+msgstr "Alles einklappen"
+
+#: src/templates/dashboard-template.php:75
+msgid "Status"
+msgstr "Status"
+
+#: src/templates/dashboard-template.php:213
+msgid "Results"
+msgstr "Resultat"
+
+#: src/templates/dashboard-template.php:216
+msgid "Certificate"
+msgstr "Zertifikat"
+
+#: src/templates/dashboard-template.php:217
+msgid "Score"
+msgstr "Zählerstand"
+
+#: src/templates/dashboard-template.php:218
+msgid "Statistics"
+msgstr "Statistik"
+
+#: src/templates/dashboard-template.php:220
+msgid "Date"
+msgstr "Datum"
+
+#: src/templates/dashboard-template.php:256
+msgid "-"
+msgstr "-"
+
+#. Name of the plugin
+msgid "Uncanny LearnDash Toolkit Pro"
+msgstr "Uncanny LearnDash Toolkit Pro"
+
+#. Description of the plugin
+msgid ""
+"This plugin adds the Pro suite of modules to the Uncanny LearnDash Toolkit."
+msgstr ""
+"Dieses Plugin fügt die Pro-Suite von Modulen zum Uncanny LearnDash Toolkit "
+"hinzu."
+
+#. URI of the plugin
+msgid "uncannyowl.com/uncanny-learndash-toolkit-pro/"
+msgstr "uncannyowl.com/uncanny-learndash-toolkit-pro/"
+
+#. Author of the plugin
+msgid "Uncanny Owl"
+msgstr "Uncanny Owl"
+
+#. Author URI of the plugin
+msgid "uncannyowl.com"
+msgstr "uncannyowl.com"

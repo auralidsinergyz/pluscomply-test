@@ -1,0 +1,5060 @@
+# Copyright (C) 2023 Uncanny Owl
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Uncanny Groups for LearnDash 5.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/uncanny-learndash-"
+"groups\n"
+"Last-Translator: Sinergyz Admin\n"
+"Language-Team: Español\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-03-08T20:57:25+00:00\n"
+"PO-Revision-Date: 2023-04-24 15:15+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: uncanny-learndash-groups\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.4; wp-6.1.1"
+
+#. Plugin Name of the plugin
+#: src/blocks/blocks.php:115 src/classes/admin/class-admin-menu.php:25
+#: src/classes/admin/tools/views/templates/header.php:18
+#: src/templates/admin/admin-header.php:81
+msgid "Uncanny Groups for LearnDash"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.uncannyowl.com/uncanny-learndash-groups/"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Allow LearnDash Group Leaders to manage group membership and licenses for "
+"LearnDash courses from the front end"
+msgstr ""
+
+#. Author of the plugin
+msgid "Uncanny Owl"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.uncannyowl.com"
+msgstr ""
+
+#: src/blocks/src/groups-group-management-interface/block.php:95
+#: src/blocks/src/groups-group-management-interface/block.php:103
+#: src/classes/group-management/group-management-interface.php:485
+#: src/classes/group-management/group-management-interface.php:487
+#: src/classes/reports/group-assignments.php:273
+#: src/classes/reports/group-assignments.php:853
+#: src/classes/reports/group-essays.php:289
+#: src/classes/reports/group-essays.php:921
+#: src/classes/reports/group-quiz-report.php:1049
+#: src/blocks/src/groups-group-management-interface/block.js:116
+#: src/blocks/src/groups-group-management-interface/block.js:124
+msgid "All"
+msgstr ""
+
+#: src/blocks/src/groups-group-management-interface/block.php:189
+#: src/classes/group-management/group-management-interface.php:290
+#: src/classes/group-management/group-management-interface.php:338
+#: src/classes/group-management/group-management-interface.php:391
+#: src/blocks/src/groups-group-management-interface/block.js:16
+#: src/blocks/src/groups-group-management-interface/block.js:132
+#: src/blocks/src/groups-group-management-interface/block.js:165
+msgid "Group Management"
+msgstr ""
+
+#: src/class-load-groups.php:323 src/classes/admin/licensing/licensing.php:93
+msgid "Licensing"
+msgstr ""
+
+#: src/class-load-groups.php:325 src/classes/admin/class-admin-page.php:52
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:263
+#: src/templates/admin/admin-custom-groups.php:199
+#: src/templates/admin/admin-header.php:53
+msgid "Settings"
+msgstr ""
+
+#: src/classes/admin/class-admin-create-group.php:34
+#: src/classes/admin/class-admin-create-group.php:35
+#: src/templates/admin/admin-custom-groups.php:215
+#: src/templates/admin/admin-header.php:43
+msgid "Create group"
+msgstr ""
+
+#: src/classes/admin/class-admin-create-group.php:175
+msgid "Group created successfully."
+msgstr ""
+
+#: src/classes/admin/class-admin-create-group.php:199
+msgid "Oops! You are not allowed to view this page."
+msgstr ""
+
+#: src/classes/admin/class-admin-create-group.php:202
+msgid "Oops! You are not logged in to view this page."
+msgstr ""
+
+#: src/classes/admin/class-admin-group-email-fields.php:40
+msgid "Uncanny Group Management - Group specific email"
+msgstr ""
+
+#: src/classes/admin/class-admin-group-email-fields.php:117
+msgid "Override \"Add and invite (new user)\" Email."
+msgstr ""
+
+#: src/classes/admin/class-admin-group-email-fields.php:138
+#: src/classes/admin/class-admin-group-email-fields.php:310
+#: src/templates/admin/admin-email-settings.php:258
+#: src/templates/admin/admin-email-settings.php:413
+#: src/templates/admin/admin-email-settings.php:559
+#: src/templates/admin/admin-email-settings.php:713
+#: src/templates/admin/admin-email-settings.php:859
+msgid ""
+"Insert these tokens into your email and they will be replaced with the "
+"corresponding information.  Click a token to copy it to your clipboard."
+msgstr ""
+
+#: src/classes/admin/class-admin-group-email-fields.php:143
+#: src/classes/admin/class-admin-group-email-fields.php:151
+#: src/classes/admin/class-admin-group-email-fields.php:159
+#: src/classes/admin/class-admin-group-email-fields.php:168
+#: src/classes/admin/class-admin-group-email-fields.php:176
+#: src/classes/admin/class-admin-group-email-fields.php:184
+#: src/classes/admin/class-admin-group-email-fields.php:192
+#: src/classes/admin/class-admin-group-email-fields.php:200
+#: src/classes/admin/class-admin-group-email-fields.php:209
+#: src/classes/admin/class-admin-group-email-fields.php:217
+#: src/classes/admin/class-admin-group-email-fields.php:226
+#: src/classes/admin/class-admin-group-email-fields.php:233
+#: src/classes/admin/class-admin-group-email-fields.php:241
+#: src/classes/admin/class-admin-group-email-fields.php:249
+#: src/classes/admin/class-admin-group-email-fields.php:315
+#: src/classes/admin/class-admin-group-email-fields.php:323
+#: src/classes/admin/class-admin-group-email-fields.php:331
+#: src/classes/admin/class-admin-group-email-fields.php:340
+#: src/classes/admin/class-admin-group-email-fields.php:348
+#: src/classes/admin/class-admin-group-email-fields.php:356
+#: src/classes/admin/class-admin-group-email-fields.php:364
+#: src/classes/admin/class-admin-group-email-fields.php:372
+#: src/classes/admin/class-admin-group-email-fields.php:381
+#: src/classes/admin/class-admin-group-email-fields.php:389
+#: src/classes/admin/class-admin-group-email-fields.php:397
+#: src/classes/admin/class-admin-group-email-fields.php:405
+#: src/classes/admin/class-admin-group-email-fields.php:412
+#: src/templates/admin/admin-email-settings.php:130
+#: src/templates/admin/admin-email-settings.php:137
+#: src/templates/admin/admin-email-settings.php:143
+#: src/templates/admin/admin-email-settings.php:150
+#: src/templates/admin/admin-email-settings.php:157
+#: src/templates/admin/admin-email-settings.php:164
+#: src/templates/admin/admin-email-settings.php:171
+#: src/templates/admin/admin-email-settings.php:178
+#: src/templates/admin/admin-email-settings.php:185
+#: src/templates/admin/admin-email-settings.php:191
+#: src/templates/admin/admin-email-settings.php:197
+#: src/templates/admin/admin-email-settings.php:263
+#: src/templates/admin/admin-email-settings.php:270
+#: src/templates/admin/admin-email-settings.php:277
+#: src/templates/admin/admin-email-settings.php:284
+#: src/templates/admin/admin-email-settings.php:291
+#: src/templates/admin/admin-email-settings.php:298
+#: src/templates/admin/admin-email-settings.php:305
+#: src/templates/admin/admin-email-settings.php:312
+#: src/templates/admin/admin-email-settings.php:319
+#: src/templates/admin/admin-email-settings.php:326
+#: src/templates/admin/admin-email-settings.php:333
+#: src/templates/admin/admin-email-settings.php:339
+#: src/templates/admin/admin-email-settings.php:345
+#: src/templates/admin/admin-email-settings.php:352
+#: src/templates/admin/admin-email-settings.php:418
+#: src/templates/admin/admin-email-settings.php:425
+#: src/templates/admin/admin-email-settings.php:432
+#: src/templates/admin/admin-email-settings.php:439
+#: src/templates/admin/admin-email-settings.php:446
+#: src/templates/admin/admin-email-settings.php:453
+#: src/templates/admin/admin-email-settings.php:460
+#: src/templates/admin/admin-email-settings.php:467
+#: src/templates/admin/admin-email-settings.php:474
+#: src/templates/admin/admin-email-settings.php:481
+#: src/templates/admin/admin-email-settings.php:487
+#: src/templates/admin/admin-email-settings.php:493
+#: src/templates/admin/admin-email-settings.php:499
+#: src/templates/admin/admin-email-settings.php:564
+#: src/templates/admin/admin-email-settings.php:571
+#: src/templates/admin/admin-email-settings.php:578
+#: src/templates/admin/admin-email-settings.php:585
+#: src/templates/admin/admin-email-settings.php:592
+#: src/templates/admin/admin-email-settings.php:599
+#: src/templates/admin/admin-email-settings.php:606
+#: src/templates/admin/admin-email-settings.php:613
+#: src/templates/admin/admin-email-settings.php:620
+#: src/templates/admin/admin-email-settings.php:627
+#: src/templates/admin/admin-email-settings.php:634
+#: src/templates/admin/admin-email-settings.php:640
+#: src/templates/admin/admin-email-settings.php:646
+#: src/templates/admin/admin-email-settings.php:652
+#: src/templates/admin/admin-email-settings.php:718
+#: src/templates/admin/admin-email-settings.php:725
+#: src/templates/admin/admin-email-settings.php:732
+#: src/templates/admin/admin-email-settings.php:739
+#: src/templates/admin/admin-email-settings.php:746
+#: src/templates/admin/admin-email-settings.php:753
+#: src/templates/admin/admin-email-settings.php:760
+#: src/templates/admin/admin-email-settings.php:767
+#: src/templates/admin/admin-email-settings.php:774
+#: src/templates/admin/admin-email-settings.php:781
+#: src/templates/admin/admin-email-settings.php:787
+#: src/templates/admin/admin-email-settings.php:793
+#: src/templates/admin/admin-email-settings.php:799
+#: src/templates/admin/admin-email-settings.php:864
+#: src/templates/admin/admin-email-settings.php:871
+#: src/templates/admin/admin-email-settings.php:878
+#: src/templates/admin/admin-email-settings.php:885
+#: src/templates/admin/admin-email-settings.php:892
+#: src/templates/admin/admin-email-settings.php:899
+#: src/templates/admin/admin-email-settings.php:906
+#: src/templates/admin/admin-email-settings.php:913
+#: src/templates/admin/admin-email-settings.php:920
+#: src/templates/admin/admin-email-settings.php:927
+#: src/templates/admin/admin-email-settings.php:933
+#: src/templates/admin/admin-email-settings.php:939
+#: src/templates/admin/admin-email-settings.php:945
+msgid "Copy to clipboard"
+msgstr ""
+
+#: src/classes/admin/class-admin-group-email-fields.php:289
+msgid "Override \"Add and invite (existing user)\" Email."
+msgstr ""
+
+#: src/classes/admin/class-admin-menu.php:26
+msgid "Uncanny Groups"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:55
+#: src/classes/admin/class-admin-page.php:56
+#: src/templates/admin/admin-header.php:48
+msgid "Email settings"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:194
+msgid "Accent Color"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:196
+msgid "Font Color"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:197
+msgid "Adding Seats Message"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:201
+#: src/classes/handlers/class-gm-seat-handler.php:36
+#: src/classes/woocommerce/woocommerce-license-subscription.php:326
+#: src/classes/woocommerce/woocommerce-license-subscription.php:355
+#: src/classes/woocommerce/woocommerce-modify-group.php:398
+#: src/classes/woocommerce/woocommerce-modify-group.php:484
+msgid "Seat"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:202
+#: src/classes/handlers/class-gm-seat-handler.php:37
+#: src/classes/woocommerce/woocommerce-buy-courses.php:527
+#: src/classes/woocommerce/woocommerce-modify-group.php:301
+#: src/classes/woocommerce/woocommerce-modify-group.php:399
+#: src/classes/woocommerce/woocommerce-modify-group.php:485
+#: src/templates/frontend-uo_groups_buy_courses.php:226
+#: src/templates/frontend-uo_groups_buy_courses.php:227
+msgid "Seats"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:203
+msgid "Page Setup"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:204
+#: src/blocks/src/groups-group-assignments-report/sidebar.js:43
+#: src/blocks/src/groups-group-essays-report/sidebar.js:44
+msgid "General"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:205
+msgid "WooCommerce"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:206
+msgid "WooCommerce Subscriptions"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:207
+msgid "LearnDash"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:208
+msgid "Per Seat Text - Singular"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:209
+msgid "Per Seat Text - Plural"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:210
+msgid "Show License Products in Store"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:211
+msgid "Do not automatically add Group Leaders as Group Members"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:212
+msgid "Allow Group Leaders to change username"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:213
+msgid "Allow Group Leaders to edit users"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:214
+msgid "Allow Group Leaders to remove students at any time"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:215
+msgid ""
+"Do not free up a seat when a student with \"Completed\" status is removed"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:216
+msgid "Allow Group Leaders to Manage Progress"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:217
+msgid "Group Leaders don't use seats"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:218
+msgid "Automatically include Group %s products in Group License purchases"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:219
+msgid "Hide the %s / Users column in the list of LearnDash groups"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:220
+msgid "Enable association of products and groups"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:221
+msgid "Autocomplete Uncanny Groups orders"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:222
+msgid "Group Management Page"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:223
+msgid "Buy %s Page"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:224
+msgid "%s Report Page"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:225
+msgctxt "Quiz Report Page"
+msgid "%s Report Page"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:226
+msgid "Progress Report Page"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:227
+msgid "Assignment Management Page"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:228
+msgid "Essay Management Page"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:229
+msgid "Default License Product category"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:230
+msgid "Start Process"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:231
+msgid "Use Progress Report instead of %s Report for individual users"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:232
+msgid ""
+"Show \"basic\" (non-upgraded) groups in front end with access to reports only"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:233
+msgid "Use LearnDash's 'legacy' course progress data"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:235
+#: src/classes/admin/class-admin-page.php:255
+#: src/classes/group-management/group-management-interface.php:1223
+msgid "Send enrollment key"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:236
+msgid "Add and invite (new user)"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:237
+msgid "Add and invite (existing user)"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:238
+msgid "Add group leader/Create group (new user)"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:239
+msgid "Add group leader/Create group (existing user)"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:240
+msgid "New group purchase"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:243
+msgid "Email Settings"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:245
+msgid "From Email"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:247
+msgid "From Name"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:249
+msgid "Reply To"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:251
+#: src/templates/admin/admin-send-ticket.php:116
+msgid "Subject"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:252
+msgid "Body"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:253
+msgid "Variables"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:256
+#: src/classes/gravity-forms/gravity-forms-support.php:249
+msgid "Save Changes"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:258
+msgid "Include data from child groups in reports"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:259
+msgid ""
+"Allow Group Leaders to enable seat pooling from the Group Management page"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:260
+msgid "Enable pooled seats for all groups in hierarchies"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:263
+msgid "Enable \"Add seats\" option for subscription-based groups"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:264
+msgid "Learn more URL"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:324
+#: src/classes/group-management/group-management-interface.php:197
+#: src/classes/reports/group-reports-interface.php:185
+msgid "Sorry, you can't do that."
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:325
+#: src/classes/group-management/group-management-interface.php:198
+#: src/classes/reports/group-assignments.php:763
+#: src/classes/reports/group-essays.php:841
+#: src/classes/reports/group-quiz-report.php:1001
+#: src/classes/reports/group-reports-interface.php:186
+msgid "CSV"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:326
+#: src/classes/group-management/group-management-interface.php:199
+#: src/classes/reports/group-assignments.php:764
+#: src/classes/reports/group-assignments.php:839
+#: src/classes/reports/group-essays.php:842
+#: src/classes/reports/group-essays.php:911
+#: src/classes/reports/group-quiz-report.php:1002
+#: src/classes/reports/group-quiz-report.php:1044
+#: src/classes/reports/group-reports-interface.php:187
+#: src/blocks/src/groups-group-assignments-report/sidebar.js:74
+#: src/blocks/src/groups-group-essays-report/sidebar.js:62
+msgid "CSV export"
+msgstr "Exportar CSV"
+
+#: src/classes/admin/class-admin-page.php:327
+#: src/classes/group-management/group-management-interface.php:200
+#: src/classes/reports/group-assignments.php:765
+#: src/classes/reports/group-essays.php:843
+#: src/classes/reports/group-quiz-report.php:1003
+#: src/classes/reports/group-reports-interface.php:188
+msgid "Excel"
+msgstr ""
+
+#: src/classes/admin/class-admin-page.php:328
+#: src/classes/group-management/group-management-interface.php:201
+#: src/classes/reports/group-assignments.php:766
+#: src/classes/reports/group-essays.php:844
+#: src/classes/reports/group-quiz-report.php:1004
+#: src/classes/reports/group-reports-interface.php:189
+#: src/blocks/src/groups-group-assignments-report/sidebar.js:84
+#: src/blocks/src/groups-group-essays-report/sidebar.js:72
+msgid "Excel export"
+msgstr "Exportar excel"
+
+#: src/classes/admin/class-admin-rest-api.php:64
+#: src/classes/admin/class-admin-rest-api.php:83
+#: src/classes/helpers/rest-api-end-points.php:304
+#: src/classes/helpers/rest-api-end-points.php:323
+msgid "Sorry, you cannot view this resource."
+msgstr ""
+
+#: src/classes/admin/class-admin-rest-api.php:100
+#: src/classes/admin/class-admin-rest-api.php:309
+#: src/classes/helpers/rest-api-end-points.php:346
+#: src/classes/helpers/rest-api-end-points.php:901
+#: src/classes/helpers/rest-api-end-points.php:1018
+#: src/classes/helpers/rest-api-end-points.php:1078
+#: src/classes/helpers/rest-api-end-points.php:1176
+#: src/classes/helpers/rest-api-end-points.php:1255
+#: src/classes/helpers/rest-api-end-points.php:1374
+#: src/classes/helpers/rest-api-end-points.php:1485
+#: src/classes/reports/group-reports-interface.php:407
+#: src/classes/reports/group-reports-interface.php:533
+#: src/includes/class-csv-user-upload.php:77
+msgid "Select an action."
+msgstr ""
+
+#: src/classes/admin/class-admin-rest-api.php:108
+#: src/classes/admin/class-admin-rest-api.php:317
+msgid "You do not have permission to save settings."
+msgstr ""
+
+#: src/classes/admin/class-admin-rest-api.php:290
+msgid "Settings have been saved."
+msgstr ""
+
+#: src/classes/admin/class-admin-rest-api.php:425
+msgid "Email settings have been saved."
+msgstr ""
+
+#: src/classes/admin/class-admin-support.php:29
+msgid "Uncanny Groups for LearnDash Support"
+msgstr ""
+
+#: src/classes/admin/class-admin-support.php:30
+#: src/templates/admin/admin-header.php:61
+msgid "Help"
+msgstr ""
+
+#: src/classes/admin/class-admin-support.php:43
+msgid "Uncanny LearnDash Plugins"
+msgstr ""
+
+#: src/classes/admin/class-admin-support.php:44
+#: src/templates/admin/admin-header.php:66
+msgid "LearnDash plugins"
+msgstr ""
+
+#. translators: Trademarked term
+#: src/classes/admin/install-automator/install-automator.php:124
+msgid "Try %s!"
+msgstr ""
+
+#: src/classes/admin/install-automator/install-automator.php:126
+msgid "New"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:6
+msgid "Take your site to the next level with Uncanny Automator"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:11
+msgid "Finding Uncanny Groups useful for your LearnDash site?"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:13
+msgid "You'll love"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:16
+msgid "Uncanny Automator."
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:19
+msgid "Best of all,"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:22
+msgid "it's free!"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:37
+#: src/classes/admin/install-automator/views/template-install-automator.php:118
+#: src/classes/admin/install-automator/views/template-install-automator.php:181
+msgid "Uncanny Automator"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:39
+#: src/classes/admin/install-automator/views/template-install-automator.php:182
+msgid "By the creators of Uncanny Toolkit"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:64
+msgid "How it works"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:68
+msgid ""
+"Use Uncanny Automator to connect LearnDash and Uncanny Groups to your "
+"favourite plugins and apps"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:68
+msgid "without hiring a developer to write custom code."
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:72
+msgid "Here are a few examples:"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:77
+msgid ""
+"When students complete all courses in a group, send them a certificate by "
+"email."
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:79
+#: src/classes/admin/install-automator/views/template-install-automator.php:88
+#: src/classes/admin/install-automator/views/template-install-automator.php:98
+#: src/classes/admin/install-automator/views/template-install-automator.php:108
+msgid "Requires"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:86
+msgid "When users redeem a group enrollment key, add a tag in ActiveCampaign."
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:96
+msgid ""
+"When a form is submitted with a group ID, add a number of seats to an "
+"Uncanny group."
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:106
+msgid ""
+"When students in a specific group fail a quiz 3 times, notify their Group "
+"Leader."
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:118
+msgid "supports"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:118
+msgid "all of the most popular WordPress plugins"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:118
+msgid ""
+"and we're adding new integrations all the time. The possibilities are "
+"limitless."
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:122
+msgid "Choose any combination of triggers"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:126
+msgid "Users complete a lesson"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:127
+msgid "Users are added to a group"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:128
+msgid "Users fill out a form"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:129
+msgid "Users register for an event"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:130
+msgid "Users buy a product"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:131
+msgid "Users complete a course"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:132
+msgid "Users fail a quiz"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:140
+msgid "...to initiate any combination of actions"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:144
+msgid "Add users to a group"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:145
+msgid "Send an email"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:146
+msgid "Mark a lesson complete"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:147
+msgid "Unlock a new course"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:148
+msgid "Reset course progress"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:149
+msgid "Trigger a Zapier webhook"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:150
+msgid "Add a tag in Infusionsoft"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:171
+msgid ""
+"Build better experiences for your users while saving money on custom "
+"development. And save"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:172
+msgid "your"
+msgstr ""
+
+#: src/classes/admin/install-automator/views/template-install-automator.php:173
+msgid "time by automating routine tasks — all with no code."
+msgstr ""
+
+#: src/classes/admin/licensing/admin-license.php:64
+msgid "Your license is active"
+msgstr ""
+
+#: src/classes/admin/licensing/admin-license.php:66
+msgid "Your license has expired!"
+msgstr ""
+
+#: src/classes/admin/licensing/admin-license.php:69
+#: src/classes/admin/licensing/admin-license.php:140
+#: src/classes/admin/licensing/admin-license.php:167
+msgid "Enter your license key"
+msgstr ""
+
+#: src/classes/admin/licensing/admin-license.php:71
+msgid "Your license is not active"
+msgstr ""
+
+#: src/classes/admin/licensing/admin-license.php:87
+msgctxt ""
+"Your license has expired. Please renew your license to get instant access to "
+"updates and support."
+msgid ""
+"You must renew your license to get access to plugin updates and support. "
+"Click %s to renew your license."
+msgstr ""
+
+#: src/classes/admin/licensing/admin-license.php:95
+#: src/classes/admin/licensing/licensing.php:157
+#: src/classes/admin/licensing/licensing.php:165
+#: src/classes/admin/licensing/licensing.php:232
+#: src/classes/admin/licensing/licensing.php:298
+msgid "here"
+msgstr ""
+
+#: src/classes/admin/licensing/admin-license.php:102
+msgctxt ""
+"Your license has disabled. Please renew your license to get instant access "
+"to updates and support."
+msgid ""
+"Your license is disabled. Please %s to get instant access to updates and "
+"support."
+msgstr ""
+
+#: src/classes/admin/licensing/admin-license.php:108
+msgctxt ""
+"Your license has expired. Please renew your license to get instant access to "
+"updates and support."
+msgid "renew your license"
+msgstr ""
+
+#: src/classes/admin/licensing/admin-license.php:122
+msgid "Please enter a valid license code and click \"Activate now\"."
+msgstr ""
+
+#: src/classes/admin/licensing/admin-license.php:147
+msgid "Lifetime"
+msgstr ""
+
+#: src/classes/admin/licensing/admin-license.php:151
+msgid "Expires"
+msgstr ""
+
+#: src/classes/admin/licensing/admin-license.php:157
+msgid "Activations left: %d of %d"
+msgstr ""
+
+#: src/classes/admin/licensing/admin-license.php:173
+msgid "Expired"
+msgstr ""
+
+#: src/classes/admin/licensing/admin-license.php:189
+#: src/classes/admin/licensing/admin-license.php:241
+msgid "Deactivate license"
+msgstr ""
+
+#: src/classes/admin/licensing/admin-license.php:196
+#: src/classes/admin/licensing/admin-license.php:248
+msgid "Activate now"
+msgstr ""
+
+#: src/classes/admin/licensing/admin-license.php:201
+#: src/classes/admin/licensing/admin-license.php:253
+msgid "Buy license"
+msgstr ""
+
+#: src/classes/admin/licensing/admin-license.php:211
+msgid "Need help?"
+msgstr ""
+
+#: src/classes/admin/licensing/admin-license.php:218
+msgid "Where to get my license key"
+msgstr ""
+
+#: src/classes/admin/licensing/admin-license.php:223
+msgid "Buy a new license"
+msgstr ""
+
+#: src/classes/admin/licensing/admin-license.php:228
+msgid "Knowledge base"
+msgstr ""
+
+#: src/classes/admin/licensing/licensing.php:148
+#: src/classes/admin/licensing/licensing.php:289
+msgctxt ""
+"Your license has expired. Please renew %s license to get instant access to "
+"updates and support."
+msgid "Your license for %s has expired. Click %s to renew."
+msgstr ""
+
+#: src/classes/admin/licensing/licensing.php:162
+#: src/classes/admin/licensing/licensing.php:229
+msgid ""
+"%s your copy of %s to get access to automatic updates and support. Don't "
+"have a license key? Click %s to buy one."
+msgstr ""
+
+#: src/classes/admin/licensing/licensing.php:163
+#: src/classes/admin/licensing/licensing.php:230
+#: src/templates/register-form.php:107
+msgid "Register"
+msgstr ""
+
+#: src/classes/admin/licensing/licensing.php:252
+#: src/templates/admin/admin-header.php:71
+msgid "License activation"
+msgstr ""
+
+#: src/classes/admin/licensing/licensing.php:345
+msgid "Error: Licensed plugin store URL not set."
+msgstr ""
+
+#: src/classes/admin/licensing/licensing.php:349
+msgid "Error: Licensed plugin item name not set"
+msgstr ""
+
+#: src/classes/admin/licensing/licensing.php:373
+msgid "There may be an issue with the configuration of %s."
+msgstr ""
+
+#: src/classes/admin/licensing/licensing.php:478
+#: src/classes/admin/licensing/licensing.php:508
+#: src/classes/admin/licensing/licensing.php:574
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: src/classes/admin/licensing/licensing.php:487
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: src/classes/admin/licensing/licensing.php:492
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: src/classes/admin/licensing/licensing.php:495
+#: src/templates/frontend-uo_groups_buy_courses.php:76
+msgid "Invalid license."
+msgstr ""
+
+#: src/classes/admin/licensing/licensing.php:499
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: src/classes/admin/licensing/licensing.php:502
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: src/classes/admin/licensing/licensing.php:505
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: src/classes/admin/licensing/licensing.php:655
+msgid "License is activated."
+msgstr ""
+
+#: src/classes/admin/migrate-learndash-groups.php:56
+msgid "Upgrade is processing in background!"
+msgstr ""
+
+#. translators: Log action
+#: src/classes/admin/tools/logs/class-actions.php:69
+msgid "Failed to read the contents of: \"%s\". Log file does not exists"
+msgstr ""
+
+#. translators: Log action
+#: src/classes/admin/tools/logs/class-actions.php:90
+msgid "Log file: \"%s\" has been succesfully removed."
+msgstr ""
+
+#. translators: Log action
+#: src/classes/admin/tools/logs/class-actions.php:100
+msgid "Log file: \"%s\" does not exists."
+msgstr ""
+
+#: src/classes/admin/tools/menu/class-register.php:32
+msgid "Tools"
+msgstr ""
+
+#: src/classes/admin/tools/menu/class-register.php:33
+msgid "System status"
+msgstr ""
+
+#: src/classes/admin/tools/menu/class-register.php:42
+#: src/classes/admin/tools/menu/class-register.php:43
+msgid "Logs"
+msgstr ""
+
+#: src/classes/admin/tools/menu/class-register.php:52
+#: src/classes/admin/tools/menu/class-register.php:53
+msgid "Database repair"
+msgstr ""
+
+#: src/classes/admin/tools/system/class-report.php:115
+msgid "cURL installed but unable to retrieve version."
+msgstr ""
+
+#. translators: Comma seperated list of missing tables.
+#: src/classes/admin/tools/system/class-report.php:278
+msgid ""
+"Missing base tables: %s. Some Uncanny Groups functionality may not work as "
+"expected."
+msgstr ""
+
+#: src/classes/admin/tools/system/class-report.php:552
+#: src/classes/admin/tools/views/templates/status.php:586
+msgid "Visit plugin homepage"
+msgstr ""
+
+#. translators: %s: plugin author
+#: src/classes/admin/tools/system/class-report.php:564
+#: src/classes/admin/tools/views/templates/status.php:600
+msgid "by %s"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/db-tools.php:45
+msgid "Database repaired successfully"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/db-tools.php:57
+#: src/classes/admin/tools/views/templates/status.php:417
+msgid "Database"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/db-tools.php:75
+msgid "View does not exist"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/db-tools.php:75
+#: src/classes/admin/tools/views/templates/status.php:475
+msgid "Table does not exist"
+msgstr ""
+
+#. Translators: %1$f: Table size, %2$f: Index size, %3$s Engine.
+#: src/classes/admin/tools/views/templates/db-tools.php:86
+#: src/classes/admin/tools/views/templates/status.php:478
+#: src/classes/admin/tools/views/templates/status.php:492
+msgid "Data: %1$.2fMB + Index: %2$.2fMB + Engine %3$s"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/db-tools.php:107
+msgid "Everything Ok!"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/db-tools.php:126
+#: src/classes/admin/tools/views/templates/db-tools.php:128
+msgid "Repair Uncanny Groups tables"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/header.php:21
+#: src/templates/admin/admin-header.php:84
+msgid "by"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/logs.php:26
+msgid "There are no log files found."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/logs.php:67
+msgid "Delete log"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/logs.php:88
+msgid "Are you sure you want to delete this log?"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:159
+msgid ""
+"Please copy and paste this information in your ticket when contacting "
+"support:"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:163
+msgid "Get system report"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:170
+msgid "Copied!"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:171
+msgid "Copy for support"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:174
+msgid "Copied to clipboard!"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:178
+msgid "Copying to clipboard failed. Please press Ctrl/Cmd+C to copy."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:186
+msgid "WordPress environment"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:191
+#: src/templates/admin/admin-siteinfo.php:165
+msgid "WordPress address (URL)"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:194
+msgid "The root URL of your site."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:198
+msgid "Site address (URL)"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:200
+msgid "The homepage URL of your site."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:204
+msgid "Uncanny Groups version"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:205
+msgid "The version of Uncanny Groups installed on your site."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:210
+msgid "WordPress version"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:211
+msgid "The version of WordPress installed on your site."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:220
+msgid "WordPress multisite"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:221
+msgid "Whether or not you have WordPress Multisite enabled."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:225
+msgid "WordPress memory limit"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:227
+msgid "The maximum amount of memory (RAM) that your site can use at one time."
+msgstr ""
+
+#. Translators: %1$s: Memory limit, %2$s: Docs link.
+#: src/classes/admin/tools/views/templates/status.php:232
+msgid "%1$s - We recommend setting memory to at least 64MB. See: %2$s"
+msgstr ""
+
+#. Translators: %1$s: Memory limit, %2$s: Docs link.
+#: src/classes/admin/tools/views/templates/status.php:232
+msgid "Increasing memory allocated to PHP"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:240
+msgid "WordPress debug mode"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:241
+msgid "Displays whether or not WordPress is in Debug Mode."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:251
+msgid "WordPress cron"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:252
+msgid "Displays whether or not WP Cron Jobs are enabled."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:262
+msgid "Language"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:263
+msgid "The current language used by WordPress. Default = English"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:267
+msgid "External object cache"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:270
+msgid "Displays whether or not WordPress is using an external object cache."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:285
+msgid "Server environment"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:290
+#: src/templates/admin/admin-siteinfo.php:107
+msgid "Server info"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:291
+msgid "Information about the web server that is currently hosting your site."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:295
+msgid "PHP version"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:296
+msgid "The version of PHP installed on your hosting server."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:302
+msgid "How to update your PHP version"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:306
+msgid ""
+"Uncanny Groups will run under this version of PHP, however, some features "
+"such as geolocation are not compatible. Support for this version will be "
+"dropped in the next major release. We recommend using PHP version 7.2 or "
+"above for greater performance and security."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:308
+msgid ""
+"Uncanny Groups will run under this version of PHP, however, it has reached "
+"end of life. We recommend using PHP version 7.2 or above for greater "
+"performance and security."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:310
+msgid ""
+"We recommend using PHP version 7.2 or above for greater performance and "
+"security."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:321
+msgid "PHP post max size"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:324
+msgid "The largest filesize that can be contained in one post."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:328
+msgid "PHP time limit"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:329
+msgid ""
+"The amount of time (in seconds) that your site will spend on a single "
+"operation before timing out (to avoid server lockups)"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:333
+msgid "PHP max input vars"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:336
+msgid ""
+"The maximum number of variables your server can use for a single function to "
+"avoid overloads."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:340
+msgid "cURL version"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:341
+msgid "The version of cURL installed on your server."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:351
+msgid "MySQL version"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:352
+msgid "The version of MySQL installed on your hosting server."
+msgstr ""
+
+#. Translators: %1$s: MySQL version, %2$s: Recommended MySQL version.
+#: src/classes/admin/tools/views/templates/status.php:357
+msgid "%1$s - We recommend a minimum MySQL version of 5.6. See: %2$s"
+msgstr ""
+
+#. Translators: %1$s: MySQL version, %2$s: Recommended MySQL version.
+#: src/classes/admin/tools/views/templates/status.php:357
+msgid "WordPress requirements"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:366
+msgid "Default timezone is UTC"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:369
+msgid "The default timezone for your server."
+msgstr ""
+
+#. Translators: %s: default timezone..
+#: src/classes/admin/tools/views/templates/status.php:374
+msgid "Default timezone is %s - it should be UTC"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:382
+msgid "Webhook post"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:383
+msgid ""
+"Uncanny Groups uses this method of communication when sending webhook "
+"information to another site."
+msgstr ""
+
+#. Translators: %s: function name.
+#: src/classes/admin/tools/views/templates/status.php:390
+#: src/classes/admin/tools/views/templates/status.php:404
+msgid "%s failed. Contact your hosting provider."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:396
+msgid "Webhook get"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:397
+msgid ""
+"Uncanny Groups uses this method of communication when receiving webhook "
+"information from other sites."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:426
+msgid "Uncanny Groups database version"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:429
+msgid "The database version of Uncanny Groups."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:435
+msgid "Database prefix"
+msgstr ""
+
+#. Translators: %1$s: Database prefix, %2$s: Docs link.
+#: src/classes/admin/tools/views/templates/status.php:441
+msgid ""
+"%1$s - We recommend using a prefix with less than 20 characters. See: %2$s"
+msgstr ""
+
+#. Translators: %1$s: Database prefix, %2$s: Docs link.
+#: src/classes/admin/tools/views/templates/status.php:441
+msgid "How to update your database table prefix"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:451
+msgid "Total Database Size"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:457
+msgid "Database Data Size"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:463
+msgid "Database Index Size"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:499
+msgid "Database information:"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:503
+msgid ""
+"Unable to retrieve database information. Usually, this is not a problem, and "
+"it only means that your install is using a class that replaces the WordPress "
+"database class (e.g., HyperDB) and Uncanny Groups is unable to get database "
+"information."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:519
+msgid "Active plugins"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:533
+msgid "Inactive plugins"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:548
+msgid "Dropin Plugins"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:575
+msgid "Must Use Plugins"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:615
+msgid "Theme"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:620
+msgid "Name"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:621
+msgid "The name of the current active theme."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:625
+#: src/templates/admin/admin-siteinfo.php:229
+#: src/templates/admin/admin-siteinfo.php:264
+msgid "Version"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:626
+msgid "The installed version of the current active theme."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:634
+msgid "Author URL"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:635
+msgid "The theme developers URL."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:639
+msgid "Child theme"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:640
+msgid "Displays whether or not the current theme is a child theme."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:651
+msgid "Parent theme name"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:654
+msgid "The name of the parent theme."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:658
+msgid "Parent theme author URL"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:661
+msgid "The parent theme developers URL."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:672
+msgid "Status report information"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:679
+msgid "This section shows information about this status report."
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/status.php:691
+msgid "Generated at"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/tabs.php:35
+#: src/templates/admin/admin-header.php:145
+msgid "Follow us on Facebook"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/tabs.php:41
+#: src/templates/admin/admin-header.php:150
+msgid "Follow us on Twitter"
+msgstr ""
+
+#: src/classes/admin/tools/views/templates/tabs.php:47
+#: src/templates/admin/admin-header.php:155
+msgid "Follow us on LinkedIn"
+msgstr ""
+
+#: src/classes/class-config.php:69
+msgid "Sorry, the code you entered is not valid."
+msgstr ""
+
+#: src/classes/class-config.php:70
+msgid "Sorry, the code you entered has already been redeemed."
+msgstr ""
+
+#: src/classes/class-config.php:71
+msgid "Sorry, the code you entered has already been redeemed maximum times."
+msgstr ""
+
+#: src/classes/class-config.php:72
+msgid "Congratulations, the code you entered has successfully been redeemed."
+msgstr ""
+
+#: src/classes/class-config.php:73
+msgid "Sorry, no more seats are available for this group."
+msgstr ""
+
+#: src/classes/class-setup.php:143
+msgctxt "group page post_title"
+msgid "Group Management"
+msgstr ""
+
+#: src/classes/class-setup.php:157 src/classes/reports/group-essays.php:797
+msgid "Course"
+msgstr ""
+
+#: src/classes/class-setup.php:158
+msgid "Courses"
+msgstr ""
+
+#: src/classes/class-setup.php:159 src/classes/reports/group-essays.php:799
+msgid "Quiz"
+msgstr ""
+
+#: src/classes/class-setup.php:163
+msgctxt "group course report post_title"
+msgid "Group %s Report"
+msgstr ""
+
+#: src/classes/class-setup.php:181
+msgctxt "group quiz report post_title"
+msgid "Group %s Report"
+msgstr ""
+
+#: src/classes/class-setup.php:199
+msgctxt "group assigment report post_title"
+msgid "Group Assignment Report"
+msgstr ""
+
+#: src/classes/class-setup.php:217
+msgctxt "group essay report post_title"
+msgid "Group Essay Report"
+msgstr ""
+
+#: src/classes/class-setup.php:235
+msgctxt "group progress report post_title"
+msgid "Group Progress Report"
+msgstr ""
+
+#: src/classes/class-setup.php:252
+msgctxt "group buy course report post_title"
+msgid "Group Management Buy %s"
+msgstr ""
+
+#: src/classes/class-utilities.php:1101
+msgctxt "Table"
+msgid "Processing..."
+msgstr ""
+
+#: src/classes/class-utilities.php:1102 src/classes/class-utilities.php:1103
+msgctxt "Table"
+msgid "Search"
+msgstr ""
+
+#. translators: %s is a number
+#: src/classes/class-utilities.php:1105
+msgctxt "Table"
+msgid "Show %s entries"
+msgstr "Mostrar %s entradas"
+
+#. translators: Both %1$s and %2$s are numbers
+#: src/classes/class-utilities.php:1107
+msgctxt "Table"
+msgid "Showing page %1$s of %2$s"
+msgstr ""
+
+#: src/classes/class-utilities.php:1108
+msgctxt "Table"
+msgid "Showing 0 to 0 of 0 entries"
+msgstr "Mostrando 0 a 0 de 0 entradas"
+
+#. translators: %s is a number
+#: src/classes/class-utilities.php:1110
+msgctxt "Table"
+msgid "(filtered from %s total entries)"
+msgstr ""
+
+#: src/classes/class-utilities.php:1111
+msgctxt "Table"
+msgid "Loading"
+msgstr ""
+
+#: src/classes/class-utilities.php:1112
+msgctxt "Table"
+msgid "No matching records found"
+msgstr ""
+
+#: src/classes/class-utilities.php:1113
+msgctxt "Table"
+msgid "No data available in table"
+msgstr "No hay datos disponibles en la tabla"
+
+#. translators: Table pagination
+#: src/classes/class-utilities.php:1116
+msgctxt "Table"
+msgid "First"
+msgstr ""
+
+#. translators: Table pagination
+#: src/classes/class-utilities.php:1118
+msgctxt "Table"
+msgid "Previous"
+msgstr ""
+
+#. translators: Table pagination
+#: src/classes/class-utilities.php:1120
+msgctxt "Table"
+msgid "Next"
+msgstr ""
+
+#. translators: Table pagination
+#: src/classes/class-utilities.php:1122
+msgctxt "Table"
+msgid "Last"
+msgstr ""
+
+#: src/classes/class-utilities.php:1124
+msgctxt "Table"
+msgid ": activate to sort column ascending"
+msgstr ""
+
+#: src/classes/class-utilities.php:1125
+msgctxt "Table"
+msgid ": activate to sort column descending"
+msgstr ""
+
+#. translators: Table button
+#: src/classes/class-utilities.php:1128
+msgctxt "Table"
+msgid "CSV export"
+msgstr "Exportar CSV"
+
+#. translators: Table button
+#: src/classes/class-utilities.php:1130
+msgctxt "Table"
+msgid "PDF export"
+msgstr ""
+
+#: src/classes/formidable/class-formidable.php:55
+#: src/includes/gravity-forms/class-uncanny-code-field.php:23
+#: src/includes/wpforms/class-wpforms-code-field.php:24
+msgid "Uncanny Key"
+msgstr ""
+
+#: src/classes/formidable/class-formidable.php:91
+msgid "Please enter valid code."
+msgstr ""
+
+#: src/classes/gravity-forms/gravity-forms-support.php:72
+msgid "Gravity Forms"
+msgstr ""
+
+#: src/classes/gravity-forms/gravity-forms-support.php:131
+#: src/classes/theme-my-login/theme-my-login-support.php:144
+msgid "Settings saved!"
+msgstr ""
+
+#: src/classes/gravity-forms/gravity-forms-support.php:138
+msgid "Gravity Forms registration form"
+msgstr ""
+
+#: src/classes/gravity-forms/gravity-forms-support.php:175
+msgid "Select form"
+msgstr ""
+
+#: src/classes/gravity-forms/gravity-forms-support.php:179
+msgid "Forms"
+msgstr ""
+
+#: src/classes/gravity-forms/gravity-forms-support.php:204
+msgid "Make code field mandatory on user registration form."
+msgstr ""
+
+#: src/classes/gravity-forms/gravity-forms-support.php:215
+msgid "User registration field label:"
+msgstr ""
+
+#: src/classes/gravity-forms/gravity-forms-support.php:225
+msgid "User registration field error message:"
+msgstr ""
+
+#: src/classes/gravity-forms/gravity-forms-support.php:236
+msgid "User registration field placeholder:"
+msgstr ""
+
+#: src/classes/gravity-forms/gravity-forms-support.php:267
+#: src/classes/gravity-forms/gravity-forms-support.php:281
+msgid ""
+"Please Select a Valid Registration Form that has User Registration Feed "
+"enabled."
+msgstr ""
+
+#: src/classes/gravity-forms/gravity-forms-support.php:322
+msgid "Enter enrollment key"
+msgstr ""
+
+#: src/classes/gravity-forms/gravity-forms-support.php:323
+msgid "This field is mandatory"
+msgstr ""
+
+#: src/classes/gravity-forms/gravity-forms-support.php:324
+msgid "Enter code"
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:32
+#: src/classes/group-management/class-group-management-helpers.php:36
+msgid "You are not allowed to add users."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:93
+msgid "There are no available %s left."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:99
+msgid "There were no available %s left."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:127
+#: src/classes/group-management/class-group-management-helpers.php:1347
+#: src/classes/group-management/class-group-management-helpers.php:1352
+msgid "The user could not be added. Please contact the website administrator."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:135
+msgid "The user could not be added. Check user_email."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:173
+msgid ""
+"The key failed to be assigned. Please contact the website administrator."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:179
+#: src/classes/group-management/class-group-management-helpers.php:536
+#: src/classes/group-management/class-group-management-helpers.php:568
+msgid "The key failed to be assigned."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:198
+#: src/classes/group-management/class-group-management-helpers.php:211
+#: src/classes/group-management/class-group-management-helpers.php:601
+#: src/classes/group-management/class-group-management-helpers.php:1418
+#: src/classes/group-management/class-group-management-helpers.php:1430
+#: src/classes/group-management/class-group-management-helpers.php:1491
+#: src/classes/group-management/class-group-management-helpers.php:1502
+msgid "User has been added."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:231
+#: src/classes/group-management/class-group-management-helpers.php:627
+msgid "User has been added. Welcome email FAILED to send."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:238
+msgid "The invitation email could not be sent."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:253
+#: src/classes/group-management/class-group-management-helpers.php:277
+#: src/classes/group-management/class-group-management-helpers.php:659
+msgid "User has been added and welcome email is sent."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:301
+#: src/classes/group-management/class-group-management-helpers.php:326
+#: src/classes/group-management/class-group-management-helpers.php:350
+#: src/classes/group-management/class-group-management-helpers.php:374
+#: src/classes/group-management/class-group-management-helpers.php:499
+msgid "The existing user could not be found."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:314
+#: src/classes/group-management/class-group-management-helpers.php:339
+#: src/classes/group-management/class-group-management-helpers.php:363
+#: src/classes/group-management/class-group-management-helpers.php:387
+#: src/classes/group-management/class-group-management-helpers.php:512
+msgid "A user with the email does not exist."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:404
+#: src/classes/group-management/class-group-management-helpers.php:1267
+msgid "This user is already a member of this group."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:408
+#: src/classes/group-management/class-group-management-helpers.php:1271
+msgid "The user is already a member of this group."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:437
+msgid "There are no codes left."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:442
+#: src/classes/group-management/class-group-management-helpers.php:1306
+msgid "The user was not imported because there were no available %s left."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:469
+msgid "User added to the group successfully but %s was previously redeemed."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:479
+msgid "User has been added but code was already redeemed."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:532
+#: src/classes/group-management/class-group-management-helpers.php:564
+msgid "Code failed."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:591
+#: src/classes/group-management/class-group-management-helpers.php:649
+msgid ""
+"The specified user was already registered on the site and has been "
+"automatically added to this group."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:631
+msgid "User has been added. The invitation email could not be sent."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:822
+msgid "Adding Group Leader failed."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:839
+msgid "This user is already a group leader."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:893
+msgid "Group leader has been added. Welcome email FAILED to send."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:904
+msgid "Group leader has been added and welcome email is sent."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:906
+msgid "Group leader has been added."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:916
+msgid ""
+"Group leader has been added and welcome email is sent. We detected that this "
+"is an existing user so first and last name have not been updated."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:918
+msgid ""
+"Group leader has been added. We detected that this is an existing user so "
+"first and last name have not been updated."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:1237
+msgid "Click here to reset your password."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:1298
+msgid "User has not been added. No %s left."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:1454
+#: src/classes/group-management/class-group-management-helpers.php:1459
+msgid ""
+"The invitation email could not be sent. Please contact the website "
+"administrator."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:1473
+msgid "Enrollment key sent to %s."
+msgstr ""
+
+#: src/classes/group-management/class-group-management-helpers.php:1484
+msgid "Enrollment key sent."
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:196
+msgid "Search..."
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:202
+#: src/classes/group-management/group-management-interface.php:488
+#: src/classes/group-management/group-management-interface.php:492
+#: src/classes/group-management/group-management-interface.php:1190
+#: src/classes/group-management/group-management-interface.php:1264
+#: src/classes/group-management/group-management-interface.php:1323
+#: src/classes/group-management/group-management-interface.php:1366
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:328
+#: src/classes/reports/group-assignments.php:725
+#: src/classes/reports/group-assignments.php:817
+#: src/classes/reports/group-essays.php:790
+#: src/classes/reports/group-essays.php:883
+#: src/classes/reports/group-quiz-report.php:1039
+#: src/classes/theme-my-login/theme-my-login-support.php:235
+#: src/includes/forms/user-registration-form.php:22
+#: src/includes/forms/user-registration-form.php:27
+#: src/templates/admin/admin-custom-groups.php:169
+#: src/templates/frontend-uo_groups/add-users.php:35
+#: src/templates/frontend-uo_groups/add-users.php:78
+#: src/templates/register-form.php:49 src/templates/register-form.php:53
+msgid "First name"
+msgstr "Nombre"
+
+#: src/classes/group-management/group-management-interface.php:203
+#: src/classes/group-management/group-management-interface.php:1194
+#: src/classes/group-management/group-management-interface.php:1268
+#: src/classes/group-management/group-management-interface.php:1330
+#: src/classes/group-management/group-management-interface.php:1373
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:329
+#: src/classes/reports/group-assignments.php:726
+#: src/classes/reports/group-assignments.php:819
+#: src/classes/reports/group-essays.php:791
+#: src/classes/reports/group-essays.php:885
+#: src/classes/reports/group-quiz-report.php:1040
+#: src/classes/theme-my-login/theme-my-login-support.php:245
+#: src/includes/forms/user-registration-form.php:40
+#: src/includes/forms/user-registration-form.php:46
+#: src/templates/admin/admin-custom-groups.php:176
+#: src/templates/frontend-uo_groups/add-users.php:40
+#: src/templates/frontend-uo_groups/add-users.php:81
+#: src/templates/register-form.php:59 src/templates/register-form.php:63
+msgid "Last name"
+msgstr "Apellido"
+
+#: src/classes/group-management/group-management-interface.php:204
+#: src/classes/group-management/group-management-interface.php:1198
+#: src/classes/group-management/group-management-interface.php:1272
+#: src/classes/group-management/group-management-interface.php:1337
+#: src/classes/group-management/group-management-interface.php:1380
+#: src/classes/reports/group-quiz-report.php:1038
+#: src/classes/reports/group-reports-interface.php:127
+#: src/classes/reports/group-reports-interface.php:938
+#: src/classes/reports/group-reports-interface.php:962
+#: src/templates/admin/admin-send-ticket.php:89
+#: src/templates/frontend-uo_groups/add-users.php:45
+#: src/templates/frontend-uo_groups/add-users.php:84
+#: src/templates/frontend-uo_groups/upload-results.php:72
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: src/classes/group-management/group-management-interface.php:534
+msgid "Not enrolled"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:535
+#: src/classes/group-management/group-management-interface.php:969
+#: src/classes/group-management/group-management-interface.php:973
+#: src/classes/helpers/shared-functions.php:127
+msgid "Not Started"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:536
+#: src/classes/group-management/group-management-interface.php:936
+#: src/classes/group-management/group-management-interface.php:941
+#: src/classes/group-management/group-management-interface.php:946
+#: src/classes/group-management/group-management-interface.php:951
+#: src/classes/helpers/shared-functions.php:1060
+msgid "In Progress"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:537
+#: src/classes/group-management/group-management-interface.php:956
+#: src/classes/helpers/shared-functions.php:1058
+#: src/templates/frontend-uo_groups/users-table-actions.php:222
+msgid "Completed"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:668
+msgid "You do not have permission to manage groups."
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:677
+#: src/classes/group-management/group-management-interface.php:695
+msgid "You do not have any groups available to manage."
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:718
+msgid "You do not have access to manage any group."
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:733
+#: src/classes/helpers/rest-api-end-points.php:926
+#: src/classes/helpers/rest-api-end-points.php:1111
+#: src/classes/helpers/rest-api-end-points.php:1200
+#: src/classes/helpers/rest-api-end-points.php:1298
+#: src/classes/helpers/rest-api-end-points.php:1401
+#: src/classes/helpers/rest-api-end-points.php:1510
+#: src/classes/helpers/rest-api-end-points.php:1711
+#: src/classes/reports/group-reports-interface.php:452
+#: src/includes/class-csv-user-upload.php:133
+#: src/templates/frontend-uo_groups_buy_courses.php:37
+#: src/templates/frontend-uo_groups_buy_courses.php:60
+msgid "You do not have permission to manage this group."
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:978
+msgid "N/A"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1018
+msgid "Not Enrolled"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1168
+msgid "User"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1170
+#: src/classes/group-management/group-management-interface.php:1211
+msgid "Users"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1172
+msgctxt ""
+"%1$s is a number, %2$s is the singular \"seat\" label, %3$s is the plural "
+"\"seats\" label"
+msgid "%1$s Total %2$s"
+msgid_plural "%1$s Total %3$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/classes/group-management/group-management-interface.php:1173
+msgctxt ""
+"%1$s is a number, %2$s is the singular \"seat\" label, %3$s is the plural "
+"\"seats\" label"
+msgid "%1$s %2$s remaining"
+msgid_plural "%1$s %3$s remaining"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/classes/group-management/group-management-interface.php:1174
+msgctxt ""
+"%1$s is a number, %2$s is the singular \"seat\" label, %3$s is the plural "
+"\"seats\" label"
+msgid "%1$s %2$s available"
+msgid_plural "%1$s %3$s available"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/classes/group-management/group-management-interface.php:1175
+msgctxt ""
+"%1$s is a number, %2$s is the singular \"user\" label, %3$s is the plural "
+"\"users\" label"
+msgid "%1$s %2$s"
+msgid_plural "%1$s %3$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/classes/group-management/group-management-interface.php:1178
+#: src/classes/reports/learndash-progress-report.php:1789
+msgid "Select Group ID"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1186
+#: src/templates/frontend-uo_groups/users-table-actions.php:133
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:257
+msgid "Enrolled users"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1202
+#: src/classes/group-management/group-management-interface.php:1343
+#: src/classes/reports/group-assignments.php:266
+#: src/classes/reports/group-assignments.php:728
+#: src/classes/reports/group-assignments.php:823
+#: src/classes/reports/group-assignments.php:1380
+#: src/classes/reports/group-essays.php:282
+#: src/classes/reports/group-essays.php:793
+#: src/classes/reports/group-essays.php:889
+#: src/templates/frontend-uo_groups/upload-results.php:77
+#: src/blocks/src/groups-group-assignments-report/sidebar.js:57
+msgid "Status"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1206
+#: src/classes/group-management/group-management-interface.php:1349
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:331
+msgid "Key"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1212
+msgid "Upload users"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1213
+msgid "Email users"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1214
+msgid "Manage progress"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1215
+msgctxt "%1$s is a number, %2$s is the \"seats\" label"
+msgid "You have %1$s %2$s remaining"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1217
+msgid "Add and invite users"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1218
+msgid "Add and invite user"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1220
+#: src/templates/frontend-uo_groups/users-table-actions.php:772
+msgid "Add users"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1221
+#: src/templates/frontend-uo_groups/users-table-actions.php:511
+msgid "Add user"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1224
+msgid "Add existing user"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1225
+msgid "Send enrollment keys"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1226
+msgid "Suppress email (keys to be manually distributed)"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1229
+#: src/classes/group-management/group-management-interface.php:1235
+#: src/classes/learndash/class-learndash-modifications.php:38
+msgid "%s"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1232
+msgid "Progress"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1238
+msgid "Assignments"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1240
+msgid "Essays"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1245
+msgid "Add seats"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1248
+msgid "Add %s"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1250
+msgid "Administration"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1251
+msgid "Remove user(s)"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1252
+msgid "Resend invitation"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1253
+msgid "Copy key"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1256
+#: src/templates/frontend-uo_groups/groups-table-actions.php:3
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:320
+msgid "Group leaders"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1259
+#: src/classes/group-management/group-management-interface.php:1277
+#: src/templates/frontend-uo_groups/groups-table-actions.php:79
+msgid "Add group leader"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1260
+msgid "Remove group leader(s)"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1280
+msgid "Error: File API is not supported. Update your browser."
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1281
+msgid "Please select a CSV (.csv) file."
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1282
+msgid "CSV File Error"
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1283
+msgid ""
+"An incompatible format was detected. Please see the KB for supported .csv "
+"formats."
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1284
+#: src/includes/class-csv-user-upload.php:181
+msgid ""
+"The first row of the CSV file must contain the column header user_email."
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1285
+#: src/includes/class-csv-user-upload.php:188
+msgid ""
+"The first row of the CSV file must contain the column header first_name."
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1286
+#: src/includes/class-csv-user-upload.php:195
+msgid "The first row of the CSV file must contain the column header last_name."
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1287
+msgid "Each row in the CSV must contain a user_email value."
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1288
+msgid "Please choose a file to upload."
+msgstr ""
+
+#: src/classes/group-management/group-management-interface.php:1309
+msgid "Search by name, email, status or key"
+msgstr ""
+
+#: src/classes/group-management/group-management-registration.php:145
+#: src/classes/theme-my-login/theme-my-login-support.php:292
+#: src/classes/theme-my-login/theme-my-login-support.php:303
+#: src/classes/theme-my-login/theme-my-login-support.php:305
+#: src/classes/theme-my-login/theme-my-login-support.php:312
+msgid "Error"
+msgstr ""
+
+#: src/classes/group-management/group-management-registration.php:177
+msgid "Username already taken"
+msgstr ""
+
+#: src/classes/group-management/group-management-registration.php:185
+msgid "Please enter a username"
+msgstr ""
+
+#: src/classes/group-management/group-management-registration.php:189
+msgid "Invalid email"
+msgstr ""
+
+#: src/classes/group-management/group-management-registration.php:193
+msgid "Email already registered"
+msgstr ""
+
+#: src/classes/group-management/group-management-registration.php:197
+msgid "Please enter a password"
+msgstr ""
+
+#: src/classes/group-management/group-management-registration.php:201
+msgid "Passwords do not match"
+msgstr ""
+
+#: src/classes/group-management/group-management-registration.php:205
+msgid "Registration code is empty"
+msgstr ""
+
+#: src/classes/group-management/group-management-registration.php:262
+msgid "Unable to create user. Please contact site admin."
+msgstr ""
+
+#: src/classes/group-management/management-group-multi-add-users.php:60
+msgid "Line #%1$d: %2$s is existing user of group."
+msgstr ""
+
+#: src/classes/group-management/management-group-multi-add-users.php:93
+msgid "Line #%d: Password must include at least 6 characters."
+msgstr ""
+
+#: src/classes/group-management/management-group-multi-add-users.php:105
+msgid "%1$s could not be added. Error: %2$s."
+msgstr ""
+
+#: src/classes/group-management/management-group-multi-add-users.php:109
+msgid "%s added & invited successfully."
+msgstr ""
+
+#: src/classes/group-management/management-group-multi-add-users.php:111
+msgid "Line #%1$d: Email (%2$s) not correct."
+msgstr ""
+
+#: src/classes/group-management/management-group-multi-add-users.php:115
+msgid "Line #%d: Email field is empty."
+msgstr ""
+
+#: src/classes/handlers/class-group-management-db-handler.php:874
+#: src/classes/handlers/class-group-management-db-handler.php:995
+msgid ""
+"Sorry, this groups order status is: %s. Please contact your group leader or "
+"site administrator to resolve this issue."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:353
+#: src/classes/reports/group-reports-interface.php:414
+#: src/classes/reports/group-reports-interface.php:541
+#: src/includes/class-csv-user-upload.php:90
+msgid "You do not have permission to add users."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:483
+#: src/classes/helpers/rest-api-end-points.php:553
+msgid "CSV uploaded and executed successfully."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:590
+msgid "Error: You are not allowed to send emails."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:599
+msgid "Error: Invalid group."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:608
+msgid "Error: No status selected."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:617
+msgid "Error: No courses selected."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:627
+msgid "Error: Email subject required."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:636
+msgid "Error: Email message required."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:649
+msgid "Error: Please refresh page and try again."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:659
+msgid "Error: You are not the Group Leader of this group."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:689
+msgid "No status selected."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:737
+#: src/classes/helpers/rest-api-end-points.php:806
+msgid "No users in group."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:815
+msgid ""
+"Mail args empty. Unexpected condition from filter: ld_group_email_users_args."
+msgstr ""
+
+#. translators: Email errors
+#: src/classes/helpers/rest-api-end-points.php:869
+msgid ""
+"Error: Email(s) to %s not sent. Please try again or check with your hosting "
+"provider."
+msgstr ""
+
+#. translators: Number of successful emails sent
+#: src/classes/helpers/rest-api-end-points.php:877
+msgid "Success: Email sent to %d group users."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:908
+msgid "You do not have permission to remove users."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:917
+#: src/classes/helpers/rest-api-end-points.php:1102
+#: src/classes/helpers/rest-api-end-points.php:1391
+#: src/classes/helpers/rest-api-end-points.php:1501
+#: src/classes/helpers/rest-api-end-points.php:1701
+#: src/classes/reports/group-reports-interface.php:425
+#: src/includes/class-csv-user-upload.php:122
+msgid "Group ID must be a whole number."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:934
+#: src/classes/helpers/rest-api-end-points.php:1151
+#: src/classes/helpers/rest-api-end-points.php:1385
+#: src/classes/helpers/rest-api-end-points.php:1518
+#: src/classes/helpers/rest-api-end-points.php:1719
+#: src/classes/reports/group-reports-interface.php:460
+#: src/includes/class-csv-user-upload.php:142
+msgid "Group ID was not received. Reload page and try again."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:983
+msgid "User is removed."
+msgid_plural "Users have been removed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/classes/helpers/rest-api-end-points.php:994
+#: src/classes/helpers/rest-api-end-points.php:1407
+#: src/classes/helpers/rest-api-end-points.php:1677
+msgid "Users where not received."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:1025
+msgid "You do not have permission to add group leaders."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:1085
+msgid "You do not have permission to remove groups leaders."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:1092
+msgid "You must select at least one group leader to remove."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:1142
+msgid "Group leader is removed."
+msgid_plural "Group leaders are removed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/classes/helpers/rest-api-end-points.php:1191
+msgid "You do not have permission to download csv keys."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:1260
+#: src/classes/helpers/rest-api-end-points.php:1276
+msgid "Select a user."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:1289
+msgid "You do not have permission to send password reset email."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:1327
+msgid "There is some problem please try again later."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:1331
+msgid "Someone has requested a password reset for the following account:"
+msgstr ""
+
+#. translators: %s: site name
+#: src/classes/helpers/rest-api-end-points.php:1333
+msgid "Site Name: %s"
+msgstr ""
+
+#. translators: %s: user login
+#: src/classes/helpers/rest-api-end-points.php:1335
+msgid "Username: %s"
+msgstr "Usuario: %s"
+
+#: src/classes/helpers/rest-api-end-points.php:1336
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:1337
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#. translators: Password reset notification email subject. %s: Site title
+#: src/classes/helpers/rest-api-end-points.php:1341
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:1347
+msgid ""
+"The email could not be sent. Possible reason: your host may have disabled "
+"the mail() function."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:1353
+msgid "Password reset email sent to %d group users."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:1381
+msgid "You do not have permission to modify users."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:1533
+#: src/classes/helpers/rest-api-end-points.php:1730
+msgid "First name can only contain letters, numbers, spaces, and hyphens."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:1539
+#: src/classes/helpers/rest-api-end-points.php:1736
+msgid "First name not received. Reload page and try again."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:1548
+#: src/classes/helpers/rest-api-end-points.php:1747
+msgid ""
+"Last name can only contain letters, numbers, spaces, commas, apostrophes and "
+"hyphens."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:1554
+#: src/classes/helpers/rest-api-end-points.php:1753
+msgid "Last name not received. Reload page and try again."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:1562
+#: src/classes/helpers/rest-api-end-points.php:1762
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:1571
+msgid "Email already in use."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:1577
+#: src/classes/helpers/rest-api-end-points.php:1771
+msgid "Email not received. Reload page and try again."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:1586
+msgid "Please enter a valid username."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:1595
+msgid "Username already in use."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:1601
+msgid "Username not received. Reload page and try again."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:1673
+msgid "User has been updated."
+msgstr ""
+
+#: src/classes/helpers/rest-api-end-points.php:1781
+msgid "Passwords must include at least 6 characters."
+msgstr ""
+
+#: src/classes/helpers/shared-variables.php:57
+msgid "You have been invited to join #SiteUrl"
+msgstr ""
+
+#: src/classes/helpers/shared-variables.php:73
+msgid ""
+"You have been invited to join #SiteUrl! To accept your invitation, click the "
+"link below:\n"
+"[Insert registration page link here]\n"
+"\n"
+"Enter the following code on the registration form to activate your account:\n"
+"#RedemptionKey\n"
+"\n"
+"Enjoy, and welcome to the site!"
+msgstr ""
+
+#: src/classes/helpers/shared-variables.php:91
+msgid "You have been added to #SiteUrl"
+msgstr ""
+
+#: src/classes/helpers/shared-variables.php:119
+msgid ""
+"Hi #FirstName,\n"
+"\n"
+"You have been added to #SiteUrl.\n"
+"\n"
+"Your login credentials are:\n"
+"Login: #Username\n"
+"Password: #Password\n"
+"\n"
+"To log in, click the link below:\n"
+"#LoginUrl\n"
+"\n"
+" Thanks!"
+msgstr ""
+
+#: src/classes/helpers/shared-variables.php:147
+msgid "You have been added to a new group on #SiteUrl"
+msgstr ""
+
+#: src/classes/helpers/shared-variables.php:175
+msgid ""
+"Hi #FirstName,\n"
+"\n"
+"You have been added to a new group on #SiteUrl!\n"
+"\n"
+"To access your new %s, log in here:\n"
+"#LoginUrl\n"
+"\n"
+"Thanks!"
+msgstr ""
+
+#: src/classes/helpers/shared-variables.php:201
+msgid "You have been added as a group leader on #SiteUrl"
+msgstr ""
+
+#: src/classes/helpers/shared-variables.php:217
+msgid ""
+"Hi #FirstName,\n"
+"\n"
+"You have been added as a group leader on #SiteUrl.\n"
+"\n"
+"Your login credentials are:\n"
+"Login: #Username\n"
+"Password: #Password\n"
+"\n"
+"To log in, click the link below:\n"
+"#LoginUrl"
+msgstr ""
+
+#: src/classes/helpers/shared-variables.php:234
+msgid "You have been promoted to group leader on #SiteUrl"
+msgstr ""
+
+#: src/classes/helpers/shared-variables.php:250
+msgid ""
+"Hi #FirstName,\n"
+"\n"
+"You have been promoted to leader of a group on #SiteUrl.\n"
+"\n"
+"Your login credentials are:\n"
+"Login: #Username\n"
+"Password: #Password\n"
+"\n"
+"To log in, click the link below:\n"
+"#LoginUrl"
+msgstr ""
+
+#: src/classes/helpers/shared-variables.php:266
+msgid "New group created"
+msgstr ""
+
+#: src/classes/helpers/shared-variables.php:282
+msgid ""
+"Hi #FirstName,\n"
+"\n"
+"Thank you for your purchase!  Your new group, #GroupName, was created "
+"successfully.\n"
+"\n"
+"Visit #LoginUrl to manage your new group."
+msgstr ""
+
+#: src/classes/learndash/class-learndash-modifications.php:90
+#: src/templates/frontend-uo_groups/users-table-actions.php:356
+msgid "Download keys"
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:44
+msgid "Uncanny Group Management"
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:58
+msgid "Uncanny Group Management - Invited user(s)"
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:67
+msgid "Uncanny Group Management - WooCommerce orders"
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:103
+msgid ""
+"This child %1$s is pooling seats from the parent %1$s. Reconcile seat count "
+"and seat change functionality are unavailable due to the %1$s hierarchy and "
+"pooled seats settings."
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:112
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:138
+msgid "Click for help!"
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:116
+#: src/templates/admin/admin-custom-groups.php:73
+msgid "Total seats"
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:129
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:187
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:259
+msgid ""
+"Total number of seats available to the group administrator for dispersion."
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:142
+msgid "Remaining seats"
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:155
+msgid ""
+"Total number of seats remaining to the group administrator for dispersion."
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:178
+msgid "Reconcile seat count"
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:182
+msgid "Refresh"
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:194
+msgid ""
+"This will assign a %1$s to every member of the group that is not currently "
+"assigned a %2$s and restore missing %3$s. Continue?"
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:209
+msgid "Confirmation"
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:254
+msgid "Upgrade group"
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:265
+msgid ""
+"Clicking this button will enable seat management for this group and enable "
+"front end management using Uncanny Groups for LearnDash. To bulk upgrade all "
+"groups, use the button near the bottom of Uncanny Groups >"
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:330
+msgid "User email"
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:355
+msgid ""
+"A %s has been reserved for the users listed above, who have been sent an "
+"enrollment key but have not yet created an account."
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:380
+msgid "This group was downgraded on"
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:389
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:394
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:402
+msgid "No orders found."
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:408
+msgid ""
+"Warning: This action cannot be reversed.\\r\\nDowngrading this group will "
+"mean the Group Leader can no longer add seats or courses; the related order "
+"will also be unlinked. Other group management functionality will not be "
+"affected."
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:414
+msgid "Main order"
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:417
+msgid "Group license"
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:432
+msgid "Additional group order(s):"
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:447
+msgctxt "LearnDash courses"
+msgid "Additional %s(s) purchased."
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:453
+#: src/classes/woocommerce/woocommerce-modify-group.php:370
+msgctxt "Group seats count and per seat label"
+msgid "Additional %1$s %2$s purchased."
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:471
+msgid "Other orders with the same license:"
+msgstr ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:496
+msgid "%d additional order"
+msgid_plural "%d other orders."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/classes/learndash/learndash-groups-post-edit-additions.php:1078
+msgid ""
+"Your group does not have enough seats to accommodate all users in the group "
+"hierarchy. Please add more seats and try again."
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:112
+#: src/classes/reports/group-essays.php:112
+#: src/classes/reports/group-quiz-report.php:246
+#: src/classes/reports/group-reports-interface.php:919
+#: src/classes/reports/learndash-progress-report.php:1751
+msgid "Back to Group Management"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:153
+#: src/classes/reports/group-essays.php:149
+#: src/classes/reports/group-quiz-report.php:261
+#: src/classes/reports/group-reports-interface.php:235
+msgid "Please log in to view the report."
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:171
+#: src/classes/reports/group-essays.php:167
+#: src/classes/reports/group-quiz-report.php:279
+#: src/classes/reports/group-reports-interface.php:248
+#: src/classes/reports/learndash-progress-report.php:431
+msgid "You must be a admin or group leader to access this page."
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:182
+#: src/classes/reports/group-assignments.php:733
+#: src/classes/reports/group-assignments.php:837
+#: src/classes/reports/group-essays.php:87
+#: src/classes/reports/group-essays.php:184
+#: src/classes/reports/group-essays.php:801
+#: src/classes/reports/group-essays.php:909
+#: src/classes/reports/group-quiz-report.php:140
+#: src/classes/reports/group-quiz-report.php:296
+#: src/classes/reports/group-quiz-report.php:1043
+msgid "Date"
+msgstr "Fecha"
+
+#: src/classes/reports/group-assignments.php:234
+#: src/classes/reports/group-essays.php:238
+#: src/classes/reports/group-quiz-report.php:355
+#: src/classes/woocommerce/woocommerce-learndash-groups.php:181
+#: src/classes/woocommerce/woocommerce-license.php:1201
+#: src/templates/frontend-uo_groups/page-heading.php:30
+#: src/templates/frontend-uo_groups/page-heading.php:56
+#: src/templates/frontend-uo_groups_buy_courses.php:156
+#: src/templates/frontend-uo_groups_course_report.php:180
+msgid "Group"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:248
+#: src/classes/reports/group-essays.php:252
+msgid "No %s found."
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:255
+#: src/classes/reports/group-essays.php:259
+msgctxt "LearnDash lesson and topic labels"
+msgid "%1$s / %2$s"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:260
+msgctxt "No Lessons found"
+msgid "No %s found."
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:278
+#: src/classes/reports/group-assignments.php:1038
+#: src/classes/reports/group-assignments.php:1387
+msgid "Approved"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:283
+msgid "Not approved"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:487
+#: src/classes/reports/group-essays.php:429
+#: src/classes/reports/group-quiz-report.php:501
+#: src/templates/frontend-uo_groups_course_report.php:39
+msgid "You are not a leader of any groups."
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:505
+#: src/classes/reports/group-assignments.php:533
+#: src/classes/reports/group-essays.php:486
+#: src/templates/frontend-uo_groups_course_report.php:65
+msgid "Select Group"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:540
+#: src/classes/reports/group-quiz-report.php:529
+#: src/classes/reports/group-quiz-report.php:571
+#: src/templates/frontend-uo_groups_course_report.php:87
+msgid "No Groups"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:550
+#: src/classes/reports/group-assignments.php:841
+#: src/classes/reports/group-assignments.php:857
+#: src/classes/reports/group-essays.php:504
+#: src/classes/reports/group-essays.php:672
+#: src/classes/reports/group-essays.php:913
+#: src/classes/reports/group-essays.php:923
+#: src/classes/reports/group-quiz-report.php:1045
+#: src/classes/reports/group-quiz-report.php:1050
+#: src/classes/reports/group-reports-interface.php:930
+#: src/classes/woocommerce/woocommerce-courses.php:276
+#: src/templates/frontend-uo_groups_course_report.php:66
+msgid "Select %s"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:558
+#: src/classes/reports/group-assignments.php:586
+#: src/classes/reports/group-assignments.php:590
+#: src/classes/reports/group-essays.php:512
+#: src/classes/reports/group-essays.php:541
+#: src/classes/reports/group-essays.php:545
+#: src/classes/reports/group-essays.php:573
+#: src/classes/reports/group-essays.php:577
+msgid "No %s in group"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:619
+#: src/classes/reports/group-essays.php:606
+msgctxt "LearnDash lesson and topic labels"
+msgid "Select %1$s / %2$s"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:724
+#: src/classes/reports/group-assignments.php:815
+#: src/classes/reports/group-essays.php:789
+#: src/classes/reports/group-essays.php:879
+msgid "Title"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:727
+#: src/classes/reports/group-assignments.php:821
+#: src/classes/reports/group-essays.php:792
+#: src/classes/reports/group-essays.php:887
+#: src/classes/reports/group-quiz-report.php:1037
+#: src/classes/reports/group-reports-interface.php:124
+#: src/classes/reports/group-reports-interface.php:935
+#: src/classes/reports/group-reports-interface.php:959
+#: src/templates/register-form.php:71 src/templates/register-form.php:74
+msgid "Username"
+msgstr "Usuario"
+
+#: src/classes/reports/group-assignments.php:729
+#: src/classes/reports/group-assignments.php:825
+#: src/classes/reports/group-assignments.php:1399
+#: src/classes/reports/group-essays.php:794
+#: src/classes/reports/group-essays.php:895
+msgid "Points"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:730
+msgid "Assigned course"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:731
+msgid "Assigned lesson"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:732
+#: src/classes/reports/group-assignments.php:835
+#: src/classes/reports/group-essays.php:800
+#: src/classes/reports/group-essays.php:903
+msgid "Comments"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:767
+msgid "Assignment report"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:768
+#: src/classes/reports/group-assignments.php:1041
+#: src/classes/reports/group-assignments.php:1390
+msgid "Not Approved"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:827
+#: src/classes/reports/group-assignments.php:829
+msgid "Assigned %s"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:831
+#: src/classes/reports/group-essays.php:891
+#: src/classes/reports/group-quiz-report.php:1051
+#: src/classes/reports/group-reports-interface.php:932
+msgid "Customize columns"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:833
+#: src/classes/reports/group-essays.php:893
+#: src/classes/reports/group-quiz-report.php:1052
+#: src/classes/reports/group-reports-interface.php:933
+msgid "Hide customize columns"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:843
+#: src/classes/reports/group-assignments.php:855
+msgid "Approve assignments"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:845
+msgid "Delete assignments"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:847
+#: src/classes/reports/group-essays.php:915
+#: src/classes/reports/group-quiz-report.php:1046
+msgid "No %s available"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:849
+#: src/classes/reports/group-essays.php:917
+#: src/classes/reports/group-quiz-report.php:1047
+msgid "Select user"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:851
+#: src/classes/reports/group-essays.php:919
+#: src/classes/reports/group-quiz-report.php:1048
+msgid "No users available"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:861
+#: src/classes/reports/group-essays.php:932
+msgid "Search by name, username, status or points"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:1048
+#: src/classes/reports/group-assignments.php:1430
+msgid "Approve"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:1081
+msgctxt "placeholders: current points / maximum point for assignment"
+msgid "%1$s / %2$s"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:1084
+msgid "Not Enabled"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:1088
+msgid "Trash"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:1091
+#: src/classes/reports/group-assignments.php:1274
+#: src/classes/reports/group-essays.php:1188
+msgid "Download"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:1096
+msgid "View"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:1253
+msgid "Assignment Title"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:1268
+msgid "Actions"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:1285
+msgid "Author"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:1298
+msgctxt "Associated Course Label"
+msgid "Associated %s"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:1306
+msgctxt "Select a Course Label"
+msgid "-- Select a %s --"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:1347
+msgctxt "Associated Lesson Label"
+msgid "Associated %s"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:1355
+msgctxt "Select a Lesson Label"
+msgid "-- Select a %s --"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:1412
+msgid "Awarded Points (Out of %d):"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:1425
+msgid "Update"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:1425
+msgid "Update & Approve"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:1428
+msgid "Points not enabled"
+msgstr ""
+
+#: src/classes/reports/group-assignments.php:1461
+#: src/classes/reports/group-essays.php:1682
+msgid "Your changes have been saved."
+msgstr ""
+
+#: src/classes/reports/group-essays.php:247
+#: src/classes/woocommerce/woocommerce-courses.php:218
+msgctxt "Courses"
+msgid "%s"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:264
+msgctxt "No lessons found."
+msgid "No %s found."
+msgstr ""
+
+#: src/classes/reports/group-essays.php:276
+msgctxt "No quizzes found"
+msgid "No %s found."
+msgstr ""
+
+#: src/classes/reports/group-essays.php:294
+#: src/classes/reports/group-essays.php:1429
+msgid "Graded"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:299
+#: src/classes/reports/group-essays.php:846
+msgid "Ungraded"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:310
+msgid "Approve Essays"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:312
+msgid "Delete Essays"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:447
+msgid "Select group"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:447
+#: src/classes/reports/group-essays.php:504
+#: src/classes/reports/group-essays.php:520
+#: src/classes/reports/group-essays.php:553
+#: src/classes/reports/group-essays.php:925
+#: src/classes/reports/group-essays.php:926
+#: src/classes/reports/group-essays.php:927
+#: src/classes/reports/group-essays.php:928
+msgid "No %s found"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:493
+msgid "No groups"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:795
+msgid "Question"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:796
+#: src/classes/reports/group-essays.php:907
+msgid "Content"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:798
+msgid "Lesson"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:845
+msgid "Essay report"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:881
+msgid "ID"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:1129
+msgid "approve"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:1170
+msgctxt "placeholders: input points / maximum point for essay"
+msgid "%1$s / %2$d"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:1172
+msgctxt "placeholders: current awarded points / maximum point for essay"
+msgid "%1$d / %2$d"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:1189
+#: src/classes/reports/group-essays.php:1376
+msgid "User Upload"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:1392
+msgid "Essay Title"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:1399
+msgid "Essay Question"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:1420
+msgid "Approval Status"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:1427
+msgid "Not Graded"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:1441
+msgid "Points available"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:1447
+msgid "Points awarded"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:1462
+msgid "We could not find the essay question for this response"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:1486
+#: src/classes/reports/group-essays.php:1513
+msgctxt "Essay Quiz"
+msgid "Essay %s"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:1490
+msgctxt "No Quiz"
+msgid "No %s"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:1527
+msgctxt "Essay Course"
+msgid "Essay %s"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:1541
+msgctxt "Essay Lesson"
+msgid "Essay %s"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:1563
+msgid "Submitted on"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:1574
+msgid "Save"
+msgstr ""
+
+#: src/classes/reports/group-essays.php:1603
+msgid "Essay has been removed."
+msgstr ""
+
+#: src/classes/reports/group-quiz-report.php:240
+msgid "%s Score"
+msgstr "%s Puntaje"
+
+#: src/classes/reports/group-quiz-report.php:241
+msgid "Answers"
+msgstr ""
+
+#: src/classes/reports/group-quiz-report.php:365
+#: src/classes/woocommerce/woocommerce-courses.php:240
+msgctxt "Course"
+msgid "%s"
+msgstr ""
+
+#. translators: 1. Custom LearnDash label for "Group"
+#: src/classes/reports/group-quiz-report.php:578
+msgctxt "Group"
+msgid "Select a %1$s"
+msgstr ""
+
+#: src/classes/reports/group-quiz-report.php:582
+#: src/classes/reports/group-quiz-report.php:599
+#: src/classes/reports/group-quiz-report.php:1006
+msgid "No results"
+msgstr ""
+
+#: src/classes/reports/group-quiz-report.php:791
+msgid "invalid %s id supplied"
+msgstr ""
+
+#: src/classes/reports/group-quiz-report.php:802
+#: src/classes/reports/group-quiz-report.php:1149
+#: src/classes/reports/group-quiz-report.php:1161
+#: src/classes/reports/group-quiz-report.php:1201
+#: src/classes/reports/group-quiz-report.php:1213
+msgid "invalid group id supplied"
+msgstr ""
+
+#: src/classes/reports/group-quiz-report.php:876
+#: src/templates/admin/admin-bulk-discounts.php:83
+msgid "%"
+msgstr ""
+
+#: src/classes/reports/group-quiz-report.php:894
+#: src/classes/reports/group-quiz-report.php:920
+msgid "No stats recorded"
+msgstr ""
+
+#. translators: 1. Course label
+#: src/classes/reports/group-quiz-report.php:1008
+msgctxt "Course"
+msgid "Select a %1$s"
+msgstr ""
+
+#. translators: 1. Quiz label
+#: src/classes/reports/group-quiz-report.php:1010
+msgctxt "Quiz"
+msgid "Select a %1$s"
+msgstr ""
+
+#: src/classes/reports/group-quiz-report.php:1041
+msgctxt "Quiz score"
+msgid "%s score"
+msgstr "%s Puntaje"
+
+#: src/classes/reports/group-quiz-report.php:1042
+msgid "Detailed report"
+msgstr "Reporte detallado"
+
+#: src/classes/reports/group-quiz-report.php:1056
+msgid "Search by username, name, email, date or score"
+msgstr "Buscar pot usuario, nombre, correo"
+
+#: src/classes/reports/group-quiz-report.php:1225
+#: src/classes/reports/group-quiz-report.php:1237
+msgid "invalid course id supplied"
+msgstr ""
+
+#: src/classes/reports/group-reports-interface.php:125
+#: src/classes/reports/group-reports-interface.php:936
+#: src/classes/reports/group-reports-interface.php:960
+msgid "First Name"
+msgstr "Nombre"
+
+#: src/classes/reports/group-reports-interface.php:126
+#: src/classes/reports/group-reports-interface.php:937
+#: src/classes/reports/group-reports-interface.php:961
+msgid "Last Name"
+msgstr "Apellido"
+
+#: src/classes/reports/group-reports-interface.php:128
+#: src/classes/reports/group-reports-interface.php:939
+#: src/classes/reports/group-reports-interface.php:963
+msgid "% Complete"
+msgstr ""
+
+#: src/classes/reports/group-reports-interface.php:129
+#: src/classes/reports/group-reports-interface.php:257
+#: src/classes/reports/group-reports-interface.php:940
+#: src/classes/reports/group-reports-interface.php:964
+msgid "Date Completed"
+msgstr ""
+
+#: src/classes/reports/group-reports-interface.php:130
+#: src/classes/reports/group-reports-interface.php:941
+#: src/classes/reports/group-reports-interface.php:965
+msgid "Date Enrolled"
+msgstr ""
+
+#: src/classes/reports/group-reports-interface.php:131
+#: src/classes/reports/group-reports-interface.php:942
+#: src/classes/reports/group-reports-interface.php:966
+msgctxt "LearnDash: Course Name"
+msgid "%s Name"
+msgstr ""
+
+#: src/classes/reports/group-reports-interface.php:132
+#: src/classes/reports/group-reports-interface.php:943
+#: src/classes/reports/group-reports-interface.php:967
+msgctxt "LearnDash: Group Name"
+msgid "%s Name"
+msgstr ""
+
+#: src/classes/reports/group-reports-interface.php:133
+#: src/classes/reports/group-reports-interface.php:944
+#: src/classes/reports/group-reports-interface.php:968
+msgid "Transcript"
+msgstr ""
+
+#: src/classes/reports/group-reports-interface.php:471
+msgid "This group does not have any %s"
+msgstr ""
+
+#: src/classes/reports/group-reports-interface.php:551
+msgid "%s ID must be a whole number."
+msgstr ""
+
+#: src/classes/reports/group-reports-interface.php:563
+msgid "This course is not part of this group."
+msgstr ""
+
+#: src/classes/reports/group-reports-interface.php:574
+msgid "User ID was not received. Reload page and try again."
+msgstr ""
+
+#: src/classes/reports/group-reports-interface.php:586
+msgid "This %s is not part of this group."
+msgstr ""
+
+#: src/classes/reports/group-reports-interface.php:648
+msgid "There are no users in this group"
+msgstr ""
+
+#: src/classes/reports/group-reports-interface.php:931
+msgid "No %s Available"
+msgstr ""
+
+#: src/classes/reports/group-reports-interface.php:934
+msgid "Details"
+msgstr ""
+
+#: src/classes/reports/group-reports-interface.php:948
+msgid "Search by username, name, email or date"
+msgstr ""
+
+#: src/classes/reports/learndash-progress-report.php:121
+msgid "Required fields missing"
+msgstr ""
+
+#: src/classes/reports/learndash-progress-report.php:127
+msgid "You are not allowed to modify course progress of this user."
+msgstr ""
+
+#: src/classes/reports/learndash-progress-report.php:450
+msgid "You cannot manage your own %s progress."
+msgstr ""
+
+#: src/classes/reports/learndash-progress-report.php:458
+msgid "This user no longer exists. Please select another user."
+msgstr ""
+
+#: src/classes/reports/learndash-progress-report.php:467
+msgid "You are not the admin of this user."
+msgstr ""
+
+#: src/classes/reports/learndash-progress-report.php:759
+#: src/classes/reports/learndash-progress-report.php:981
+msgid "The order by value is not of the type title, date, or menu_order."
+msgstr ""
+
+#: src/classes/reports/learndash-progress-report.php:772
+#: src/classes/reports/learndash-progress-report.php:994
+msgid "The order value is not of the type asc, or desc"
+msgstr ""
+
+#: src/classes/reports/learndash-progress-report.php:789
+msgid "ld_get_mycourses function is not available."
+msgstr ""
+
+#: src/classes/reports/learndash-progress-report.php:1686
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:243
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:547
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:678
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:809
+msgid "Certificate"
+msgstr ""
+
+#: src/classes/reports/learndash-progress-report.php:1732
+msgid "You are currently not logged in."
+msgstr ""
+
+#: src/classes/reports/learndash-progress-report.php:1810
+msgid "Search users"
+msgstr ""
+
+#: src/classes/reports/learndash-progress-report.php:1819
+msgid "Search by user ID, name, email address or key"
+msgstr ""
+
+#: src/classes/reports/learndash-progress-report.php:1838
+#: src/classes/reports/learndash-progress-report.php:1857
+msgid "You are not allowed to search."
+msgstr ""
+
+#: src/classes/reports/learndash-progress-report.php:1925
+msgid "No matching users found."
+msgstr ""
+
+#: src/classes/reports/learndash-progress-report.php:1940
+msgid "& others"
+msgstr ""
+
+#: src/classes/reports/learndash-progress-report.php:1947
+msgid "No user found matching criteria in this group."
+msgstr ""
+
+#: src/classes/shortcodes/data-shortcodes.php:41
+#: src/classes/shortcodes/data-shortcodes.php:63
+msgid "Please add an id attribute to the shortcode"
+msgstr ""
+
+#: src/classes/theme-my-login/theme-my-login-support.php:77
+#: src/templates/admin/admin-header.php:34
+msgid "Theme My Login"
+msgstr ""
+
+#: src/classes/theme-my-login/theme-my-login-support.php:150
+msgid "Theme My Login registration settings"
+msgstr ""
+
+#: src/classes/theme-my-login/theme-my-login-support.php:169
+msgid ""
+"Custom Theme My Login registration form including registration code field"
+msgstr ""
+
+#: src/classes/theme-my-login/theme-my-login-support.php:182
+msgctxt "%s is a field name"
+msgid "Add %s field"
+msgstr ""
+
+#: src/classes/theme-my-login/theme-my-login-support.php:182
+#: src/classes/theme-my-login/theme-my-login-support.php:196
+#: src/classes/theme-my-login/theme-my-login-support.php:255
+msgid "Registration code"
+msgstr ""
+
+#: src/classes/theme-my-login/theme-my-login-support.php:196
+msgctxt "%s is a field name"
+msgid "Make the %s field required"
+msgstr ""
+
+#: src/classes/theme-my-login/theme-my-login-support.php:203
+msgid "Save Theme My Login changes"
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-bulk-discount.php:257
+#: src/classes/woocommerce/woocommerce-bulk-discount.php:258
+#: src/templates/admin/admin-header.php:18
+#: src/templates/frontend-bulk-discount-table.php:21
+#: src/templates/frontend-uo_groups_buy_courses.php:396
+msgid "Bulk discount"
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-bulk-discount.php:431
+msgid "%s%% bulk discount"
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-buy-courses.php:78
+msgid "Please select at least one %s to continue."
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-buy-courses.php:148
+msgid "Additional cost of license after adding a new %s."
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-buy-courses.php:232
+msgid "%s - License"
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-buy-courses.php:251
+#: src/classes/woocommerce/woocommerce-buy-courses.php:285
+msgid "Something went wrong. Your license failed to create, please try again."
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-buy-courses.php:636
+msgid "%1$s %2$s(s) added to the group."
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-courses.php:110
+#: src/classes/woocommerce/woocommerce-modify-group.php:154
+msgid ""
+"%1$s licenses cannot be purchased in the same transaction as other products. "
+"%2$s was removed from your cart."
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-courses.php:198
+msgid "LearnDash group %s"
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-courses.php:241
+msgid "Select LearnDash Group %s."
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-group-license-swap.php:167
+msgid "Select a product"
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-group-license-swap.php:180
+msgid "Swap course product "
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-group-license-swap.php:186
+msgid ""
+"If a quantity of 1 for this product is added to the cart, swap it for the "
+"selected product instead"
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-learndash-groups.php:169
+msgid ""
+"LearnDash WooCommerce addon requires WooCommerce 3.0 or above. Please "
+"activate and upgrade your WooCommerce. Reactivate this addon again after you "
+"activate or upgrade WooCommerce."
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-learndash-groups.php:201
+#: src/classes/woocommerce/woocommerce-learndash-groups.php:347
+msgid "No Related Groups"
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-learndash-groups.php:221
+#: src/classes/woocommerce/woocommerce-learndash-groups.php:367
+msgid "Related Groups"
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-learndash-groups.php:224
+#: src/classes/woocommerce/woocommerce-learndash-groups.php:370
+msgid ""
+"You can select multiple groups to sell together holding the SHIFT key when "
+"clicking."
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-license-subscription.php:328
+#: src/classes/woocommerce/woocommerce-license-subscription.php:357
+msgid "group"
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-license-subscription.php:839
+#: src/classes/woocommerce/woocommerce-license.php:676
+msgid "%s removed from cart. Only one license is allowed."
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-license-subscription.php:886
+msgid "Cancel all subscriptions for this group"
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-license-subscription.php:908
+msgid "Linked group"
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-license-subscription.php:941
+msgid "Parent subscription"
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-license-subscription.php:1074
+msgid ""
+"The subscription quantity updated from %1$d to %2$d in the cart to match the "
+"minimum seat count in the linked group: %3$s."
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-license.php:765
+msgid "License %s(s)"
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-license.php:798
+msgid "this knowledge base article"
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-license.php:803
+msgid "Linked %s"
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-license.php:804
+msgid ""
+"If the box above is empty, first create at least one LearnDash Group %1$s "
+"product. See %2$s for details."
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-license.php:1246
+msgid "Group settings"
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-license.php:1253
+msgid "Group Name"
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-license.php:1259
+msgid ""
+"If left blank, the group name will be [First name] [Last name] - [Company "
+"name]."
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-license.php:1259
+msgid "Enter your group name."
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-license.php:1405
+#: src/classes/woocommerce/woocommerce-license.php:1409
+msgid "Please enter group name."
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-license.php:1501
+msgid "Linked LearnDash group"
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-license.php:1505
+msgid "LearnDash group name"
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-min-max-quantity.php:89
+msgid "Fixed price"
+msgstr ""
+
+#. translators: seats
+#: src/classes/woocommerce/woocommerce-min-max-quantity.php:92
+msgid ""
+"The license price set above will be fixed regardless of the quantity of %s "
+"purchased."
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-min-max-quantity.php:98
+msgid "Minimum quantity"
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-min-max-quantity.php:99
+msgid "Enter minimum quantity"
+msgstr ""
+
+#. translators: seats
+#: src/classes/woocommerce/woocommerce-min-max-quantity.php:104
+msgid "The minimum number of %s the user can purchase."
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-min-max-quantity.php:110
+msgid "Maximum quantity"
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-min-max-quantity.php:111
+msgid "Enter maximum quantity"
+msgstr ""
+
+#. translators: seats
+#: src/classes/woocommerce/woocommerce-min-max-quantity.php:116
+msgid "The maximum number of %s the user can purchase in a single transaction."
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-min-max-quantity.php:245
+msgid ""
+"You can add a maximum of %1$s %2$s's to %3$s. You had %4$d in the cart, %4$d "
+"more added."
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-min-max-quantity.php:248
+#: src/classes/woocommerce/woocommerce-min-max-quantity.php:269
+msgid "your cart"
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-min-max-quantity.php:266
+msgid "You need to add a minimum of %1$s %2$s's to %3$s."
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-modify-group.php:303
+msgid "Add additional %s by changing quantity below."
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-modify-group.php:309
+msgid ""
+"Add additional %1$s by increasing the quantity below. A new subscription "
+"will be created when you complete the order with additional %2$s."
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-modify-group.php:314
+#: src/templates/frontend-uo_groups/users-table-actions.php:890
+msgid "Learn more"
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-modify-group.php:404
+msgid ""
+"Adding users will automatically assign a %1$s for each new user. Additional "
+"%2$s will be added if number of users exceeds remaining %3$s."
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-modify-group.php:408
+msgid "Removing users will automatically increase remaining %s."
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-modify-group.php:490
+msgid ""
+"Adding user to this group will automatically adjust %1$s count. Additional "
+"%2$s will be added if number of users exceeds remaining %3$s."
+msgstr ""
+
+#: src/classes/woocommerce/woocommerce-modify-group.php:494
+msgid "Removing user will automatically increase remaining %s of the group."
+msgstr ""
+
+#: src/classes/wpforms/class-wpforms.php:65
+msgid "Please enter valid key."
+msgstr ""
+
+#: src/includes/class-cron.php:29
+msgid "Once per minute"
+msgstr ""
+
+#: src/includes/class-csv-user-upload.php:164
+#: src/includes/class-csv-user-upload.php:170
+#: src/includes/class-csv-user-upload.php:175
+msgid "The CSV file was empty or not in the correct format."
+msgstr ""
+
+#: src/includes/class-csv-user-upload.php:210
+msgid ""
+"An invalid email was detected: %1$s on row %2$s. No users were imported."
+msgstr ""
+
+#: src/includes/class-tools.php:29
+msgid "LearnDash retroactive %s access"
+msgstr ""
+
+#: src/includes/class-tools.php:30
+msgid "Check LearnDash %s access"
+msgstr ""
+
+#: src/includes/class-tools.php:31
+msgid ""
+"Check LearnDash %s access of WooCommerce integration. Enroll and unenroll "
+"users according to WooCommerce purchase/subscription data."
+msgstr ""
+
+#: src/includes/class-tools.php:46
+msgid ""
+"The process is being done in the background. Please wait a while for the "
+"process to be finished."
+msgstr ""
+
+#: src/includes/class-tools.php:186
+msgid ""
+"The LearnDash WooCommerce retroactive %s access process has been "
+"successfully done."
+msgstr ""
+
+#: src/includes/forms/user-code-redemption.php:5
+msgid "Sorry, please log in to redeem code."
+msgstr ""
+
+#: src/includes/forms/user-code-redemption.php:12
+msgid "Congratulations! You have successfully redeemed your key."
+msgstr ""
+
+#: src/includes/forms/user-code-redemption.php:25
+#: src/includes/forms/user-code-redemption.php:35
+#: src/includes/forms/user-registration-form.php:109
+#: src/includes/forms/user-registration-form.php:118
+msgid "Enrollment key"
+msgstr ""
+
+#: src/includes/forms/user-code-redemption.php:44
+msgid "Redeem code"
+msgstr ""
+
+#: src/includes/forms/user-registration-form.php:8
+msgid "Congratulations! Your registration was successful."
+msgstr ""
+
+#: src/includes/forms/user-registration-form.php:58
+#: src/includes/forms/user-registration-form.php:64
+msgid "Email / Username"
+msgstr ""
+
+#: src/includes/forms/user-registration-form.php:76
+#: src/includes/forms/user-registration-form.php:83
+#: src/templates/frontend-uo_groups/add-users.php:49
+#: src/templates/frontend-uo_groups/add-users.php:87
+#: src/templates/frontend-uo_groups/users-table-actions.php:496
+msgid "Password"
+msgstr ""
+
+#: src/includes/forms/user-registration-form.php:92
+#: src/includes/forms/user-registration-form.php:100
+msgid "Confirm Password"
+msgstr ""
+
+#: src/includes/forms/user-registration-form.php:130
+#: src/templates/admin/admin-groups.php:849
+msgid "Terms & Conditions"
+msgstr ""
+
+#: src/includes/forms/user-registration-form.php:150
+msgid "Register your account"
+msgstr ""
+
+#: src/includes/forms/user-registration-form.php:178
+msgid "Passwords do not match."
+msgstr ""
+
+#: src/includes/gravity-forms/class-gf-code-field-add-on.php:65
+msgid "Input CSS Classes"
+msgstr ""
+
+#: src/includes/gravity-forms/class-gf-code-field-add-on.php:65
+msgid "The CSS Class names to be added to the field input."
+msgstr ""
+
+#: src/includes/gravity-forms/class-gf-code-field-add-on.php:83
+msgid "Input CSS classes"
+msgstr ""
+
+#: src/includes/gravity-forms/class-uncanny-code-field.php:30
+msgid "Redeem Uncanny Group's seat code during registration"
+msgstr ""
+
+#: src/includes/woocommerce/wc_product_group.php:37
+msgid "Read More"
+msgstr ""
+
+#: src/templates/admin/admin-bulk-discounts.php:38
+#: src/templates/frontend-bulk-discount-table.php:23
+msgid "Bulk discounts"
+msgstr ""
+
+#: src/templates/admin/admin-bulk-discounts.php:42
+msgid "Enable bulk discount"
+msgstr ""
+
+#: src/templates/admin/admin-bulk-discounts.php:48
+msgid "Bulk discount(s)"
+msgstr ""
+
+#: src/templates/admin/admin-bulk-discounts.php:55
+msgid "Minimum qty"
+msgstr ""
+
+#: src/templates/admin/admin-bulk-discounts.php:58
+msgid "Discount"
+msgstr ""
+
+#: src/templates/admin/admin-bulk-discounts.php:69
+msgid "Add discount line"
+msgstr ""
+
+#: src/templates/admin/admin-bulk-discounts.php:71
+#: src/templates/admin/admin-bulk-discounts.php:95
+msgid "Remove last discount line"
+msgstr ""
+
+#: src/templates/admin/admin-bulk-discounts.php:108
+msgid "Save bulk discount"
+msgstr ""
+
+#: src/templates/admin/admin-bulk-discounts.php:137
+msgid "Please fill in the current line before adding new line."
+msgstr ""
+
+#: src/templates/admin/admin-custom-groups.php:59
+msgid "Group details"
+msgstr ""
+
+#: src/templates/admin/admin-custom-groups.php:66
+#: src/templates/frontend-uo_groups_buy_courses.php:201
+msgid "Group name"
+msgstr ""
+
+#: src/templates/admin/admin-custom-groups.php:76
+msgid "Ex. 10"
+msgstr ""
+
+#: src/templates/admin/admin-custom-groups.php:82
+msgctxt "Group courses"
+msgid "Group %s"
+msgstr ""
+
+#: src/templates/admin/admin-custom-groups.php:140
+msgid "Press Ctrl to select multiple %s."
+msgstr ""
+
+#: src/templates/admin/admin-custom-groups.php:145
+msgid "Group image"
+msgstr ""
+
+#: src/templates/admin/admin-custom-groups.php:151
+msgid "Upload image"
+msgstr ""
+
+#: src/templates/admin/admin-custom-groups.php:162
+msgid "Group leader details"
+msgstr ""
+
+#: src/templates/admin/admin-custom-groups.php:183
+#: src/templates/register-form.php:82 src/templates/register-form.php:85
+msgid "E-mail"
+msgstr ""
+
+#: src/templates/admin/admin-custom-groups.php:188
+msgid ""
+"Enter the email address of the new group leader. If the email\n"
+"\t\t\t\t\t\t\t\t\t\t                                  does not match an "
+"existing user, the user will be created and\n"
+"\t\t\t\t\t\t\t\t\t\t                                  sent the Add group "
+"leader/Create group Email. If the email matches an\n"
+"\t\t\t\t\t\t\t\t\t\t                                  existing user, the "
+"user will be sent the Existing Group Leader\n"
+"\t\t\t\t\t\t\t\t\t\t                                  Welcome Email. Leave "
+"empty if you are the group leader."
+msgstr ""
+
+#: src/templates/admin/admin-custom-groups.php:199
+msgid "Visit %s to customize the email text."
+msgstr ""
+
+#: src/templates/admin/admin-email-settings.php:81
+msgid "Email templates"
+msgstr ""
+
+#: src/templates/admin/admin-email-settings.php:104
+msgid "Send \"Send enrollment key\" Email."
+msgstr ""
+
+#: src/templates/admin/admin-email-settings.php:125
+msgid ""
+"Insert these tokens into your email and they will be replaced with the "
+"corresponding information. Click a token to copy it to your clipboard."
+msgstr ""
+
+#: src/templates/admin/admin-email-settings.php:237
+msgid "Send \"Add and invite (new user)\" Email."
+msgstr ""
+
+#: src/templates/admin/admin-email-settings.php:392
+msgid "Send \"Add and invite (existing user)\" Email."
+msgstr ""
+
+#: src/templates/admin/admin-email-settings.php:538
+#: src/templates/admin/admin-email-settings.php:692
+msgid "Send \"Add group leader/Create group\" Email."
+msgstr ""
+
+#: src/templates/admin/admin-email-settings.php:838
+msgid "Send \"New group purchase\" Email."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:63
+#: src/templates/admin/admin-groups.php:86
+#: src/templates/admin/admin-groups.php:109
+#: src/templates/admin/admin-groups.php:132
+#: src/templates/admin/admin-groups.php:155
+#: src/templates/admin/admin-groups.php:202
+#: src/templates/admin/admin-groups.php:225
+msgid "None"
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:68
+msgid "Choose a page that includes the [uo_groups] shortcode."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:70
+msgid ""
+"Any page configured below will enable the corresponding button on the Group "
+"Management page. To disable any feature, simply set the corresponding "
+"dropdown to <i>None</i>."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:91
+msgid "Choose a page that includes the [uo_groups_buy_courses] shortcode."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:114
+msgid "Choose a page that includes the [uo_groups_course_report] shortcode."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:137
+msgid "Choose a page that includes the [uo_groups_quiz_report] shortcode."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:160
+msgid "Choose a page that includes the [uo_groups_manage_progress] shortcode."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:183
+msgid ""
+"Group Leaders are allowed to view individual student progress when a page "
+"exists with the [uo_groups_manage_progress] shortcode. Check this box to "
+"also allow Group Leaders to override progress for learners."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:207
+msgid "Choose a page that includes the [uo_groups_assignments] shortcode."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:230
+msgid "Choose a page that includes the [uo_groups_essays] shortcode."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:298
+msgid "The color of the text that appears on top of accented areas."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:326
+msgid ""
+"By default, Group Leaders cannot remove students from groups once the "
+"students have started %s activities. Checking this box ignores this rule and "
+"allows Group Leaders to remove students at any time to free up seats."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:350
+msgid ""
+"By default, when a student is removed from a group by a Group Leader, the "
+"available seat count is increased. Checking this box will not free up a seat "
+"when a student with \"Completed\" status is removed and will decrease the "
+"total seat count of a group. This setting works in conjunction with \"Allow "
+"Group Leaders to remove students at any time\"."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:374
+msgid ""
+"Group Leaders added to the group as Group Members by a Group Leader have "
+"%1$s access but will not use seats. Be careful with this option, as Group "
+"Leaders can exploit this to give unlimited students %1$s access. Changing "
+"this setting will not affect current seat counts."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:398
+msgid ""
+"Newly created Group Leaders will not be automatically added to groups as "
+"members. Group Leaders can still be manually added as Members after creation."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:422
+msgid ""
+"Group Leaders will be able to edit the First name, Last name and Email of "
+"Group Members. Be careful with this option, as Group Leaders could exploit "
+"this to reassign seats to new users without purchasing an additional seat."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:446
+msgid "Enables a Username field in the edit user dialog."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:470
+msgid ""
+"Clicking a user's status on the Group Management page will go to the "
+"Progress Report for that user instead of the Course Report, providing drill-"
+"down capability with additional detail. Ensure the Progress Report Page is "
+"set before enabling this option."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:494
+msgid ""
+"Groups that do not have seat management enabled will be visible in the front "
+"end Group Management interface.  These groups will have access to reporting "
+"functions only; it will not be possible for Group Leaders to add members "
+"to/remove members from these groups."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:537
+msgid ""
+"Use LearnDash's legacy data to display users' course progress on the Group "
+"Management page. Enable this if you're seeing discrepancies between course "
+"progress data in Uncanny Groups and other LearnDash reports."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:561
+msgid ""
+"Hide the column that lists the number of users, %s and Group Leaders in a "
+"group on the LearnDash LMS > Groups page. Enabling this setting will improve "
+"load times on sites with a lot of groups and users."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:589
+msgid ""
+"Group Hierarchy support is currently disabled. <a href=\"https://www."
+"learndash.com/support/docs/users-groups/groups/global-group-"
+"settings/#global_course_management_display_settings\" target=\"_blank\"> "
+"Click here</a> for more information."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:591
+msgid ""
+"For all reports in Uncanny Groups, show records for the selected group and "
+"child groups beneath it. Note that this can affect performance and applies "
+"to all reports."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:615
+msgid ""
+"When enabled, Group Leaders can enable or disable pooled seats from the top-"
+"level %1$s for each hierarchy via a checkbox on the Group Management page. "
+"Pooled seats will be shared across all %2$s in the hierarchy."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:636
+msgid ""
+"When checked, every %1$s that is in a hierarchy has its seats pooled and "
+"managed from the hierarchy's top-level parent. Note: This setting overrides "
+"individual %1$s settings and removes the %2$s."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:683
+msgid ""
+"Group %1$s products will be included as $0 line items when a user purchases "
+"a Group License.  Check this if you want to be able to trigger integrations "
+"with other plugins (e.g. Follow-Up Emails, WP Fusion, Memberium) based on "
+"the %2$s included in a license."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:707
+msgid ""
+"LearnDash Groups will be displayed on the Edit Product screen. Selecting one "
+"or more groups and saving the product will associate that product with the "
+"selected group(s). Any user that purchases that product will then "
+"automatically be added to the associated group(s)."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:731
+msgid ""
+"Automatically change the status of orders that include Uncanny Groups "
+"products to Completed."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:764
+msgid ""
+"Automatically assign dynamically-generated group license products (created "
+"when users purchase group access from the Buy %1$s page) to a category. "
+"Useful for integrating dynamic licenses with other functionality (e.g. "
+"create coupons that apply only to dynamic licenses)."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:777
+msgid ""
+"Customize the message shown to users when adding seats to their group. Use "
+"{{product}} to insert product name."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:820
+msgid ""
+"Allow group leaders of subscription-based groups to buy additional seats. "
+"Completing an order with additional seats will create a new subscription in "
+"addition to the existing subscription. We strongly recommend enabling "
+"Synchronise renewals under WooCommerce > Settings > Subscriptions > "
+"Synchronization to synchronize renewals across multiple subscriptions. %s"
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:833
+msgid ""
+"To direct Group Leaders to a page that explains the process to add seats to "
+"a subscription-based group, enter the URL of that instructional page. Leave "
+"the field blank to hide the Learn More button."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:856
+msgid ""
+"To enable a Terms & Conditions checkbox on the Group Registration Form, "
+"enter text for the checkbox below. Does not apply if you are using a Gravity "
+"Form or Theme My Login for group registration."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:877
+msgid "Upgrade LearnDash Groups"
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:884
+msgid ""
+"All LearnDash Groups can be upgraded to include support for seat management "
+"by clicking the button below."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:886
+msgid ""
+"<span style=\"color:red\">Warning:</span> Upgraded groups cannot be reverted "
+"to basic groups.  If you want to enable seat management on some groups only, "
+"use the Upgrade Group button on the Edit Group page."
+msgstr ""
+
+#: src/templates/admin/admin-groups.php:892
+msgid ""
+"This action will update all of your existing LearnDash Groups to work with "
+"the Uncanny Groups for LearnDash front end group management interface. This "
+"process will happen in the background and cannot be reversed. Do you want to "
+"continue?"
+msgstr ""
+
+#: src/templates/admin/admin-kb-articles.php:44
+msgid "I can't find the answer to my question."
+msgstr ""
+
+#: src/templates/admin/admin-send-ticket.php:52
+msgid ""
+"Your ticket has been created. Someone at Uncanny Owl will contact you "
+"regarding your issue."
+msgstr ""
+
+#: src/templates/admin/admin-send-ticket.php:56
+msgid "Dismiss this notice."
+msgstr ""
+
+#: src/templates/admin/admin-send-ticket.php:67
+msgid "Submit a ticket"
+msgstr ""
+
+#: src/templates/admin/admin-send-ticket.php:80
+msgid "Full name"
+msgstr ""
+
+#: src/templates/admin/admin-send-ticket.php:98
+msgid "Site URL"
+msgstr ""
+
+#: src/templates/admin/admin-send-ticket.php:107
+msgid "License Key"
+msgstr ""
+
+#: src/templates/admin/admin-send-ticket.php:125
+msgid "Message"
+msgstr ""
+
+#: src/templates/admin/admin-send-ticket.php:133
+msgid "Send site data"
+msgstr ""
+
+#: src/templates/admin/admin-send-ticket.php:138
+msgctxt "%s is the \"My Account\" page"
+msgid ""
+"Emails must be enabled on your site to create a ticket using this form. If "
+"you don't receive a confirmation email shortly after submitting this form, "
+"please log the ticket through your %s page."
+msgstr ""
+
+#: src/templates/admin/admin-send-ticket.php:138
+msgid "My Account"
+msgstr ""
+
+#: src/templates/admin/admin-send-ticket.php:141
+msgid "Create ticket"
+msgstr ""
+
+#: src/templates/admin/admin-send-ticket.php:148
+msgid "Site data"
+msgstr ""
+
+#: src/templates/admin/admin-siteinfo.php:70
+msgid "MySQL Version"
+msgstr ""
+
+#: src/templates/admin/admin-siteinfo.php:74
+msgid "MariaDB Version"
+msgstr ""
+
+#: src/templates/admin/admin-siteinfo.php:91
+msgid "WordPress Minimum Requirements"
+msgstr ""
+
+#: src/templates/admin/admin-siteinfo.php:98
+msgid "Environment"
+msgstr ""
+
+#: src/templates/admin/admin-siteinfo.php:100
+#: src/templates/admin/admin-siteinfo.php:158
+#: src/templates/admin/admin-siteinfo.php:259
+#: src/templates/admin/admin-siteinfo.php:285
+msgid "Setting"
+msgstr ""
+
+#: src/templates/admin/admin-siteinfo.php:101
+#: src/templates/admin/admin-siteinfo.php:159
+#: src/templates/admin/admin-siteinfo.php:260
+#: src/templates/admin/admin-siteinfo.php:286
+msgid "Value"
+msgstr ""
+
+#: src/templates/admin/admin-siteinfo.php:132
+msgid "PHP Version"
+msgstr ""
+
+#: src/templates/admin/admin-siteinfo.php:156
+msgid "WordPress Settings"
+msgstr ""
+
+#: src/templates/admin/admin-siteinfo.php:169
+msgid "Site address"
+msgstr ""
+
+#: src/templates/admin/admin-siteinfo.php:175
+msgid "WordPress Version"
+msgstr ""
+
+#: src/templates/admin/admin-siteinfo.php:181
+msgid "Multisite"
+msgstr ""
+
+#: src/templates/admin/admin-siteinfo.php:182
+#: src/templates/admin/admin-siteinfo.php:215
+msgid "Yes"
+msgstr ""
+
+#: src/templates/admin/admin-siteinfo.php:182
+#: src/templates/admin/admin-siteinfo.php:215
+msgid "No"
+msgstr ""
+
+#: src/templates/admin/admin-siteinfo.php:187
+msgid "Site Language"
+msgstr ""
+
+#: src/templates/admin/admin-siteinfo.php:208
+msgid "Not defined"
+msgstr ""
+
+#: src/templates/admin/admin-siteinfo.php:214
+msgid "Object Cache"
+msgstr ""
+
+#: src/templates/admin/admin-siteinfo.php:226
+msgid "Active WordPress Plugins"
+msgstr ""
+
+#: src/templates/admin/admin-siteinfo.php:228
+msgid "Plugin"
+msgstr ""
+
+#: src/templates/admin/admin-siteinfo.php:257
+msgid "LearnDash Settings"
+msgstr ""
+
+#: src/templates/admin/admin-siteinfo.php:265
+#: src/templates/admin/admin-siteinfo.php:269
+msgid "LearnDash not active"
+msgstr ""
+
+#: src/templates/admin/admin-siteinfo.php:268
+msgid "DB Version"
+msgstr ""
+
+#: src/templates/admin/admin-siteinfo.php:272
+msgid "Script Debug"
+msgstr ""
+
+#: src/templates/admin/admin-siteinfo.php:273
+msgid "not defined"
+msgstr ""
+
+#: src/templates/admin/admin-siteinfo.php:283
+msgid "PHP Settings"
+msgstr ""
+
+#: src/templates/frontend-bulk-discount-table.php:54
+msgid "to"
+msgstr ""
+
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:217
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:357
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:438
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:524
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:655
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:786
+msgid "Confirm"
+msgstr ""
+
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:221
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:361
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:442
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:528
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:659
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:790
+msgid "Cancel"
+msgstr ""
+
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:226
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:366
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:447
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:533
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:664
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:795
+msgid "(no title)"
+msgstr ""
+
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:271
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:274
+msgid "%s complete"
+msgstr ""
+
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:372
+msgid "Available on"
+msgstr ""
+
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:561
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:692
+#: src/templates/frontend-course-management/dashboard-template-3_0.php:823
+msgid "Statistics"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/add-users.php:7
+msgid "Close"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/add-users.php:16
+msgid "Bulk add & Invite users"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/add-users.php:51
+#: src/templates/frontend-uo_groups/users-table-actions.php:503
+msgid ""
+"Set an optional password for new users. If no password is entered, a random "
+"password will be generated. If the user already exists, the user's password "
+"will not be changed and this value will be ignored."
+msgstr ""
+
+#: src/templates/frontend-uo_groups/add-users.php:111
+msgid "Add & Invite users"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/groups-table-actions.php:6
+msgid "leaders"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/groups-table-actions.php:33
+#: src/templates/frontend-uo_groups/users-table-actions.php:455
+#: src/templates/frontend-uo_groups/users-table-actions.php:535
+msgid "First name*"
+msgstr "Nombre*"
+
+#: src/templates/frontend-uo_groups/groups-table-actions.php:42
+#: src/templates/frontend-uo_groups/users-table-actions.php:471
+#: src/templates/frontend-uo_groups/users-table-actions.php:545
+msgid "Last name*"
+msgstr "Apellido*"
+
+#: src/templates/frontend-uo_groups/groups-table-actions.php:51
+#: src/templates/frontend-uo_groups/users-table-actions.php:486
+#: src/templates/frontend-uo_groups/users-table-actions.php:555
+msgid "Email*"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/groups-table-actions.php:60
+msgid ""
+"If the email address matches an existing user in the system, first and last "
+"name will not be\n"
+"                                            changed but the existing user "
+"will be added as a Group Leader."
+msgstr ""
+
+#: src/templates/frontend-uo_groups/groups-table-actions.php:103
+msgid "Are you sure you want to remove %s group leader(s)?"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/page-heading.php:97
+msgid "Show student data for child groups"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/page-heading.php:128
+msgid "Enable pooled seats for this group hierarchy"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/upload-results.php:12
+#: src/templates/frontend-uo_groups/upload-results.php:98
+msgid "Done"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/upload-results.php:20
+msgid "Upload Summary"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/upload-results.php:21
+msgid "Upload is processing..."
+msgstr ""
+
+#: src/templates/frontend-uo_groups/upload-results.php:32
+msgid "Total Rows:"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/upload-results.php:37
+msgid "Users added:"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/upload-results.php:43
+msgid "Already a member:"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/upload-results.php:48
+msgid "Not Processed:"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/users-table-actions.php:71
+msgctxt "%s is the \"courses\" LearnDash label"
+msgid "Group %s"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/users-table-actions.php:77
+msgctxt "%1$s is the \"course\" LearnDash label"
+msgid "1 %s"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/users-table-actions.php:79
+msgctxt "%1$s is a number, %2$s is the \"courses\" LearnDash label"
+msgid "%1$s %2$s"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/users-table-actions.php:221
+#: src/templates/frontend-uo_groups/users-table-actions.php:226
+msgid "Are you sure you want to remove %s user(s)?"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/users-table-actions.php:222
+msgid ""
+"Removing a student with \"%s\" status will not free up a seat in this group."
+msgstr ""
+
+#: src/templates/frontend-uo_groups/users-table-actions.php:260
+#: src/templates/frontend-uo_groups/users-table-actions.php:292
+msgid "Send password reset"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/users-table-actions.php:277
+msgid "Are you sure you want to send a password reset email to %s user(s)?"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/users-table-actions.php:328
+msgid "Add one"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/users-table-actions.php:332
+msgid "Add multiple"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/users-table-actions.php:363
+msgid "Export CSV"
+msgstr "Exportar CSV"
+
+#: src/templates/frontend-uo_groups/users-table-actions.php:368
+msgid "Export Excel"
+msgstr "Exportar excel"
+
+#: src/templates/frontend-uo_groups/users-table-actions.php:566
+msgid "Username*"
+msgstr "Usuario*"
+
+#: src/templates/frontend-uo_groups/users-table-actions.php:578
+msgid "Update User"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/users-table-actions.php:605
+msgid "Reports"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/users-table-actions.php:755
+msgid "Upload CSV File"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/users-table-actions.php:758
+msgid ""
+"Note: Empty values in the %s column will generate a random password for new "
+"users. The passwords of existing users will not be changed."
+msgstr ""
+
+#: src/templates/frontend-uo_groups/users-table-actions.php:764
+msgid "Download a sample .csv file"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/users-table-actions.php:816
+msgid "From name:"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/users-table-actions.php:823
+msgid "From email:"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/users-table-actions.php:831
+msgid "Reply-to email:"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/users-table-actions.php:854
+msgid "Group %1$s"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/users-table-actions.php:862
+msgid "Any %1$s"
+msgstr ""
+
+#. translators: 1. LearnDash "course" label; 2. Learndash "group" label
+#: src/templates/frontend-uo_groups/users-table-actions.php:879
+msgid ""
+"Choose \"Any %1$s\" to send emails to students that have any %2$s %1$s that "
+"matches the selected status."
+msgstr ""
+
+#: src/templates/frontend-uo_groups/users-table-actions.php:898
+msgid "%1$s status"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/users-table-actions.php:927
+msgid "Email subject:"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/users-table-actions.php:941
+msgid "Email message:"
+msgstr ""
+
+#: src/templates/frontend-uo_groups/users-table-actions.php:959
+msgid "Send"
+msgstr ""
+
+#: src/templates/frontend-uo_groups_buy_courses.php:66
+msgid "Invalid group."
+msgstr ""
+
+#: src/templates/frontend-uo_groups_buy_courses.php:215
+msgid "The name of the group for which you are purchasing the %s."
+msgstr ""
+
+#: src/templates/frontend-uo_groups_buy_courses.php:248
+msgid "The number of users who require access."
+msgstr ""
+
+#: src/templates/frontend-uo_groups_buy_courses.php:279
+msgid "Price"
+msgstr ""
+
+#: src/templates/frontend-uo_groups_buy_courses.php:374
+msgid "Cart total"
+msgstr ""
+
+#: src/templates/frontend-uo_groups_buy_courses.php:380
+msgid "Subtotal"
+msgstr ""
+
+#: src/templates/frontend-uo_groups_buy_courses.php:409
+msgid "Total"
+msgstr ""
+
+#: src/templates/frontend-uo_groups_buy_courses.php:422
+msgid "Taxes will be calculated at checkout."
+msgstr ""
+
+#: src/templates/frontend-uo_groups_buy_courses.php:443
+msgid "Add to cart"
+msgstr ""
+
+#: src/templates/frontend-uo_groups_buy_courses.php:447
+msgid "Sorry, there are currently no %s available for purchase."
+msgstr ""
+
+#: src/templates/register-form.php:6
+msgid ""
+"There was a problem with your submission. Errors have been highlighted below."
+msgstr ""
+
+#: src/templates/register-form.php:92 src/templates/register-form.php:96
+msgid "Registration Code"
+msgstr ""
+
+#: src/templates/register-form.php:101
+msgid "Registration confirmation will be e-mailed to you."
+msgstr ""
+
+#: uncanny-learndash-groups.php:86
+msgid ""
+"Warning: Uncanny Groups for LearnDash requires LearnDash. Please install "
+"LearnDash before using the plugin."
+msgstr ""
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:37
+msgid "First and last name required"
+msgstr "Se requiere nombre y apellido"
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:38
+msgid ""
+"Require a first and last name for new students that are added via the Bulk "
+"Add & Invite Users tool."
+msgstr ""
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:52
+#: src/blocks/src/groups-group-progress-report/sidebar.js:38
+#: src/blocks/src/groups-group-quiz-report/sidebar.js:38
+#: src/blocks/src/groups-group-reports-interface/sidebar.js:38
+msgid "Group Management Settings"
+msgstr ""
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:55
+msgid "Group Name Selector"
+msgstr ""
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:67
+msgid "Group Courses"
+msgstr ""
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:78
+msgid "Add Courses Button"
+msgstr ""
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:90
+msgid "Seats Quantity"
+msgstr ""
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:102
+msgid "Add Seats Button"
+msgstr ""
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:114
+msgid "Remove User Button"
+msgstr ""
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:126
+msgid "Upload Users Button"
+msgstr ""
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:138
+msgid "Download Keys Button"
+msgstr ""
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:150
+msgid "Progress Report Button"
+msgstr ""
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:162
+msgid "Quiz Report Button"
+msgstr ""
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:173
+msgid "Key Column"
+msgstr ""
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:185
+msgid "Group Leader Section"
+msgstr ""
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:197
+msgid "Add Group Leader Button"
+msgstr ""
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:209
+msgid "Key Options"
+msgstr ""
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:221
+msgid "Group Email Button"
+msgstr ""
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:233
+msgid "CSV Export Button"
+msgstr "Exportar CSV Button"
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:245
+msgid "Excel export button"
+msgstr "Exportar excel Exportar excel"
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:260
+msgid "Show \"Add user\" button"
+msgstr ""
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:272
+#: src/blocks/src/groups-group-management-interface/sidebar.js:323
+msgid "Page length"
+msgstr ""
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:274
+#: src/blocks/src/groups-group-management-interface/sidebar.js:325
+msgid "Number of rows to display on a single page when the page loads."
+msgstr ""
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:304
+#: src/blocks/src/groups-group-management-interface/sidebar.js:355
+msgid "Length menu"
+msgstr ""
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:307
+#: src/blocks/src/groups-group-management-interface/sidebar.js:358
+msgid ""
+"Entries used in the length drop down select list. Enter each choice on a new "
+"line. For more control, you may specify both a value and label like this:"
+msgstr ""
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:309
+#: src/blocks/src/groups-group-management-interface/sidebar.js:360
+msgid "-1 : All"
+msgstr ""
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/block.js:173
+#: src/blocks/src/groups-group-management-interface/sidebar.js:391
+msgid "Group Management Link Settings"
+msgstr ""
+
+#: src/blocks/dist/index.js:1
+#: src/blocks/src/groups-group-management-interface/sidebar.js:394
+msgid "Link Text"
+msgstr ""
+
+#: src/blocks/src/groups-group-assignments-report/block.js:16
+msgid "Assignment Management"
+msgstr ""
+
+#: src/blocks/src/groups-group-assignments-report/block.js:18
+msgid ""
+"Allows Group Leaders to manage assignments posted by their group members"
+msgstr ""
+
+#: src/blocks/src/groups-group-assignments-report/block.js:25
+#: src/blocks/src/groups-group-essays-report/block.js:25
+#: src/blocks/src/groups-group-management-interface/block.js:25
+#: src/blocks/src/groups-group-management-interface/block.js:155
+#: src/blocks/src/groups-group-progress-report/block.js:25
+#: src/blocks/src/groups-group-quiz-report/block.js:25
+#: src/blocks/src/groups-group-reports-interface/block.js:25
+#: src/blocks/src/groups-woocommerce-buy-courses/block.js:25
+msgid "Uncanny Owl - Groups Plugin"
+msgstr ""
+
+#: src/blocks/src/groups-group-assignments-report/block.js:55
+msgid "Group Assignment Management"
+msgstr ""
+
+#: src/blocks/src/groups-group-assignments-report/sidebar.js:46
+#: src/blocks/src/groups-group-essays-report/sidebar.js:47
+msgid "Columns"
+msgstr ""
+
+#: src/blocks/src/groups-group-assignments-report/sidebar.js:71
+#: src/blocks/src/groups-group-essays-report/sidebar.js:59
+msgid "Export buttons"
+msgstr ""
+
+#: src/blocks/src/groups-group-enrollment-key-redemption/block.js:16
+msgid "Enrollment Key Redemption"
+msgstr ""
+
+#: src/blocks/src/groups-group-enrollment-key-redemption/block.js:18
+msgid ""
+"Signed in users can redeem group or course codes from anywhere on a "
+"LearnDash site by using this."
+msgstr ""
+
+#: src/blocks/src/groups-group-enrollment-key-redemption/block.js:44
+msgid "User Redeem Code"
+msgstr ""
+
+#: src/blocks/src/groups-group-enrollment-key-registration/block.js:16
+msgid "Enrollment Key Registration"
+msgstr ""
+
+#: src/blocks/src/groups-group-enrollment-key-registration/block.js:18
+msgid ""
+"This will add a very basic registration form to the page that includes a "
+"code redemption field."
+msgstr ""
+
+#: src/blocks/src/groups-group-enrollment-key-registration/block.js:59
+msgid "User Code Registration"
+msgstr ""
+
+#: src/blocks/src/groups-group-enrollment-key-registration/sidebar.js:38
+msgid "Enrollment Key Registratiopn Settings"
+msgstr ""
+
+#: src/blocks/src/groups-group-essays-report/block.js:16
+msgid "Essay Management"
+msgstr ""
+
+#: src/blocks/src/groups-group-essays-report/block.js:18
+msgid "Allows Group Leaders to manage essays posted by their group members"
+msgstr ""
+
+#: src/blocks/src/groups-group-essays-report/block.js:51
+msgid "Group Essay Management"
+msgstr ""
+
+#: src/blocks/src/groups-group-management-interface/block.js:18
+msgid ""
+"The Group Management page provides all the functionality for Group Leaders "
+"to manage their own groups."
+msgstr ""
+
+#: src/blocks/src/groups-group-management-interface/block.js:146
+msgid "Group Management Link"
+msgstr ""
+
+#: src/blocks/src/groups-group-management-interface/block.js:148
+msgid "Add a button that links to the Group Management Page."
+msgstr ""
+
+#: src/blocks/src/groups-group-progress-report/block.js:16
+#: src/blocks/src/groups-group-progress-report/block.js:51
+msgid "Progress Report"
+msgstr ""
+
+#: src/blocks/src/groups-group-progress-report/block.js:18
+msgid ""
+"This hierarchy view of courses, lessons, topics and quizzes allows all of "
+"them be reviewed and marked complete or incomplete."
+msgstr ""
+
+#: src/blocks/src/groups-group-progress-report/sidebar.js:41
+#: src/blocks/src/groups-group-quiz-report/sidebar.js:41
+msgid "Course Order By"
+msgstr ""
+
+#: src/blocks/src/groups-group-progress-report/sidebar.js:55
+#: src/blocks/src/groups-group-quiz-report/sidebar.js:55
+#: src/blocks/src/groups-group-reports-interface/sidebar.js:52
+msgid "Course Order"
+msgstr ""
+
+#: src/blocks/src/groups-group-progress-report/sidebar.js:67
+msgid "Expand Course By Default"
+msgstr ""
+
+#: src/blocks/src/groups-group-quiz-report/block.js:16
+#: src/blocks/src/groups-group-quiz-report/block.js:55
+msgid "Quiz Report"
+msgstr ""
+
+#: src/blocks/src/groups-group-quiz-report/block.js:18
+msgid ""
+"The Quiz Report allows Group Leaders to view quiz reports of their group "
+"members"
+msgstr ""
+
+#: src/blocks/src/groups-group-quiz-report/sidebar.js:68
+msgid "Quiz Order By"
+msgstr ""
+
+#: src/blocks/src/groups-group-quiz-report/sidebar.js:82
+msgid "Quiz Order"
+msgstr ""
+
+#: src/blocks/src/groups-group-reports-interface/block.js:16
+#: src/blocks/src/groups-group-reports-interface/block.js:47
+msgid "Course Report"
+msgstr ""
+
+#: src/blocks/src/groups-group-reports-interface/block.js:18
+msgid ""
+"The Course Report (which can also be accessed from the Group Management page)"
+" allows Group Leaders to view course reports of their group members."
+msgstr ""
+
+#: src/blocks/src/groups-group-reports-interface/sidebar.js:41
+msgid "Transcript Page ID"
+msgstr ""
+
+#: src/blocks/src/groups-woocommerce-buy-courses/block.js:16
+#: src/blocks/src/groups-woocommerce-buy-courses/block.js:55
+msgid "Buy Courses"
+msgstr ""
+
+#: src/blocks/src/groups-woocommerce-buy-courses/block.js:18
+msgid ""
+"The Buy Courses page allows Group Leaders and new customers to purchase "
+"courses and create new Groups directly. This page is only auto-generated if "
+"you activate the plugin after WooCommerce is installed and active."
+msgstr ""
+
+#: src/blocks/src/groups-woocommerce-buy-courses/sidebar.js:37
+msgid "Only include products from"
+msgstr ""
+
+#: src/blocks/src/groups-woocommerce-buy-courses/sidebar.js:40
+msgid "Product Categories (IDs seperated by commas)"
+msgstr ""
+
+#: src/blocks/src/groups-woocommerce-buy-courses/sidebar.js:51
+msgid "Product Tags (IDs seperated by commas)"
+msgstr ""
+
+#: src/blocks/src/groups-woocommerce-buy-courses/sidebar.js:62
+msgid "Minimum Quantity"
+msgstr ""
+
+#: src/blocks/src/groups-woocommerce-buy-courses/sidebar.js:73
+msgid "Maximum Quantity"
+msgstr ""
