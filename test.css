@@ -1,0 +1,551 @@
+
+
+body{
+  margin: 0px;
+  font-family: 'Cabin', sans-serif;
+}
+
+@media only screen and  (min-width: 981px) {
+#et_mobile_nav_menu{
+  display: none;
+}
+}
+div.icon-reference-uno>img{
+  width: 290px;
+		height: auto;
+}
+#top-menu {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+#main-header > div {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+#main-header {
+  display: flex;
+  width: 100%;
+  background: white;
+  box-shadow: 0 0 0px rgb(0 0 0 / 10%) !important;
+  z-index: 100;
+  position: relative;
+  height: 100px;
+}
+div.section1 {
+  background-image: url(https://satelca.com/wp-content/uploads/2023/04/Paga-facil-deskt.png) !important;
+  position: relative;
+  background-position: 50%;
+  background-size: cover;
+ 
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.section4 {
+  background-image: url(https://satelca.com/wp-content/uploads/2023/05/Paga-facil-7-1.png) !important;
+  display: flex;
+  justify-content: center;
+}
+
+div.section2 {
+  background-image: url(https://satelca.com/wp-content/uploads/2023/04/Mask-group-7.png) !important;
+  content: "";
+  background-size: contain;
+  background-position-x: center;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  opacity: 0.68;
+}
+div.section3 {
+  padding-top: 101px;
+  padding-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #fafafa !important;
+}
+div.inner-section1,
+div.inner-section4 {
+  width: 80%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0px 25px 0px;
+}
+.title-section {
+  font-family: "Cabin", Helvetica, Arial, Lucida, sans-serif;
+  font-size: 56px;
+  line-height: 67px;
+  color: #fff !important;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.title-section4 {
+  font-family: "Cabin", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #ffffff !important;
+  line-height: 62px;
+  text-align: center;
+}
+.title-description {
+  font-family: "Cabin", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #7b7b7b !important;
+  line-height: 62px;
+  text-align: center;
+}
+.title-description > span {
+  color: #1877f2;
+}
+
+.boton-verde > a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 243px;
+  border-radius: 15px;
+  padding: 12px 18px 12px 18px;
+  background-color: #76ca08;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 10px;
+  cursor: pointer;
+  border: 1px solid #76ca08 !important;
+}
+
+.boton-verde > a:hover {
+  color: #76ca08;
+  border: 1px solid #76ca08 !important;
+  background-color: #fff !important;
+  color: #76ca08 !important;
+}
+
+.boton-blanco > a {
+  color: #76ca08;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 243px;
+  border-radius: 15px;
+  padding: 12px 18px 12px 18px;
+  background-color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.boton-blanco > a:hover {
+  color: #fff;
+  background-color: #76ca08;
+}
+
+.boton-box {
+  display: flex;
+}
+
+.descripcion-paso-uno {
+  max-width: 611px;
+  min-width: 511px;
+  min-height: 215px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.funciones-principales-pasos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px 130px;
+}
+.funcion-paso-uno {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.funcion-paso-uno {
+  width: 90%;
+  max-width: 100%;
+  margin-right: auto;
+    margin-left: 0px !important;
+}
+.descripcion-paso-uno {
+  max-width: 611px;
+  min-width: 511px;
+  min-height: 215px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.descripcion-paso-uno,
+.icon-reference-uno {
+  background: #ffffff;
+  box-shadow: 0px 8px 24px -4px #97a1af61;
+  padding: 26px;
+  border-radius: 15px;
+  z-index: 1;
+  display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+hr.step-principal-uno {
+  border: none;
+  border-top: 5px dotted #76ca08;
+  color: #fff;
+  background-color: #fff;
+  height: 1px;
+  width: 50%;
+  z-index: 0;
+}
+
+.descripcion-paso-uno>p {
+  padding-bottom: 0;
+  font-family: Cabin;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7B7B7B;
+}
+
+span.urlOD>a {
+  text-decoration: underline;
+  color: #1877F2!important;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 46px;
+}
+
+.funciones-principales-pasos h3 {
+  margin-right: auto;
+  color: #1877F2;
+  font-family: Cabin;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 62px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.descripcion-paso-uno,
+.icon-reference-uno {
+  background: #ffffff;
+  box-shadow: 0px 8px 24px -4px #97a1af61;
+  padding: 26px;
+  border-radius: 15px;
+  z-index: 1;
+}
+.icon-reference-uno {
+  
+  width: 100%;
+  padding: 34px 27px;
+  max-width: 611px;
+    width: 100%;
+    min-height: 211px!important;
+}
+
+.step-principal-dos {
+  border: none;
+  border-top: 5px dotted #76ca08;
+  color: #fff;
+  background-color: #fff;
+  height: 1px;
+  width: 30%;
+  z-index: 0;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  margin-right: 0px;
+  margin-left: auto;
+}
+.funcion-paso-dos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 107px;
+  width: 90%;
+  max-width: 100%;
+}
+.step-principal-tres {
+  border: none;
+  border-top: 5px dotted #76ca08;
+  color: #fff;
+  background-color: #fff;
+  height: 1px;
+  width: 30%;
+  z-index: 0;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  margin-right: auto;
+  margin-left: 0px;
+}
+
+.funcion-paso-uno {
+  display: flex;
+  align-items: center;
+}
+
+.box-sub-footer {
+  background-color: #1877f2 !important;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+box-sub-footer > div.box-sub-footer {
+  width: 60%;
+}
+box-sub-footer > div.dos {
+  width: 40%;
+}
+.row-footer {
+  background-color: #003d7b !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div.contenededor-menu-footer > div > p > a {
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+}
+.sub-footer {
+  color: #ffffff !important;
+  width: 80%;
+}
+.dos{
+  width: 20%;
+}
+.rrss > div > p {
+  color: #fff;
+}
+
+.contenedor-redes {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  width: 140px;
+  height: 37px;
+  margin-top: 12px;
+}
+
+.contenedor-redes > p {
+  width: 37px;
+  height: 37px;
+  background: white;
+  border-radius: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+}
+
+#top-menu > li.menu-item > a {
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+  display: block;
+  position: relative;
+  -webkit-transition: opacity 0.4s ease-in-out,
+    background-color 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out, background-color 0.4s ease-in-out;
+}
+
+
+.paga-facil > a {
+  font-size: 18px !important;
+  line-height: 25px !important;
+  font-family: "Cabin";
+  font-weight: bold;
+  color: #76ca08 !important;
+}
+
+.disfruta-ya > a {
+  height: 40px;
+  width: 145px;
+  border-radius: 15px;
+  background-color: #1877f2;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  padding: 0px !important;
+  color: white !important;
+  font-weight: bold;
+  font-size: 16px;
+}
+.row-footer {
+  padding: 20px;
+}
+
+@media  (max-width: 980px) {
+  .dos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.sub-footer {
+  color: #ffffff !important;
+  width: 80%;
+  text-align: center;
+  font-size: 12px;
+}
+.box-sub-footer {
+  background-color: #1877f2 !important;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+hr.step-principal-uno {
+  border: none;
+  border-top: 5px dotted #76CA08;
+  color: #fff;
+  background-color: #fff;
+  height: 1px;
+  width: 50%;
+  z-index: 0;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+.funcion-paso-uno {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.funcion-paso-dos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 107px;
+  width: 90%;
+  max-width: 100%;
+  flex-direction: column;
+}
+.boton-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div.icon-reference-uno>img {
+  width: 133px;
+  height: auto;
+}
+.icon-reference-uno {
+  width: 100%;
+  padding: 34px 27px;
+  max-width: 611px;
+  width: 100%;
+  min-height: auto!important;
+}
+.descripcion-paso-uno {
+  max-width: 611px;
+  min-width: 207px;
+  min-height: 215px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+#et_mobile_nav_menu{
+  width: 50px;
+    height: 50px;
+      /* margin-top: 50px;  */
+      /* background: purple; */
+      display: grid!important;
+      align-items: center;
+      justify-content: center;
+    /* display: block; */
+}
+#top-menu {
+  display: none;
+}
+li.menu-item{
+  display: flex;
+  height: 50px;
+}
+#top-menu-mobile {
+  width: 80%;
+    padding: 10px 24px;
+    transform: translate(-80%,9%);
+    margin: 0px;
+  background-color: #FFF;
+  display: none;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+  position: absolute;
+  -webkit-transition: opacity 0.4s ease-in-out, background-color 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out, background-color 0.4s ease-in-out;
+  z-index: 99999;
+  list-style-type: none;
+}
+#top-menu-mobile>li.menu-item > a {
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+  display: block;
+  position: relative;
+  -webkit-transition: opacity 0.4s ease-in-out,
+    background-color 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out, background-color 0.4s ease-in-out;
+}
+/* span.mobile_menu_bar.mobile_menu_bar_toggle::after {
+  content: url(https://satelca.com/wp-content/uploads/2023/03/menu-icon-open.svg);
+  height: 24px;
+  width: 27px;
+  border-radius: 0px;
+}  */
+}
+@media (max-width:767px){
+
+  .funciones-principales-pasos h3 {
+    color: #1877F2;
+    font-family: Cabin;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 62px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin: 3px;
+}
+.title-section {
+  font-family: "Cabin", Helvetica, Arial, Lucida, sans-serif;
+  font-size: 50px;
+  line-height: 67px;
+  color: #fff !important;
+  font-weight: 500;
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 0px;
+}
+}
